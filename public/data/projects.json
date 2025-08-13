@@ -1,0 +1,364 @@
+{
+  "projects": [
+    {
+      "id": "1",
+      "title": "Lovell Leadership Conferences",
+      "category": "Events",
+      "description": "Leadership development conferences designed to inspire and educate senior executives. Transformed traditional conference format with interactive workshops and AI-powered networking.",
+      "tags": [
+        "leadership",
+        "conferences",
+        "events",
+        "executive-training"
+      ],
+      "order": 0,
+      "slug": "lovell-leadership-conferences",
+      "tileBackground": {
+        "type": "video",
+        "url": "/images/tiles/1.mp4"
+      },
+      "pageBackground": {
+        "url": "/images/backgrounds/1.jpg",
+        "dimensions": {
+          "width": 1920,
+          "height": 1080
+        }
+      },
+      "mediaItems": [
+        {
+          "id": "1-1",
+          "type": "video",
+          "title": "Event Highlights",
+          "files": [
+            {
+              "url": "/projects/1/media/project1.mp4",
+              "name": "project1.mp4",
+              "type": "video/mp4"
+            }
+          ],
+          "order": 0
+        },
+        {
+          "id": "1-2",
+          "type": "case-study",
+          "title": "Impact Report",
+          "files": [],
+          "order": 0
+        }
+      ],
+      "hasVideo": true,
+      "createdAt": "2024-01-15T10:00:00Z",
+      "updatedAt": "2024-01-15T10:00:00Z",
+      "status": "published"
+    },
+    {
+      "id": "2",
+      "title": "Rarely Heard Voices Videos",
+      "category": "Video",
+      "description": "Powerful documentary series amplifying underrepresented voices in corporate leadership. Award-winning video production with compelling storytelling.",
+      "tags": [
+        "documentary",
+        "video-production",
+        "diversity",
+        "leadership"
+      ],
+      "order": 1,
+      "slug": "rarely-heard-voices-videos",
+      "tileBackground": {
+        "type": "image",
+        "url": "/images/tiles/2.png"
+      },
+      "pageBackground": {
+        "url": "/images/backgrounds/2.jpg",
+        "dimensions": {
+          "width": 1920,
+          "height": 1080
+        }
+      },
+      "mediaItems": [],
+      "hasVideo": true,
+      "createdAt": "2024-01-20T10:00:00Z",
+      "updatedAt": "2024-01-20T10:00:00Z",
+      "status": "published"
+    },
+    {
+      "id": "3",
+      "title": "DRYZZE® & Cook Pronto® Branding",
+      "category": "Design & Digital",
+      "description": "Complete brand identity and digital strategy for innovative kitchen technology brands. Modern design system with cohesive brand experience.",
+      "tags": [
+        "branding",
+        "logo-design",
+        "brand-identity",
+        "kitchen-tech"
+      ],
+      "order": 2,
+      "slug": "dryzze-cook-pronto-branding",
+      "tileBackground": {
+        "type": "image",
+        "url": "/images/tiles/3.png"
+      },
+      "pageBackground": {
+        "url": "/images/backgrounds/3.jpg",
+        "dimensions": {
+          "width": 1920,
+          "height": 1080
+        }
+      },
+      "mediaItems": [],
+      "hasVideo": false,
+      "createdAt": "2024-02-01T10:00:00Z",
+      "updatedAt": "2024-02-01T10:00:00Z",
+      "status": "published"
+    },
+    {
+      "id": "4",
+      "title": "Warner Bros & Discovery Training",
+      "category": "Design & Digital",
+      "description": "Interactive training materials and digital resources for Warner Bros Discovery. Engaging multimedia content for global team development.",
+      "tags": [
+        "training-materials",
+        "interactive-design",
+        "multimedia",
+        "corporate-training"
+      ],
+      "order": 3,
+      "slug": "warner-bros-discovery-training",
+      "tileBackground": {
+        "type": "image",
+        "url": "/images/tiles/4.png"
+      },
+      "pageBackground": {
+        "url": "/images/backgrounds/4.jpg",
+        "dimensions": {
+          "width": 1920,
+          "height": 1080
+        }
+      },
+      "mediaItems": [],
+      "hasVideo": false,
+      "createdAt": "2024-02-10T10:00:00Z",
+      "updatedAt": "2024-02-10T10:00:00Z",
+      "status": "published"
+    },
+    {
+      "id": "5",
+      "title": "River Island 'Wrapped' Video",
+      "category": "Video",
+      "description": "Dynamic promotional video campaign for River Island's seasonal collection. High-energy visual storytelling with modern aesthetic.",
+      "tags": [
+        "promotional-video",
+        "fashion",
+        "retail",
+        "commercial"
+      ],
+      "order": 4,
+      "slug": "river-island-wrapped-video",
+      "tileBackground": {
+        "type": "video",
+        "url": "/images/tiles/5.mp4"
+      },
+      "pageBackground": {
+        "url": "/images/backgrounds/5.png",
+        "dimensions": {
+          "width": 1920,
+          "height": 1080
+        }
+      },
+      "mediaItems": [
+        {
+          "id": "5-1",
+          "type": "video",
+          "title": "Promotional Video",
+          "files": [
+            {
+              "url": "/projects/5/media/video-01.mp4",
+              "name": "video-01.mp4",
+              "type": "video/mp4"
+            }
+          ],
+          "order": 0
+        }
+      ],
+      "hasVideo": true,
+      "createdAt": "2024-02-15T10:00:00Z",
+      "updatedAt": "2024-02-15T10:00:00Z",
+      "status": "published"
+    },
+    {
+      "id": "6",
+      "title": "Accor Owner Services Catalogue",
+      "category": "Design & Digital",
+      "description": "Comprehensive digital catalogue for Accor hotel owner services. Clean, professional design with intuitive navigation and service showcases.",
+      "tags": [
+        "catalogue-design",
+        "digital-publishing",
+        "hospitality",
+        "service-design"
+      ],
+      "order": 5,
+      "slug": "accor-owner-services-catalogue",
+      "tileBackground": {
+        "type": "image",
+        "url": "/images/tiles/6.png"
+      },
+      "pageBackground": {
+        "url": "/images/backgrounds/6.jpg",
+        "dimensions": {
+          "width": 1920,
+          "height": 1080
+        }
+      },
+      "mediaItems": [],
+      "hasVideo": false,
+      "createdAt": "2024-02-20T10:00:00Z",
+      "updatedAt": "2024-02-20T10:00:00Z",
+      "status": "published"
+    },
+    {
+      "id": "7",
+      "title": "Noah's Promotional Film",
+      "category": "Video",
+      "description": "Emotional promotional film showcasing Noah's mission and impact. Compelling narrative with professional cinematography and sound design.",
+      "tags": [
+        "promotional-film",
+        "non-profit",
+        "storytelling",
+        "emotional"
+      ],
+      "order": 6,
+      "slug": "noah-s-promotional-film",
+      "tileBackground": {
+        "type": "image",
+        "url": "/images/tiles/7.png"
+      },
+      "pageBackground": {
+        "url": "/images/backgrounds/7.jpg",
+        "dimensions": {
+          "width": 1920,
+          "height": 1080
+        }
+      },
+      "mediaItems": [],
+      "hasVideo": true,
+      "createdAt": "2024-03-01T10:00:00Z",
+      "updatedAt": "2024-03-01T10:00:00Z",
+      "status": "published"
+    },
+    {
+      "id": "8",
+      "title": "Wealmoor Website Design",
+      "category": "Design & Digital",
+      "description": "Modern, responsive website design for Wealmoor investment platform. Clean interface with sophisticated user experience and financial data visualization.",
+      "tags": [
+        "website-design",
+        "fintech",
+        "responsive-design",
+        "user-experience"
+      ],
+      "order": 7,
+      "slug": "wealmoor-website-design",
+      "tileBackground": {
+        "type": "image",
+        "url": "/images/tiles/8.png"
+      },
+      "pageBackground": {
+        "url": "/images/backgrounds/8.jpg",
+        "dimensions": {
+          "width": 1920,
+          "height": 1080
+        }
+      },
+      "mediaItems": [],
+      "hasVideo": false,
+      "createdAt": "2024-03-10T10:00:00Z",
+      "updatedAt": "2024-03-10T10:00:00Z",
+      "status": "published"
+    },
+    {
+      "id": "9",
+      "title": "Insight Research Website",
+      "category": "Design & Digital",
+      "description": "Professional website for research consultancy firm. Data-driven design with research showcase and client portal functionality.",
+      "tags": [
+        "website-design",
+        "research",
+        "data-visualization",
+        "consulting"
+      ],
+      "order": 8,
+      "slug": "insight-research-website",
+      "tileBackground": {
+        "type": "image",
+        "url": "/images/tiles/9.png"
+      },
+      "pageBackground": {
+        "url": "/images/backgrounds/9.jpg",
+        "dimensions": {
+          "width": 1920,
+          "height": 1080
+        }
+      },
+      "mediaItems": [],
+      "hasVideo": false,
+      "createdAt": "2024-03-15T10:00:00Z",
+      "updatedAt": "2024-03-15T10:00:00Z",
+      "status": "published"
+    },
+    {
+      "id": "10",
+      "title": "ARDA Impact Video Shoot & Website",
+      "category": "Design & Digital",
+      "description": "Comprehensive digital campaign for ARDA including impact video production and responsive website. Showcases organization impact with compelling visuals.",
+      "tags": [
+        "video-production",
+        "website-design",
+        "non-profit",
+        "impact-storytelling"
+      ],
+      "order": 9,
+      "slug": "arda-impact-video-shoot-website",
+      "tileBackground": {
+        "type": "image",
+        "url": "/images/tiles/10.png"
+      },
+      "pageBackground": {
+        "url": "/images/backgrounds/10.jpg",
+        "dimensions": {
+          "width": 1920,
+          "height": 1080
+        }
+      },
+      "mediaItems": [
+        {
+          "id": "10-1",
+          "type": "video",
+          "title": "Impact Video",
+          "files": [],
+          "order": 0
+        },
+        {
+          "id": "10-2",
+          "type": "gallery",
+          "title": "Website Screenshots",
+          "files": [],
+          "order": 0
+        }
+      ],
+      "hasVideo": true,
+      "createdAt": "2024-03-20T10:00:00Z",
+      "updatedAt": "2024-03-20T10:00:00Z",
+      "status": "published"
+    }
+  ],
+  "metadata": {
+    "totalProjects": 10,
+    "categories": [
+      "Events",
+      "Video",
+      "Design & Digital"
+    ],
+    "lastUpdated": "2025-08-13T12:12:43.121Z",
+    "version": "1.0.0"
+  }
+}
