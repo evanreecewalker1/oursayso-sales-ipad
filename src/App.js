@@ -181,9 +181,13 @@ const convertCMSProjectToPortfolioFormat = (cmsProject) => {
   return {
     id: parseInt(cmsProject.id) || cmsProject.id,
     title: cmsProject.title,
-    tags: cmsProject.tags.slice(0, 1), // Take first tag for display
+    tags: [cmsProject.category], // Use the main category as the primary tag
+    // Use tileBackground for tiles and pageBackground for project pages
     backgroundVideo: cmsProject.tileBackground?.type === 'video' ? cmsProject.tileBackground.url : null,
     backgroundImage: cmsProject.tileBackground?.type === 'image' ? cmsProject.tileBackground.url : null,
+    // Project page backgrounds (separate from tile backgrounds)
+    projectBackgroundVideo: cmsProject.pageBackground?.type === 'video' ? cmsProject.pageBackground.url : null,
+    projectBackgroundImage: cmsProject.pageBackground?.type === 'image' ? cmsProject.pageBackground.url : null,
     description: cmsProject.description,
     media: cmsProject.mediaItems?.map(item => ({
       type: item.type,
@@ -289,7 +293,7 @@ const App = () => {
     return null;
   };
 
-  // Helper function to get tile style for background image
+  // Helper function to get tile style for background image (dashboard tiles)
   const getTileStyle = (project) => {
     if (project.backgroundImage && !project.backgroundVideo) {
       return {
@@ -300,6 +304,37 @@ const App = () => {
       };
     }
     return {};
+  };
+
+  // Helper function to get project page style (separate from tiles)
+  const getProjectPageStyle = (project) => {
+    if (project.projectBackgroundImage && !project.projectBackgroundVideo) {
+      return {
+        backgroundImage: `url(${project.projectBackgroundImage})`,
+        backgroundSize: 'cover',
+        backgroundPosition: 'center',
+        backgroundRepeat: 'no-repeat'
+      };
+    }
+    return {};
+  };
+
+  // Helper function to render project page background video
+  const renderProjectBackgroundVideo = (project) => {
+    if (project.projectBackgroundVideo) {
+      return (
+        <video 
+          className="project-video-background"
+          autoPlay
+          muted
+          loop
+          playsInline
+        >
+          <source src={project.projectBackgroundVideo} type="video/mp4" />
+        </video>
+      );
+    }
+    return null;
   };
 
   // Handle media preview clicks
@@ -582,19 +617,9 @@ const App = () => {
   if (currentPage === 'project' && selectedProject) {
     return (
       <div className="app">
-        <div className="project-page" style={getTileStyle(selectedProject)}>
-          {/* Background Video if available */}
-          {selectedProject.backgroundVideo && (
-            <video 
-              className="project-video-background"
-              autoPlay
-              muted
-              loop
-              playsInline
-            >
-              <source src={selectedProject.backgroundVideo} type="video/mp4" />
-            </video>
-          )}
+        <div className="project-page" style={getProjectPageStyle(selectedProject)}>
+          {/* Project Background Video (separate from tile video) */}
+          {renderProjectBackgroundVideo(selectedProject)}
           
           {/* Back Button */}
           <button 
