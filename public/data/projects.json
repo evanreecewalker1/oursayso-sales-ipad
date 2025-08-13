@@ -2,9 +2,9 @@
   "projects": [
     {
       "id": "1",
-      "title": "Lovell Leadership Chunkos",
+      "title": "Lovell Leadership Conference",
       "category": "Events",
-      "description": "Leadership development conferences designed to inspire and educate senior executives. Transformed traditional conference format with interactive workshops and AI-powered networking. nebie",
+      "description": "Leadership development conferences designed to inspire and educate senior executives. Transformed traditional conference format with interactive workshops and AI-powered networking.",
       "tags": [
         "leadership",
         "conferences",
@@ -12,7 +12,7 @@
         "executive-training"
       ],
       "order": 0,
-      "slug": "lovell-leadership-chunkos",
+      "slug": "lovell-leadership-conference",
       "tileBackground": {
         "type": "video",
         "url": "/images/tiles/1.mp4"
@@ -48,7 +48,7 @@
       ],
       "hasVideo": true,
       "createdAt": "2024-01-15T10:00:00Z",
-      "updatedAt": "2025-08-13T15:42:28.673Z",
+      "updatedAt": "2025-08-13T15:49:28.070Z",
       "status": "published"
     },
     {
@@ -358,7 +358,7 @@
       "Video",
       "Design & Digital"
     ],
-    "lastUpdated": "2025-08-13T15:42:30.933Z",
+    "lastUpdated": "2025-08-13T15:49:28.790Z",
     "version": "1.0.0",
     "page": 1
   }
