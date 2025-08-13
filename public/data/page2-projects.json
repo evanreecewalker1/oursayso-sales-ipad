@@ -1,9 +1,37 @@
 {
-  "projects": [],
+  "projects": [
+    {
+      "id": "1755088510187",
+      "title": "Test project",
+      "category": "Events",
+      "description": "Testing this project",
+      "tags": [],
+      "order": 0,
+      "slug": "test-project",
+      "tileBackground": {
+        "type": "image",
+        "url": null
+      },
+      "pageBackground": {
+        "url": "/images/backgrounds/1755088510187.jpg",
+        "dimensions": {
+          "width": 4000,
+          "height": 2250
+        }
+      },
+      "mediaItems": [],
+      "hasVideo": false,
+      "createdAt": "2025-08-13T12:35:10.187Z",
+      "updatedAt": "2025-08-13T12:35:10.187Z",
+      "status": "published"
+    }
+  ],
   "metadata": {
-    "totalProjects": 0,
-    "categories": [],
-    "lastUpdated": "2025-08-13T12:33:04.339Z",
+    "totalProjects": 1,
+    "categories": [
+      "Events"
+    ],
+    "lastUpdated": "2025-08-13T12:35:23.707Z",
     "version": "1.0.0",
     "page": 2
   }
