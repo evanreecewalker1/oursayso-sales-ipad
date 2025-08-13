@@ -1,6 +1,57 @@
 {
   "projects": [
     {
+      "id": "1",
+      "title": "Lovell Leadership Conferences2",
+      "category": "Events",
+      "description": "Leadership development conferences designed to inspire and educate senior executives. Transformed traditional conference format with interactive workshops and AI-powered networking.",
+      "tags": [
+        "leadership",
+        "conferences",
+        "events",
+        "executive-training"
+      ],
+      "order": 0,
+      "slug": "lovell-leadership-conferences2",
+      "tileBackground": {
+        "type": "video",
+        "url": "/images/tiles/1.mp4"
+      },
+      "pageBackground": {
+        "url": "/images/backgrounds/1.jpg",
+        "dimensions": {
+          "width": 1920,
+          "height": 1080
+        }
+      },
+      "mediaItems": [
+        {
+          "id": "1-1",
+          "type": "video",
+          "title": "Event Highlights",
+          "files": [
+            {
+              "url": "/projects/1/media/project1.mp4",
+              "name": "project1.mp4",
+              "type": "video/mp4"
+            }
+          ],
+          "order": 0
+        },
+        {
+          "id": "1-2",
+          "type": "case-study",
+          "title": "Impact Report",
+          "files": [],
+          "order": 1
+        }
+      ],
+      "hasVideo": true,
+      "createdAt": "2024-01-15T10:00:00Z",
+      "updatedAt": "2025-08-13T12:38:55.876Z",
+      "status": "published"
+    },
+    {
       "id": "2",
       "title": "Rarely Heard Voices Videos",
       "category": "Video",
@@ -11,7 +62,7 @@
         "diversity",
         "leadership"
       ],
-      "order": 0,
+      "order": 1,
       "slug": "rarely-heard-voices-videos",
       "tileBackground": {
         "type": "image",
@@ -41,7 +92,7 @@
         "brand-identity",
         "kitchen-tech"
       ],
-      "order": 1,
+      "order": 2,
       "slug": "dryzze-cook-pronto-branding",
       "tileBackground": {
         "type": "image",
@@ -71,7 +122,7 @@
         "multimedia",
         "corporate-training"
       ],
-      "order": 2,
+      "order": 3,
       "slug": "warner-bros-discovery-training",
       "tileBackground": {
         "type": "image",
@@ -101,7 +152,7 @@
         "retail",
         "commercial"
       ],
-      "order": 3,
+      "order": 4,
       "slug": "river-island-wrapped-video",
       "tileBackground": {
         "type": "video",
@@ -145,7 +196,7 @@
         "hospitality",
         "service-design"
       ],
-      "order": 4,
+      "order": 5,
       "slug": "accor-owner-services-catalogue",
       "tileBackground": {
         "type": "image",
@@ -175,7 +226,7 @@
         "storytelling",
         "emotional"
       ],
-      "order": 5,
+      "order": 6,
       "slug": "noah-s-promotional-film",
       "tileBackground": {
         "type": "image",
@@ -205,7 +256,7 @@
         "responsive-design",
         "user-experience"
       ],
-      "order": 6,
+      "order": 7,
       "slug": "wealmoor-website-design",
       "tileBackground": {
         "type": "image",
@@ -235,7 +286,7 @@
         "data-visualization",
         "consulting"
       ],
-      "order": 7,
+      "order": 8,
       "slug": "insight-research-website",
       "tileBackground": {
         "type": "image",
@@ -265,7 +316,7 @@
         "non-profit",
         "impact-storytelling"
       ],
-      "order": 8,
+      "order": 9,
       "slug": "arda-impact-video-shoot-website",
       "tileBackground": {
         "type": "image",
@@ -298,67 +349,16 @@
       "createdAt": "2024-03-20T10:00:00Z",
       "updatedAt": "2024-03-20T10:00:00Z",
       "status": "published"
-    },
-    {
-      "id": "1",
-      "title": "Lovell Leadership Conferences",
-      "category": "Events",
-      "description": "Leadership development conferences designed to inspire and educate senior executives. Transformed traditional conference format with interactive workshops and AI-powered networking.",
-      "tags": [
-        "leadership",
-        "conferences",
-        "events",
-        "executive-training"
-      ],
-      "order": 9,
-      "slug": "lovell-leadership-conferences",
-      "tileBackground": {
-        "type": "video",
-        "url": "/images/tiles/1.mp4"
-      },
-      "pageBackground": {
-        "url": "/images/backgrounds/1.jpg",
-        "dimensions": {
-          "width": 1920,
-          "height": 1080
-        }
-      },
-      "mediaItems": [
-        {
-          "id": "1-1",
-          "type": "video",
-          "title": "Event Highlights",
-          "files": [
-            {
-              "url": "/projects/1/media/project1.mp4",
-              "name": "project1.mp4",
-              "type": "video/mp4"
-            }
-          ],
-          "order": 0
-        },
-        {
-          "id": "1-2",
-          "type": "case-study",
-          "title": "Impact Report",
-          "files": [],
-          "order": 0
-        }
-      ],
-      "hasVideo": true,
-      "createdAt": "2024-01-15T10:00:00Z",
-      "updatedAt": "2024-01-15T10:00:00Z",
-      "status": "published"
     }
   ],
   "metadata": {
     "totalProjects": 10,
     "categories": [
+      "Events",
       "Video",
-      "Design & Digital",
-      "Events"
+      "Design & Digital"
     ],
-    "lastUpdated": "2025-08-13T12:35:23.707Z",
+    "lastUpdated": "2025-08-13T12:38:57.546Z",
     "version": "1.0.0",
     "page": 1
   }
