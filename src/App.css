@@ -107,6 +107,7 @@ body {
   font-size: 14px;
   font-weight: 600;
   color: white;
+  text-shadow: none;
 }
 
 .tag.events { background: #3bc310; }
