@@ -1,0 +1,37 @@
+{
+  "testimonials": [
+    {
+      "id": "1",
+      "text": "Their work is memorable, relevant, entertaining, thought provoking, and above all highly effective.",
+      "author": "Faye Frater, InterContinental Hotels Group",
+      "project": "Hotel Training Materials",
+      "date": "2024-01-15"
+    },
+    {
+      "id": "2",
+      "text": "Oursayso are great to work with both from the quality of their work and the enthusiasm and commitment that they put into it.",
+      "author": "Alan Long, Executive Director, Mears Group",
+      "project": "Corporate Communications",
+      "date": "2024-02-20"
+    },
+    {
+      "id": "3",
+      "text": "Oursayso work hard with the leadership of the business to deliver appropriate, simple and direct messages that will see an immediate response.",
+      "author": "Paul Mildenstein, CEO, Atkore",
+      "project": "Leadership Training Program",
+      "date": "2024-03-10"
+    },
+    {
+      "id": "4",
+      "text": "The conference transformation exceeded all expectations. Our executives are already asking about next year.",
+      "author": "Sarah Mitchell, Chief Learning Officer, Lovell Corporation",
+      "project": "Lovell Leadership Conferences",
+      "date": "2024-01-30"
+    }
+  ],
+  "metadata": {
+    "totalTestimonials": 4,
+    "lastUpdated": "2025-08-13T15:20:44.353Z",
+    "version": "1.0.0"
+  }
+}
