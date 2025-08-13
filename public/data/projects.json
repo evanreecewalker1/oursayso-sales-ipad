@@ -2,7 +2,7 @@
   "projects": [
     {
       "id": "1",
-      "title": "Lovell Leadership Conference 2023",
+      "title": "Lovell Leadership Conference 2026",
       "category": "Events",
       "description": "Building on the success of their previous leadership event, senior managers broke with tradition to deliver their conference free from PowerPoint slides and in the comfort of a cinema.",
       "tags": [
@@ -12,7 +12,7 @@
         "Presentations"
       ],
       "order": 0,
-      "slug": "lovell-leadership-conference-2023",
+      "slug": "lovell-leadership-conference-2026",
       "tileBackground": {
         "type": "image",
         "url": null
@@ -48,7 +48,7 @@
       ],
       "hasVideo": true,
       "createdAt": "2024-01-15T10:00:00Z",
-      "updatedAt": "2025-08-13T17:11:38.016Z",
+      "updatedAt": "2025-08-13T17:16:37.701Z",
       "status": "published"
     },
     {
@@ -358,7 +358,7 @@
       "Video",
       "Design & Digital"
     ],
-    "lastUpdated": "2025-08-13T17:11:42.968Z",
+    "lastUpdated": "2025-08-13T17:16:40.171Z",
     "version": "1.0.0",
     "page": 1
   }
