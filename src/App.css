@@ -1,0 +1,960 @@
+/* iPad Portfolio - Clean CSS */
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@300;700;900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Barlow', sans-serif;
+  background: black;
+  overflow: hidden;
+}
+
+/* Main App Layout */
+.app {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  background: black;
+}
+
+/* Grid Container - No gaps, no borders */
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  gap: 0px;
+  padding: 0px;
+  flex: 1;
+  height: 100vh;
+}
+
+/* Individual Tiles - No borders or rounded corners */
+.tile {
+  position: relative;
+  border-radius: 0px;
+  overflow: hidden;
+  cursor: pointer;
+  background: #333;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 20px 70px 20px 20px;
+  border: none;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* Tile Video Background */
+.tile-video-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 0;
+}
+
+/* Tile Content Above Background */
+.tile .tag,
+.tile .title {
+  position: relative;
+  z-index: 1;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.8);
+}
+
+.tile .arrow {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  z-index: 2;
+  opacity: 0.8;
+  color: white;
+}
+
+/* Empty State Tiles */
+.tile-empty {
+  background: #1a1a1a;
+  cursor: default;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.empty-state {
+  color: #666;
+  font-size: 14px;
+  font-weight: 300;
+}
+
+/* Tile Backgrounds - Will be set via inline styles */
+.tile-1, .tile-2, .tile-3, .tile-4, .tile-5, 
+.tile-6, .tile-7, .tile-8, .tile-9, .tile-10 {
+  background: #333; /* Fallback background */
+}
+
+/* Tags */
+.tag {
+  align-self: flex-start;
+  padding: 6px 12px;
+  border-radius: 4px;
+  font-size: 14px;
+  font-weight: 600;
+  color: white;
+}
+
+.tag.events { background: #3bc310; }
+.tag.video { background: #ae52fb; }
+.tag.design-digital { background: #ff0d46; }
+
+/* Tile Titles */
+.title {
+  font-size: 35px;
+  font-weight: 900;
+  line-height: 1.1;
+  margin-bottom: 20px;
+  word-wrap: break-word;
+  hyphens: auto;
+  max-width: 100%;
+}
+
+
+/* Quote Panel - Spans 2 columns, with dark grey border */
+.quote-panel {
+  grid-column: span 2;
+  background: black;
+  border: 1px solid #333;
+  border-radius: 0px;
+  padding: 20px;
+  margin: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.quote-content {
+  text-align: center;
+  max-width: 90%;
+}
+
+.quote-text {
+  font-size: 29px;
+  font-weight: 600;
+  line-height: 1.3;
+  margin-bottom: 20px;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.quote-author {
+  font-size: 17px;
+  opacity: 0.7;
+  font-weight: 300;
+  transition: opacity 0.5s ease-in-out;
+}
+
+/* Sidebar - Minimal arrow only */
+.sidebar {
+  width: 80px;
+  background: #111;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.sidebar-arrow {
+  color: #666;
+  opacity: 0.8;
+  cursor: pointer;
+  transition: opacity 0.2s;
+}
+
+.sidebar-arrow:hover {
+  opacity: 1;
+}
+
+/* Project Detail Page Styling */
+.project-page {
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(135deg, #1a1a1a 0%, #2d2d2d 100%);
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  font-family: 'Barlow', sans-serif;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* Project Video Background - Full Screen */
+.project-video-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 0;
+}
+
+
+/* Back Button - Clean minimal circular design */
+.back-button {
+  position: absolute;
+  top: 20px;
+  left: 40px;
+  width: 64px;
+  height: 64px;
+  background: rgba(0, 0, 0, 0.6);
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  color: white;
+  opacity: 0.9;
+  z-index: 100;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  backdrop-filter: blur(10px);
+  transition: all 0.3s ease;
+  outline: none;
+}
+
+.back-button:hover {
+  opacity: 1;
+  background: rgba(0, 0, 0, 0.8);
+  transform: scale(1.05);
+}
+
+.back-button:focus {
+  outline: none;
+}
+
+/* Project Content Layout */
+.project-content {
+  position: absolute;
+  bottom: 270px;
+  left: 40px;
+  right: 40px;
+  padding: 40px 0 30px;
+  background: transparent;
+  z-index: 5;
+}
+
+/* Project Text Content - Left Aligned */
+.project-text {
+  width: 100%;
+  max-width: 1000px;
+  margin: 0;
+  text-align: left;
+  padding: 0;
+}
+
+.project-title {
+  font-size: 62px;
+  font-weight: 900;
+  line-height: 1.1;
+  margin-bottom: 30px;
+  color: white;
+  text-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+  text-align: left;
+}
+
+/* Project Tags Container */
+.project-tags {
+  margin-bottom: 32px;
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+/* Project Page Deliverable Tags */
+.project-tag {
+  font-size: 16px;
+  text-transform: capitalize;
+  color: #010cff;
+  border: 1px solid #010cff;
+  background: rgba(0, 0, 0, 0.1);
+  padding: 5px 16px;
+  border-radius: 5px;
+  font-weight: 600;
+  display: inline-block;
+}
+
+.project-description {
+  font-size: 24px;
+  line-height: 1.6;
+  color: rgba(255, 255, 255, 0.85);
+  font-weight: 300;
+  max-width: 100%;
+  margin-bottom: 60px;
+  text-align: left;
+}
+
+/* Media Previews - Bottom Full Width */
+.project-media {
+  position: absolute;
+  bottom: 40px;
+  left: 40px;
+  right: 40px;
+  display: flex;
+  gap: 16px;
+  overflow-x: auto;
+  padding-bottom: 8px;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+.project-media::-webkit-scrollbar {
+  display: none;
+}
+
+/* Media Item Styling */
+.media-item {
+  min-width: 200px;
+  width: 200px;
+  height: 120px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  cursor: pointer;
+  transition: all 0.3s ease;
+  backdrop-filter: blur(10px);
+  position: relative;
+}
+
+.media-item:hover {
+  background: rgba(255, 255, 255, 0.15);
+  border-color: rgba(255, 255, 255, 0.3);
+  transform: translateY(-2px);
+}
+
+.media-item-icon {
+  font-size: 24px;
+  margin-bottom: 8px;
+}
+
+.media-item-title {
+  font-size: 12px;
+  font-weight: 600;
+  text-align: center;
+  color: white;
+}
+
+.media-item-subtitle {
+  font-size: 10px;
+  font-weight: 300;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.7);
+  margin-top: 4px;
+}
+
+/* Horizontal Scrolling Media Previews */
+.media-previews-container {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 270px;
+  background: transparent;
+  padding: 30px 0;
+  z-index: 10;
+}
+
+.media-previews-scroll {
+  display: flex;
+  gap: 16px;
+  padding: 0 40px;
+  overflow-x: auto;
+  overflow-y: hidden;
+  scroll-behavior: smooth;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+  height: 100%;
+  align-items: flex-start;
+}
+
+.media-previews-scroll::-webkit-scrollbar {
+  display: none;
+}
+
+.media-preview-item {
+  flex-shrink: 0;
+  width: 300px;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.media-preview-item:hover {
+  transform: translateY(-2px);
+}
+
+.media-preview-thumbnail {
+  position: relative;
+  width: 300px;
+  height: 180px;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 8px;
+  overflow: hidden;
+  margin-bottom: 8px;
+}
+
+.media-preview-content {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.05) 100%);
+}
+
+.media-preview-icon {
+  font-size: 56px;
+  opacity: 0.9;
+  color: white;
+  filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.5));
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+
+/* Specific icon scaling */
+.media-preview-icon .icon-gallery {
+  font-size: 70px; /* 25% larger than base 56px */
+}
+
+.media-preview-icon .icon-case-study {
+  font-size: 112px; /* 100% larger than base 56px */
+}
+
+.media-preview-overlay {
+  position: absolute;
+  bottom: 6px;
+  right: 6px;
+  background: rgba(0, 0, 0, 0.8);
+  color: white;
+  padding: 2px 6px;
+  border-radius: 4px;
+  font-size: 10px;
+  font-weight: 600;
+}
+
+.media-preview-title {
+  color: white;
+  font-size: 12px;
+  font-weight: 600;
+  text-align: center;
+  line-height: 1.3;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+/* Gallery Viewer Styling */
+.gallery-viewer {
+  width: 100vw;
+  height: 100vh;
+  background: black;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  font-family: 'Barlow', sans-serif;
+}
+
+.gallery-counter {
+  position: absolute;
+  top: 40px;
+  right: 40px;
+  background: rgba(0, 0, 0, 0.8);
+  color: white;
+  padding: 12px 20px;
+  border-radius: 20px;
+  font-size: 16px;
+  font-weight: 600;
+  z-index: 10;
+  backdrop-filter: blur(10px);
+}
+
+.gallery-main {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  padding: 120px 40px 80px;
+}
+
+.gallery-image-container {
+  max-width: 90%;
+  max-height: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.gallery-image {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+  border-radius: 8px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.5);
+}
+
+.gallery-nav {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(0, 0, 0, 0.6);
+  border: none;
+  color: white;
+  padding: 20px;
+  border-radius: 50%;
+  cursor: pointer;
+  opacity: 0.8;
+  transition: all 0.3s ease;
+  backdrop-filter: blur(10px);
+}
+
+.gallery-nav:hover {
+  opacity: 1;
+  background: rgba(0, 0, 0, 0.8);
+  transform: translateY(-50%) scale(1.1);
+}
+
+.gallery-nav-left {
+  left: 40px;
+}
+
+.gallery-nav-right {
+  right: 40px;
+}
+
+
+/* Video Viewer Styling - Full Screen */
+.video-viewer {
+  width: 100vw;
+  height: 100vh;
+  background: black;
+  position: relative;
+  color: white;
+  font-family: 'Barlow', sans-serif;
+  overflow: hidden;
+}
+
+.video-back-button {
+  z-index: 30;
+  position: absolute;
+  top: 40px;
+  left: 40px;
+}
+
+.video-player-fullscreen {
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.video-title-overlay {
+  position: absolute;
+  top: 40px;
+  right: 40px;
+  background: rgba(0, 0, 0, 0.8);
+  color: white;
+  padding: 12px 20px;
+  border-radius: 20px;
+  font-size: 16px;
+  font-weight: 600;
+  z-index: 20;
+  backdrop-filter: blur(10px);
+  max-width: 40%;
+  text-align: right;
+}
+
+/* PDF Viewer Styling - 16:9 Aspect Ratio */
+.pdf-viewer {
+  width: 100vw;
+  height: 100vh;
+  background: #2a2a2a;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-family: 'Barlow', sans-serif;
+}
+
+.pdf-container-16x9 {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 120px 20px 80px;
+}
+
+.pdf-aspect-wrapper {
+  width: 100%;
+  padding-bottom: 56.25%; /* 16:9 aspect ratio (9/16 = 0.5625) */
+  position: relative;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.5);
+  overflow: hidden;
+}
+
+.pdf-frame-16x9 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: none;
+  background: white;
+}
+
+.pdf-title-overlay {
+  position: absolute;
+  top: 40px;
+  right: 40px;
+  background: rgba(0, 0, 0, 0.8);
+  color: white;
+  padding: 12px 20px;
+  border-radius: 20px;
+  font-size: 16px;
+  font-weight: 600;
+  z-index: 20;
+  backdrop-filter: blur(10px);
+  max-width: 40%;
+  text-align: right;
+}
+
+/* Case Study Viewer Styling */
+.case-study-viewer {
+  width: 100vw;
+  height: 100vh;
+  background: #f8f9fa;
+  position: relative;
+  color: #333;
+  font-family: 'Barlow', sans-serif;
+  overflow-y: auto;
+}
+
+.case-study-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 120px 40px 80px;
+}
+
+/* Header Section */
+.case-study-header {
+  text-align: center;
+  margin-bottom: 60px;
+  padding-bottom: 40px;
+  border-bottom: 3px solid #010cff;
+}
+
+.case-study-title {
+  font-size: 48px;
+  font-weight: 900;
+  line-height: 1.2;
+  color: #333;
+  margin-bottom: 16px;
+}
+
+.case-study-subtitle {
+  font-size: 24px;
+  font-weight: 600;
+  color: #010cff;
+  margin: 0;
+}
+
+/* Content Sections */
+.case-study-sections {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 40px;
+  margin-bottom: 80px;
+}
+
+.case-study-section {
+  background: white;
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+  border-left: 4px solid #010cff;
+}
+
+.section-title {
+  font-size: 32px;
+  font-weight: 900;
+  color: #010cff;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.section-content {
+  font-size: 18px;
+  line-height: 1.6;
+  color: #555;
+  margin: 0;
+}
+
+/* Statistics Section */
+.case-study-stats {
+  margin-bottom: 80px;
+}
+
+.stats-title {
+  font-size: 36px;
+  font-weight: 900;
+  color: #333;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.stats-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 30px;
+}
+
+.stat-item {
+  background: white;
+  padding: 40px 20px;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+  border-top: 4px solid #010cff;
+}
+
+.stat-number {
+  font-size: 48px;
+  font-weight: 900;
+  color: #010cff;
+  line-height: 1;
+  margin-bottom: 10px;
+}
+
+.stat-label {
+  font-size: 16px;
+  font-weight: 600;
+  color: #666;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+/* Before/After Section */
+.case-study-before-after {
+  margin-bottom: 80px;
+}
+
+.before-after-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  margin-top: 40px;
+}
+
+.before-after-item {
+  background: white;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+}
+
+.before-after-image-container {
+  width: 100%;
+  height: 300px;
+  overflow: hidden;
+}
+
+.before-after-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.before-after-title {
+  font-size: 24px;
+  font-weight: 700;
+  color: #333;
+  margin: 20px 20px 10px;
+}
+
+.before-after-desc {
+  font-size: 16px;
+  line-height: 1.5;
+  color: #666;
+  margin: 0 20px 20px;
+}
+
+/* Client Quote Section */
+.case-study-quote {
+  background: #010cff;
+  color: white;
+  padding: 60px 40px;
+  border-radius: 12px;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.quote-text-large {
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 1.4;
+  margin: 0 0 30px 0;
+  font-style: italic;
+}
+
+.quote-attribution {
+  border-top: 2px solid rgba(255, 255, 255, 0.2);
+  padding-top: 20px;
+}
+
+.quote-author-name {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+.quote-author-title {
+  font-size: 16px;
+  opacity: 0.8;
+  font-weight: 300;
+}
+
+/* Ensure everything fits perfectly on iPad */
+@media screen and (max-width: 1024px) {
+  .app {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+  }
+  
+  .grid-container {
+    width: calc(100vw - 80px);
+    height: 100vh;
+  }
+  
+  .project-content {
+    padding: 60px 20px 20px;
+  }
+  
+  .project-text {
+    padding-right: 20px;
+  }
+  
+  .project-title {
+    font-size: 36px;
+  }
+  
+  .project-media {
+    left: 20px;
+    right: 20px;
+    bottom: 20px;
+  }
+
+  /* Mobile adjustments for media viewers */
+  .gallery-main {
+    padding: 100px 20px 60px;
+  }
+
+  .gallery-counter,
+  .video-title-overlay,
+  .pdf-title-overlay {
+    top: 20px;
+    right: 20px;
+    font-size: 14px;
+    padding: 8px 16px;
+    max-width: 50%;
+  }
+
+  .video-back-button {
+    top: 20px;
+    left: 20px;
+  }
+
+  .pdf-container-16x9 {
+    width: 95%;
+    padding: 100px 10px 60px;
+  }
+
+  .gallery-nav-left {
+    left: 20px;
+  }
+
+  .gallery-nav-right {
+    right: 20px;
+  }
+
+  /* Case Study Mobile Adjustments */
+  .case-study-content {
+    padding: 100px 20px 60px;
+  }
+
+  .case-study-title {
+    font-size: 36px;
+  }
+
+  .case-study-subtitle {
+    font-size: 20px;
+  }
+
+  .section-title {
+    font-size: 24px;
+  }
+
+  .section-content {
+    font-size: 16px;
+  }
+
+  .stats-title {
+    font-size: 28px;
+  }
+
+  .stat-number {
+    font-size: 36px;
+  }
+
+  .stats-grid {
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 20px;
+  }
+
+  .before-after-grid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .quote-text-large {
+    font-size: 22px;
+  }
+
+  .case-study-quote {
+    padding: 40px 20px;
+  }
+}
