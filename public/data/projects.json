@@ -15,10 +15,10 @@
       "slug": "lovell-leadership-conference-2026",
       "tileBackground": {
         "type": "image",
-        "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755110086/hfdgbme4sypvluovfqyz.png"
+        "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755112131/lvkceaaezto6hokgbasj.png"
       },
       "pageBackground": {
-        "url": "/images/backgrounds/1.jpg",
+        "url": "/images/backgrounds/1.png",
         "dimensions": {
           "width": 1920,
           "height": 1080
@@ -48,7 +48,7 @@
       ],
       "hasVideo": true,
       "createdAt": "2024-01-15T10:00:00Z",
-      "updatedAt": "2025-08-13T18:34:54.839Z",
+      "updatedAt": "2025-08-13T19:17:26.758Z",
       "status": "published"
     },
     {
@@ -358,7 +358,7 @@
       "Video",
       "Design & Digital"
     ],
-    "lastUpdated": "2025-08-13T18:34:57.672Z",
+    "lastUpdated": "2025-08-13T19:18:25.109Z",
     "version": "1.0.0",
     "page": 1
   }
