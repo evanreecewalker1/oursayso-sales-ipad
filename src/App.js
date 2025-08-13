@@ -2,7 +2,8 @@ import React, { useState, useEffect } from 'react';
 import { ArrowRight, ArrowLeft } from 'lucide-react';
 import './App.css';
 
-const projects = [
+// This will be populated from the CMS JSON files
+let projects = [
   {
     id: 1,
     title: "Lovell Leadership Conferences",
@@ -175,13 +176,81 @@ const quotes = [
   }
 ];
 
+// Function to convert CMS project data to portfolio format
+const convertCMSProjectToPortfolioFormat = (cmsProject) => {
+  return {
+    id: parseInt(cmsProject.id) || cmsProject.id,
+    title: cmsProject.title,
+    tags: cmsProject.tags.slice(0, 1), // Take first tag for display
+    backgroundVideo: cmsProject.tileBackground?.type === 'video' ? cmsProject.tileBackground.url : null,
+    backgroundImage: cmsProject.tileBackground?.type === 'image' ? cmsProject.tileBackground.url : null,
+    description: cmsProject.description,
+    media: cmsProject.mediaItems?.map(item => ({
+      type: item.type,
+      title: item.title,
+      duration: item.files?.[0]?.duration || '2:30',
+      src: item.files?.[0]?.url,
+      count: item.type === 'image' ? '12 images' : undefined
+    })) || []
+  };
+};
+
+// Function to load projects from CMS JSON files
+const loadProjectsFromCMS = async () => {
+  try {
+    console.log('🔍 Loading projects from CMS JSON files...');
+    
+    // Fetch page 1 projects from GitHub repository
+    const page1Response = await fetch('https://raw.githubusercontent.com/evanreecewalker1/oursayso-sales-ipad/main/public/data/projects.json');
+    const page1Data = await page1Response.json();
+    
+    console.log('📄 Page 1 data loaded:', page1Data);
+    console.log('📝 First project title in CMS data:', page1Data.projects?.[0]?.title);
+    
+    if (page1Data.projects && Array.isArray(page1Data.projects)) {
+      const convertedProjects = page1Data.projects.map(convertCMSProjectToPortfolioFormat);
+      console.log('✅ Converted projects:', convertedProjects);
+      console.log('🎯 First converted project title:', convertedProjects[0]?.title);
+      
+      // Update the global projects array
+      projects.length = 0; // Clear existing
+      projects.push(...convertedProjects);
+      
+      console.log('🚀 Projects updated from CMS!');
+      console.log('🔍 Final projects array first title:', projects[0]?.title);
+      return true;
+    }
+  } catch (error) {
+    console.error('❌ Failed to load projects from CMS:', error);
+    console.log('📝 Using hardcoded fallback data');
+    return false;
+  }
+};
+
 const App = () => {
+  console.log('🎬 Portfolio App component rendered');
+  
   const [currentPage, setCurrentPage] = useState('dashboard'); // 'dashboard', 'project', 'page2', 'gallery', 'video', 'pdf', 'case-study'
   const [selectedProject, setSelectedProject] = useState(null);
   const [currentQuoteIndex, setCurrentQuoteIndex] = useState(0);
   const [selectedMedia, setSelectedMedia] = useState(null);
   const [galleryImages, setGalleryImages] = useState([]);
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
+  const [projectsLoaded, setProjectsLoaded] = useState(false);
+
+  // Load projects from CMS on app start
+  useEffect(() => {
+    console.log('🚀 Portfolio App useEffect triggered - attempting to load CMS data');
+    
+    const loadProjects = async () => {
+      console.log('📍 loadProjects function called');
+      const loaded = await loadProjectsFromCMS();
+      console.log('📍 loadProjectsFromCMS returned:', loaded);
+      setProjectsLoaded(loaded);
+    };
+    
+    loadProjects();
+  }, []);
 
   useEffect(() => {
     const interval = setInterval(() => {
@@ -190,6 +259,17 @@ const App = () => {
 
     return () => clearInterval(interval);
   }, []);
+
+  // Show loading state while fetching CMS data
+  if (!projectsLoaded && projects.length === 0) {
+    return (
+      <div className="app">
+        <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '100vh' }}>
+          <div style={{ color: '#1652FB', fontSize: '18px' }}>Loading portfolio data...</div>
+        </div>
+      </div>
+    );
+  }
 
   // Helper function to render tile background (video or image)
   const renderTileBackground = (project) => {
