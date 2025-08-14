@@ -218,34 +218,110 @@
         "diversity",
         "leadership"
       ],
-      "hasVideo": true,
+      "hasVideo": false,
       "backgrounds": {
         "tile": {
           "type": "image",
           "file": {
-            "name": "project2.png",
+            "name": "lovell-tile.png",
+            "size": 228219,
             "type": "image/png",
-            "url": "/images/project2.png",
-            "uploadedAt": "2024-01-20T10:00:00Z"
+            "dimensions": {
+              "width": 800,
+              "height": 800
+            },
+            "uploadedAt": "2025-08-14T11:54:01.265Z",
+            "cloudinary": true,
+            "cloudinaryId": "portfolio/tiles/portfolio/tiles/tile_2",
+            "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755170123/portfolio/tiles/portfolio/tiles/tile_2.png"
           }
         },
         "page": {
-          "name": "project2-bg.jpg",
-          "type": "image/jpeg",
-          "url": "/images/backgrounds/project2-bg.jpg",
+          "name": "lovell-background.png",
+          "size": 1747615,
+          "type": "image/png",
           "dimensions": {
             "width": 1920,
             "height": 1080
           },
-          "uploadedAt": "2024-01-20T10:00:00Z"
+          "uploadedAt": "2025-08-14T11:53:56.746Z",
+          "cloudinary": true,
+          "cloudinaryId": "portfolio/backgrounds/portfolio/backgrounds/bg_2",
+          "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755170120/portfolio/backgrounds/portfolio/backgrounds/bg_2.png"
         }
       },
       "metadata": {
         "createdAt": "2024-01-20T10:00:00Z",
-        "updatedAt": "2024-01-20T10:00:00Z",
-        "version": 1,
-        "status": "published",
+        "updatedAt": "2025-08-14T11:54:02.623Z",
+        "version": 2,
+        "status": "draft",
         "lastPublished": "2025-08-14T11:15:52.719Z"
+      },
+      "mediaItems": [
+        {
+          "id": "1755172408580",
+          "type": "pdf",
+          "title": "",
+          "files": [
+            {
+              "publicId": "portfolio_1755172427075",
+              "url": "/images/general/1755172427074-digital-portfolio-2024-v3.5.pdf",
+              "localPath": "/images/general/1755172427074-digital-portfolio-2024-v3.5.pdf",
+              "width": null,
+              "height": null,
+              "format": "pdf",
+              "bytes": 7036023,
+              "duration": null,
+              "resourceType": "image",
+              "storageType": "portfolio",
+              "uploadedAt": "2025-08-14T11:53:47.075Z",
+              "preview": "/images/general/1755172427074-digital-portfolio-2024-v3.5.pdf",
+              "file": {},
+              "needsServerUpload": false
+            }
+          ],
+          "images": [],
+          "order": 0
+        }
+      ],
+      "tileBackgroundType": "image",
+      "tileBackgroundFile": {
+        "file": {},
+        "preview": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755170123/portfolio/tiles/portfolio/tiles/tile_2.png",
+        "name": "lovell-tile.png",
+        "size": 228219,
+        "type": "image/png",
+        "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755170123/portfolio/tiles/portfolio/tiles/tile_2.png",
+        "cloudinaryId": "portfolio/tiles/portfolio/tiles/tile_2",
+        "uploadedAt": "2025-08-14T11:54:01.265Z",
+        "dimensions": {
+          "width": 800,
+          "height": 800
+        },
+        "uploading": false,
+        "storageType": "cloudinary",
+        "localPath": null,
+        "needsServerUpload": false,
+        "cloudinary": true
+      },
+      "pageBackgroundFile": {
+        "file": {},
+        "preview": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755170120/portfolio/backgrounds/portfolio/backgrounds/bg_2.png",
+        "name": "lovell-background.png",
+        "size": 1747615,
+        "type": "image/png",
+        "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755170120/portfolio/backgrounds/portfolio/backgrounds/bg_2.png",
+        "cloudinaryId": "portfolio/backgrounds/portfolio/backgrounds/bg_2",
+        "uploadedAt": "2025-08-14T11:53:56.746Z",
+        "dimensions": {
+          "width": 1920,
+          "height": 1080
+        },
+        "uploading": false,
+        "storageType": "cloudinary",
+        "localPath": null,
+        "needsServerUpload": false,
+        "cloudinary": true
       }
     },
     {
@@ -636,6 +712,6 @@
       "date": "2024-01-30"
     }
   ],
-  "lastUpdated": "2025-08-14T11:53:28.180Z",
+  "lastUpdated": "2025-08-14T11:54:04.627Z",
   "version": "1.0"
 }
