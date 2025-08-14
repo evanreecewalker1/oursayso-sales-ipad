@@ -11,7 +11,7 @@
         "Graphic Design",
         "Presentations"
       ],
-      "hasVideo": false,
+      "hasVideo": true,
       "backgrounds": {
         "tile": {
           "type": "image",
@@ -309,12 +309,37 @@
             }
           ],
           "order": 0
+        },
+        {
+          "id": "1755189812831",
+          "type": "video",
+          "title": "",
+          "files": [
+            {
+              "publicId": "portfolio_1755189829546",
+              "url": "/videos/general-1755189825497-video-test.mp4",
+              "localPath": "/videos/general-1755189825497-video-test.mp4",
+              "width": null,
+              "height": null,
+              "format": "mp4",
+              "bytes": 15039666,
+              "duration": null,
+              "resourceType": "video",
+              "storageType": "portfolio",
+              "uploadedAt": "2025-08-14T16:43:49.546Z",
+              "preview": "/videos/general-1755189825497-video-test.mp4",
+              "file": {},
+              "needsServerUpload": false
+            }
+          ],
+          "images": [],
+          "order": 1
         }
       ],
       "metadata": {
         "createdAt": "2024-01-15T10:00:00Z",
-        "updatedAt": "2025-08-14T16:43:23.149Z",
-        "version": 29,
+        "updatedAt": "2025-08-14T16:43:57.625Z",
+        "version": 30,
         "status": "draft",
         "lastPublished": "2025-08-14T16:40:33.528Z"
       },
@@ -832,6 +857,6 @@
       "date": "2024-03-10"
     }
   ],
-  "lastUpdated": "2025-08-14T16:43:25.165Z",
+  "lastUpdated": "2025-08-14T16:43:59.637Z",
   "version": "1.0"
 }
