@@ -76,24 +76,7 @@
           "id": "1755171018662",
           "type": "gallery",
           "title": "🖼️ Project Gallery (2 images)",
-          "files": [],
-          "images": [
-            {
-              "publicId": "ehnfk5b7dv85o6rd7cvo",
-              "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755171027/ehnfk5b7dv85o6rd7cvo.jpg",
-              "width": 1920,
-              "height": 1080,
-              "format": "jpg",
-              "bytes": 1800968,
-              "resourceType": "image",
-              "eager": [],
-              "storageType": "cloudinary",
-              "localPath": null,
-              "id": "gallery-img-1755171028256-0.07398105881818862",
-              "name": "PR_230622_OURSAYSO_0019.jpeg",
-              "size": 1800968,
-              "uploadedAt": "2025-08-14T11:30:28.256Z"
-            },
+          "files": [
             {
               "publicId": "cxiqvbtmsjwvzeazaqhz",
               "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755171028/cxiqvbtmsjwvzeazaqhz.jpg",
@@ -109,6 +92,56 @@
               "name": "PR_230622_OURSAYSO_0017.jpeg",
               "size": 2284096,
               "uploadedAt": "2025-08-14T11:30:29.299Z"
+            },
+            {
+              "publicId": "ehnfk5b7dv85o6rd7cvo",
+              "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755171027/ehnfk5b7dv85o6rd7cvo.jpg",
+              "width": 1920,
+              "height": 1080,
+              "format": "jpg",
+              "bytes": 1800968,
+              "resourceType": "image",
+              "eager": [],
+              "storageType": "cloudinary",
+              "localPath": null,
+              "id": "gallery-img-1755171028256-0.07398105881818862",
+              "name": "PR_230622_OURSAYSO_0019.jpeg",
+              "size": 1800968,
+              "uploadedAt": "2025-08-14T11:30:28.256Z"
+            }
+          ],
+          "images": [
+            {
+              "publicId": "cxiqvbtmsjwvzeazaqhz",
+              "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755171028/cxiqvbtmsjwvzeazaqhz.jpg",
+              "width": 1920,
+              "height": 1080,
+              "format": "jpg",
+              "bytes": 2284096,
+              "resourceType": "image",
+              "eager": [],
+              "storageType": "cloudinary",
+              "localPath": null,
+              "id": "gallery-img-1755171029299-0.007862229895259643",
+              "name": "PR_230622_OURSAYSO_0017.jpeg",
+              "size": 2284096,
+              "uploadedAt": "2025-08-14T11:30:29.299Z"
+            },
+            {
+              "publicId": "ehnfk5b7dv85o6rd7cvo",
+              "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755171027/ehnfk5b7dv85o6rd7cvo.jpg",
+              "width": 1920,
+              "height": 1080,
+              "format": "jpg",
+              "bytes": 1800968,
+              "resourceType": "image",
+              "eager": [],
+              "storageType": "cloudinary",
+              "localPath": null,
+              "id": "gallery-img-1755171028256-0.07398105881818862",
+              "name": "PR_230622_OURSAYSO_0019.jpeg",
+              "size": 1800968,
+              "uploadedAt": "2025-08-14T11:30:28.256Z"
             }
           ],
           "order": 1
@@ -141,8 +174,8 @@
       ],
       "metadata": {
         "createdAt": "2024-01-15T10:00:00Z",
-        "updatedAt": "2025-08-14T11:32:25.535Z",
-        "version": 10,
+        "updatedAt": "2025-08-14T11:33:02.433Z",
+        "version": 11,
         "status": "draft",
         "lastPublished": "2025-08-14T11:15:52.719Z"
       },
@@ -603,6 +636,6 @@
       "date": "2024-01-30"
     }
   ],
-  "lastUpdated": "2025-08-14T11:32:45.306Z",
+  "lastUpdated": "2025-08-14T11:33:04.439Z",
   "version": "1.0"
 }
