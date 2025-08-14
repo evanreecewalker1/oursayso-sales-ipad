@@ -11,7 +11,7 @@
         "events",
         "executive-training"
       ],
-      "hasVideo": true,
+      "hasVideo": false,
       "backgrounds": {
         "tile": {
           "type": "image",
@@ -43,69 +43,39 @@
           "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755115318/portfolio/backgrounds/portfolio/backgrounds/bg_1.png"
         }
       },
-      "mediaItems": [
-        {
-          "id": "1755168325049",
-          "type": "video",
-          "title": "video_test",
-          "files": [
-            {
-              "name": "video_test.mp4",
-              "type": "video/mp4",
-              "size": 15039666,
-              "url": "/videos/media-uploader-1755168321270-1755168321270-video-test.mp4",
-              "cloudinaryId": "portfolio_1755168325049",
-              "uploadedAt": "2025-08-14T10:45:25.049Z",
-              "storageType": "cloudinary"
-            }
-          ],
-          "order": 0
-        }
-      ],
+      "mediaItems": [],
       "metadata": {
         "createdAt": "2024-01-15T10:00:00Z",
-        "updatedAt": "2025-08-14T10:45:33.389Z",
-        "version": 2,
+        "updatedAt": "2025-08-14T10:47:17.740Z",
+        "version": 3,
         "status": "draft"
       },
       "tileBackgroundType": "image",
       "tileBackgroundFile": {
-        "file": {},
-        "preview": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755166087/portfolio/tiles/portfolio/tiles/tile_1.png",
         "name": "lovell-tile.png",
         "size": 228219,
         "type": "image/png",
-        "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755166087/portfolio/tiles/portfolio/tiles/tile_1.png",
-        "cloudinaryId": "portfolio/tiles/portfolio/tiles/tile_1",
-        "uploadedAt": "2025-08-14T10:45:08.771Z",
         "dimensions": {
           "width": 800,
           "height": 800
         },
-        "uploading": false,
-        "storageType": "cloudinary",
-        "localPath": null,
-        "needsServerUpload": false,
-        "cloudinary": true
+        "uploadedAt": "2025-08-14T10:45:08.771Z",
+        "cloudinary": true,
+        "cloudinaryId": "portfolio/tiles/portfolio/tiles/tile_1",
+        "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755166087/portfolio/tiles/portfolio/tiles/tile_1.png"
       },
       "pageBackgroundFile": {
-        "file": {},
-        "preview": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755115318/portfolio/backgrounds/portfolio/backgrounds/bg_1.png",
         "name": "lovell-background.png",
         "size": 1747615,
         "type": "image/png",
-        "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755115318/portfolio/backgrounds/portfolio/backgrounds/bg_1.png",
-        "cloudinaryId": "portfolio/backgrounds/portfolio/backgrounds/bg_1",
-        "uploadedAt": "2025-08-14T10:45:14.164Z",
         "dimensions": {
           "width": 1920,
           "height": 1080
         },
-        "uploading": false,
-        "storageType": "cloudinary",
-        "localPath": null,
-        "needsServerUpload": false,
-        "cloudinary": true
+        "uploadedAt": "2025-08-14T10:45:14.164Z",
+        "cloudinary": true,
+        "cloudinaryId": "portfolio/backgrounds/portfolio/backgrounds/bg_1",
+        "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755115318/portfolio/backgrounds/portfolio/backgrounds/bg_1.png"
       }
     },
     {
@@ -528,6 +498,6 @@
       "date": "2024-01-30"
     }
   ],
-  "lastUpdated": "2025-08-14T10:47:00.183Z",
+  "lastUpdated": "2025-08-14T10:47:19.751Z",
   "version": "1.0"
 }
