@@ -2,7 +2,7 @@
   "projects": [
     {
       "id": "1",
-      "title": "Lovell Leadership Conferences",
+      "title": "Lovell Leadership Conferenceo",
       "category": "Events",
       "description": "Leadership development conferences designed to inspire and educate senior executives. Transformed traditional conference format with interactive workshops and AI-powered networking.",
       "tags": [
@@ -11,7 +11,7 @@
         "events",
         "executive-training"
       ],
-      "hasVideo": false,
+      "hasVideo": true,
       "backgrounds": {
         "tile": {
           "type": "image",
@@ -128,12 +128,80 @@
             }
           ],
           "order": 4
+        },
+        {
+          "id": "1755169021637",
+          "type": "image",
+          "title": "PR_230622_OURSAYSO_0212",
+          "files": [
+            {
+              "name": "PR_230622_OURSAYSO_0212.jpeg",
+              "type": "image/jpeg",
+              "size": 1097843,
+              "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755169021/portfolio/images/hvxrtmvadbkltmo0qid8.jpg",
+              "cloudinaryId": "portfolio/images/hvxrtmvadbkltmo0qid8",
+              "uploadedAt": "2025-08-14T10:57:01.637Z",
+              "storageType": "cloudinary"
+            }
+          ],
+          "order": 5
+        },
+        {
+          "id": "1755169022346",
+          "type": "image",
+          "title": "PR_230622_OURSAYSO_0240",
+          "files": [
+            {
+              "name": "PR_230622_OURSAYSO_0240.jpeg",
+              "type": "image/jpeg",
+              "size": 1112663,
+              "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755169022/portfolio/images/ojazxoz1nallipfnhjwc.jpg",
+              "cloudinaryId": "portfolio/images/ojazxoz1nallipfnhjwc",
+              "uploadedAt": "2025-08-14T10:57:02.346Z",
+              "storageType": "cloudinary"
+            }
+          ],
+          "order": 6
+        },
+        {
+          "id": "1755169023215",
+          "type": "image",
+          "title": "PR_230622_OURSAYSO_0256",
+          "files": [
+            {
+              "name": "PR_230622_OURSAYSO_0256.jpeg",
+              "type": "image/jpeg",
+              "size": 1174449,
+              "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755169022/portfolio/images/mt6vb5vn3pzb2tmrhv0z.jpg",
+              "cloudinaryId": "portfolio/images/mt6vb5vn3pzb2tmrhv0z",
+              "uploadedAt": "2025-08-14T10:57:03.215Z",
+              "storageType": "cloudinary"
+            }
+          ],
+          "order": 7
+        },
+        {
+          "id": "1755169039361",
+          "type": "video",
+          "title": "video_test",
+          "files": [
+            {
+              "name": "video_test.mp4",
+              "type": "video/mp4",
+              "size": 15039666,
+              "url": "/videos/media-uploader-1755169035451-1755169035451-video-test.mp4",
+              "cloudinaryId": "portfolio_1755169039361",
+              "uploadedAt": "2025-08-14T10:57:19.361Z",
+              "storageType": "cloudinary"
+            }
+          ],
+          "order": 8
         }
       ],
       "metadata": {
         "createdAt": "2024-01-15T10:00:00Z",
-        "updatedAt": "2025-08-14T10:56:43.320Z",
-        "version": 4,
+        "updatedAt": "2025-08-14T10:57:28.153Z",
+        "version": 5,
         "status": "draft"
       },
       "tileBackgroundType": "image",
@@ -584,6 +652,6 @@
       "date": "2024-01-30"
     }
   ],
-  "lastUpdated": "2025-08-14T10:56:45.335Z",
+  "lastUpdated": "2025-08-14T10:57:30.167Z",
   "version": "1.0"
 }
