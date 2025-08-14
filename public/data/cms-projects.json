@@ -147,23 +147,23 @@
           "order": 1
         },
         {
-          "id": "1755171052288",
+          "id": "1755172526713",
           "type": "pdf",
           "title": "",
           "files": [
             {
-              "publicId": "portfolio_1755171137120",
-              "url": "/images/general/1755171137118-digital-portfolio-2024-v3.5.pdf",
-              "localPath": "/images/general/1755171137118-digital-portfolio-2024-v3.5.pdf",
+              "publicId": "portfolio_1755172541641",
+              "url": "/images/general/1755172541639-oss-2023-creds-digital-v1.0.pdf",
+              "localPath": "/images/general/1755172541639-oss-2023-creds-digital-v1.0.pdf",
               "width": null,
               "height": null,
               "format": "pdf",
-              "bytes": 7036023,
+              "bytes": 14508744,
               "duration": null,
               "resourceType": "image",
               "storageType": "portfolio",
-              "uploadedAt": "2025-08-14T11:32:17.120Z",
-              "preview": "/images/general/1755171137118-digital-portfolio-2024-v3.5.pdf",
+              "uploadedAt": "2025-08-14T11:55:41.641Z",
+              "preview": "/images/general/1755172541639-oss-2023-creds-digital-v1.0.pdf",
               "file": {},
               "needsServerUpload": false
             }
@@ -174,8 +174,8 @@
       ],
       "metadata": {
         "createdAt": "2024-01-15T10:00:00Z",
-        "updatedAt": "2025-08-14T11:33:02.433Z",
-        "version": 11,
+        "updatedAt": "2025-08-14T11:55:45.367Z",
+        "version": 12,
         "status": "draft",
         "lastPublished": "2025-08-14T11:15:52.719Z"
       },
@@ -712,6 +712,6 @@
       "date": "2024-01-30"
     }
   ],
-  "lastUpdated": "2025-08-14T11:55:20.948Z",
+  "lastUpdated": "2025-08-14T11:55:47.380Z",
   "version": "1.0"
 }
