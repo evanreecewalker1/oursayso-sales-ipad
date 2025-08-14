@@ -487,7 +487,9 @@ const App = () => {
                 src={galleryImages[currentImageIndex].src}
                 alt={galleryImages[currentImageIndex].alt}
                 className="gallery-image"
+                onLoad={() => console.log('✅ Gallery image loaded:', galleryImages[currentImageIndex].src)}
                 onError={(e) => {
+                  console.error('❌ Gallery image failed to load:', galleryImages[currentImageIndex].src);
                   // Fallback to placeholder
                   e.target.src = 'https://via.placeholder.com/800x600/333/fff?text=' + encodeURIComponent(galleryImages[currentImageIndex].alt);
                 }}
@@ -768,8 +770,9 @@ const App = () => {
                           className="media-preview-image"
                           src={mediaItem.files[0].url}
                           alt="Gallery preview"
+                          onLoad={() => console.log('✅ Gallery preview loaded:', mediaItem.files[0].url)}
                           onError={(e) => {
-                            console.error('Gallery preview error:', mediaItem.files[0].url, e);
+                            console.error('❌ Gallery preview error:', mediaItem.files[0].url, e);
                             // Show fallback placeholder
                             e.target.src = 'https://via.placeholder.com/300x180/333/fff?text=Gallery';
                           }}
@@ -795,9 +798,11 @@ const App = () => {
                         </div>
                       </div>
                     )}
-                    <div className="media-preview-overlay">
-                      <div className="media-type-badge">{mediaItem.type}</div>
-                    </div>
+                    {mediaItem.type !== 'gallery' && (
+                      <div className="media-preview-overlay">
+                        <div className="media-type-badge">{mediaItem.type}</div>
+                      </div>
+                    )}
                   </div>
                 </div>
               ))}
