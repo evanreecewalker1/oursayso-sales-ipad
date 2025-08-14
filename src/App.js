@@ -942,7 +942,7 @@ const App = () => {
           style={getTileStyle(currentProjects[6])}
         >
           {renderTileBackground(currentProjects[6])}
-          <div className={`tag ${currentProjects[6].category.toLowerCase().replace(' & ', '-').replace' ', '-')}`}>{currentProjects[6].category}</div>
+          <div className={`tag ${currentProjects[6].category.toLowerCase().replace(' & ', '-').replace(' ', '-')}`}>{currentProjects[6].category}</div>
           <div className="title">{currentProjects[6].title}</div>
           <ArrowRight className="arrow" size={32} />
         </div>
