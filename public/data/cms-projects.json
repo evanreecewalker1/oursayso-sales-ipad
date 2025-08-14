@@ -59,14 +59,66 @@
               "storageType": "cloudinary"
             }
           ],
+          "images": [
+            {
+              "name": "video_test.mp4",
+              "type": "video/mp4",
+              "size": 15039666,
+              "url": "/videos/media-uploader-1755169035451-1755169035451-video-test.mp4",
+              "cloudinaryId": "portfolio_1755169039361",
+              "uploadedAt": "2025-08-14T10:57:19.361Z",
+              "storageType": "cloudinary"
+            }
+          ],
           "order": 0
+        },
+        {
+          "id": "1755171018662",
+          "type": "gallery",
+          "title": "🖼️ Project Gallery (2 images)",
+          "files": [],
+          "images": [
+            {
+              "publicId": "ehnfk5b7dv85o6rd7cvo",
+              "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755171027/ehnfk5b7dv85o6rd7cvo.jpg",
+              "width": 1920,
+              "height": 1080,
+              "format": "jpg",
+              "bytes": 1800968,
+              "resourceType": "image",
+              "eager": [],
+              "storageType": "cloudinary",
+              "localPath": null,
+              "id": "gallery-img-1755171028256-0.07398105881818862",
+              "name": "PR_230622_OURSAYSO_0019.jpeg",
+              "size": 1800968,
+              "uploadedAt": "2025-08-14T11:30:28.256Z"
+            },
+            {
+              "publicId": "cxiqvbtmsjwvzeazaqhz",
+              "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755171028/cxiqvbtmsjwvzeazaqhz.jpg",
+              "width": 1920,
+              "height": 1080,
+              "format": "jpg",
+              "bytes": 2284096,
+              "resourceType": "image",
+              "eager": [],
+              "storageType": "cloudinary",
+              "localPath": null,
+              "id": "gallery-img-1755171029299-0.007862229895259643",
+              "name": "PR_230622_OURSAYSO_0017.jpeg",
+              "size": 2284096,
+              "uploadedAt": "2025-08-14T11:30:29.299Z"
+            }
+          ],
+          "order": 1
         }
       ],
       "metadata": {
         "createdAt": "2024-01-15T10:00:00Z",
-        "updatedAt": "2025-08-14T11:13:29.180Z",
-        "version": 8,
-        "status": "published",
+        "updatedAt": "2025-08-14T11:30:31.845Z",
+        "version": 9,
+        "status": "draft",
         "lastPublished": "2025-08-14T11:15:52.719Z"
       },
       "tileBackgroundType": "image",
@@ -526,6 +578,6 @@
       "date": "2024-01-30"
     }
   ],
-  "lastUpdated": "2025-08-14T11:30:15.931Z",
+  "lastUpdated": "2025-08-14T11:30:33.857Z",
   "version": "1.0"
 }
