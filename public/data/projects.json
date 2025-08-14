@@ -15,11 +15,11 @@
       "slug": "lovell-leadership-conferences",
       "tileBackground": {
         "type": "image",
-        "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755166087/portfolio/tiles/portfolio/tiles/tile_1.png?v=1755185890361",
+        "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755166087/portfolio/tiles/portfolio/tiles/tile_1.png?v=1755187043270",
         "storageType": "cloudinary"
       },
       "pageBackground": {
-        "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755115318/portfolio/backgrounds/portfolio/backgrounds/bg_1.png?v=1755185890361",
+        "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755115318/portfolio/backgrounds/portfolio/backgrounds/bg_1.png?v=1755187043270",
         "dimensions": {
           "width": 1920,
           "height": 1080
@@ -45,10 +45,6 @@
           "type": "gallery",
           "title": "🖼️ Project Gallery (8 images)",
           "files": [
-            {
-              "url": "/projects/1/media/PR_230622_OURSAYSO_0256.jpeg",
-              "name": "PR_230622_OURSAYSO_0256.jpeg"
-            },
             {
               "url": "/projects/1/media/PR_230622_OURSAYSO_0017.jpeg",
               "name": "PR_230622_OURSAYSO_0017.jpeg"
@@ -76,6 +72,10 @@
             {
               "url": "/projects/1/media/PR_230622_OURSAYSO_0240.jpeg",
               "name": "PR_230622_OURSAYSO_0240.jpeg"
+            },
+            {
+              "url": "/projects/1/media/PR_230622_OURSAYSO_0256.jpeg",
+              "name": "PR_230622_OURSAYSO_0256.jpeg"
             }
           ],
           "order": 1
@@ -83,7 +83,7 @@
       ],
       "hasVideo": true,
       "createdAt": "2024-01-15T10:00:00Z",
-      "updatedAt": "2025-08-14T15:37:43.517Z",
+      "updatedAt": "2025-08-14T15:58:07.942Z",
       "status": "published"
     },
     {
@@ -101,11 +101,11 @@
       "slug": "rarely-heard-voices-videos",
       "tileBackground": {
         "type": "image",
-        "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755170123/portfolio/tiles/portfolio/tiles/tile_2.png?v=1755185890361",
+        "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755170123/portfolio/tiles/portfolio/tiles/tile_2.png?v=1755187043270",
         "storageType": "cloudinary"
       },
       "pageBackground": {
-        "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755170120/portfolio/backgrounds/portfolio/backgrounds/bg_2.png?v=1755185890361",
+        "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755170120/portfolio/backgrounds/portfolio/backgrounds/bg_2.png?v=1755187043270",
         "dimensions": {
           "width": 1920,
           "height": 1080
@@ -419,7 +419,7 @@
       "Video",
       "Design & Digital"
     ],
-    "lastUpdated": "2025-08-14T15:38:17.960Z",
+    "lastUpdated": "2025-08-14T15:59:02.415Z",
     "version": "1.0.0",
     "page": 1
   }
