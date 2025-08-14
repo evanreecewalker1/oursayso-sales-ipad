@@ -28,19 +28,6 @@
       },
       "mediaItems": [
         {
-          "id": "1755169039361",
-          "type": "video",
-          "title": "video_test",
-          "files": [
-            {
-              "url": "/projects/1/media/video_test.mp4",
-              "name": "video_test.mp4",
-              "type": "video/mp4"
-            }
-          ],
-          "order": 0
-        },
-        {
           "id": "1755185006988",
           "type": "gallery",
           "title": "🖼️ Project Gallery (8 images)",
@@ -110,12 +97,19 @@
               "name": "PR_230622_OURSAYSO_0256.jpeg"
             }
           ],
+          "order": 0
+        },
+        {
+          "id": "1755188717165",
+          "type": "video",
+          "title": "",
+          "files": [],
           "order": 1
         }
       ],
       "hasVideo": true,
       "createdAt": "2024-01-15T10:00:00Z",
-      "updatedAt": "2025-08-14T15:58:07.942Z",
+      "updatedAt": "2025-08-14T16:27:37.406Z",
       "status": "published"
     },
     {
@@ -451,7 +445,7 @@
       "Video",
       "Design & Digital"
     ],
-    "lastUpdated": "2025-08-14T16:21:44.678Z",
+    "lastUpdated": "2025-08-14T16:27:42.344Z",
     "version": "1.0.0",
     "page": 1
   }
