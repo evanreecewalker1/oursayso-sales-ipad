@@ -83,8 +83,8 @@
       ],
       "metadata": {
         "createdAt": "2024-01-15T10:00:00Z",
-        "updatedAt": "2025-08-14T14:20:15.725Z",
-        "version": 17,
+        "updatedAt": "2025-08-14T14:20:29.752Z",
+        "version": 18,
         "status": "draft",
         "lastPublished": "2025-08-14T12:49:37.798Z"
       },
@@ -614,6 +614,6 @@
       "date": "2024-03-10"
     }
   ],
-  "lastUpdated": "2025-08-14T14:20:17.736Z",
+  "lastUpdated": "2025-08-14T14:20:31.758Z",
   "version": "1.0"
 }
