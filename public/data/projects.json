@@ -2,24 +2,24 @@
   "projects": [
     {
       "id": "1",
-      "title": "Lovell Leadership Conferenceo",
+      "title": "Lovell Leadership Conferences",
       "category": "Events",
       "description": "Leadership development conferences designed to inspire and educate senior executives. Transformed traditional conference format with interactive workshops and AI-powered networking.",
       "tags": [
-        "leadership",
-        "conferences",
-        "events",
-        "executive-training"
+        "Event Production",
+        "Video Production",
+        "Graphic Design",
+        "Presentations"
       ],
       "order": 0,
-      "slug": "lovell-leadership-conferenceo",
+      "slug": "lovell-leadership-conferences",
       "tileBackground": {
         "type": "image",
-        "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755166087/portfolio/tiles/portfolio/tiles/tile_1.png?v=1755172906065",
+        "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755166087/portfolio/tiles/portfolio/tiles/tile_1.png?v=1755175605164",
         "storageType": "cloudinary"
       },
       "pageBackground": {
-        "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755115318/portfolio/backgrounds/portfolio/backgrounds/bg_1.png?v=1755172906065",
+        "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755115318/portfolio/backgrounds/portfolio/backgrounds/bg_1.png?v=1755175605164",
         "dimensions": {
           "width": 1920,
           "height": 1080
@@ -43,30 +43,47 @@
         {
           "id": "1755171018662",
           "type": "gallery",
-          "title": "🖼️ Project Gallery (2 images)",
+          "title": "🖼️ Project Gallery (8 images)",
           "files": [
-            {
-              "url": "/projects/1/media/PR_230622_OURSAYSO_0017.jpeg",
-              "name": "PR_230622_OURSAYSO_0017.jpeg"
-            },
             {
               "url": "/projects/1/media/PR_230622_OURSAYSO_0019.jpeg",
               "name": "PR_230622_OURSAYSO_0019.jpeg"
+            },
+            {
+              "url": "/projects/1/media/PR_230622_OURSAYSO_0212.jpeg",
+              "name": "PR_230622_OURSAYSO_0212.jpeg"
+            },
+            {
+              "url": "/projects/1/media/PR_230622_OURSAYSO_0098.jpeg",
+              "name": "PR_230622_OURSAYSO_0098.jpeg"
+            },
+            {
+              "url": "/projects/1/media/PR_230622_OURSAYSO_0092.jpeg",
+              "name": "PR_230622_OURSAYSO_0092.jpeg"
+            },
+            {
+              "url": "/projects/1/media/PR_230622_OURSAYSO_0240.jpeg",
+              "name": "PR_230622_OURSAYSO_0240.jpeg"
+            },
+            {
+              "url": "/projects/1/media/PR_230622_OURSAYSO_0256.jpeg",
+              "name": "PR_230622_OURSAYSO_0256.jpeg"
+            },
+            {
+              "url": "/projects/1/media/PR_230622_OURSAYSO_0191.jpeg",
+              "name": "PR_230622_OURSAYSO_0191.jpeg"
+            },
+            {
+              "url": "/projects/1/media/PR_230622_OURSAYSO_0017.jpeg",
+              "name": "PR_230622_OURSAYSO_0017.jpeg"
             }
           ],
           "order": 1
-        },
-        {
-          "id": "1755172888320",
-          "type": "pdf",
-          "title": "",
-          "files": [],
-          "order": 2
         }
       ],
       "hasVideo": true,
       "createdAt": "2024-01-15T10:00:00Z",
-      "updatedAt": "2025-08-14T12:01:43.253Z",
+      "updatedAt": "2025-08-14T12:49:24.681Z",
       "status": "published"
     },
     {
@@ -84,11 +101,11 @@
       "slug": "rarely-heard-voices-videos",
       "tileBackground": {
         "type": "image",
-        "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755170123/portfolio/tiles/portfolio/tiles/tile_2.png?v=1755172906065",
+        "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755170123/portfolio/tiles/portfolio/tiles/tile_2.png?v=1755175605164",
         "storageType": "cloudinary"
       },
       "pageBackground": {
-        "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755170120/portfolio/backgrounds/portfolio/backgrounds/bg_2.png?v=1755172906065",
+        "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755170120/portfolio/backgrounds/portfolio/backgrounds/bg_2.png?v=1755175605164",
         "dimensions": {
           "width": 1920,
           "height": 1080
@@ -402,7 +419,7 @@
       "Video",
       "Design & Digital"
     ],
-    "lastUpdated": "2025-08-14T12:01:53.387Z",
+    "lastUpdated": "2025-08-14T12:49:28.965Z",
     "version": "1.0.0",
     "page": 1
   }
