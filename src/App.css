@@ -549,6 +549,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  cursor: pointer;
 }
 
 .gallery-image {
@@ -557,6 +558,8 @@ body {
   object-fit: contain;
   border-radius: 8px;
   box-shadow: 0 8px 32px rgba(0, 0, 0, 0.5);
+  transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  cursor: pointer;
 }
 
 .gallery-nav {
@@ -1117,20 +1120,23 @@ body {
 
 .ios-custom-gallery-icon {
   position: absolute;
-  bottom: 8px;
-  right: 8px;
-  width: 40px;
-  height: 40px;
-  background: rgba(0,0,0,0.8);
-  border-radius: 8px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 70px;
+  height: 70px;
+  background: rgba(0,0,0,0.3);
+  border-radius: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
+  backdrop-filter: blur(10px);
+  border: 3px solid rgba(255,255,255,0.9);
 }
 
 .ios-custom-gallery-svg {
-  width: 20px;
-  height: 20px;
+  width: 28px;
+  height: 28px;
   fill: white;
 }
 

@@ -535,6 +535,13 @@ const App = () => {
     }
   };
 
+  // Handle tap navigation
+  const handleImageTap = () => {
+    if (galleryImages.length > 1) {
+      goToNextImage();
+    }
+  };
+
   // Gallery Viewer
   if (currentPage === 'gallery' && selectedMedia && galleryImages.length > 0) {
     return (
@@ -560,11 +567,12 @@ const App = () => {
             onTouchMove={onTouchMove}
             onTouchEnd={onTouchEnd}
           >
-            <div className="gallery-image-container">
+            <div className="gallery-image-container" onClick={handleImageTap}>
               <img 
                 src={galleryImages[currentImageIndex].src}
                 alt={galleryImages[currentImageIndex].alt}
                 className="gallery-image"
+                style={{ transform: `translateX(${touchEnd && touchStart ? (touchEnd - touchStart) * 0.5 : 0}px)` }}
                 onLoad={() => console.log('✅ Gallery image loaded:', galleryImages[currentImageIndex].src)}
                 onError={(e) => {
                   console.error('❌ Gallery image failed to load:', galleryImages[currentImageIndex].src);
