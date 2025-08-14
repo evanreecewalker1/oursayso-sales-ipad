@@ -180,13 +180,25 @@ const quotes = [
 const getMediaUrl = (url) => {
   if (!url) return null;
   
+  console.log('🔍 Processing URL:', url);
+  
   // If it's already a full URL, return as is
   if (url.startsWith('http')) {
+    console.log('✅ Already full URL:', url);
     return url;
   }
   
-  // For local paths, convert to GitHub raw URL
-  return `https://raw.githubusercontent.com/evanreecewalker1/oursayso-sales-ipad/main/public${url}`;
+  // For local project media paths, try deployed site first, then fallback
+  if (url.startsWith('/projects/')) {
+    console.log('❌ Local project path detected:', url, '- trying deployed site URL');
+    // Try to load from deployed site's public directory
+    return `https://oursayso-sales-ipad.netlify.app${url}`;
+  }
+  
+  // For other local paths, convert to GitHub raw URL
+  const fullUrl = `https://raw.githubusercontent.com/evanreecewalker1/oursayso-sales-ipad/main/public${url}`;
+  console.log('🔗 Converted to GitHub raw URL:', fullUrl);
+  return fullUrl;
 };
 
 // Function to convert CMS project data to portfolio format
@@ -422,11 +434,16 @@ const App = () => {
     } else if (mediaItem.type === 'gallery') {
       if (mediaItem.files && mediaItem.files.length > 0) {
         console.log('✅ Gallery has', mediaItem.files.length, 'images');
+        console.log('📸 First gallery file:', mediaItem.files[0]);
+        console.log('🔗 First gallery URL after processing:', mediaItem.files[0].url);
+        
         // Use actual gallery images from CMS
         const galleryImages = mediaItem.files.map((file, index) => ({
           src: file.url,
           alt: `${mediaItem.title || 'Gallery'} ${index + 1}`
         }));
+        
+        console.log('📋 Gallery images array:', galleryImages);
         setGalleryImages(galleryImages);
         setCurrentImageIndex(0);
         setCurrentPage('gallery');
