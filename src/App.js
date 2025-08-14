@@ -194,7 +194,8 @@ const convertCMSProjectToPortfolioFormat = (cmsProject) => {
   return {
     id: parseInt(cmsProject.id) || cmsProject.id,
     title: cmsProject.title,
-    tags: cmsProject.tags || [cmsProject.category], // Use actual tags or fall back to category
+    tags: cmsProject.tags || [cmsProject.category], // Use deliverable tags for project page
+    category: cmsProject.category, // Keep category separate for tiles
     // Use tileBackground for tiles and pageBackground for project pages
     backgroundVideo: cmsProject.tileBackground?.type === 'video' ? getMediaUrl(cmsProject.tileBackground.url) : null,
     backgroundImage: cmsProject.tileBackground?.type === 'image' ? cmsProject.tileBackground.url : null,
@@ -754,15 +755,16 @@ const App = () => {
                           className="media-preview-image"
                           src={mediaItem.files[0].url}
                           alt="Gallery preview"
-                          onError={(e) => console.error('Gallery preview error:', mediaItem.files[0].url, e)}
+                          onError={(e) => {
+                            console.error('Gallery preview error:', mediaItem.files[0].url, e);
+                            // Show fallback placeholder
+                            e.target.src = 'https://via.placeholder.com/300x180/333/fff?text=Gallery';
+                          }}
                         />
-                        <div className="ios-custom-gallery-icon">
-                          <svg className="ios-custom-gallery-svg" viewBox="0 0 24 24">
-                            <path d="M20 4v12H8V4h12m0-2H8c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zm-8.5 9.67l1.69 2.26 2.48-3.1L19 15H9zM2 6v14c0 1.1.9 2 2 2h14v-2H4V6H2z"/>
+                        <div className="ios-custom-play-icon">
+                          <svg className="ios-custom-play-svg" viewBox="0 0 24 24">
+                            <path d="M20 4v12H8V4h12m0-2H8c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zm-8.5 9.67l1.69 2.26 2.48-3.1L19 15H9zM2 6v14c0 1.1.9 2 2 2h14v-2H4V6H2z" fill="white"/>
                           </svg>
-                          {mediaItem.files.length > 1 && (
-                            <span className="gallery-count">+{mediaItem.files.length - 1}</span>
-                          )}
                         </div>
                       </div>
                     ) : mediaItem.type === 'pdf' ? (
@@ -873,7 +875,7 @@ const App = () => {
           style={getTileStyle(currentProjects[0])}
         >
           {renderTileBackground(currentProjects[0])}
-          <div className={`tag ${currentProjects[0].tags[0].toLowerCase().replace(' & ', '-').replace(' ', '-')}`}>{currentProjects[0].tags[0]}</div>
+          <div className={`tag ${currentProjects[0].category.toLowerCase().replace(' & ', '-').replace(' ', '-')}`}>{currentProjects[0].category}</div>
           <div className="title">{currentProjects[0].title}</div>
           <ArrowRight className="arrow" size={32} />
         </div>
@@ -884,7 +886,7 @@ const App = () => {
           style={getTileStyle(currentProjects[1])}
         >
           {renderTileBackground(currentProjects[1])}
-          <div className={`tag ${currentProjects[1].tags[0].toLowerCase().replace(' & ', '-').replace(' ', '-')}`}>{currentProjects[1].tags[0]}</div>
+          <div className={`tag ${currentProjects[1].category.toLowerCase().replace(' & ', '-').replace(' ', '-')}`}>{currentProjects[1].category}</div>
           <div className="title">{currentProjects[1].title}</div>
           <ArrowRight className="arrow" size={32} />
         </div>
@@ -895,7 +897,7 @@ const App = () => {
           style={getTileStyle(currentProjects[2])}
         >
           {renderTileBackground(currentProjects[2])}
-          <div className={`tag ${currentProjects[2].tags[0].toLowerCase().replace(' & ', '-').replace(' ', '-')}`}>{currentProjects[2].tags[0]}</div>
+          <div className={`tag ${currentProjects[2].category.toLowerCase().replace(' & ', '-').replace(' ', '-')}`}>{currentProjects[2].category}</div>
           <div className="title">{currentProjects[2].title}</div>
           <ArrowRight className="arrow" size={32} />
         </div>
@@ -906,7 +908,7 @@ const App = () => {
           style={getTileStyle(currentProjects[3])}
         >
           {renderTileBackground(currentProjects[3])}
-          <div className={`tag ${currentProjects[3].tags[0].toLowerCase().replace(' & ', '-').replace(' ', '-')}`}>{currentProjects[3].tags[0]}</div>
+          <div className={`tag ${currentProjects[3].category.toLowerCase().replace(' & ', '-').replace(' ', '-')}`}>{currentProjects[3].category}</div>
           <div className="title">{currentProjects[3].title}</div>
           <ArrowRight className="arrow" size={32} />
         </div>
@@ -918,7 +920,7 @@ const App = () => {
           style={getTileStyle(currentProjects[4])}
         >
           {renderTileBackground(currentProjects[4])}
-          <div className={`tag ${currentProjects[4].tags[0].toLowerCase().replace(' & ', '-').replace(' ', '-')}`}>{currentProjects[4].tags[0]}</div>
+          <div className={`tag ${currentProjects[4].category.toLowerCase().replace(' & ', '-').replace(' ', '-')}`}>{currentProjects[4].category}</div>
           <div className="title">{currentProjects[4].title}</div>
           <ArrowRight className="arrow" size={32} />
         </div>
@@ -929,7 +931,7 @@ const App = () => {
           style={getTileStyle(currentProjects[5])}
         >
           {renderTileBackground(currentProjects[5])}
-          <div className={`tag ${currentProjects[5].tags[0].toLowerCase().replace(' & ', '-').replace(' ', '-')}`}>{currentProjects[5].tags[0]}</div>
+          <div className={`tag ${currentProjects[5].category.toLowerCase().replace(' & ', '-').replace(' ', '-')}`}>{currentProjects[5].category}</div>
           <div className="title">{currentProjects[5].title}</div>
           <ArrowRight className="arrow" size={32} />
         </div>
@@ -940,7 +942,7 @@ const App = () => {
           style={getTileStyle(currentProjects[6])}
         >
           {renderTileBackground(currentProjects[6])}
-          <div className={`tag ${currentProjects[6].tags[0].toLowerCase().replace(' & ', '-').replace(' ', '-')}`}>{currentProjects[6].tags[0]}</div>
+          <div className={`tag ${currentProjects[6].category.toLowerCase().replace(' & ', '-').replace' ', '-')}`}>{currentProjects[6].category}</div>
           <div className="title">{currentProjects[6].title}</div>
           <ArrowRight className="arrow" size={32} />
         </div>
@@ -951,7 +953,7 @@ const App = () => {
           style={getTileStyle(currentProjects[7])}
         >
           {renderTileBackground(currentProjects[7])}
-          <div className={`tag ${currentProjects[7].tags[0].toLowerCase().replace(' & ', '-').replace(' ', '-')}`}>{currentProjects[7].tags[0]}</div>
+          <div className={`tag ${currentProjects[7].category.toLowerCase().replace(' & ', '-').replace(' ', '-')}`}>{currentProjects[7].category}</div>
           <div className="title">{currentProjects[7].title}</div>
           <ArrowRight className="arrow" size={32} />
         </div>
@@ -972,7 +974,7 @@ const App = () => {
           style={getTileStyle(currentProjects[8])}
         >
           {renderTileBackground(currentProjects[8])}
-          <div className={`tag ${currentProjects[8].tags[0].toLowerCase().replace(' & ', '-').replace(' ', '-')}`}>{currentProjects[8].tags[0]}</div>
+          <div className={`tag ${currentProjects[8].category.toLowerCase().replace(' & ', '-').replace(' ', '-')}`}>{currentProjects[8].category}</div>
           <div className="title">{currentProjects[8].title}</div>
           <ArrowRight className="arrow" size={32} />
         </div>
@@ -983,7 +985,7 @@ const App = () => {
           style={getTileStyle(currentProjects[9])}
         >
           {renderTileBackground(currentProjects[9])}
-          <div className={`tag ${currentProjects[9].tags[0].toLowerCase().replace(' & ', '-').replace(' ', '-')}`}>{currentProjects[9].tags[0]}</div>
+          <div className={`tag ${currentProjects[9].category.toLowerCase().replace(' & ', '-').replace(' ', '-')}`}>{currentProjects[9].category}</div>
           <div className="title">{currentProjects[9].title}</div>
           <ArrowRight className="arrow" size={32} />
         </div>
