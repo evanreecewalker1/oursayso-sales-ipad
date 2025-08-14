@@ -198,8 +198,10 @@ const getMediaUrl = (url) => {
   if (url.startsWith('/projects/')) {
     console.log('❌ Local project path detected:', url, '- these files need to be uploaded to Cloudinary');
     // Create a placeholder that shows what file is missing
-    const filename = url.split('/').pop();
-    const placeholderUrl = `https://via.placeholder.com/800x600/333/fff?text=Missing: ${encodeURIComponent(filename)}`;
+    const filename = url.split('/').pop() || 'Unknown File';
+    // Keep placeholder text short and clean
+    const placeholderText = filename.length > 20 ? 'Gallery Image' : filename;
+    const placeholderUrl = `https://via.placeholder.com/800x600/333/fff?text=${encodeURIComponent(placeholderText)}`;
     console.log('📋 Using placeholder:', placeholderUrl);
     return placeholderUrl;
   }
@@ -225,19 +227,35 @@ const convertCMSProjectToPortfolioFormat = (cmsProject) => {
     projectBackgroundVideo: cmsProject.pageBackground?.url?.includes('.mp4') ? getMediaUrl(cmsProject.pageBackground.url) : null,
     projectBackgroundImage: cmsProject.pageBackground?.url && !cmsProject.pageBackground.url.includes('.mp4') ? cmsProject.pageBackground.url : null,
     description: cmsProject.description,
-    media: cmsProject.mediaItems?.map(item => ({
-      ...item, // Include all original data
-      type: item.type,
-      title: item.title || `${item.type} content`,
-      duration: item.files?.[0]?.duration || '2:30',
-      src: item.files?.[0]?.url ? getMediaUrl(item.files?.[0]?.url) : null,
-      count: item.type === 'gallery' ? `${item.files?.length || 0} images` : undefined,
-      // Convert files array with proper URLs
-      files: item.files?.map(file => ({
-        ...file,
-        url: getMediaUrl(file.url)
-      })) || []
-    })) || []
+    media: cmsProject.mediaItems?.map(item => {
+      console.log(`🔍 Processing media item:`, {
+        type: item.type,
+        title: item.title,
+        filesCount: item.files?.length || 0,
+        firstFileUrl: item.files?.[0]?.url,
+        allFiles: item.files
+      });
+      
+      const processedFiles = item.files?.map(file => {
+        const processedUrl = getMediaUrl(file.url);
+        console.log(`📁 File processed:`, { original: file.url, processed: processedUrl });
+        return {
+          ...file,
+          url: processedUrl
+        };
+      }).filter(file => file.url && file.url !== 'null') || [];
+      
+      return {
+        ...item, // Include all original data
+        type: item.type,
+        title: item.title || `${item.type} content`,
+        duration: item.files?.[0]?.duration || '2:30',
+        src: item.files?.[0]?.url ? getMediaUrl(item.files?.[0]?.url) : null,
+        count: item.type === 'gallery' ? `${item.files?.length || 0} images` : undefined,
+        // Convert files array with proper URLs
+        files: processedFiles
+      };
+    }) || []
   };
 };
 
@@ -790,7 +808,7 @@ const App = () => {
                           </svg>
                         </div>
                       </div>
-                    ) : mediaItem.type === 'gallery' && mediaItem.files && mediaItem.files.length > 0 ? (
+                    ) : mediaItem.type === 'gallery' && mediaItem.files && mediaItem.files.length > 0 && mediaItem.files[0].url ? (
                       <div className="gallery-preview-container">
                         <img
                           className="media-preview-image"
@@ -798,7 +816,12 @@ const App = () => {
                           alt="Gallery preview"
                           onLoad={() => console.log('✅ Gallery preview loaded:', mediaItem.files[0].url)}
                           onError={(e) => {
-                            console.error('❌ Gallery preview error:', mediaItem.files[0].url, e);
+                            console.error('❌ Gallery preview error:', {
+                              attemptedUrl: mediaItem.files[0].url,
+                              mediaItemTitle: mediaItem.title,
+                              firstFile: mediaItem.files[0],
+                              allFiles: mediaItem.files
+                            });
                             // Show fallback placeholder
                             e.target.src = 'https://via.placeholder.com/300x180/333/fff?text=Gallery';
                           }}
