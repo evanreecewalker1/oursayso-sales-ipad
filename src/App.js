@@ -181,7 +181,7 @@ const convertCMSProjectToPortfolioFormat = (cmsProject) => {
   return {
     id: parseInt(cmsProject.id) || cmsProject.id,
     title: cmsProject.title,
-    tags: [cmsProject.category], // Use the main category as the primary tag
+    tags: cmsProject.tags || [cmsProject.category], // Use actual tags or fall back to category
     // Use tileBackground for tiles and pageBackground for project pages
     backgroundVideo: cmsProject.tileBackground?.type === 'video' ? cmsProject.tileBackground.url : null,
     backgroundImage: cmsProject.tileBackground?.type === 'image' ? cmsProject.tileBackground.url : null,
@@ -248,6 +248,7 @@ const App = () => {
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
   const [projectsLoaded, setProjectsLoaded] = useState(false);
   const [cmsProjects, setCmsProjects] = useState([]);
+  const [showIOSPrompt, setShowIOSPrompt] = useState(false);
 
   // Get current projects - use CMS data if loaded, otherwise fall back to hardcoded
   const currentProjects = cmsProjects.length > 0 ? cmsProjects : projects;
@@ -273,6 +274,28 @@ const App = () => {
 
     return () => clearInterval(interval);
   }, []);
+
+  // iOS Install Prompt
+  useEffect(() => {
+    const checkIOSDevice = () => {
+      return /iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream;
+    };
+
+    const isStandalone = window.matchMedia('(display-mode: standalone)').matches;
+    const hasBeenDismissed = localStorage.getItem('iosPromptDismissed') === 'true';
+
+    if (checkIOSDevice() && !isStandalone && !hasBeenDismissed) {
+      // Show prompt after a short delay
+      setTimeout(() => {
+        setShowIOSPrompt(true);
+      }, 2000);
+    }
+  }, []);
+
+  const dismissIOSPrompt = () => {
+    setShowIOSPrompt(false);
+    localStorage.setItem('iosPromptDismissed', 'true');
+  };
 
   // Show loading state while fetching CMS data
   if (!projectsLoaded && projects.length === 0) {
@@ -349,22 +372,37 @@ const App = () => {
 
   // Handle media preview clicks
   const handleMediaClick = (mediaItem, projectTitle) => {
+    console.log('🎬 Media clicked:', mediaItem);
     setSelectedMedia({ ...mediaItem, projectTitle });
     
     if (mediaItem.type === 'video') {
-      setCurrentPage('video');
-    } else if (mediaItem.type === 'image') {
-      // Generate placeholder gallery images
-      const imageCount = parseInt(mediaItem.count?.split(' ')[0]) || 12;
-      const placeholderImages = Array.from({ length: imageCount }, (_, i) => ({
-        src: `/images/gallery/${projectTitle.toLowerCase().replace(/\s+/g, '-')}/image-${i + 1}.jpg`,
-        alt: `${mediaItem.title} ${i + 1}`
-      }));
-      setGalleryImages(placeholderImages);
-      setCurrentImageIndex(0);
-      setCurrentPage('gallery');
+      if (mediaItem.files && mediaItem.files.length > 0 && mediaItem.files[0].url) {
+        setCurrentPage('video');
+      } else if (mediaItem.src) {
+        setCurrentPage('video');
+      } else {
+        console.warn('Video has no valid source');
+      }
+    } else if (mediaItem.type === 'gallery') {
+      if (mediaItem.files && mediaItem.files.length > 0) {
+        // Use actual gallery images from CMS
+        const galleryImages = mediaItem.files.map((file, index) => ({
+          src: file.url,
+          alt: `${mediaItem.title || 'Gallery'} ${index + 1}`
+        }));
+        setGalleryImages(galleryImages);
+        setCurrentImageIndex(0);
+        setCurrentPage('gallery');
+      } else {
+        console.warn('Gallery has no images');
+      }
     } else if (mediaItem.type === 'pdf') {
-      setCurrentPage('pdf');
+      if (mediaItem.files && mediaItem.files.length > 0 && mediaItem.files[0].url) {
+        // Open PDF in new tab
+        window.open(mediaItem.files[0].url, '_blank');
+      } else {
+        console.warn('PDF has no valid source');
+      }
     } else if (mediaItem.type === 'case-study') {
       setCurrentPage('case-study'); // Case studies use dedicated case study viewer
     }
@@ -456,7 +494,11 @@ const App = () => {
               console.log('Video failed to load, using placeholder');
             }}
           >
-            <source src={selectedMedia.src || `/videos/${selectedMedia.projectTitle.toLowerCase().replace(/\s+/g, '-')}-${selectedMedia.title.toLowerCase().replace(/\s+/g, '-')}.mp4`} type="video/mp4" />
+            <source src={
+              selectedMedia.files && selectedMedia.files[0] && selectedMedia.files[0].url
+                ? selectedMedia.files[0].url 
+                : selectedMedia.src || `/videos/${selectedMedia.projectTitle.toLowerCase().replace(/\s+/g, '-')}-${selectedMedia.title.toLowerCase().replace(/\s+/g, '-')}.mp4`
+            } type="video/mp4" />
             Your browser does not support the video tag.
           </video>
           
@@ -664,14 +706,56 @@ const App = () => {
                   onClick={() => handleMediaClick(mediaItem, selectedProject.title)}
                 >
                   <div className="media-preview-thumbnail">
-                    {/* Preview Image/Video Placeholder */}
-                    <div className="media-preview-content">
-                      <div className="media-preview-icon">
-                        {mediaItem.type === 'video' && '▶'}
-                        {mediaItem.type === 'image' && <span className="icon-gallery">⊞</span>}
-                        {mediaItem.type === 'pdf' && 'PDF'}
-                        {mediaItem.type === 'case-study' && <span className="icon-case-study">≡</span>}
+                    {/* Render actual media content */}
+                    {mediaItem.type === 'video' && (mediaItem.src || (mediaItem.files && mediaItem.files.length > 0)) ? (
+                      <div className="video-preview-container">
+                        <video
+                          className="media-preview-video"
+                          src={mediaItem.files && mediaItem.files[0] ? mediaItem.files[0].url : mediaItem.src}
+                          muted
+                          preload="metadata"
+                          onError={(e) => console.error('Video preview error:', mediaItem.src, e)}
+                        />
+                        <div className="ios-custom-play-icon">
+                          <svg className="ios-custom-play-svg" viewBox="0 0 24 24">
+                            <path d="M8 5v14l11-7z"/>
+                          </svg>
+                        </div>
                       </div>
+                    ) : mediaItem.type === 'gallery' && mediaItem.files && mediaItem.files.length > 0 ? (
+                      <div className="gallery-preview-container">
+                        <img
+                          className="media-preview-image"
+                          src={mediaItem.files[0].url}
+                          alt="Gallery preview"
+                          onError={(e) => console.error('Gallery preview error:', mediaItem.files[0].url, e)}
+                        />
+                        <div className="ios-custom-gallery-icon">
+                          <svg className="ios-custom-gallery-svg" viewBox="0 0 24 24">
+                            <path d="M20 4v12H8V4h12m0-2H8c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zm-8.5 9.67l1.69 2.26 2.48-3.1L19 15H9zM2 6v14c0 1.1.9 2 2 2h14v-2H4V6H2z"/>
+                          </svg>
+                          {mediaItem.files.length > 1 && (
+                            <span className="gallery-count">+{mediaItem.files.length - 1}</span>
+                          )}
+                        </div>
+                      </div>
+                    ) : mediaItem.type === 'pdf' ? (
+                      <div className="media-preview-pdf">
+                        <svg className="ios-custom-pdf-svg" viewBox="0 0 24 24">
+                          <path d="M14,2H6A2,2 0 0,0 4,4V20A2,2 0 0,0 6,22H18A2,2 0 0,0 20,20V8L14,2M18,20H6V4H13V9H18V20Z" fill="white"/>
+                        </svg>
+                        <div className="pdf-label">PDF</div>
+                      </div>
+                    ) : (
+                      <div className="media-preview-content">
+                        <div className="media-preview-icon">
+                          {mediaItem.type === 'case-study' && <span className="icon-case-study">≡</span>}
+                          {!['video', 'gallery', 'pdf', 'case-study'].includes(mediaItem.type) && '📄'}
+                        </div>
+                      </div>
+                    )}
+                    <div className="media-preview-overlay">
+                      <div className="media-type-badge">{mediaItem.type}</div>
                     </div>
                   </div>
                 </div>
@@ -888,6 +972,22 @@ const App = () => {
           onClick={() => setCurrentPage('page2')}
         />
       </div>
+
+      {/* iOS Install Prompt */}
+      {showIOSPrompt && (
+        <div className="ios-prompt-overlay">
+          <div className="ios-prompt">
+            <div className="ios-prompt-header">📱 Add to Home Screen</div>
+            <div className="ios-prompt-message">Hey Knotty, add this to your home screen as an app!</div>
+            <div className="ios-prompt-instructions">
+              Tap <span className="share-icon">⬆️</span> then "Add to Home Screen"
+            </div>
+            <button className="ios-prompt-dismiss" onClick={dismissIOSPrompt}>
+              Maybe Later
+            </button>
+          </div>
+        </div>
+      )}
     </div>
   );
 };
