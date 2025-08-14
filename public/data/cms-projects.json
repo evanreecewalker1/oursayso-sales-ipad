@@ -43,11 +43,97 @@
           "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755115318/portfolio/backgrounds/portfolio/backgrounds/bg_1.png"
         }
       },
-      "mediaItems": [],
+      "mediaItems": [
+        {
+          "id": "1755168951704",
+          "type": "image",
+          "title": "PR_230622_OURSAYSO_0017",
+          "files": [
+            {
+              "name": "PR_230622_OURSAYSO_0017.jpeg",
+              "type": "image/jpeg",
+              "size": 2284096,
+              "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755168951/portfolio/images/ysv6zwxp3krphyzbr4kc.jpg",
+              "cloudinaryId": "portfolio/images/ysv6zwxp3krphyzbr4kc",
+              "uploadedAt": "2025-08-14T10:55:51.703Z",
+              "storageType": "cloudinary"
+            }
+          ],
+          "order": 0
+        },
+        {
+          "id": "1755168952726",
+          "type": "image",
+          "title": "PR_230622_OURSAYSO_0019",
+          "files": [
+            {
+              "name": "PR_230622_OURSAYSO_0019.jpeg",
+              "type": "image/jpeg",
+              "size": 1800968,
+              "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755168952/portfolio/images/co13pjwyckaggij1afqs.jpg",
+              "cloudinaryId": "portfolio/images/co13pjwyckaggij1afqs",
+              "uploadedAt": "2025-08-14T10:55:52.726Z",
+              "storageType": "cloudinary"
+            }
+          ],
+          "order": 1
+        },
+        {
+          "id": "1755168953543",
+          "type": "image",
+          "title": "PR_230622_OURSAYSO_0092",
+          "files": [
+            {
+              "name": "PR_230622_OURSAYSO_0092.jpeg",
+              "type": "image/jpeg",
+              "size": 1625572,
+              "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755168953/portfolio/images/ix0ggfaecp6xzo4gjnpr.jpg",
+              "cloudinaryId": "portfolio/images/ix0ggfaecp6xzo4gjnpr",
+              "uploadedAt": "2025-08-14T10:55:53.543Z",
+              "storageType": "cloudinary"
+            }
+          ],
+          "order": 2
+        },
+        {
+          "id": "1755168954466",
+          "type": "image",
+          "title": "PR_230622_OURSAYSO_0098",
+          "files": [
+            {
+              "name": "PR_230622_OURSAYSO_0098.jpeg",
+              "type": "image/jpeg",
+              "size": 1404376,
+              "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755168954/portfolio/images/wu19gcqpnjlfdszo9meu.jpg",
+              "cloudinaryId": "portfolio/images/wu19gcqpnjlfdszo9meu",
+              "uploadedAt": "2025-08-14T10:55:54.466Z",
+              "storageType": "cloudinary"
+            }
+          ],
+          "order": 3
+        },
+        {
+          "id": "1755168955046",
+          "type": "image",
+          "title": "PR_230622_OURSAYSO_0191",
+          "files": [
+            {
+              "name": "PR_230622_OURSAYSO_0191.jpeg",
+              "type": "image/jpeg",
+              "size": 812689,
+              "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755168954/portfolio/images/xgbvmzb3eidlu4unfqnd.jpg",
+              "cloudinaryId": "portfolio/images/xgbvmzb3eidlu4unfqnd",
+              "uploadedAt": "2025-08-14T10:55:55.046Z",
+              "storageType": "cloudinary"
+            }
+          ],
+          "order": 4
+        }
+      ],
       "metadata": {
         "createdAt": "2024-01-15T10:00:00Z",
-        "updatedAt": "2025-08-14T10:47:17.740Z",
-        "version": 3,
+        "updatedAt": "2025-08-14T10:56:43.320Z",
+        "version": 4,
         "status": "draft"
       },
       "tileBackgroundType": "image",
@@ -498,6 +584,6 @@
       "date": "2024-01-30"
     }
   ],
-  "lastUpdated": "2025-08-14T10:55:28.395Z",
+  "lastUpdated": "2025-08-14T10:56:45.335Z",
   "version": "1.0"
 }
