@@ -15,11 +15,11 @@
       "slug": "lovell-leadership-conferenceo",
       "tileBackground": {
         "type": "image",
-        "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755166087/portfolio/tiles/portfolio/tiles/tile_1.png?v=1755169183410",
+        "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755166087/portfolio/tiles/portfolio/tiles/tile_1.png?v=1755170142978",
         "storageType": "cloudinary"
       },
       "pageBackground": {
-        "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755115318/portfolio/backgrounds/portfolio/backgrounds/bg_1.png?v=1755169183410",
+        "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755115318/portfolio/backgrounds/portfolio/backgrounds/bg_1.png?v=1755170142978",
         "dimensions": {
           "width": 1920,
           "height": 1080
@@ -27,110 +27,6 @@
         "storageType": "cloudinary"
       },
       "mediaItems": [
-        {
-          "id": "1755168951704",
-          "type": "image",
-          "title": "PR_230622_OURSAYSO_0017",
-          "files": [
-            {
-              "url": "/projects/1/media/PR_230622_OURSAYSO_0017.jpeg",
-              "name": "PR_230622_OURSAYSO_0017.jpeg",
-              "type": "image/jpeg"
-            }
-          ],
-          "order": 0
-        },
-        {
-          "id": "1755168952726",
-          "type": "image",
-          "title": "PR_230622_OURSAYSO_0019",
-          "files": [
-            {
-              "url": "/projects/1/media/PR_230622_OURSAYSO_0019.jpeg",
-              "name": "PR_230622_OURSAYSO_0019.jpeg",
-              "type": "image/jpeg"
-            }
-          ],
-          "order": 1
-        },
-        {
-          "id": "1755168953543",
-          "type": "image",
-          "title": "PR_230622_OURSAYSO_0092",
-          "files": [
-            {
-              "url": "/projects/1/media/PR_230622_OURSAYSO_0092.jpeg",
-              "name": "PR_230622_OURSAYSO_0092.jpeg",
-              "type": "image/jpeg"
-            }
-          ],
-          "order": 2
-        },
-        {
-          "id": "1755168954466",
-          "type": "image",
-          "title": "PR_230622_OURSAYSO_0098",
-          "files": [
-            {
-              "url": "/projects/1/media/PR_230622_OURSAYSO_0098.jpeg",
-              "name": "PR_230622_OURSAYSO_0098.jpeg",
-              "type": "image/jpeg"
-            }
-          ],
-          "order": 3
-        },
-        {
-          "id": "1755168955046",
-          "type": "image",
-          "title": "PR_230622_OURSAYSO_0191",
-          "files": [
-            {
-              "url": "/projects/1/media/PR_230622_OURSAYSO_0191.jpeg",
-              "name": "PR_230622_OURSAYSO_0191.jpeg",
-              "type": "image/jpeg"
-            }
-          ],
-          "order": 4
-        },
-        {
-          "id": "1755169021637",
-          "type": "image",
-          "title": "PR_230622_OURSAYSO_0212",
-          "files": [
-            {
-              "url": "/projects/1/media/PR_230622_OURSAYSO_0212.jpeg",
-              "name": "PR_230622_OURSAYSO_0212.jpeg",
-              "type": "image/jpeg"
-            }
-          ],
-          "order": 5
-        },
-        {
-          "id": "1755169022346",
-          "type": "image",
-          "title": "PR_230622_OURSAYSO_0240",
-          "files": [
-            {
-              "url": "/projects/1/media/PR_230622_OURSAYSO_0240.jpeg",
-              "name": "PR_230622_OURSAYSO_0240.jpeg",
-              "type": "image/jpeg"
-            }
-          ],
-          "order": 6
-        },
-        {
-          "id": "1755169023215",
-          "type": "image",
-          "title": "PR_230622_OURSAYSO_0256",
-          "files": [
-            {
-              "url": "/projects/1/media/PR_230622_OURSAYSO_0256.jpeg",
-              "name": "PR_230622_OURSAYSO_0256.jpeg",
-              "type": "image/jpeg"
-            }
-          ],
-          "order": 7
-        },
         {
           "id": "1755169039361",
           "type": "video",
@@ -142,12 +38,12 @@
               "type": "video/mp4"
             }
           ],
-          "order": 8
+          "order": 0
         }
       ],
       "hasVideo": true,
       "createdAt": "2024-01-15T10:00:00Z",
-      "updatedAt": "2025-08-14T10:57:28.153Z",
+      "updatedAt": "2025-08-14T11:13:29.180Z",
       "status": "published"
     },
     {
@@ -475,7 +371,7 @@
       "Video",
       "Design & Digital"
     ],
-    "lastUpdated": "2025-08-14T10:59:49.775Z",
+    "lastUpdated": "2025-08-14T11:15:44.074Z",
     "version": "1.0.0",
     "page": 1
   }
