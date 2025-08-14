@@ -317,12 +317,25 @@ const App = () => {
     localStorage.setItem('iosPromptDismissed', 'true');
   };
 
-  // Show loading state while fetching CMS data
+  // Show loading state while fetching CMS data or if not enough projects
   if (!projectsLoaded && projects.length === 0) {
     return (
       <div className="app">
         <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '100vh' }}>
           <div style={{ color: '#1652FB', fontSize: '18px' }}>Loading portfolio data...</div>
+        </div>
+      </div>
+    );
+  }
+
+  // Safety check - ensure we have enough projects
+  if (!currentProjects || currentProjects.length < 10) {
+    return (
+      <div className="app">
+        <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '100vh' }}>
+          <div style={{ color: '#ff6b6b', fontSize: '18px' }}>
+            Portfolio data incomplete. Found {currentProjects?.length || 0} of 10 required projects.
+          </div>
         </div>
       </div>
     );
@@ -871,90 +884,90 @@ const App = () => {
         {/* Row 1 - 4 tiles */}
         <div 
           className="tile tile-1"
-          onClick={() => handleProjectClick(currentProjects[0])}
+          onClick={() => currentProjects[0] && handleProjectClick(currentProjects[0])}
           style={getTileStyle(currentProjects[0])}
         >
           {renderTileBackground(currentProjects[0])}
-          <div className={`tag ${currentProjects[0].category.toLowerCase().replace(' & ', '-').replace(' ', '-')}`}>{currentProjects[0].category}</div>
-          <div className="title">{currentProjects[0].title}</div>
+          <div className={`tag ${(currentProjects[0]?.category || 'default').toLowerCase().replace(' & ', '-').replace(' ', '-')}`}>{currentProjects[0]?.category || 'Project'}</div>
+          <div className="title">{currentProjects[0]?.title || 'Project Title'}</div>
           <ArrowRight className="arrow" size={32} />
         </div>
         
         <div 
           className="tile tile-2"
-          onClick={() => handleProjectClick(currentProjects[1])}
+          onClick={() => currentProjects[1] && handleProjectClick(currentProjects[1])}
           style={getTileStyle(currentProjects[1])}
         >
           {renderTileBackground(currentProjects[1])}
-          <div className={`tag ${currentProjects[1].category.toLowerCase().replace(' & ', '-').replace(' ', '-')}`}>{currentProjects[1].category}</div>
-          <div className="title">{currentProjects[1].title}</div>
+          <div className={`tag ${(currentProjects[1]?.category || 'default').toLowerCase().replace(' & ', '-').replace(' ', '-')}`}>{currentProjects[1]?.category || 'Project'}</div>
+          <div className="title">{currentProjects[1]?.title || 'Project Title'}</div>
           <ArrowRight className="arrow" size={32} />
         </div>
         
         <div 
           className="tile tile-3"
-          onClick={() => handleProjectClick(currentProjects[2])}
+          onClick={() => currentProjects[2] && handleProjectClick(currentProjects[2])}
           style={getTileStyle(currentProjects[2])}
         >
           {renderTileBackground(currentProjects[2])}
-          <div className={`tag ${currentProjects[2].category.toLowerCase().replace(' & ', '-').replace(' ', '-')}`}>{currentProjects[2].category}</div>
-          <div className="title">{currentProjects[2].title}</div>
+          <div className={`tag ${(currentProjects[2]?.category || 'default').toLowerCase().replace(' & ', '-').replace(' ', '-')}`}>{currentProjects[2]?.category || 'Project'}</div>
+          <div className="title">{currentProjects[2]?.title || 'Project Title'}</div>
           <ArrowRight className="arrow" size={32} />
         </div>
         
         <div 
           className="tile tile-4"
-          onClick={() => handleProjectClick(currentProjects[3])}
+          onClick={() => currentProjects[3] && handleProjectClick(currentProjects[3])}
           style={getTileStyle(currentProjects[3])}
         >
           {renderTileBackground(currentProjects[3])}
-          <div className={`tag ${currentProjects[3].category.toLowerCase().replace(' & ', '-').replace(' ', '-')}`}>{currentProjects[3].category}</div>
-          <div className="title">{currentProjects[3].title}</div>
+          <div className={`tag ${(currentProjects[3]?.category || 'default').toLowerCase().replace(' & ', '-').replace(' ', '-')}`}>{currentProjects[3]?.category || 'Project'}</div>
+          <div className="title">{currentProjects[3]?.title || 'Project Title'}</div>
           <ArrowRight className="arrow" size={32} />
         </div>
         
         {/* Row 2 - 4 tiles */}
         <div 
           className="tile tile-5"
-          onClick={() => handleProjectClick(currentProjects[4])}
+          onClick={() => currentProjects[4] && handleProjectClick(currentProjects[4])}
           style={getTileStyle(currentProjects[4])}
         >
           {renderTileBackground(currentProjects[4])}
-          <div className={`tag ${currentProjects[4].category.toLowerCase().replace(' & ', '-').replace(' ', '-')}`}>{currentProjects[4].category}</div>
-          <div className="title">{currentProjects[4].title}</div>
+          <div className={`tag ${(currentProjects[4]?.category || 'default').toLowerCase().replace(' & ', '-').replace(' ', '-')}`}>{currentProjects[4]?.category || 'Project'}</div>
+          <div className="title">{currentProjects[4]?.title || 'Project Title'}</div>
           <ArrowRight className="arrow" size={32} />
         </div>
         
         <div 
           className="tile tile-6"
-          onClick={() => handleProjectClick(currentProjects[5])}
+          onClick={() => currentProjects[5] && handleProjectClick(currentProjects[5])}
           style={getTileStyle(currentProjects[5])}
         >
           {renderTileBackground(currentProjects[5])}
-          <div className={`tag ${currentProjects[5].category.toLowerCase().replace(' & ', '-').replace(' ', '-')}`}>{currentProjects[5].category}</div>
-          <div className="title">{currentProjects[5].title}</div>
+          <div className={`tag ${(currentProjects[5]?.category || 'default').toLowerCase().replace(' & ', '-').replace(' ', '-')}`}>{currentProjects[5]?.category || 'Project'}</div>
+          <div className="title">{currentProjects[5]?.title || 'Project Title'}</div>
           <ArrowRight className="arrow" size={32} />
         </div>
         
         <div 
           className="tile tile-7"
-          onClick={() => handleProjectClick(currentProjects[6])}
+          onClick={() => currentProjects[6] && handleProjectClick(currentProjects[6])}
           style={getTileStyle(currentProjects[6])}
         >
           {renderTileBackground(currentProjects[6])}
-          <div className={`tag ${currentProjects[6].category.toLowerCase().replace(' & ', '-').replace(' ', '-')}`}>{currentProjects[6].category}</div>
-          <div className="title">{currentProjects[6].title}</div>
+          <div className={`tag ${(currentProjects[6]?.category || 'default').toLowerCase().replace(' & ', '-').replace(' ', '-')}`}>{currentProjects[6]?.category || 'Project'}</div>
+          <div className="title">{currentProjects[6]?.title || 'Project Title'}</div>
           <ArrowRight className="arrow" size={32} />
         </div>
         
         <div 
           className="tile tile-8"
-          onClick={() => handleProjectClick(currentProjects[7])}
+          onClick={() => currentProjects[7] && handleProjectClick(currentProjects[7])}
           style={getTileStyle(currentProjects[7])}
         >
           {renderTileBackground(currentProjects[7])}
-          <div className={`tag ${currentProjects[7].category.toLowerCase().replace(' & ', '-').replace(' ', '-')}`}>{currentProjects[7].category}</div>
-          <div className="title">{currentProjects[7].title}</div>
+          <div className={`tag ${(currentProjects[7]?.category || 'default').toLowerCase().replace(' & ', '-').replace(' ', '-')}`}>{currentProjects[7]?.category || 'Project'}</div>
+          <div className="title">{currentProjects[7]?.title || 'Project Title'}</div>
           <ArrowRight className="arrow" size={32} />
         </div>
         
@@ -970,23 +983,23 @@ const App = () => {
         
         <div 
           className="tile tile-9"
-          onClick={() => handleProjectClick(currentProjects[8])}
+          onClick={() => currentProjects[8] && handleProjectClick(currentProjects[8])}
           style={getTileStyle(currentProjects[8])}
         >
           {renderTileBackground(currentProjects[8])}
-          <div className={`tag ${currentProjects[8].category.toLowerCase().replace(' & ', '-').replace(' ', '-')}`}>{currentProjects[8].category}</div>
-          <div className="title">{currentProjects[8].title}</div>
+          <div className={`tag ${(currentProjects[8]?.category || 'default').toLowerCase().replace(' & ', '-').replace(' ', '-')}`}>{currentProjects[8]?.category || 'Project'}</div>
+          <div className="title">{currentProjects[8]?.title || 'Project Title'}</div>
           <ArrowRight className="arrow" size={32} />
         </div>
         
         <div 
           className="tile tile-10"
-          onClick={() => handleProjectClick(currentProjects[9])}
+          onClick={() => currentProjects[9] && handleProjectClick(currentProjects[9])}
           style={getTileStyle(currentProjects[9])}
         >
           {renderTileBackground(currentProjects[9])}
-          <div className={`tag ${currentProjects[9].category.toLowerCase().replace(' & ', '-').replace(' ', '-')}`}>{currentProjects[9].category}</div>
-          <div className="title">{currentProjects[9].title}</div>
+          <div className={`tag ${(currentProjects[9]?.category || 'default').toLowerCase().replace(' & ', '-').replace(' ', '-')}`}>{currentProjects[9]?.category || 'Project'}</div>
+          <div className="title">{currentProjects[9]?.title || 'Project Title'}</div>
           <ArrowRight className="arrow" size={32} />
         </div>
         
