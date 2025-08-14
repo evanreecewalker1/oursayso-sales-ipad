@@ -60,63 +60,12 @@
             }
           ],
           "order": 0
-        },
-        {
-          "id": "1755169866855",
-          "type": "image",
-          "title": "PR_230622_OURSAYSO_0017",
-          "files": [
-            {
-              "name": "PR_230622_OURSAYSO_0017.jpeg",
-              "type": "image/jpeg",
-              "size": 2284096,
-              "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755169866/portfolio/images/dauqjwupzr2xerhnkfgo.jpg",
-              "cloudinaryId": "portfolio/images/dauqjwupzr2xerhnkfgo",
-              "uploadedAt": "2025-08-14T11:11:06.855Z",
-              "storageType": "cloudinary"
-            }
-          ],
-          "order": 1
-        },
-        {
-          "id": "1755169867848",
-          "type": "image",
-          "title": "PR_230622_OURSAYSO_0019",
-          "files": [
-            {
-              "name": "PR_230622_OURSAYSO_0019.jpeg",
-              "type": "image/jpeg",
-              "size": 1800968,
-              "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755169867/portfolio/images/ryqc38aulyplx8wmxaw1.jpg",
-              "cloudinaryId": "portfolio/images/ryqc38aulyplx8wmxaw1",
-              "uploadedAt": "2025-08-14T11:11:07.848Z",
-              "storageType": "cloudinary"
-            }
-          ],
-          "order": 2
-        },
-        {
-          "id": "1755169868769",
-          "type": "image",
-          "title": "PR_230622_OURSAYSO_0092",
-          "files": [
-            {
-              "name": "PR_230622_OURSAYSO_0092.jpeg",
-              "type": "image/jpeg",
-              "size": 1625572,
-              "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755169868/portfolio/images/pzq5gpzduxbzjydjrjfs.jpg",
-              "cloudinaryId": "portfolio/images/pzq5gpzduxbzjydjrjfs",
-              "uploadedAt": "2025-08-14T11:11:08.769Z",
-              "storageType": "cloudinary"
-            }
-          ],
-          "order": 3
         }
       ],
       "metadata": {
         "createdAt": "2024-01-15T10:00:00Z",
-        "updatedAt": "2025-08-14T11:11:12.678Z",
-        "version": 7,
+        "updatedAt": "2025-08-14T11:13:29.180Z",
+        "version": 8,
         "status": "draft",
         "lastPublished": "2025-08-14T10:59:58.504Z"
       },
@@ -577,6 +526,6 @@
       "date": "2024-01-30"
     }
   ],
-  "lastUpdated": "2025-08-14T11:13:22.563Z",
+  "lastUpdated": "2025-08-14T11:13:31.200Z",
   "version": "1.0"
 }
