@@ -15,11 +15,11 @@
       "slug": "lovell-leadership-conferences",
       "tileBackground": {
         "type": "image",
-        "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755166087/portfolio/tiles/portfolio/tiles/tile_1.png?v=1755192451061",
+        "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755166087/portfolio/tiles/portfolio/tiles/tile_1.png?v=1755193793448",
         "storageType": "cloudinary"
       },
       "pageBackground": {
-        "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755115318/portfolio/backgrounds/portfolio/backgrounds/bg_1.png?v=1755192451061",
+        "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755115318/portfolio/backgrounds/portfolio/backgrounds/bg_1.png?v=1755193793448",
         "dimensions": {
           "width": 1920,
           "height": 1080
@@ -63,44 +63,12 @@
             {
               "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755187082/gnzehhdm5hbis7ewhrml.jpg",
               "name": "PR_230622_OURSAYSO_0256.jpeg"
-            },
-            {
-              "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755187074/asest0y0chcykixlex4d.jpg",
-              "name": "PR_230622_OURSAYSO_0017.jpeg"
-            },
-            {
-              "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755187076/fm4odajpmbvkflzazvq7.jpg",
-              "name": "PR_230622_OURSAYSO_0019.jpeg"
-            },
-            {
-              "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755187078/hh08pbr3a7aqlpvvnf6j.jpg",
-              "name": "PR_230622_OURSAYSO_0092.jpeg"
-            },
-            {
-              "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755187079/ernwwdwij4zw4fi2umse.jpg",
-              "name": "PR_230622_OURSAYSO_0098.jpeg"
-            },
-            {
-              "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755187080/pbkzi2gbw5rcsbnj6wog.jpg",
-              "name": "PR_230622_OURSAYSO_0191.jpeg"
-            },
-            {
-              "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755187081/jxoph6i5or3hxvctgbik.jpg",
-              "name": "PR_230622_OURSAYSO_0212.jpeg"
-            },
-            {
-              "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755187081/hh3pji7sw7jqxwekwc24.jpg",
-              "name": "PR_230622_OURSAYSO_0240.jpeg"
-            },
-            {
-              "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755187082/gnzehhdm5hbis7ewhrml.jpg",
-              "name": "PR_230622_OURSAYSO_0256.jpeg"
             }
           ],
           "order": 0
         },
         {
-          "id": "1755192354180",
+          "id": "1755193800249",
           "type": "video",
           "title": "",
           "files": [],
@@ -109,7 +77,7 @@
       ],
       "hasVideo": true,
       "createdAt": "2024-01-15T10:00:00Z",
-      "updatedAt": "2025-08-14T17:27:48.725Z",
+      "updatedAt": "2025-08-14T17:50:30.320Z",
       "status": "published"
     },
     {
@@ -127,11 +95,11 @@
       "slug": "rarely-heard-voices-videos",
       "tileBackground": {
         "type": "image",
-        "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755170123/portfolio/tiles/portfolio/tiles/tile_2.png?v=1755192451061",
+        "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755170123/portfolio/tiles/portfolio/tiles/tile_2.png?v=1755193793448",
         "storageType": "cloudinary"
       },
       "pageBackground": {
-        "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755170120/portfolio/backgrounds/portfolio/backgrounds/bg_2.png?v=1755192451061",
+        "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755170120/portfolio/backgrounds/portfolio/backgrounds/bg_2.png?v=1755193793448",
         "dimensions": {
           "width": 1920,
           "height": 1080
@@ -445,7 +413,7 @@
       "Video",
       "Design & Digital"
     ],
-    "lastUpdated": "2025-08-14T17:27:51.776Z",
+    "lastUpdated": "2025-08-14T17:50:34.924Z",
     "version": "1.0.0",
     "page": 1
   }
