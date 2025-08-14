@@ -316,9 +316,9 @@
           "title": "",
           "files": [
             {
-              "publicId": "portfolio_1755192369953",
-              "url": "/videos/general-1755192365755-video-test.mp4",
-              "localPath": "/videos/general-1755192365755-video-test.mp4",
+              "publicId": "portfolio_1755192464971",
+              "url": "/videos/general-1755192460303-video-test.mp4",
+              "localPath": "/videos/general-1755192460303-video-test.mp4",
               "width": null,
               "height": null,
               "format": "mp4",
@@ -326,8 +326,8 @@
               "duration": null,
               "resourceType": "video",
               "storageType": "portfolio",
-              "uploadedAt": "2025-08-14T17:26:09.953Z",
-              "preview": "/videos/general-1755192365755-video-test.mp4",
+              "uploadedAt": "2025-08-14T17:27:44.971Z",
+              "preview": "/videos/general-1755192460303-video-test.mp4",
               "file": {},
               "needsServerUpload": false
             }
@@ -338,9 +338,9 @@
       ],
       "metadata": {
         "createdAt": "2024-01-15T10:00:00Z",
-        "updatedAt": "2025-08-14T17:26:17.085Z",
-        "version": 33,
-        "status": "published",
+        "updatedAt": "2025-08-14T17:27:48.725Z",
+        "version": 34,
+        "status": "draft",
         "lastPublished": "2025-08-14T17:26:32.140Z"
       },
       "tileBackgroundType": "image",
@@ -857,6 +857,6 @@
       "date": "2024-03-10"
     }
   ],
-  "lastUpdated": "2025-08-14T17:27:33.859Z",
+  "lastUpdated": "2025-08-14T17:27:50.740Z",
   "version": "1.0"
 }
