@@ -11,7 +11,7 @@
         "Graphic Design",
         "Presentations"
       ],
-      "hasVideo": true,
+      "hasVideo": false,
       "backgrounds": {
         "tile": {
           "type": "image",
@@ -309,38 +309,13 @@
             }
           ],
           "order": 0
-        },
-        {
-          "id": "1755189812831",
-          "type": "video",
-          "title": "",
-          "files": [
-            {
-              "publicId": "portfolio_1755189829546",
-              "url": "/videos/general-1755189825497-video-test.mp4",
-              "localPath": "/videos/general-1755189825497-video-test.mp4",
-              "width": null,
-              "height": null,
-              "format": "mp4",
-              "bytes": 15039666,
-              "duration": null,
-              "resourceType": "video",
-              "storageType": "portfolio",
-              "uploadedAt": "2025-08-14T16:43:49.546Z",
-              "preview": "/videos/general-1755189825497-video-test.mp4",
-              "file": {},
-              "needsServerUpload": false
-            }
-          ],
-          "images": [],
-          "order": 1
         }
       ],
       "metadata": {
         "createdAt": "2024-01-15T10:00:00Z",
-        "updatedAt": "2025-08-14T16:43:57.625Z",
-        "version": 30,
-        "status": "published",
+        "updatedAt": "2025-08-14T16:45:33.854Z",
+        "version": 31,
+        "status": "draft",
         "lastPublished": "2025-08-14T16:44:08.958Z"
       },
       "tileBackgroundType": "image",
@@ -857,6 +832,6 @@
       "date": "2024-03-10"
     }
   ],
-  "lastUpdated": "2025-08-14T16:45:30.147Z",
+  "lastUpdated": "2025-08-14T16:45:35.860Z",
   "version": "1.0"
 }
