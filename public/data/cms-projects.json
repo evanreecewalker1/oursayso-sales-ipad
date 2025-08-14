@@ -161,15 +161,15 @@
       },
       "metadata": {
         "createdAt": "2024-01-20T10:00:00Z",
-        "updatedAt": "2025-08-14T11:54:02.623Z",
-        "version": 2,
-        "status": "published",
+        "updatedAt": "2025-08-14T14:24:16.070Z",
+        "version": 3,
+        "status": "draft",
         "lastPublished": "2025-08-14T14:20:43.838Z"
       },
       "mediaItems": [
         {
           "id": "1755172408580",
-          "type": "pdf",
+          "type": "gallery",
           "title": "",
           "files": [
             {
@@ -195,42 +195,30 @@
       ],
       "tileBackgroundType": "image",
       "tileBackgroundFile": {
-        "file": {},
-        "preview": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755170123/portfolio/tiles/portfolio/tiles/tile_2.png",
         "name": "lovell-tile.png",
         "size": 228219,
         "type": "image/png",
-        "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755170123/portfolio/tiles/portfolio/tiles/tile_2.png",
-        "cloudinaryId": "portfolio/tiles/portfolio/tiles/tile_2",
-        "uploadedAt": "2025-08-14T11:54:01.265Z",
         "dimensions": {
           "width": 800,
           "height": 800
         },
-        "uploading": false,
-        "storageType": "cloudinary",
-        "localPath": null,
-        "needsServerUpload": false,
-        "cloudinary": true
+        "uploadedAt": "2025-08-14T11:54:01.265Z",
+        "cloudinary": true,
+        "cloudinaryId": "portfolio/tiles/portfolio/tiles/tile_2",
+        "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755170123/portfolio/tiles/portfolio/tiles/tile_2.png"
       },
       "pageBackgroundFile": {
-        "file": {},
-        "preview": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755170120/portfolio/backgrounds/portfolio/backgrounds/bg_2.png",
         "name": "lovell-background.png",
         "size": 1747615,
         "type": "image/png",
-        "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755170120/portfolio/backgrounds/portfolio/backgrounds/bg_2.png",
-        "cloudinaryId": "portfolio/backgrounds/portfolio/backgrounds/bg_2",
-        "uploadedAt": "2025-08-14T11:53:56.746Z",
         "dimensions": {
           "width": 1920,
           "height": 1080
         },
-        "uploading": false,
-        "storageType": "cloudinary",
-        "localPath": null,
-        "needsServerUpload": false,
-        "cloudinary": true
+        "uploadedAt": "2025-08-14T11:53:56.746Z",
+        "cloudinary": true,
+        "cloudinaryId": "portfolio/backgrounds/portfolio/backgrounds/bg_2",
+        "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755170120/portfolio/backgrounds/portfolio/backgrounds/bg_2.png"
       }
     },
     {
@@ -614,6 +602,6 @@
       "date": "2024-03-10"
     }
   ],
-  "lastUpdated": "2025-08-14T14:24:00.434Z",
+  "lastUpdated": "2025-08-14T14:24:18.083Z",
   "version": "1.0"
 }
