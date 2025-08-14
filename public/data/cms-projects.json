@@ -1,0 +1,485 @@
+{
+  "projects": [
+    {
+      "id": "1",
+      "title": "Lovell Leadership Conferences",
+      "category": "Events",
+      "description": "Leadership development conferences designed to inspire and educate senior executives. Transformed traditional conference format with interactive workshops and AI-powered networking.",
+      "tags": [
+        "leadership",
+        "conferences",
+        "events",
+        "executive-training"
+      ],
+      "hasVideo": true,
+      "backgrounds": {
+        "tile": {
+          "type": "video",
+          "file": {
+            "name": "project1.mp4",
+            "type": "video/mp4",
+            "url": "/videos/project1.mp4",
+            "uploadedAt": "2024-01-15T10:00:00Z"
+          }
+        },
+        "page": {
+          "name": "project1-bg.jpg",
+          "type": "image/jpeg",
+          "url": "/images/backgrounds/project1-bg.jpg",
+          "dimensions": {
+            "width": 1920,
+            "height": 1080
+          },
+          "uploadedAt": "2024-01-15T10:00:00Z"
+        }
+      },
+      "mediaItems": [
+        {
+          "id": "1-1",
+          "type": "video",
+          "title": "Event Highlights",
+          "files": [
+            {
+              "url": "/videos/project1.mp4",
+              "name": "project1.mp4",
+              "type": "video/mp4"
+            }
+          ]
+        },
+        {
+          "id": "1-2",
+          "type": "case-study",
+          "title": "Impact Report",
+          "files": []
+        }
+      ],
+      "metadata": {
+        "createdAt": "2024-01-15T10:00:00Z",
+        "updatedAt": "2024-01-15T10:00:00Z",
+        "version": 1,
+        "status": "draft"
+      }
+    },
+    {
+      "id": "2",
+      "title": "Rarely Heard Voices Videos",
+      "category": "Video",
+      "description": "Powerful documentary series amplifying underrepresented voices in corporate leadership. Award-winning video production with compelling storytelling.",
+      "tags": [
+        "documentary",
+        "video-production",
+        "diversity",
+        "leadership"
+      ],
+      "hasVideo": true,
+      "backgrounds": {
+        "tile": {
+          "type": "image",
+          "file": {
+            "name": "project2.png",
+            "type": "image/png",
+            "url": "/images/project2.png",
+            "uploadedAt": "2024-01-20T10:00:00Z"
+          }
+        },
+        "page": {
+          "name": "project2-bg.jpg",
+          "type": "image/jpeg",
+          "url": "/images/backgrounds/project2-bg.jpg",
+          "dimensions": {
+            "width": 1920,
+            "height": 1080
+          },
+          "uploadedAt": "2024-01-20T10:00:00Z"
+        }
+      },
+      "metadata": {
+        "createdAt": "2024-01-20T10:00:00Z",
+        "updatedAt": "2024-01-20T10:00:00Z",
+        "version": 1,
+        "status": "draft"
+      }
+    },
+    {
+      "id": "3",
+      "title": "DRYZZE® & Cook Pronto® Branding",
+      "category": "Design & Digital",
+      "description": "Complete brand identity and digital strategy for innovative kitchen technology brands. Modern design system with cohesive brand experience.",
+      "tags": [
+        "branding",
+        "logo-design",
+        "brand-identity",
+        "kitchen-tech"
+      ],
+      "hasVideo": false,
+      "backgrounds": {
+        "tile": {
+          "type": "image",
+          "file": {
+            "name": "project3.png",
+            "type": "image/png",
+            "url": "/images/project3.png",
+            "uploadedAt": "2024-02-01T10:00:00Z"
+          }
+        },
+        "page": {
+          "name": "project3-bg.jpg",
+          "type": "image/jpeg",
+          "url": "/images/backgrounds/project3-bg.jpg",
+          "dimensions": {
+            "width": 1920,
+            "height": 1080
+          },
+          "uploadedAt": "2024-02-01T10:00:00Z"
+        }
+      },
+      "metadata": {
+        "createdAt": "2024-02-01T10:00:00Z",
+        "updatedAt": "2024-02-01T10:00:00Z",
+        "version": 1,
+        "status": "draft"
+      }
+    },
+    {
+      "id": "4",
+      "title": "Warner Bros & Discovery Training",
+      "category": "Design & Digital",
+      "description": "Interactive training materials and digital resources for Warner Bros Discovery. Engaging multimedia content for global team development.",
+      "tags": [
+        "training-materials",
+        "interactive-design",
+        "multimedia",
+        "corporate-training"
+      ],
+      "hasVideo": false,
+      "backgrounds": {
+        "tile": {
+          "type": "image",
+          "file": {
+            "name": "project4.png",
+            "type": "image/png",
+            "url": "/images/project4.png",
+            "uploadedAt": "2024-02-10T10:00:00Z"
+          }
+        },
+        "page": {
+          "name": "project4-bg.jpg",
+          "type": "image/jpeg",
+          "url": "/images/backgrounds/project4-bg.jpg",
+          "dimensions": {
+            "width": 1920,
+            "height": 1080
+          },
+          "uploadedAt": "2024-02-10T10:00:00Z"
+        }
+      },
+      "metadata": {
+        "createdAt": "2024-02-10T10:00:00Z",
+        "updatedAt": "2024-02-10T10:00:00Z",
+        "version": 1,
+        "status": "draft"
+      }
+    },
+    {
+      "id": "5",
+      "title": "River Island 'Wrapped' Video",
+      "category": "Video",
+      "description": "Dynamic promotional video campaign for River Island's seasonal collection. High-energy visual storytelling with modern aesthetic.",
+      "tags": [
+        "promotional-video",
+        "fashion",
+        "retail",
+        "commercial"
+      ],
+      "hasVideo": true,
+      "backgrounds": {
+        "tile": {
+          "type": "video",
+          "file": {
+            "name": "riverisland-video.mp4",
+            "type": "video/mp4",
+            "url": "/public/projects/project-05-riverisland/media/video-01.mp4",
+            "uploadedAt": "2024-02-15T10:00:00Z"
+          }
+        },
+        "page": {
+          "name": "riverisland-bg.png",
+          "type": "image/png",
+          "url": "/public/projects/project-05-riverisland/background.png",
+          "dimensions": {
+            "width": 1920,
+            "height": 1080
+          },
+          "uploadedAt": "2024-02-15T10:00:00Z"
+        }
+      },
+      "mediaItems": [
+        {
+          "id": "5-1",
+          "type": "video",
+          "title": "Promotional Video",
+          "files": [
+            {
+              "url": "/public/projects/project-05-riverisland/media/video-01.mp4",
+              "name": "video-01.mp4",
+              "type": "video/mp4"
+            }
+          ]
+        }
+      ],
+      "metadata": {
+        "createdAt": "2024-02-15T10:00:00Z",
+        "updatedAt": "2024-02-15T10:00:00Z",
+        "version": 1,
+        "status": "draft"
+      }
+    },
+    {
+      "id": "6",
+      "title": "Accor Owner Services Catalogue",
+      "category": "Design & Digital",
+      "description": "Comprehensive digital catalogue for Accor hotel owner services. Clean, professional design with intuitive navigation and service showcases.",
+      "tags": [
+        "catalogue-design",
+        "digital-publishing",
+        "hospitality",
+        "service-design"
+      ],
+      "hasVideo": false,
+      "backgrounds": {
+        "tile": {
+          "type": "image",
+          "file": {
+            "name": "project6.png",
+            "type": "image/png",
+            "url": "/images/project6.png",
+            "uploadedAt": "2024-02-20T10:00:00Z"
+          }
+        },
+        "page": {
+          "name": "project6-bg.jpg",
+          "type": "image/jpeg",
+          "url": "/images/backgrounds/project6-bg.jpg",
+          "dimensions": {
+            "width": 1920,
+            "height": 1080
+          },
+          "uploadedAt": "2024-02-20T10:00:00Z"
+        }
+      },
+      "metadata": {
+        "createdAt": "2024-02-20T10:00:00Z",
+        "updatedAt": "2024-02-20T10:00:00Z",
+        "version": 1,
+        "status": "draft"
+      }
+    },
+    {
+      "id": "7",
+      "title": "Noah's Promotional Film",
+      "category": "Video",
+      "description": "Emotional promotional film showcasing Noah's mission and impact. Compelling narrative with professional cinematography and sound design.",
+      "tags": [
+        "promotional-film",
+        "non-profit",
+        "storytelling",
+        "emotional"
+      ],
+      "hasVideo": true,
+      "backgrounds": {
+        "tile": {
+          "type": "image",
+          "file": {
+            "name": "project7.png",
+            "type": "image/png",
+            "url": "/images/project7.png",
+            "uploadedAt": "2024-03-01T10:00:00Z"
+          }
+        },
+        "page": {
+          "name": "project7-bg.jpg",
+          "type": "image/jpeg",
+          "url": "/images/backgrounds/project7-bg.jpg",
+          "dimensions": {
+            "width": 1920,
+            "height": 1080
+          },
+          "uploadedAt": "2024-03-01T10:00:00Z"
+        }
+      },
+      "metadata": {
+        "createdAt": "2024-03-01T10:00:00Z",
+        "updatedAt": "2024-03-01T10:00:00Z",
+        "version": 1,
+        "status": "draft"
+      }
+    },
+    {
+      "id": "8",
+      "title": "Wealmoor Website Design",
+      "category": "Design & Digital",
+      "description": "Modern, responsive website design for Wealmoor investment platform. Clean interface with sophisticated user experience and financial data visualization.",
+      "tags": [
+        "website-design",
+        "fintech",
+        "responsive-design",
+        "user-experience"
+      ],
+      "hasVideo": false,
+      "backgrounds": {
+        "tile": {
+          "type": "image",
+          "file": {
+            "name": "project8.png",
+            "type": "image/png",
+            "url": "/images/project8.png",
+            "uploadedAt": "2024-03-10T10:00:00Z"
+          }
+        },
+        "page": {
+          "name": "project8-bg.jpg",
+          "type": "image/jpeg",
+          "url": "/images/backgrounds/project8-bg.jpg",
+          "dimensions": {
+            "width": 1920,
+            "height": 1080
+          },
+          "uploadedAt": "2024-03-10T10:00:00Z"
+        }
+      },
+      "metadata": {
+        "createdAt": "2024-03-10T10:00:00Z",
+        "updatedAt": "2024-03-10T10:00:00Z",
+        "version": 1,
+        "status": "draft"
+      }
+    },
+    {
+      "id": "9",
+      "title": "Insight Research Website",
+      "category": "Design & Digital",
+      "description": "Professional website for research consultancy firm. Data-driven design with research showcase and client portal functionality.",
+      "tags": [
+        "website-design",
+        "research",
+        "data-visualization",
+        "consulting"
+      ],
+      "hasVideo": false,
+      "backgrounds": {
+        "tile": {
+          "type": "image",
+          "file": {
+            "name": "project9.png",
+            "type": "image/png",
+            "url": "/images/project9.png",
+            "uploadedAt": "2024-03-15T10:00:00Z"
+          }
+        },
+        "page": {
+          "name": "project9-bg.jpg",
+          "type": "image/jpeg",
+          "url": "/images/backgrounds/project9-bg.jpg",
+          "dimensions": {
+            "width": 1920,
+            "height": 1080
+          },
+          "uploadedAt": "2024-03-15T10:00:00Z"
+        }
+      },
+      "metadata": {
+        "createdAt": "2024-03-15T10:00:00Z",
+        "updatedAt": "2024-03-15T10:00:00Z",
+        "version": 1,
+        "status": "draft"
+      }
+    },
+    {
+      "id": "10",
+      "title": "ARDA Impact Video Shoot & Website",
+      "category": "Design & Digital",
+      "description": "Comprehensive digital campaign for ARDA including impact video production and responsive website. Showcases organization impact with compelling visuals.",
+      "tags": [
+        "video-production",
+        "website-design",
+        "non-profit",
+        "impact-storytelling"
+      ],
+      "hasVideo": true,
+      "backgrounds": {
+        "tile": {
+          "type": "image",
+          "file": {
+            "name": "project10.png",
+            "type": "image/png",
+            "url": "/images/project10.png",
+            "uploadedAt": "2024-03-20T10:00:00Z"
+          }
+        },
+        "page": {
+          "name": "project10-bg.jpg",
+          "type": "image/jpeg",
+          "url": "/images/backgrounds/project10-bg.jpg",
+          "dimensions": {
+            "width": 1920,
+            "height": 1080
+          },
+          "uploadedAt": "2024-03-20T10:00:00Z"
+        }
+      },
+      "mediaItems": [
+        {
+          "id": "10-1",
+          "type": "video",
+          "title": "Impact Video",
+          "files": []
+        },
+        {
+          "id": "10-2",
+          "type": "gallery",
+          "title": "Website Screenshots",
+          "files": []
+        }
+      ],
+      "metadata": {
+        "createdAt": "2024-03-20T10:00:00Z",
+        "updatedAt": "2024-03-20T10:00:00Z",
+        "version": 1,
+        "status": "draft"
+      }
+    }
+  ],
+  "page2Projects": [],
+  "testimonials": [
+    {
+      "id": "1",
+      "text": "Their work is memorable, relevant, entertaining, thought provoking, and above all highly effective.",
+      "author": "Faye Frater, InterContinental Hotels Group",
+      "project": "Hotel Training Materials",
+      "date": "2024-01-15"
+    },
+    {
+      "id": "2",
+      "text": "Oursayso are great to work with both from the quality of their work and the enthusiasm and commitment that they put into it.",
+      "author": "Alan Long, Executive Director, Mears Group",
+      "project": "Corporate Communications",
+      "date": "2024-02-20"
+    },
+    {
+      "id": "3",
+      "text": "Oursayso work hard with the leadership of the business to deliver appropriate, simple and direct messages that will see an immediate response.",
+      "author": "Paul Mildenstein, CEO, Atkore",
+      "project": "Leadership Training Program",
+      "date": "2024-03-10"
+    },
+    {
+      "id": "4",
+      "text": "The conference transformation exceeded all expectations. Our executives are already asking about next year.",
+      "author": "Sarah Mitchell, Chief Learning Officer, Lovell Corporation",
+      "project": "Lovell Leadership Conferences",
+      "date": "2024-01-30"
+    }
+  ],
+  "lastUpdated": "2025-08-14T10:42:57.616Z",
+  "version": "1.0"
+}
