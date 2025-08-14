@@ -45,142 +45,6 @@
       },
       "mediaItems": [
         {
-          "id": "1755168951704",
-          "type": "image",
-          "title": "PR_230622_OURSAYSO_0017",
-          "files": [
-            {
-              "name": "PR_230622_OURSAYSO_0017.jpeg",
-              "type": "image/jpeg",
-              "size": 2284096,
-              "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755168951/portfolio/images/ysv6zwxp3krphyzbr4kc.jpg",
-              "cloudinaryId": "portfolio/images/ysv6zwxp3krphyzbr4kc",
-              "uploadedAt": "2025-08-14T10:55:51.703Z",
-              "storageType": "cloudinary"
-            }
-          ],
-          "order": 0
-        },
-        {
-          "id": "1755168952726",
-          "type": "image",
-          "title": "PR_230622_OURSAYSO_0019",
-          "files": [
-            {
-              "name": "PR_230622_OURSAYSO_0019.jpeg",
-              "type": "image/jpeg",
-              "size": 1800968,
-              "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755168952/portfolio/images/co13pjwyckaggij1afqs.jpg",
-              "cloudinaryId": "portfolio/images/co13pjwyckaggij1afqs",
-              "uploadedAt": "2025-08-14T10:55:52.726Z",
-              "storageType": "cloudinary"
-            }
-          ],
-          "order": 1
-        },
-        {
-          "id": "1755168953543",
-          "type": "image",
-          "title": "PR_230622_OURSAYSO_0092",
-          "files": [
-            {
-              "name": "PR_230622_OURSAYSO_0092.jpeg",
-              "type": "image/jpeg",
-              "size": 1625572,
-              "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755168953/portfolio/images/ix0ggfaecp6xzo4gjnpr.jpg",
-              "cloudinaryId": "portfolio/images/ix0ggfaecp6xzo4gjnpr",
-              "uploadedAt": "2025-08-14T10:55:53.543Z",
-              "storageType": "cloudinary"
-            }
-          ],
-          "order": 2
-        },
-        {
-          "id": "1755168954466",
-          "type": "image",
-          "title": "PR_230622_OURSAYSO_0098",
-          "files": [
-            {
-              "name": "PR_230622_OURSAYSO_0098.jpeg",
-              "type": "image/jpeg",
-              "size": 1404376,
-              "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755168954/portfolio/images/wu19gcqpnjlfdszo9meu.jpg",
-              "cloudinaryId": "portfolio/images/wu19gcqpnjlfdszo9meu",
-              "uploadedAt": "2025-08-14T10:55:54.466Z",
-              "storageType": "cloudinary"
-            }
-          ],
-          "order": 3
-        },
-        {
-          "id": "1755168955046",
-          "type": "image",
-          "title": "PR_230622_OURSAYSO_0191",
-          "files": [
-            {
-              "name": "PR_230622_OURSAYSO_0191.jpeg",
-              "type": "image/jpeg",
-              "size": 812689,
-              "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755168954/portfolio/images/xgbvmzb3eidlu4unfqnd.jpg",
-              "cloudinaryId": "portfolio/images/xgbvmzb3eidlu4unfqnd",
-              "uploadedAt": "2025-08-14T10:55:55.046Z",
-              "storageType": "cloudinary"
-            }
-          ],
-          "order": 4
-        },
-        {
-          "id": "1755169021637",
-          "type": "image",
-          "title": "PR_230622_OURSAYSO_0212",
-          "files": [
-            {
-              "name": "PR_230622_OURSAYSO_0212.jpeg",
-              "type": "image/jpeg",
-              "size": 1097843,
-              "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755169021/portfolio/images/hvxrtmvadbkltmo0qid8.jpg",
-              "cloudinaryId": "portfolio/images/hvxrtmvadbkltmo0qid8",
-              "uploadedAt": "2025-08-14T10:57:01.637Z",
-              "storageType": "cloudinary"
-            }
-          ],
-          "order": 5
-        },
-        {
-          "id": "1755169022346",
-          "type": "image",
-          "title": "PR_230622_OURSAYSO_0240",
-          "files": [
-            {
-              "name": "PR_230622_OURSAYSO_0240.jpeg",
-              "type": "image/jpeg",
-              "size": 1112663,
-              "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755169022/portfolio/images/ojazxoz1nallipfnhjwc.jpg",
-              "cloudinaryId": "portfolio/images/ojazxoz1nallipfnhjwc",
-              "uploadedAt": "2025-08-14T10:57:02.346Z",
-              "storageType": "cloudinary"
-            }
-          ],
-          "order": 6
-        },
-        {
-          "id": "1755169023215",
-          "type": "image",
-          "title": "PR_230622_OURSAYSO_0256",
-          "files": [
-            {
-              "name": "PR_230622_OURSAYSO_0256.jpeg",
-              "type": "image/jpeg",
-              "size": 1174449,
-              "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755169022/portfolio/images/mt6vb5vn3pzb2tmrhv0z.jpg",
-              "cloudinaryId": "portfolio/images/mt6vb5vn3pzb2tmrhv0z",
-              "uploadedAt": "2025-08-14T10:57:03.215Z",
-              "storageType": "cloudinary"
-            }
-          ],
-          "order": 7
-        },
-        {
           "id": "1755169039361",
           "type": "video",
           "title": "video_test",
@@ -195,14 +59,14 @@
               "storageType": "cloudinary"
             }
           ],
-          "order": 8
+          "order": 0
         }
       ],
       "metadata": {
         "createdAt": "2024-01-15T10:00:00Z",
-        "updatedAt": "2025-08-14T10:57:28.153Z",
-        "version": 5,
-        "status": "published",
+        "updatedAt": "2025-08-14T11:10:38.166Z",
+        "version": 6,
+        "status": "draft",
         "lastPublished": "2025-08-14T10:59:58.504Z"
       },
       "tileBackgroundType": "image",
@@ -662,6 +526,6 @@
       "date": "2024-01-30"
     }
   ],
-  "lastUpdated": "2025-08-14T11:10:23.628Z",
+  "lastUpdated": "2025-08-14T11:10:40.182Z",
   "version": "1.0"
 }
