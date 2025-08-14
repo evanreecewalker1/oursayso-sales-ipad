@@ -182,17 +182,26 @@ const getMediaUrl = (url) => {
   
   console.log('🔍 Processing URL:', url);
   
+  // CRITICAL: Never modify Cloudinary URLs - use them directly
+  if (url.startsWith('https://res.cloudinary.com/')) {
+    console.log('✅ Cloudinary URL - using directly:', url);
+    return url;
+  }
+  
   // If it's already a full URL, return as is
   if (url.startsWith('http')) {
     console.log('✅ Already full URL:', url);
     return url;
   }
   
-  // For local project media paths, try deployed site first, then fallback
+  // For local project media paths, these don't exist - create meaningful placeholder
   if (url.startsWith('/projects/')) {
-    console.log('❌ Local project path detected:', url, '- trying deployed site URL');
-    // Try to load from deployed site's public directory
-    return `https://oursayso-sales-ipad.netlify.app${url}`;
+    console.log('❌ Local project path detected:', url, '- these files need to be uploaded to Cloudinary');
+    // Create a placeholder that shows what file is missing
+    const filename = url.split('/').pop();
+    const placeholderUrl = `https://via.placeholder.com/800x600/333/fff?text=Missing: ${encodeURIComponent(filename)}`;
+    console.log('📋 Using placeholder:', placeholderUrl);
+    return placeholderUrl;
   }
   
   // For other local paths, convert to GitHub raw URL
