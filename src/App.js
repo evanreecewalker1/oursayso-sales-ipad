@@ -186,8 +186,9 @@ const convertCMSProjectToPortfolioFormat = (cmsProject) => {
     backgroundVideo: cmsProject.tileBackground?.type === 'video' ? cmsProject.tileBackground.url : null,
     backgroundImage: cmsProject.tileBackground?.type === 'image' ? cmsProject.tileBackground.url : null,
     // Project page backgrounds (separate from tile backgrounds)
-    projectBackgroundVideo: cmsProject.pageBackground?.type === 'video' ? cmsProject.pageBackground.url : null,
-    projectBackgroundImage: cmsProject.pageBackground?.type === 'image' ? cmsProject.pageBackground.url : null,
+    // pageBackground doesn't have a type field in CMS, determine by URL extension or default to image
+    projectBackgroundVideo: cmsProject.pageBackground?.url?.includes('.mp4') ? cmsProject.pageBackground.url : null,
+    projectBackgroundImage: cmsProject.pageBackground?.url && !cmsProject.pageBackground.url.includes('.mp4') ? cmsProject.pageBackground.url : null,
     description: cmsProject.description,
     media: cmsProject.mediaItems?.map(item => ({
       type: item.type,
@@ -200,7 +201,7 @@ const convertCMSProjectToPortfolioFormat = (cmsProject) => {
 };
 
 // Function to load projects from CMS JSON files
-const loadProjectsFromCMS = async () => {
+const loadProjectsFromCMS = async (setProjectsCallback) => {
   try {
     console.log('🔍 Loading projects from CMS JSON files...');
     
@@ -216,13 +217,18 @@ const loadProjectsFromCMS = async () => {
       console.log('✅ Converted projects:', convertedProjects);
       console.log('🎯 First converted project title:', convertedProjects[0]?.title);
       
-      // Update the global projects array
+      // Update the global projects array (for backwards compatibility)
       projects.length = 0; // Clear existing
       projects.push(...convertedProjects);
       
+      // Update React state if callback provided
+      if (setProjectsCallback) {
+        setProjectsCallback(convertedProjects);
+      }
+      
       console.log('🚀 Projects updated from CMS!');
-      console.log('🔍 Final projects array first title:', projects[0]?.title);
-      return true;
+      console.log('🔍 Final projects array first title:', convertedProjects[0]?.title);
+      return convertedProjects;
     }
   } catch (error) {
     console.error('❌ Failed to load projects from CMS:', error);
@@ -241,6 +247,10 @@ const App = () => {
   const [galleryImages, setGalleryImages] = useState([]);
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
   const [projectsLoaded, setProjectsLoaded] = useState(false);
+  const [cmsProjects, setCmsProjects] = useState([]);
+
+  // Get current projects - use CMS data if loaded, otherwise fall back to hardcoded
+  const currentProjects = cmsProjects.length > 0 ? cmsProjects : projects;
 
   // Load projects from CMS on app start
   useEffect(() => {
@@ -248,9 +258,9 @@ const App = () => {
     
     const loadProjects = async () => {
       console.log('📍 loadProjects function called');
-      const loaded = await loadProjectsFromCMS();
-      console.log('📍 loadProjectsFromCMS returned:', loaded);
-      setProjectsLoaded(loaded);
+      const loadedProjects = await loadProjectsFromCMS(setCmsProjects);
+      console.log('📍 loadProjectsFromCMS returned:', loadedProjects);
+      setProjectsLoaded(!!loadedProjects);
     };
     
     loadProjects();
@@ -749,90 +759,90 @@ const App = () => {
         {/* Row 1 - 4 tiles */}
         <div 
           className="tile tile-1"
-          onClick={() => handleProjectClick(projects[0])}
-          style={getTileStyle(projects[0])}
+          onClick={() => handleProjectClick(currentProjects[0])}
+          style={getTileStyle(currentProjects[0])}
         >
-          {renderTileBackground(projects[0])}
-          <div className={`tag ${projects[0].tags[0].toLowerCase().replace(' & ', '-').replace(' ', '-')}`}>{projects[0].tags[0]}</div>
-          <div className="title">{projects[0].title}</div>
+          {renderTileBackground(currentProjects[0])}
+          <div className={`tag ${currentProjects[0].tags[0].toLowerCase().replace(' & ', '-').replace(' ', '-')}`}>{currentProjects[0].tags[0]}</div>
+          <div className="title">{currentProjects[0].title}</div>
           <ArrowRight className="arrow" size={32} />
         </div>
         
         <div 
           className="tile tile-2"
-          onClick={() => handleProjectClick(projects[1])}
-          style={getTileStyle(projects[1])}
+          onClick={() => handleProjectClick(currentProjects[1])}
+          style={getTileStyle(currentProjects[1])}
         >
-          {renderTileBackground(projects[1])}
-          <div className={`tag ${projects[1].tags[0].toLowerCase().replace(' & ', '-').replace(' ', '-')}`}>{projects[1].tags[0]}</div>
-          <div className="title">{projects[1].title}</div>
+          {renderTileBackground(currentProjects[1])}
+          <div className={`tag ${currentProjects[1].tags[0].toLowerCase().replace(' & ', '-').replace(' ', '-')}`}>{currentProjects[1].tags[0]}</div>
+          <div className="title">{currentProjects[1].title}</div>
           <ArrowRight className="arrow" size={32} />
         </div>
         
         <div 
           className="tile tile-3"
-          onClick={() => handleProjectClick(projects[2])}
-          style={getTileStyle(projects[2])}
+          onClick={() => handleProjectClick(currentProjects[2])}
+          style={getTileStyle(currentProjects[2])}
         >
-          {renderTileBackground(projects[2])}
-          <div className={`tag ${projects[2].tags[0].toLowerCase().replace(' & ', '-').replace(' ', '-')}`}>{projects[2].tags[0]}</div>
-          <div className="title">{projects[2].title}</div>
+          {renderTileBackground(currentProjects[2])}
+          <div className={`tag ${currentProjects[2].tags[0].toLowerCase().replace(' & ', '-').replace(' ', '-')}`}>{currentProjects[2].tags[0]}</div>
+          <div className="title">{currentProjects[2].title}</div>
           <ArrowRight className="arrow" size={32} />
         </div>
         
         <div 
           className="tile tile-4"
-          onClick={() => handleProjectClick(projects[3])}
-          style={getTileStyle(projects[3])}
+          onClick={() => handleProjectClick(currentProjects[3])}
+          style={getTileStyle(currentProjects[3])}
         >
-          {renderTileBackground(projects[3])}
-          <div className={`tag ${projects[3].tags[0].toLowerCase().replace(' & ', '-').replace(' ', '-')}`}>{projects[3].tags[0]}</div>
-          <div className="title">{projects[3].title}</div>
+          {renderTileBackground(currentProjects[3])}
+          <div className={`tag ${currentProjects[3].tags[0].toLowerCase().replace(' & ', '-').replace(' ', '-')}`}>{currentProjects[3].tags[0]}</div>
+          <div className="title">{currentProjects[3].title}</div>
           <ArrowRight className="arrow" size={32} />
         </div>
         
         {/* Row 2 - 4 tiles */}
         <div 
           className="tile tile-5"
-          onClick={() => handleProjectClick(projects[4])}
-          style={getTileStyle(projects[4])}
+          onClick={() => handleProjectClick(currentProjects[4])}
+          style={getTileStyle(currentProjects[4])}
         >
-          {renderTileBackground(projects[4])}
-          <div className={`tag ${projects[4].tags[0].toLowerCase().replace(' & ', '-').replace(' ', '-')}`}>{projects[4].tags[0]}</div>
-          <div className="title">{projects[4].title}</div>
+          {renderTileBackground(currentProjects[4])}
+          <div className={`tag ${currentProjects[4].tags[0].toLowerCase().replace(' & ', '-').replace(' ', '-')}`}>{currentProjects[4].tags[0]}</div>
+          <div className="title">{currentProjects[4].title}</div>
           <ArrowRight className="arrow" size={32} />
         </div>
         
         <div 
           className="tile tile-6"
-          onClick={() => handleProjectClick(projects[5])}
-          style={getTileStyle(projects[5])}
+          onClick={() => handleProjectClick(currentProjects[5])}
+          style={getTileStyle(currentProjects[5])}
         >
-          {renderTileBackground(projects[5])}
-          <div className={`tag ${projects[5].tags[0].toLowerCase().replace(' & ', '-').replace(' ', '-')}`}>{projects[5].tags[0]}</div>
-          <div className="title">{projects[5].title}</div>
+          {renderTileBackground(currentProjects[5])}
+          <div className={`tag ${currentProjects[5].tags[0].toLowerCase().replace(' & ', '-').replace(' ', '-')}`}>{currentProjects[5].tags[0]}</div>
+          <div className="title">{currentProjects[5].title}</div>
           <ArrowRight className="arrow" size={32} />
         </div>
         
         <div 
           className="tile tile-7"
-          onClick={() => handleProjectClick(projects[6])}
-          style={getTileStyle(projects[6])}
+          onClick={() => handleProjectClick(currentProjects[6])}
+          style={getTileStyle(currentProjects[6])}
         >
-          {renderTileBackground(projects[6])}
-          <div className={`tag ${projects[6].tags[0].toLowerCase().replace(' & ', '-').replace(' ', '-')}`}>{projects[6].tags[0]}</div>
-          <div className="title">{projects[6].title}</div>
+          {renderTileBackground(currentProjects[6])}
+          <div className={`tag ${currentProjects[6].tags[0].toLowerCase().replace(' & ', '-').replace(' ', '-')}`}>{currentProjects[6].tags[0]}</div>
+          <div className="title">{currentProjects[6].title}</div>
           <ArrowRight className="arrow" size={32} />
         </div>
         
         <div 
           className="tile tile-8"
-          onClick={() => handleProjectClick(projects[7])}
-          style={getTileStyle(projects[7])}
+          onClick={() => handleProjectClick(currentProjects[7])}
+          style={getTileStyle(currentProjects[7])}
         >
-          {renderTileBackground(projects[7])}
-          <div className={`tag ${projects[7].tags[0].toLowerCase().replace(' & ', '-').replace(' ', '-')}`}>{projects[7].tags[0]}</div>
-          <div className="title">{projects[7].title}</div>
+          {renderTileBackground(currentProjects[7])}
+          <div className={`tag ${currentProjects[7].tags[0].toLowerCase().replace(' & ', '-').replace(' ', '-')}`}>{currentProjects[7].tags[0]}</div>
+          <div className="title">{currentProjects[7].title}</div>
           <ArrowRight className="arrow" size={32} />
         </div>
         
@@ -848,23 +858,23 @@ const App = () => {
         
         <div 
           className="tile tile-9"
-          onClick={() => handleProjectClick(projects[8])}
-          style={getTileStyle(projects[8])}
+          onClick={() => handleProjectClick(currentProjects[8])}
+          style={getTileStyle(currentProjects[8])}
         >
-          {renderTileBackground(projects[8])}
-          <div className={`tag ${projects[8].tags[0].toLowerCase().replace(' & ', '-').replace(' ', '-')}`}>{projects[8].tags[0]}</div>
-          <div className="title">{projects[8].title}</div>
+          {renderTileBackground(currentProjects[8])}
+          <div className={`tag ${currentProjects[8].tags[0].toLowerCase().replace(' & ', '-').replace(' ', '-')}`}>{currentProjects[8].tags[0]}</div>
+          <div className="title">{currentProjects[8].title}</div>
           <ArrowRight className="arrow" size={32} />
         </div>
         
         <div 
           className="tile tile-10"
-          onClick={() => handleProjectClick(projects[9])}
-          style={getTileStyle(projects[9])}
+          onClick={() => handleProjectClick(currentProjects[9])}
+          style={getTileStyle(currentProjects[9])}
         >
-          {renderTileBackground(projects[9])}
-          <div className={`tag ${projects[9].tags[0].toLowerCase().replace(' & ', '-').replace(' ', '-')}`}>{projects[9].tags[0]}</div>
-          <div className="title">{projects[9].title}</div>
+          {renderTileBackground(currentProjects[9])}
+          <div className={`tag ${currentProjects[9].tags[0].toLowerCase().replace(' & ', '-').replace(' ', '-')}`}>{currentProjects[9].tags[0]}</div>
+          <div className="title">{currentProjects[9].title}</div>
           <ArrowRight className="arrow" size={32} />
         </div>
         
