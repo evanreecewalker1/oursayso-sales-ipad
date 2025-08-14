@@ -15,11 +15,11 @@
       "slug": "lovell-leadership-conferenceo",
       "tileBackground": {
         "type": "image",
-        "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755166087/portfolio/tiles/portfolio/tiles/tile_1.png?v=1755170142978",
+        "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755166087/portfolio/tiles/portfolio/tiles/tile_1.png?v=1755172842380",
         "storageType": "cloudinary"
       },
       "pageBackground": {
-        "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755115318/portfolio/backgrounds/portfolio/backgrounds/bg_1.png?v=1755170142978",
+        "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755115318/portfolio/backgrounds/portfolio/backgrounds/bg_1.png?v=1755172842380",
         "dimensions": {
           "width": 1920,
           "height": 1080
@@ -39,11 +39,34 @@
             }
           ],
           "order": 0
+        },
+        {
+          "id": "1755171018662",
+          "type": "gallery",
+          "title": "🖼️ Project Gallery (2 images)",
+          "files": [
+            {
+              "url": "/projects/1/media/PR_230622_OURSAYSO_0017.jpeg",
+              "name": "PR_230622_OURSAYSO_0017.jpeg"
+            },
+            {
+              "url": "/projects/1/media/PR_230622_OURSAYSO_0019.jpeg",
+              "name": "PR_230622_OURSAYSO_0019.jpeg"
+            }
+          ],
+          "order": 1
+        },
+        {
+          "id": "1755172752425",
+          "type": "pdf",
+          "title": "",
+          "files": [],
+          "order": 2
         }
       ],
       "hasVideo": true,
       "createdAt": "2024-01-15T10:00:00Z",
-      "updatedAt": "2025-08-14T11:13:29.180Z",
+      "updatedAt": "2025-08-14T11:59:29.661Z",
       "status": "published"
     },
     {
@@ -61,26 +84,34 @@
       "slug": "rarely-heard-voices-videos",
       "tileBackground": {
         "type": "image",
-        "url": "/images/project2.png",
+        "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755170123/portfolio/tiles/portfolio/tiles/tile_2.png?v=1755172842380",
         "storageType": "cloudinary"
       },
       "pageBackground": {
-        "url": "/images/backgrounds/project2-bg.jpg",
+        "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755170120/portfolio/backgrounds/portfolio/backgrounds/bg_2.png?v=1755172842380",
         "dimensions": {
           "width": 1920,
           "height": 1080
         },
         "storageType": "cloudinary"
       },
-      "mediaItems": [],
-      "hasVideo": true,
+      "mediaItems": [
+        {
+          "id": "1755172408580",
+          "type": "pdf",
+          "title": "",
+          "files": [],
+          "order": 0
+        }
+      ],
+      "hasVideo": false,
       "createdAt": "2024-01-20T10:00:00Z",
-      "updatedAt": "2024-01-20T10:00:00Z",
+      "updatedAt": "2025-08-14T11:54:02.623Z",
       "status": "published"
     },
     {
       "id": "3",
-      "title": "DRYZZEÂ® & Cook ProntoÂ® Branding",
+      "title": "DRYZZE® & Cook Pronto® Branding",
       "category": "Design & Digital",
       "description": "Complete brand identity and digital strategy for innovative kitchen technology brands. Modern design system with cohesive brand experience.",
       "tags": [
@@ -371,7 +402,7 @@
       "Video",
       "Design & Digital"
     ],
-    "lastUpdated": "2025-08-14T11:15:44.074Z",
+    "lastUpdated": "2025-08-14T12:00:46.605Z",
     "version": "1.0.0",
     "page": 1
   }
