@@ -506,6 +506,35 @@ const App = () => {
     setCurrentImageIndex((prev) => (prev === galleryImages.length - 1 ? 0 : prev + 1));
   };
 
+  // Touch/Swipe handling for gallery
+  const [touchStart, setTouchStart] = useState(null);
+  const [touchEnd, setTouchEnd] = useState(null);
+
+  const minSwipeDistance = 50;
+
+  const onTouchStart = (e) => {
+    setTouchEnd(null);
+    setTouchStart(e.targetTouches[0].clientX);
+  };
+
+  const onTouchMove = (e) => {
+    setTouchEnd(e.targetTouches[0].clientX);
+  };
+
+  const onTouchEnd = () => {
+    if (!touchStart || !touchEnd) return;
+    const distance = touchStart - touchEnd;
+    const isLeftSwipe = distance > minSwipeDistance;
+    const isRightSwipe = distance < -minSwipeDistance;
+
+    if (isLeftSwipe && galleryImages.length > 1) {
+      goToNextImage();
+    }
+    if (isRightSwipe && galleryImages.length > 1) {
+      goToPreviousImage();
+    }
+  };
+
   // Gallery Viewer
   if (currentPage === 'gallery' && selectedMedia && galleryImages.length > 0) {
     return (
@@ -525,7 +554,12 @@ const App = () => {
           </div>
           
           {/* Main Image Display */}
-          <div className="gallery-main">
+          <div 
+            className="gallery-main"
+            onTouchStart={onTouchStart}
+            onTouchMove={onTouchMove}
+            onTouchEnd={onTouchEnd}
+          >
             <div className="gallery-image-container">
               <img 
                 src={galleryImages[currentImageIndex].src}
@@ -540,16 +574,11 @@ const App = () => {
               />
             </div>
             
-            {/* Navigation Arrows */}
+            {/* Swipe hint for first time users */}
             {galleryImages.length > 1 && (
-              <>
-                <button className="gallery-nav gallery-nav-left" onClick={goToPreviousImage}>
-                  <ArrowLeft size={40} />
-                </button>
-                <button className="gallery-nav gallery-nav-right" onClick={goToNextImage}>
-                  <ArrowRight size={40} />
-                </button>
-              </>
+              <div className="swipe-hint">
+                <span>← Swipe to navigate →</span>
+              </div>
             )}
           </div>
         </div>
@@ -804,7 +833,7 @@ const App = () => {
                         />
                         <div className="ios-custom-play-icon">
                           <svg className="ios-custom-play-svg" viewBox="0 0 24 24">
-                            <path d="M8 5v14l11-7z"/>
+                            <path d="M8 5v14l11-7z" fill="white"/>
                           </svg>
                         </div>
                       </div>
@@ -826,9 +855,9 @@ const App = () => {
                             e.target.src = 'https://via.placeholder.com/300x180/333/fff?text=Gallery';
                           }}
                         />
-                        <div className="ios-custom-play-icon">
-                          <svg className="ios-custom-play-svg" viewBox="0 0 24 24">
-                            <path d="M20 4v12H8V4h12m0-2H8c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zm-8.5 9.67l1.69 2.26 2.48-3.1L19 15H9zM2 6v14c0 1.1.9 2 2 2h14v-2H4V6H2z" fill="white"/>
+                        <div className="ios-custom-gallery-icon">
+                          <svg className="ios-custom-gallery-svg" viewBox="0 0 24 24">
+                            <path d="M12 15.5c1.38 0 2.5-1.12 2.5-2.5S13.38 10.5 12 10.5 9.5 11.62 9.5 13s1.12 2.5 2.5 2.5zM17 7H7C5.9 7 5 7.9 5 9v8c0 1.1.9 2 2 2h10c1.1 0 2-.9 2-2V9c0-1.1-.9-2-2-2zM17 17H7V9h10v8z" fill="white"/>
                           </svg>
                         </div>
                       </div>
