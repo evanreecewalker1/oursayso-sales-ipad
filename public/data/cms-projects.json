@@ -45,34 +45,6 @@
       },
       "mediaItems": [
         {
-          "id": "1755169039361",
-          "type": "video",
-          "title": "video_test",
-          "files": [
-            {
-              "name": "video_test.mp4",
-              "type": "video/mp4",
-              "size": 15039666,
-              "url": "/videos/media-uploader-1755169035451-1755169035451-video-test.mp4",
-              "cloudinaryId": "portfolio_1755169039361",
-              "uploadedAt": "2025-08-14T10:57:19.361Z",
-              "storageType": "cloudinary"
-            }
-          ],
-          "images": [
-            {
-              "name": "video_test.mp4",
-              "type": "video/mp4",
-              "size": 15039666,
-              "url": "/videos/media-uploader-1755169035451-1755169035451-video-test.mp4",
-              "cloudinaryId": "portfolio_1755169039361",
-              "uploadedAt": "2025-08-14T10:57:19.361Z",
-              "storageType": "cloudinary"
-            }
-          ],
-          "order": 0
-        },
-        {
           "id": "1755185006988",
           "type": "gallery",
           "title": "🖼️ Project Gallery (8 images)",
@@ -336,14 +308,22 @@
               "uploadedAt": "2025-08-14T15:58:03.054Z"
             }
           ],
+          "order": 0
+        },
+        {
+          "id": "1755188717165",
+          "type": "video",
+          "title": "",
+          "files": [],
+          "images": [],
           "order": 1
         }
       ],
       "metadata": {
         "createdAt": "2024-01-15T10:00:00Z",
-        "updatedAt": "2025-08-14T15:58:07.942Z",
-        "version": 24,
-        "status": "published",
+        "updatedAt": "2025-08-14T16:25:40.678Z",
+        "version": 25,
+        "status": "draft",
         "lastPublished": "2025-08-14T16:21:52.712Z"
       },
       "tileBackgroundType": "image",
@@ -860,6 +840,6 @@
       "date": "2024-03-10"
     }
   ],
-  "lastUpdated": "2025-08-14T16:21:55.590Z",
+  "lastUpdated": "2025-08-14T16:25:42.695Z",
   "version": "1.0"
 }
