@@ -71,20 +71,12 @@
             }
           ],
           "order": 0
-        },
-        {
-          "id": "1755171018662",
-          "type": "gallery",
-          "title": "🖼️ Project Gallery (0 images)",
-          "files": [],
-          "images": [],
-          "order": 1
         }
       ],
       "metadata": {
         "createdAt": "2024-01-15T10:00:00Z",
-        "updatedAt": "2025-08-14T14:23:50.624Z",
-        "version": 19,
+        "updatedAt": "2025-08-14T14:24:48.425Z",
+        "version": 20,
         "status": "draft",
         "lastPublished": "2025-08-14T14:20:43.838Z"
       },
@@ -602,6 +594,6 @@
       "date": "2024-03-10"
     }
   ],
-  "lastUpdated": "2025-08-14T14:24:42.721Z",
+  "lastUpdated": "2025-08-14T14:24:50.435Z",
   "version": "1.0"
 }
