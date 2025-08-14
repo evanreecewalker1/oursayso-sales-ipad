@@ -176,10 +176,20 @@ body {
   opacity: 0.8;
   cursor: pointer;
   transition: opacity 0.2s;
+  width: 64px;
+  height: 64px;
+  padding: 16px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .sidebar-arrow:hover {
   opacity: 1;
+  background: rgba(255, 255, 255, 0.1);
 }
 
 /* Project Detail Page Styling */
@@ -262,7 +272,7 @@ body {
 }
 
 .project-title {
-  font-size: 62px;
+  font-size: 48px;
   font-weight: 900;
   line-height: 1.1;
   margin-bottom: 30px;
@@ -296,7 +306,7 @@ body {
 }
 
 .project-description {
-  font-size: 24px;
+  font-size: 20px;
   line-height: 1.6;
   color: rgba(255, 255, 255, 0.85);
   font-weight: 300;

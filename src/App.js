@@ -176,6 +176,19 @@ const quotes = [
   }
 ];
 
+// Helper function to get full URL for media files
+const getMediaUrl = (url) => {
+  if (!url) return null;
+  
+  // If it's already a full URL, return as is
+  if (url.startsWith('http')) {
+    return url;
+  }
+  
+  // For local paths, convert to GitHub raw URL
+  return `https://raw.githubusercontent.com/evanreecewalker1/oursayso-sales-ipad/main/public${url}`;
+};
+
 // Function to convert CMS project data to portfolio format
 const convertCMSProjectToPortfolioFormat = (cmsProject) => {
   return {
@@ -183,19 +196,25 @@ const convertCMSProjectToPortfolioFormat = (cmsProject) => {
     title: cmsProject.title,
     tags: cmsProject.tags || [cmsProject.category], // Use actual tags or fall back to category
     // Use tileBackground for tiles and pageBackground for project pages
-    backgroundVideo: cmsProject.tileBackground?.type === 'video' ? cmsProject.tileBackground.url : null,
+    backgroundVideo: cmsProject.tileBackground?.type === 'video' ? getMediaUrl(cmsProject.tileBackground.url) : null,
     backgroundImage: cmsProject.tileBackground?.type === 'image' ? cmsProject.tileBackground.url : null,
     // Project page backgrounds (separate from tile backgrounds)
     // pageBackground doesn't have a type field in CMS, determine by URL extension or default to image
-    projectBackgroundVideo: cmsProject.pageBackground?.url?.includes('.mp4') ? cmsProject.pageBackground.url : null,
+    projectBackgroundVideo: cmsProject.pageBackground?.url?.includes('.mp4') ? getMediaUrl(cmsProject.pageBackground.url) : null,
     projectBackgroundImage: cmsProject.pageBackground?.url && !cmsProject.pageBackground.url.includes('.mp4') ? cmsProject.pageBackground.url : null,
     description: cmsProject.description,
     media: cmsProject.mediaItems?.map(item => ({
+      ...item, // Include all original data
       type: item.type,
-      title: item.title,
+      title: item.title || `${item.type} content`,
       duration: item.files?.[0]?.duration || '2:30',
-      src: item.files?.[0]?.url,
-      count: item.type === 'image' ? '12 images' : undefined
+      src: item.files?.[0]?.url ? getMediaUrl(item.files?.[0]?.url) : null,
+      count: item.type === 'gallery' ? `${item.files?.length || 0} images` : undefined,
+      // Convert files array with proper URLs
+      files: item.files?.map(file => ({
+        ...file,
+        url: getMediaUrl(file.url)
+      })) || []
     })) || []
   };
 };
@@ -377,14 +396,18 @@ const App = () => {
     
     if (mediaItem.type === 'video') {
       if (mediaItem.files && mediaItem.files.length > 0 && mediaItem.files[0].url) {
+        console.log('✅ Video has valid source:', mediaItem.files[0].url);
         setCurrentPage('video');
       } else if (mediaItem.src) {
+        console.log('✅ Video has fallback source:', mediaItem.src);
         setCurrentPage('video');
       } else {
-        console.warn('Video has no valid source');
+        console.warn('❌ Video has no valid source. Files:', mediaItem.files);
+        alert('This video is not available yet.');
       }
     } else if (mediaItem.type === 'gallery') {
       if (mediaItem.files && mediaItem.files.length > 0) {
+        console.log('✅ Gallery has', mediaItem.files.length, 'images');
         // Use actual gallery images from CMS
         const galleryImages = mediaItem.files.map((file, index) => ({
           src: file.url,
@@ -394,14 +417,17 @@ const App = () => {
         setCurrentImageIndex(0);
         setCurrentPage('gallery');
       } else {
-        console.warn('Gallery has no images');
+        console.warn('❌ Gallery has no images. Files:', mediaItem.files);
+        alert('This gallery is not available yet.');
       }
     } else if (mediaItem.type === 'pdf') {
       if (mediaItem.files && mediaItem.files.length > 0 && mediaItem.files[0].url) {
+        console.log('✅ PDF has valid source:', mediaItem.files[0].url);
         // Open PDF in new tab
         window.open(mediaItem.files[0].url, '_blank');
       } else {
-        console.warn('PDF has no valid source');
+        console.warn('❌ PDF has no valid source. Files:', mediaItem.files);
+        alert('This PDF is not available yet.');
       }
     } else if (mediaItem.type === 'case-study') {
       setCurrentPage('case-study'); // Case studies use dedicated case study viewer
@@ -497,7 +523,7 @@ const App = () => {
             <source src={
               selectedMedia.files && selectedMedia.files[0] && selectedMedia.files[0].url
                 ? selectedMedia.files[0].url 
-                : selectedMedia.src || `/videos/${selectedMedia.projectTitle.toLowerCase().replace(/\s+/g, '-')}-${selectedMedia.title.toLowerCase().replace(/\s+/g, '-')}.mp4`
+                : selectedMedia.src
             } type="video/mp4" />
             Your browser does not support the video tag.
           </video>
@@ -707,14 +733,14 @@ const App = () => {
                 >
                   <div className="media-preview-thumbnail">
                     {/* Render actual media content */}
-                    {mediaItem.type === 'video' && (mediaItem.src || (mediaItem.files && mediaItem.files.length > 0)) ? (
+                    {mediaItem.type === 'video' && mediaItem.files && mediaItem.files.length > 0 && mediaItem.files[0].url ? (
                       <div className="video-preview-container">
                         <video
                           className="media-preview-video"
-                          src={mediaItem.files && mediaItem.files[0] ? mediaItem.files[0].url : mediaItem.src}
+                          src={mediaItem.files[0].url}
                           muted
                           preload="metadata"
-                          onError={(e) => console.error('Video preview error:', mediaItem.src, e)}
+                          onError={(e) => console.error('Video preview error:', mediaItem.files[0].url, e)}
                         />
                         <div className="ios-custom-play-icon">
                           <svg className="ios-custom-play-svg" viewBox="0 0 24 24">
