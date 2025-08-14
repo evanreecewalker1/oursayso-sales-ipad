@@ -14,50 +14,98 @@
       "hasVideo": true,
       "backgrounds": {
         "tile": {
-          "type": "video",
+          "type": "image",
           "file": {
-            "name": "project1.mp4",
-            "type": "video/mp4",
-            "url": "/videos/project1.mp4",
-            "uploadedAt": "2024-01-15T10:00:00Z"
+            "name": "lovell-tile.png",
+            "size": 228219,
+            "type": "image/png",
+            "dimensions": {
+              "width": 800,
+              "height": 800
+            },
+            "uploadedAt": "2025-08-14T10:45:08.771Z",
+            "cloudinary": true,
+            "cloudinaryId": "portfolio/tiles/portfolio/tiles/tile_1",
+            "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755166087/portfolio/tiles/portfolio/tiles/tile_1.png"
           }
         },
         "page": {
-          "name": "project1-bg.jpg",
-          "type": "image/jpeg",
-          "url": "/images/backgrounds/project1-bg.jpg",
+          "name": "lovell-background.png",
+          "size": 1747615,
+          "type": "image/png",
           "dimensions": {
             "width": 1920,
             "height": 1080
           },
-          "uploadedAt": "2024-01-15T10:00:00Z"
+          "uploadedAt": "2025-08-14T10:45:14.164Z",
+          "cloudinary": true,
+          "cloudinaryId": "portfolio/backgrounds/portfolio/backgrounds/bg_1",
+          "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755115318/portfolio/backgrounds/portfolio/backgrounds/bg_1.png"
         }
       },
       "mediaItems": [
         {
-          "id": "1-1",
+          "id": "1755168325049",
           "type": "video",
-          "title": "Event Highlights",
+          "title": "video_test",
           "files": [
             {
-              "url": "/videos/project1.mp4",
-              "name": "project1.mp4",
-              "type": "video/mp4"
+              "name": "video_test.mp4",
+              "type": "video/mp4",
+              "size": 15039666,
+              "url": "/videos/media-uploader-1755168321270-1755168321270-video-test.mp4",
+              "cloudinaryId": "portfolio_1755168325049",
+              "uploadedAt": "2025-08-14T10:45:25.049Z",
+              "storageType": "cloudinary"
             }
-          ]
-        },
-        {
-          "id": "1-2",
-          "type": "case-study",
-          "title": "Impact Report",
-          "files": []
+          ],
+          "order": 0
         }
       ],
       "metadata": {
         "createdAt": "2024-01-15T10:00:00Z",
-        "updatedAt": "2024-01-15T10:00:00Z",
-        "version": 1,
+        "updatedAt": "2025-08-14T10:45:33.389Z",
+        "version": 2,
         "status": "draft"
+      },
+      "tileBackgroundType": "image",
+      "tileBackgroundFile": {
+        "file": {},
+        "preview": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755166087/portfolio/tiles/portfolio/tiles/tile_1.png",
+        "name": "lovell-tile.png",
+        "size": 228219,
+        "type": "image/png",
+        "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755166087/portfolio/tiles/portfolio/tiles/tile_1.png",
+        "cloudinaryId": "portfolio/tiles/portfolio/tiles/tile_1",
+        "uploadedAt": "2025-08-14T10:45:08.771Z",
+        "dimensions": {
+          "width": 800,
+          "height": 800
+        },
+        "uploading": false,
+        "storageType": "cloudinary",
+        "localPath": null,
+        "needsServerUpload": false,
+        "cloudinary": true
+      },
+      "pageBackgroundFile": {
+        "file": {},
+        "preview": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755115318/portfolio/backgrounds/portfolio/backgrounds/bg_1.png",
+        "name": "lovell-background.png",
+        "size": 1747615,
+        "type": "image/png",
+        "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755115318/portfolio/backgrounds/portfolio/backgrounds/bg_1.png",
+        "cloudinaryId": "portfolio/backgrounds/portfolio/backgrounds/bg_1",
+        "uploadedAt": "2025-08-14T10:45:14.164Z",
+        "dimensions": {
+          "width": 1920,
+          "height": 1080
+        },
+        "uploading": false,
+        "storageType": "cloudinary",
+        "localPath": null,
+        "needsServerUpload": false,
+        "cloudinary": true
       }
     },
     {
@@ -480,6 +528,6 @@
       "date": "2024-01-30"
     }
   ],
-  "lastUpdated": "2025-08-14T10:44:47.761Z",
+  "lastUpdated": "2025-08-14T10:45:35.400Z",
   "version": "1.0"
 }
