@@ -2,53 +2,48 @@
   "projects": [
     {
       "id": "1",
-      "title": "Lovell Leadership Conference 2026",
+      "title": "Lovell Leadership Conferences",
       "category": "Events",
-      "description": "Building on the success of their previous leadership event, senior managers broke with tradition to deliver their conference free from PowerPoint slides and in the comfort of a cinema.",
+      "description": "Leadership development conferences designed to inspire and educate senior executives. Transformed traditional conference format with interactive workshops and AI-powered networking.",
       "tags": [
-        "Event Management",
-        "Video Production",
-        "Graphic Design",
-        "Presentations"
+        "leadership",
+        "conferences",
+        "events",
+        "executive-training"
       ],
       "order": 0,
-      "slug": "lovell-leadership-conference-2026",
+      "slug": "lovell-leadership-conferences",
       "tileBackground": {
         "type": "image",
-        "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755112131/lvkceaaezto6hokgbasj.png"
+        "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755166087/portfolio/tiles/portfolio/tiles/tile_1.png?v=1755166092730",
+        "storageType": "cloudinary"
       },
       "pageBackground": {
-        "url": "/images/backgrounds/1.png",
+        "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755115318/portfolio/backgrounds/portfolio/backgrounds/bg_1.png?v=1755166092730",
         "dimensions": {
           "width": 1920,
           "height": 1080
-        }
+        },
+        "storageType": "cloudinary"
       },
       "mediaItems": [
         {
-          "id": "1-1",
+          "id": "1755166053829",
           "type": "video",
-          "title": "Event Highlights",
+          "title": "video_test",
           "files": [
             {
-              "url": "/projects/1/media/project1.mp4",
-              "name": "project1.mp4",
+              "url": "/projects/1/media/video_test.mp4",
+              "name": "video_test.mp4",
               "type": "video/mp4"
             }
           ],
           "order": 0
-        },
-        {
-          "id": "1-2",
-          "type": "case-study",
-          "title": "Impact Report",
-          "files": [],
-          "order": 1
         }
       ],
       "hasVideo": true,
       "createdAt": "2024-01-15T10:00:00Z",
-      "updatedAt": "2025-08-13T20:02:10.996Z",
+      "updatedAt": "2025-08-14T10:08:21.493Z",
       "status": "published"
     },
     {
@@ -66,14 +61,16 @@
       "slug": "rarely-heard-voices-videos",
       "tileBackground": {
         "type": "image",
-        "url": "/images/tiles/2.png"
+        "url": "/images/project2.png",
+        "storageType": "cloudinary"
       },
       "pageBackground": {
-        "url": "/images/backgrounds/2.jpg",
+        "url": "/images/backgrounds/project2-bg.jpg",
         "dimensions": {
           "width": 1920,
           "height": 1080
-        }
+        },
+        "storageType": "cloudinary"
       },
       "mediaItems": [],
       "hasVideo": true,
@@ -96,14 +93,16 @@
       "slug": "dryzze-cook-pronto-branding",
       "tileBackground": {
         "type": "image",
-        "url": "/images/tiles/3.png"
+        "url": "/images/project3.png",
+        "storageType": "cloudinary"
       },
       "pageBackground": {
-        "url": "/images/backgrounds/3.jpg",
+        "url": "/images/backgrounds/project3-bg.jpg",
         "dimensions": {
           "width": 1920,
           "height": 1080
-        }
+        },
+        "storageType": "cloudinary"
       },
       "mediaItems": [],
       "hasVideo": false,
@@ -126,14 +125,16 @@
       "slug": "warner-bros-discovery-training",
       "tileBackground": {
         "type": "image",
-        "url": "/images/tiles/4.png"
+        "url": "/images/project4.png",
+        "storageType": "cloudinary"
       },
       "pageBackground": {
-        "url": "/images/backgrounds/4.jpg",
+        "url": "/images/backgrounds/project4-bg.jpg",
         "dimensions": {
           "width": 1920,
           "height": 1080
-        }
+        },
+        "storageType": "cloudinary"
       },
       "mediaItems": [],
       "hasVideo": false,
@@ -156,14 +157,16 @@
       "slug": "river-island-wrapped-video",
       "tileBackground": {
         "type": "video",
-        "url": "/images/tiles/5.mp4"
+        "url": "/public/projects/project-05-riverisland/media/video-01.mp4",
+        "storageType": "cloudinary"
       },
       "pageBackground": {
-        "url": "/images/backgrounds/5.png",
+        "url": "/public/projects/project-05-riverisland/background.png",
         "dimensions": {
           "width": 1920,
           "height": 1080
-        }
+        },
+        "storageType": "cloudinary"
       },
       "mediaItems": [
         {
@@ -200,14 +203,16 @@
       "slug": "accor-owner-services-catalogue",
       "tileBackground": {
         "type": "image",
-        "url": "/images/tiles/6.png"
+        "url": "/images/project6.png",
+        "storageType": "cloudinary"
       },
       "pageBackground": {
-        "url": "/images/backgrounds/6.jpg",
+        "url": "/images/backgrounds/project6-bg.jpg",
         "dimensions": {
           "width": 1920,
           "height": 1080
-        }
+        },
+        "storageType": "cloudinary"
       },
       "mediaItems": [],
       "hasVideo": false,
@@ -230,14 +235,16 @@
       "slug": "noah-s-promotional-film",
       "tileBackground": {
         "type": "image",
-        "url": "/images/tiles/7.png"
+        "url": "/images/project7.png",
+        "storageType": "cloudinary"
       },
       "pageBackground": {
-        "url": "/images/backgrounds/7.jpg",
+        "url": "/images/backgrounds/project7-bg.jpg",
         "dimensions": {
           "width": 1920,
           "height": 1080
-        }
+        },
+        "storageType": "cloudinary"
       },
       "mediaItems": [],
       "hasVideo": true,
@@ -260,14 +267,16 @@
       "slug": "wealmoor-website-design",
       "tileBackground": {
         "type": "image",
-        "url": "/images/tiles/8.png"
+        "url": "/images/project8.png",
+        "storageType": "cloudinary"
       },
       "pageBackground": {
-        "url": "/images/backgrounds/8.jpg",
+        "url": "/images/backgrounds/project8-bg.jpg",
         "dimensions": {
           "width": 1920,
           "height": 1080
-        }
+        },
+        "storageType": "cloudinary"
       },
       "mediaItems": [],
       "hasVideo": false,
@@ -290,14 +299,16 @@
       "slug": "insight-research-website",
       "tileBackground": {
         "type": "image",
-        "url": "/images/tiles/9.png"
+        "url": "/images/project9.png",
+        "storageType": "cloudinary"
       },
       "pageBackground": {
-        "url": "/images/backgrounds/9.jpg",
+        "url": "/images/backgrounds/project9-bg.jpg",
         "dimensions": {
           "width": 1920,
           "height": 1080
-        }
+        },
+        "storageType": "cloudinary"
       },
       "mediaItems": [],
       "hasVideo": false,
@@ -320,14 +331,16 @@
       "slug": "arda-impact-video-shoot-website",
       "tileBackground": {
         "type": "image",
-        "url": "/images/tiles/10.png"
+        "url": "/images/project10.png",
+        "storageType": "cloudinary"
       },
       "pageBackground": {
-        "url": "/images/backgrounds/10.jpg",
+        "url": "/images/backgrounds/project10-bg.jpg",
         "dimensions": {
           "width": 1920,
           "height": 1080
-        }
+        },
+        "storageType": "cloudinary"
       },
       "mediaItems": [
         {
@@ -358,7 +371,7 @@
       "Video",
       "Design & Digital"
     ],
-    "lastUpdated": "2025-08-13T20:02:13.370Z",
+    "lastUpdated": "2025-08-14T10:08:24.343Z",
     "version": "1.0.0",
     "page": 1
   }
