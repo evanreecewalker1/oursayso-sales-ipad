@@ -112,12 +112,37 @@
             }
           ],
           "order": 1
+        },
+        {
+          "id": "1755171052288",
+          "type": "pdf",
+          "title": "",
+          "files": [
+            {
+              "publicId": "portfolio_1755171137120",
+              "url": "/images/general/1755171137118-digital-portfolio-2024-v3.5.pdf",
+              "localPath": "/images/general/1755171137118-digital-portfolio-2024-v3.5.pdf",
+              "width": null,
+              "height": null,
+              "format": "pdf",
+              "bytes": 7036023,
+              "duration": null,
+              "resourceType": "image",
+              "storageType": "portfolio",
+              "uploadedAt": "2025-08-14T11:32:17.120Z",
+              "preview": "/images/general/1755171137118-digital-portfolio-2024-v3.5.pdf",
+              "file": {},
+              "needsServerUpload": false
+            }
+          ],
+          "images": [],
+          "order": 2
         }
       ],
       "metadata": {
         "createdAt": "2024-01-15T10:00:00Z",
-        "updatedAt": "2025-08-14T11:30:31.845Z",
-        "version": 9,
+        "updatedAt": "2025-08-14T11:32:25.535Z",
+        "version": 10,
         "status": "draft",
         "lastPublished": "2025-08-14T11:15:52.719Z"
       },
@@ -578,6 +603,6 @@
       "date": "2024-01-30"
     }
   ],
-  "lastUpdated": "2025-08-14T11:30:48.703Z",
+  "lastUpdated": "2025-08-14T11:32:27.539Z",
   "version": "1.0"
 }
