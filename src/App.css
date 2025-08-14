@@ -1325,6 +1325,27 @@ button, .media-preview-item, .play-button {
   width: 28px;
   height: 28px;
   fill: white;
+  stroke: white;
+  stroke-width: 3px;
+}
+
+/* PDF Placeholder */
+.pdf-placeholder {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  background: rgba(0,0,0,0.7);
+  border: 2px dashed rgba(255,255,255,0.5);
+  border-radius: 8px;
+}
+
+.pdf-upload-prompt {
+  color: rgba(255,255,255,0.7);
+  font-size: 12px;
+  margin-top: 4px;
+  font-weight: 400;
 }
 
 .ios-custom-play-svg {

@@ -1,70 +1,156 @@
-# Getting Started with Create React App
+# Portfolio CMS
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A Content Management System for managing portfolio projects, media items, and custom preview images.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- 🎨 **Project Management**: Edit project titles, descriptions, and categories
+- 🎬 **Media Management**: Manage videos, PDFs, galleries, and case studies
+- 📤 **Custom Preview Upload**: Upload custom preview images for PDFs and video thumbnails
+- ☁️ **Cloudinary Integration**: Automatic upload and storage of preview images
+- 💾 **Offline Support**: Integrates with portfolio service worker for offline functionality
 
-### `npm start`
+## Setup
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+1. **Install Dependencies**
+   ```bash
+   npm install
+   ```
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+2. **Configure Cloudinary**
+   - Create a Cloudinary account at https://cloudinary.com
+   - Set up an upload preset named `portfolio_preset`
+   - Configure the preset for unsigned uploads
+   - Update `CLOUDINARY_CONFIG` in `src/App.js` if needed
 
-### `npm test`
+3. **Environment Variables**
+   ```bash
+   # Optional - for enhanced Cloudinary features
+   REACT_APP_CLOUDINARY_API_KEY=your_api_key
+   ```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+4. **Start Development Server**
+   ```bash
+   npm start
+   ```
 
-### `npm run build`
+## Usage
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Managing Projects
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+1. **Select Project**: Click on a project in the sidebar to edit it
+2. **Edit Details**: Update title, category, and description
+3. **Save Changes**: Click "Save Project" to persist changes
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Custom Preview Images
 
-### `npm run eject`
+#### PDF Preview Images
+- Navigate to a project with PDF media items
+- Find the PDF media item in the list
+- Use the "PDF Preview Image" upload area
+- Drag and drop or click to select an image
+- Preview will automatically upload to Cloudinary
+- Portfolio will use this custom preview instead of placeholder
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+#### Video Thumbnails
+- Navigate to a project with video media items
+- Find the video media item in the list
+- Use the "Video Thumbnail" upload area
+- Drag and drop or click to select an image
+- Thumbnail will automatically upload to Cloudinary
+- Portfolio will use this custom thumbnail instead of auto-generated preview
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Supported Formats
+- **Images**: PNG, JPG, JPEG, GIF, WEBP
+- **Max Size**: 10MB per image
+- **Recommended**: 16:9 aspect ratio for video thumbnails, portrait for PDF previews
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Data Structure
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+The CMS updates the project data structure with custom preview fields:
 
-## Learn More
+```json
+{
+  "type": "pdf",
+  "title": "Project Document",
+  "files": [...],
+  "customPreview": {
+    "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v123/preview.jpg",
+    "cloudinaryId": "preview_123",
+    "uploadedAt": "2025-08-14T...",
+    "size": 245760,
+    "dimensions": {
+      "width": 800,
+      "height": 600
+    },
+    "originalName": "preview.jpg"
+  }
+}
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Portfolio Integration
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+The main portfolio automatically detects and uses custom preview images:
 
-### Code Splitting
+1. **Priority Order**: `customPreview` → `previewImage` → fallback
+2. **Caching**: All custom previews are cached by service worker
+3. **Offline Support**: Custom previews work offline after first load
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Development
 
-### Analyzing the Bundle Size
+### File Structure
+```
+portfolio-cms/
+├── src/
+│   ├── App.js          # Main CMS application
+│   ├── App.css         # CMS styling
+│   └── index.js        # React entry point
+├── public/
+│   └── index.html      # HTML template
+└── package.json        # Dependencies
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+### Key Components
+- **App**: Main CMS interface with project list
+- **ProjectEditor**: Project details and media management
+- **MediaItemEditor**: Individual media item with upload functionality
 
-### Making a Progressive Web App
+### API Integration
+Currently uses static JSON files. For production:
+1. Implement backend API for project CRUD operations
+2. Replace `saveProjects()` with actual API calls
+3. Add authentication and user management
+4. Implement real-time updates
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## Deployment
 
-### Advanced Configuration
+1. **Build Production**
+   ```bash
+   npm run build
+   ```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+2. **Deploy to Netlify/Vercel**
+   - Connect repository
+   - Set build command: `npm run build`
+   - Set publish directory: `build`
 
-### Deployment
+3. **Environment Variables**
+   - Add `REACT_APP_CLOUDINARY_API_KEY` if using advanced features
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## Troubleshooting
 
-### `npm run build` fails to minify
+### Upload Issues
+- Verify Cloudinary upload preset is configured for unsigned uploads
+- Check network connectivity
+- Ensure file size is under 10MB limit
+- Verify supported file formats
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### Preview Not Showing
+- Check browser console for image load errors
+- Verify Cloudinary URL is accessible
+- Ensure portfolio app is using latest data structure
+- Clear browser cache and reload
+
+## License
+
+Part of the OurSayso Portfolio system.

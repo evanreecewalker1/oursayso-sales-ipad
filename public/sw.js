@@ -40,6 +40,7 @@ const VIDEO_ASSETS = [
 
 // Cloudinary image patterns for dynamic caching
 const CLOUDINARY_PATTERN = /^https:\/\/res\.cloudinary\.com\/dnuni9dgl\/image\/upload\//;
+const CLOUDINARY_PREVIEW_PATTERN = /^https:\/\/res\.cloudinary\.com\/dnuni9dgl\/image\/upload\/.*\/portfolio\/previews\//;
 const GITHUB_RAW_PATTERN = /^https:\/\/raw\.githubusercontent\.com\/evanreecewalker1\/oursayso-sales-ipad\/main\//;
 
 console.log('🚀 Service Worker: Loading version 2025-08-14-CRITICAL-OFFLINE');
@@ -124,7 +125,7 @@ self.addEventListener('fetch', (event) => {
 
 // Helper functions for different request types
 function isCloudinaryImage(url) {
-  return CLOUDINARY_PATTERN.test(url);
+  return CLOUDINARY_PATTERN.test(url) || CLOUDINARY_PREVIEW_PATTERN.test(url);
 }
 
 function isGitHubRawFile(url) {
@@ -152,7 +153,8 @@ async function handleCloudinaryImage(request) {
     // Try cache first
     const cachedResponse = await caches.match(request);
     if (cachedResponse) {
-      console.log('📷 Service Worker: Serving Cloudinary image from cache:', request.url);
+      const isPreview = CLOUDINARY_PREVIEW_PATTERN.test(request.url);
+      console.log(`📷 Service Worker: Serving ${isPreview ? 'custom preview' : 'Cloudinary'} image from cache:`, request.url);
       return cachedResponse;
     }
     
