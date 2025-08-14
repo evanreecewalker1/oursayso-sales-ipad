@@ -71,12 +71,118 @@
             }
           ],
           "order": 0
+        },
+        {
+          "id": "1755185006988",
+          "type": "gallery",
+          "title": "🖼️ Project Gallery (3 images)",
+          "files": [
+            {
+              "publicId": "pzfjjtnzo2j7kymznmct",
+              "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755185012/pzfjjtnzo2j7kymznmct.jpg",
+              "width": 1920,
+              "height": 1080,
+              "format": "jpg",
+              "bytes": 2284096,
+              "resourceType": "image",
+              "eager": [],
+              "storageType": "cloudinary",
+              "localPath": null,
+              "id": "gallery-img-1755185012896-0.530952056119782",
+              "name": "PR_230622_OURSAYSO_0017.jpeg",
+              "size": 2284096,
+              "uploadedAt": "2025-08-14T15:23:32.896Z"
+            },
+            {
+              "publicId": "ql2bref2boemuscc9jjn",
+              "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755185013/ql2bref2boemuscc9jjn.jpg",
+              "width": 1920,
+              "height": 1080,
+              "format": "jpg",
+              "bytes": 1800968,
+              "resourceType": "image",
+              "eager": [],
+              "storageType": "cloudinary",
+              "localPath": null,
+              "id": "gallery-img-1755185014418-0.9709666398859362",
+              "name": "PR_230622_OURSAYSO_0019.jpeg",
+              "size": 1800968,
+              "uploadedAt": "2025-08-14T15:23:34.418Z"
+            },
+            {
+              "publicId": "jslptfjxfhvy8b585bex",
+              "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755185014/jslptfjxfhvy8b585bex.jpg",
+              "width": 1920,
+              "height": 1080,
+              "format": "jpg",
+              "bytes": 1625572,
+              "resourceType": "image",
+              "eager": [],
+              "storageType": "cloudinary",
+              "localPath": null,
+              "id": "gallery-img-1755185015317-0.9043756243630335",
+              "name": "PR_230622_OURSAYSO_0092.jpeg",
+              "size": 1625572,
+              "uploadedAt": "2025-08-14T15:23:35.317Z"
+            }
+          ],
+          "images": [
+            {
+              "publicId": "pzfjjtnzo2j7kymznmct",
+              "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755185012/pzfjjtnzo2j7kymznmct.jpg",
+              "width": 1920,
+              "height": 1080,
+              "format": "jpg",
+              "bytes": 2284096,
+              "resourceType": "image",
+              "eager": [],
+              "storageType": "cloudinary",
+              "localPath": null,
+              "id": "gallery-img-1755185012896-0.530952056119782",
+              "name": "PR_230622_OURSAYSO_0017.jpeg",
+              "size": 2284096,
+              "uploadedAt": "2025-08-14T15:23:32.896Z"
+            },
+            {
+              "publicId": "ql2bref2boemuscc9jjn",
+              "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755185013/ql2bref2boemuscc9jjn.jpg",
+              "width": 1920,
+              "height": 1080,
+              "format": "jpg",
+              "bytes": 1800968,
+              "resourceType": "image",
+              "eager": [],
+              "storageType": "cloudinary",
+              "localPath": null,
+              "id": "gallery-img-1755185014418-0.9709666398859362",
+              "name": "PR_230622_OURSAYSO_0019.jpeg",
+              "size": 1800968,
+              "uploadedAt": "2025-08-14T15:23:34.418Z"
+            },
+            {
+              "publicId": "jslptfjxfhvy8b585bex",
+              "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755185014/jslptfjxfhvy8b585bex.jpg",
+              "width": 1920,
+              "height": 1080,
+              "format": "jpg",
+              "bytes": 1625572,
+              "resourceType": "image",
+              "eager": [],
+              "storageType": "cloudinary",
+              "localPath": null,
+              "id": "gallery-img-1755185015317-0.9043756243630335",
+              "name": "PR_230622_OURSAYSO_0092.jpeg",
+              "size": 1625572,
+              "uploadedAt": "2025-08-14T15:23:35.317Z"
+            }
+          ],
+          "order": 1
         }
       ],
       "metadata": {
         "createdAt": "2024-01-15T10:00:00Z",
-        "updatedAt": "2025-08-14T14:24:48.425Z",
-        "version": 20,
+        "updatedAt": "2025-08-14T15:23:37.509Z",
+        "version": 21,
         "status": "draft",
         "lastPublished": "2025-08-14T14:20:43.838Z"
       },
@@ -594,6 +700,6 @@
       "date": "2024-03-10"
     }
   ],
-  "lastUpdated": "2025-08-14T15:23:25.704Z",
+  "lastUpdated": "2025-08-14T15:23:39.523Z",
   "version": "1.0"
 }
