@@ -301,12 +301,13 @@ body {
   text-transform: capitalize;
   color: #010cff;
   border: 1px solid #010cff;
-  background: rgba(0, 0, 0, 0.1);
+  background: rgba(0, 0, 0, 0.5);
   padding: 5px 12px;
   border-radius: 5px;
   font-weight: 600;
   display: inline-block;
   flex-shrink: 0;
+  backdrop-filter: blur(5px);
   white-space: nowrap;
 }
 

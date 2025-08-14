@@ -876,7 +876,7 @@ const App = () => {
                         </div>
                       </div>
                     )}
-                    {mediaItem.type !== 'gallery' && (
+                    {mediaItem.type !== 'gallery' && mediaItem.type !== 'video' && (
                       <div className="media-preview-overlay">
                         <div className="media-type-badge">{mediaItem.type}</div>
                       </div>
