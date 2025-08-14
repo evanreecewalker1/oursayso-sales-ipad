@@ -315,8 +315,8 @@
         "createdAt": "2024-01-15T10:00:00Z",
         "updatedAt": "2025-08-14T16:45:33.854Z",
         "version": 31,
-        "status": "draft",
-        "lastPublished": "2025-08-14T16:44:08.958Z"
+        "status": "published",
+        "lastPublished": "2025-08-14T16:45:45.405Z"
       },
       "tileBackgroundType": "image",
       "tileBackgroundFile": {
@@ -394,7 +394,7 @@
         "updatedAt": "2025-08-14T14:24:16.070Z",
         "version": 3,
         "status": "published",
-        "lastPublished": "2025-08-14T16:44:08.958Z"
+        "lastPublished": "2025-08-14T16:45:45.405Z"
       },
       "mediaItems": [
         {
@@ -489,7 +489,7 @@
         "updatedAt": "2024-02-01T10:00:00Z",
         "version": 1,
         "status": "published",
-        "lastPublished": "2025-08-14T16:44:08.958Z"
+        "lastPublished": "2025-08-14T16:45:45.405Z"
       }
     },
     {
@@ -530,7 +530,7 @@
         "updatedAt": "2024-02-10T10:00:00Z",
         "version": 1,
         "status": "published",
-        "lastPublished": "2025-08-14T16:44:08.958Z"
+        "lastPublished": "2025-08-14T16:45:45.405Z"
       }
     },
     {
@@ -585,7 +585,7 @@
         "updatedAt": "2024-02-15T10:00:00Z",
         "version": 1,
         "status": "published",
-        "lastPublished": "2025-08-14T16:44:08.958Z"
+        "lastPublished": "2025-08-14T16:45:45.405Z"
       }
     },
     {
@@ -626,7 +626,7 @@
         "updatedAt": "2024-02-20T10:00:00Z",
         "version": 1,
         "status": "published",
-        "lastPublished": "2025-08-14T16:44:08.958Z"
+        "lastPublished": "2025-08-14T16:45:45.405Z"
       }
     },
     {
@@ -667,7 +667,7 @@
         "updatedAt": "2024-03-01T10:00:00Z",
         "version": 1,
         "status": "published",
-        "lastPublished": "2025-08-14T16:44:08.958Z"
+        "lastPublished": "2025-08-14T16:45:45.405Z"
       }
     },
     {
@@ -708,7 +708,7 @@
         "updatedAt": "2024-03-10T10:00:00Z",
         "version": 1,
         "status": "published",
-        "lastPublished": "2025-08-14T16:44:08.958Z"
+        "lastPublished": "2025-08-14T16:45:45.405Z"
       }
     },
     {
@@ -749,7 +749,7 @@
         "updatedAt": "2024-03-15T10:00:00Z",
         "version": 1,
         "status": "published",
-        "lastPublished": "2025-08-14T16:44:08.958Z"
+        "lastPublished": "2025-08-14T16:45:45.405Z"
       }
     },
     {
@@ -804,7 +804,7 @@
         "updatedAt": "2024-03-20T10:00:00Z",
         "version": 1,
         "status": "published",
-        "lastPublished": "2025-08-14T16:44:08.958Z"
+        "lastPublished": "2025-08-14T16:45:45.405Z"
       }
     }
   ],
@@ -832,6 +832,6 @@
       "date": "2024-03-10"
     }
   ],
-  "lastUpdated": "2025-08-14T16:45:35.860Z",
+  "lastUpdated": "2025-08-14T16:45:47.408Z",
   "version": "1.0"
 }
