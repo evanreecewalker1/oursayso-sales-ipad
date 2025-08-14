@@ -308,13 +308,58 @@ const App = () => {
   const [projectsLoaded, setProjectsLoaded] = useState(false);
   const [cmsProjects, setCmsProjects] = useState([]);
   const [showIOSPrompt, setShowIOSPrompt] = useState(false);
+  const [isOffline, setIsOffline] = useState(!navigator.onLine);
   
-  // Touch/Swipe handling for gallery
+  // Enhanced Touch/Swipe handling for gallery
   const [touchStart, setTouchStart] = useState(null);
   const [touchEnd, setTouchEnd] = useState(null);
+  const [isDragging, setIsDragging] = useState(false);
+  const [dragOffset, setDragOffset] = useState(0);
+  const [isAnimating, setIsAnimating] = useState(false);
 
   // Get current projects - use CMS data if loaded, otherwise fall back to hardcoded
   const currentProjects = cmsProjects.length > 0 ? cmsProjects : projects;
+
+  // Register service worker for offline functionality
+  useEffect(() => {
+    if ('serviceWorker' in navigator) {
+      console.log('🔧 Service Worker: Registration starting...');
+      
+      navigator.serviceWorker.register('/sw.js')
+        .then(registration => {
+          console.log('✅ Service Worker: Registered successfully:', registration.scope);
+          
+          // Listen for updates
+          registration.addEventListener('updatefound', () => {
+            console.log('🔄 Service Worker: Update found, installing new version...');
+          });
+        })
+        .catch(error => {
+          console.error('❌ Service Worker: Registration failed:', error);
+        });
+    } else {
+      console.warn('⚠️ Service Worker: Not supported in this browser');
+    }
+
+    // Network status monitoring for offline indicator
+    const handleOnline = () => {
+      console.log('🌐 Network: Back online');
+      setIsOffline(false);
+    };
+    
+    const handleOffline = () => {
+      console.log('📱 Network: Gone offline');
+      setIsOffline(true);
+    };
+    
+    window.addEventListener('online', handleOnline);
+    window.addEventListener('offline', handleOffline);
+    
+    return () => {
+      window.removeEventListener('online', handleOnline);
+      window.removeEventListener('offline', handleOffline);
+    };
+  }, []);
 
   // Load projects from CMS on app start
   useEffect(() => {
@@ -345,9 +390,21 @@ const App = () => {
     };
 
     const isStandalone = window.matchMedia('(display-mode: standalone)').matches;
-    const hasBeenDismissed = localStorage.getItem('iosPromptDismissed') === 'true';
+    const dismissedState = localStorage.getItem('iosPromptDismissed');
+    const dismissedTime = localStorage.getItem('iosPromptDismissedTime');
 
-    if (checkIOSDevice() && !isStandalone && !hasBeenDismissed) {
+    // Don't show if permanently dismissed or already installed as PWA
+    if (checkIOSDevice() && !isStandalone && dismissedState !== 'permanent') {
+      // If temporarily dismissed, check if 24 hours have passed
+      if (dismissedState === 'temporary' && dismissedTime) {
+        const timeElapsed = Date.now() - parseInt(dismissedTime);
+        const twentyFourHours = 24 * 60 * 60 * 1000;
+        
+        if (timeElapsed < twentyFourHours) {
+          return; // Don't show yet
+        }
+      }
+      
       // Show prompt after a short delay
       setTimeout(() => {
         setShowIOSPrompt(true);
@@ -355,9 +412,15 @@ const App = () => {
     }
   }, []);
 
-  const dismissIOSPrompt = () => {
+  const dismissIOSPrompt = (permanent = false) => {
     setShowIOSPrompt(false);
-    localStorage.setItem('iosPromptDismissed', 'true');
+    if (permanent) {
+      localStorage.setItem('iosPromptDismissed', 'permanent');
+    } else {
+      localStorage.setItem('iosPromptDismissed', 'temporary');
+      // Show again in 24 hours if not permanently dismissed
+      localStorage.setItem('iosPromptDismissedTime', Date.now().toString());
+    }
   };
 
   // Show loading state while fetching CMS data or if not enough projects
@@ -520,41 +583,108 @@ const App = () => {
 
   // Gallery navigation functions
   const goToPreviousImage = () => {
+    if (isAnimating) return;
+    setIsAnimating(true);
     setCurrentImageIndex((prev) => (prev === 0 ? galleryImages.length - 1 : prev - 1));
+    setTimeout(() => setIsAnimating(false), 300);
   };
 
   const goToNextImage = () => {
+    if (isAnimating) return;
+    setIsAnimating(true);
     setCurrentImageIndex((prev) => (prev === galleryImages.length - 1 ? 0 : prev + 1));
+    setTimeout(() => setIsAnimating(false), 300);
   };
 
+  // Enhanced touch handling for smooth gallery swipes
   const minSwipeDistance = 50;
+  const maxDragDistance = 100;
 
   const onTouchStart = (e) => {
+    if (isAnimating) return;
+    
+    // Prevent default to avoid scroll conflicts on iPad
+    e.preventDefault();
+    
+    const touch = e.targetTouches[0];
+    setTouchStart({
+      x: touch.clientX,
+      y: touch.clientY,
+      time: Date.now()
+    });
     setTouchEnd(null);
-    setTouchStart(e.targetTouches[0].clientX);
+    setIsDragging(false);
+    setDragOffset(0);
   };
 
   const onTouchMove = (e) => {
-    setTouchEnd(e.targetTouches[0].clientX);
+    if (!touchStart || isAnimating) return;
+    
+    // Prevent default to avoid scroll conflicts
+    e.preventDefault();
+    
+    const touch = e.targetTouches[0];
+    const deltaX = touch.clientX - touchStart.x;
+    const deltaY = Math.abs(touch.clientY - touchStart.y);
+    
+    // Only start dragging if horizontal movement is dominant
+    if (Math.abs(deltaX) > 10 && Math.abs(deltaX) > deltaY) {
+      setIsDragging(true);
+      
+      // Limit drag distance for better UX
+      const constrainedOffset = Math.max(-maxDragDistance, Math.min(maxDragDistance, deltaX));
+      setDragOffset(constrainedOffset);
+      
+      setTouchEnd({
+        x: touch.clientX,
+        y: touch.clientY,
+        time: Date.now()
+      });
+    }
   };
 
-  const onTouchEnd = () => {
-    if (!touchStart || !touchEnd) return;
-    const distance = touchStart - touchEnd;
-    const isLeftSwipe = distance > minSwipeDistance;
-    const isRightSwipe = distance < -minSwipeDistance;
-
-    if (isLeftSwipe && galleryImages.length > 1) {
-      goToNextImage();
+  const onTouchEnd = (e) => {
+    if (!touchStart || isAnimating) return;
+    
+    e.preventDefault();
+    
+    if (!touchEnd) {
+      // Simple tap without drag
+      setIsDragging(false);
+      setDragOffset(0);
+      if (galleryImages.length > 1) {
+        goToNextImage();
+      }
+      return;
     }
-    if (isRightSwipe && galleryImages.length > 1) {
-      goToPreviousImage();
+    
+    const deltaX = touchEnd.x - touchStart.x;
+    const deltaTime = touchEnd.time - touchStart.time;
+    const velocity = Math.abs(deltaX) / deltaTime;
+    
+    // Determine if swipe should trigger navigation
+    const shouldSwipe = Math.abs(deltaX) > minSwipeDistance || velocity > 0.5;
+    
+    if (shouldSwipe && galleryImages.length > 1) {
+      if (deltaX > 0) {
+        // Swiped right - go to previous
+        goToPreviousImage();
+      } else {
+        // Swiped left - go to next
+        goToNextImage();
+      }
     }
+    
+    // Reset drag state with animation
+    setIsDragging(false);
+    setDragOffset(0);
+    setTouchStart(null);
+    setTouchEnd(null);
   };
 
-  // Handle tap navigation
+  // Handle tap navigation (fallback)
   const handleImageTap = () => {
-    if (galleryImages.length > 1) {
+    if (!isDragging && galleryImages.length > 1) {
       goToNextImage();
     }
   };
@@ -584,25 +714,46 @@ const App = () => {
             onTouchMove={onTouchMove}
             onTouchEnd={onTouchEnd}
           >
-            <div className="gallery-image-container" onClick={handleImageTap}>
+            <div 
+              className="gallery-image-container" 
+              onClick={handleImageTap}
+              style={{ 
+                transform: `translateX(${dragOffset}px)`,
+                transition: isDragging ? 'none' : 'transform 0.3s cubic-bezier(0.4, 0, 0.2, 1)'
+              }}
+            >
               <img 
                 src={galleryImages[currentImageIndex].src}
                 alt={galleryImages[currentImageIndex].alt}
                 className="gallery-image"
-                style={{ transform: `translateX(${touchEnd && touchStart ? (touchEnd - touchStart) * 0.5 : 0}px)` }}
                 onLoad={() => console.log('✅ Gallery image loaded:', galleryImages[currentImageIndex].src)}
                 onError={(e) => {
                   console.error('❌ Gallery image failed to load:', galleryImages[currentImageIndex].src);
                   // Fallback to placeholder
                   e.target.src = 'https://via.placeholder.com/800x600/333/fff?text=' + encodeURIComponent(galleryImages[currentImageIndex].alt);
                 }}
+                style={{
+                  userSelect: 'none',
+                  pointerEvents: isDragging ? 'none' : 'auto'
+                }}
               />
             </div>
             
             {/* Swipe hint for first time users */}
-            {galleryImages.length > 1 && (
+            {galleryImages.length > 1 && currentImageIndex < galleryImages.length - 1 && (
               <div className="swipe-hint">
                 <span>← Swipe to navigate →</span>
+              </div>
+            )}
+            
+            {/* End of gallery indicator */}
+            {galleryImages.length > 1 && currentImageIndex === galleryImages.length - 1 && (
+              <div className="gallery-end-indicator">
+                <div className="end-indicator-content">
+                  <span className="end-indicator-icon">✨</span>
+                  <span className="end-indicator-text">You've reached the end</span>
+                  <small className="end-indicator-subtext">Tap to start over</small>
+                </div>
               </div>
             )}
           </div>
@@ -841,8 +992,21 @@ const App = () => {
                   onClick={() => handleMediaClick(mediaItem, selectedProject.title)}
                 >
                   <div className="media-preview-thumbnail">
-                    {/* Render actual media content */}
-                    {mediaItem.type === 'video' && mediaItem.files && mediaItem.files.length > 0 && mediaItem.files[0].url ? (
+                    {/* Render actual media content - use custom preview image if available */}
+                    {mediaItem.type === 'video' && mediaItem.previewImage ? (
+                      <div className="video-preview-container">
+                        <img
+                          className="media-preview-image"
+                          src={mediaItem.previewImage.url}
+                          alt="Video preview"
+                          onLoad={() => console.log('✅ Custom video preview loaded:', mediaItem.previewImage.url)}
+                          onError={(e) => console.error('❌ Custom video preview error:', mediaItem.previewImage.url, e)}
+                        />
+                        <div className="ios-custom-play-icon">
+                          <div className="video-icon"></div>
+                        </div>
+                      </div>
+                    ) : mediaItem.type === 'video' && mediaItem.files && mediaItem.files.length > 0 && mediaItem.files[0].url ? (
                       <div className="video-preview-container">
                         <video
                           className="media-preview-video"
@@ -852,9 +1016,7 @@ const App = () => {
                           onError={(e) => console.error('Video preview error:', mediaItem.files[0].url, e)}
                         />
                         <div className="ios-custom-play-icon">
-                          <svg className="ios-custom-play-svg" viewBox="0 0 24 24">
-                            <path d="M8 5v14l11-7z" fill="white"/>
-                          </svg>
+                          <div className="video-icon"></div>
                         </div>
                       </div>
                     ) : mediaItem.type === 'gallery' && mediaItem.files && mediaItem.files.length > 0 && mediaItem.files[0].url ? (
@@ -876,9 +1038,23 @@ const App = () => {
                           }}
                         />
                         <div className="ios-custom-gallery-icon">
-                          <svg className="ios-custom-gallery-svg" viewBox="0 0 24 24">
-                            <path d="M12 15.5c1.38 0 2.5-1.12 2.5-2.5S13.38 10.5 12 10.5 9.5 11.62 9.5 13s1.12 2.5 2.5 2.5zM17 7H7C5.9 7 5 7.9 5 9v8c0 1.1.9 2 2 2h10c1.1 0 2-.9 2-2V9c0-1.1-.9-2-2-2zM17 17H7V9h10v8z" fill="white"/>
+                          <svg className="camera-icon" viewBox="0 0 24 24">
+                            <path d="M12 15.2c1.9 0 3.5-1.6 3.5-3.5s-1.6-3.5-3.5-3.5-3.5 1.6-3.5 3.5 1.6 3.5 3.5 3.5z"/>
+                            <path d="M9 2L7.17 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2h-3.17L15 2H9z"/>
                           </svg>
+                        </div>
+                      </div>
+                    ) : mediaItem.type === 'pdf' && mediaItem.previewImage ? (
+                      <div className="video-preview-container">
+                        <img
+                          className="media-preview-image"
+                          src={mediaItem.previewImage.url}
+                          alt="PDF preview"
+                          onLoad={() => console.log('✅ Custom PDF preview loaded:', mediaItem.previewImage.url)}
+                          onError={(e) => console.error('❌ Custom PDF preview error:', mediaItem.previewImage.url, e)}
+                        />
+                        <div className="ios-custom-pdf-icon">
+                          <div className="pdf-text">PDF</div>
                         </div>
                       </div>
                     ) : mediaItem.type === 'pdf' ? (
@@ -982,6 +1158,15 @@ const App = () => {
   // Main Dashboard (your current working layout)
   return (
     <div className="app">
+      {/* Offline Indicator */}
+      {isOffline && (
+        <div className="offline-indicator">
+          <div className="offline-content">
+            📱 Offline Mode - Cached content available
+          </div>
+        </div>
+      )}
+      
       <div className="grid-container">
         {/* Row 1 - 4 tiles */}
         <div 
@@ -1114,6 +1299,20 @@ const App = () => {
           size={32}
           onClick={() => setCurrentPage('page2')}
         />
+        
+        {/* OurSayso Logo */}
+        <a 
+          href="https://www.oursayso.com/" 
+          target="_blank" 
+          rel="noopener noreferrer"
+          className="oursayso-logo-link"
+        >
+          <img 
+            src="/images/oursayso-logo.svg" 
+            alt="OurSayso" 
+            className="oursayso-logo"
+          />
+        </a>
       </div>
 
       {/* iOS Install Prompt */}
@@ -1125,9 +1324,14 @@ const App = () => {
             <div className="ios-prompt-instructions">
               Tap <span className="share-icon">⬆️</span> then "Add to Home Screen"
             </div>
-            <button className="ios-prompt-dismiss" onClick={dismissIOSPrompt}>
-              Maybe Later
-            </button>
+            <div className="ios-prompt-buttons">
+              <button className="ios-prompt-dismiss" onClick={() => dismissIOSPrompt(false)}>
+                Maybe Later
+              </button>
+              <button className="ios-prompt-dismiss ios-prompt-never" onClick={() => dismissIOSPrompt(true)}>
+                Don't Show Again
+              </button>
+            </div>
           </div>
         </div>
       )}
