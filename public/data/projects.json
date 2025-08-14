@@ -15,11 +15,11 @@
       "slug": "lovell-leadership-conferences",
       "tileBackground": {
         "type": "image",
-        "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755166087/portfolio/tiles/portfolio/tiles/tile_1.png?v=1755194057915",
+        "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755166087/portfolio/tiles/portfolio/tiles/tile_1.png?v=1755194964934",
         "storageType": "cloudinary"
       },
       "pageBackground": {
-        "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755115318/portfolio/backgrounds/portfolio/backgrounds/bg_1.png?v=1755194057915",
+        "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755115318/portfolio/backgrounds/portfolio/backgrounds/bg_1.png?v=1755194964934",
         "dimensions": {
           "width": 1920,
           "height": 1080
@@ -82,7 +82,7 @@
           "order": 1
         },
         {
-          "id": "1755194215098",
+          "id": "1755194979123",
           "type": "pdf",
           "title": "pdf media",
           "files": [
@@ -90,7 +90,7 @@
               "url": "/projects/1/media/Digital-Portfolio-2024_v3.5.pdf",
               "name": "Digital-Portfolio-2024_v3.5.pdf",
               "type": "application/pdf",
-              "storageType": "portfolio"
+              "storageType": "local"
             }
           ],
           "order": 2
@@ -98,7 +98,7 @@
       ],
       "hasVideo": true,
       "createdAt": "2024-01-15T10:00:00Z",
-      "updatedAt": "2025-08-14T17:57:42.198Z",
+      "updatedAt": "2025-08-14T18:09:54.490Z",
       "status": "published"
     },
     {
@@ -116,11 +116,11 @@
       "slug": "rarely-heard-voices-videos",
       "tileBackground": {
         "type": "image",
-        "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755170123/portfolio/tiles/portfolio/tiles/tile_2.png?v=1755194057915",
+        "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755170123/portfolio/tiles/portfolio/tiles/tile_2.png?v=1755194964934",
         "storageType": "cloudinary"
       },
       "pageBackground": {
-        "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755170120/portfolio/backgrounds/portfolio/backgrounds/bg_2.png?v=1755194057915",
+        "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755170120/portfolio/backgrounds/portfolio/backgrounds/bg_2.png?v=1755194964934",
         "dimensions": {
           "width": 1920,
           "height": 1080
@@ -434,7 +434,7 @@
       "Video",
       "Design & Digital"
     ],
-    "lastUpdated": "2025-08-14T17:57:48.163Z",
+    "lastUpdated": "2025-08-14T18:09:58.636Z",
     "version": "1.0.0",
     "page": 1
   }
