@@ -483,10 +483,27 @@ const App = () => {
         alert('This gallery is not available yet.');
       }
     } else if (mediaItem.type === 'pdf') {
+      console.log('🔍 PDF click debug:', {
+        hasFiles: !!(mediaItem.files && mediaItem.files.length > 0),
+        filesCount: mediaItem.files?.length || 0,
+        firstFileUrl: mediaItem.files?.[0]?.url,
+        firstFileName: mediaItem.files?.[0]?.name,
+        mediaItem: mediaItem
+      });
+      
       if (mediaItem.files && mediaItem.files.length > 0 && mediaItem.files[0].url) {
-        console.log('✅ PDF has valid source:', mediaItem.files[0].url);
+        const pdfUrl = mediaItem.files[0].url;
+        console.log('✅ Opening PDF:', pdfUrl);
+        
+        // Check if URL looks valid (not a placeholder)
+        if (pdfUrl.includes('placeholder') || pdfUrl.includes('Gallery%20Image')) {
+          console.error('❌ PDF has placeholder URL instead of real URL:', pdfUrl);
+          alert('PDF URL is invalid - please re-upload the PDF in the CMS.');
+          return;
+        }
+        
         // Open PDF in new tab
-        window.open(mediaItem.files[0].url, '_blank');
+        window.open(pdfUrl, '_blank');
       } else {
         console.warn('❌ PDF has no valid source. Files:', mediaItem.files);
         alert('This PDF is not available yet.');
@@ -624,11 +641,6 @@ const App = () => {
             } type="video/mp4" />
             Your browser does not support the video tag.
           </video>
-          
-          {/* Video Title Overlay */}
-          <div className="video-title-overlay">
-            {selectedMedia.title} - {selectedMedia.projectTitle}
-          </div>
         </div>
       </div>
     );
@@ -874,7 +886,6 @@ const App = () => {
                         <svg className="ios-custom-pdf-svg" viewBox="0 0 24 24">
                           <path d="M14,2H6A2,2 0 0,0 4,4V20A2,2 0 0,0 6,22H18A2,2 0 0,0 20,20V8L14,2M18,20H6V4H13V9H18V20Z" fill="white"/>
                         </svg>
-                        <div className="pdf-label">PDF</div>
                       </div>
                     ) : (
                       <div className="media-preview-content">

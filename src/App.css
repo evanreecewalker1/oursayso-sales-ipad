@@ -612,29 +612,17 @@ body {
 
 .video-player-fullscreen {
   width: 100vw;
-  height: 100vh;
-  object-fit: cover;
+  height: auto;
+  max-height: 100vh;
+  object-fit: contain;
   position: absolute;
-  top: 0;
-  left: 0;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   z-index: 1;
+  background: black;
 }
 
-.video-title-overlay {
-  position: absolute;
-  top: 40px;
-  right: 40px;
-  background: rgba(0, 0, 0, 0.8);
-  color: white;
-  padding: 12px 20px;
-  border-radius: 20px;
-  font-size: 16px;
-  font-weight: 600;
-  z-index: 20;
-  backdrop-filter: blur(10px);
-  max-width: 40%;
-  text-align: right;
-}
 
 /* PDF Viewer Styling - 16:9 Aspect Ratio */
 .pdf-viewer {
@@ -928,7 +916,6 @@ body {
   }
 
   .gallery-counter,
-  .video-title-overlay,
   .pdf-title-overlay {
     top: 20px;
     right: 20px;
