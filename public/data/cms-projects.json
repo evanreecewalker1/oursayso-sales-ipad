@@ -11,7 +11,7 @@
         "Graphic Design",
         "Presentations"
       ],
-      "hasVideo": false,
+      "hasVideo": true,
       "backgrounds": {
         "tile": {
           "type": "image",
@@ -309,13 +309,38 @@
             }
           ],
           "order": 0
+        },
+        {
+          "id": "1755192354180",
+          "type": "video",
+          "title": "",
+          "files": [
+            {
+              "publicId": "portfolio_1755192369953",
+              "url": "/videos/general-1755192365755-video-test.mp4",
+              "localPath": "/videos/general-1755192365755-video-test.mp4",
+              "width": null,
+              "height": null,
+              "format": "mp4",
+              "bytes": 15039666,
+              "duration": null,
+              "resourceType": "video",
+              "storageType": "portfolio",
+              "uploadedAt": "2025-08-14T17:26:09.953Z",
+              "preview": "/videos/general-1755192365755-video-test.mp4",
+              "file": {},
+              "needsServerUpload": false
+            }
+          ],
+          "images": [],
+          "order": 1
         }
       ],
       "metadata": {
         "createdAt": "2024-01-15T10:00:00Z",
-        "updatedAt": "2025-08-14T16:49:10.916Z",
-        "version": 32,
-        "status": "published",
+        "updatedAt": "2025-08-14T17:26:17.085Z",
+        "version": 33,
+        "status": "draft",
         "lastPublished": "2025-08-14T16:49:21.822Z"
       },
       "tileBackgroundType": "image",
@@ -832,6 +857,6 @@
       "date": "2024-03-10"
     }
   ],
-  "lastUpdated": "2025-08-14T17:25:50.522Z",
+  "lastUpdated": "2025-08-14T17:26:19.090Z",
   "version": "1.0"
 }
