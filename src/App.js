@@ -308,6 +308,10 @@ const App = () => {
   const [projectsLoaded, setProjectsLoaded] = useState(false);
   const [cmsProjects, setCmsProjects] = useState([]);
   const [showIOSPrompt, setShowIOSPrompt] = useState(false);
+  
+  // Touch/Swipe handling for gallery
+  const [touchStart, setTouchStart] = useState(null);
+  const [touchEnd, setTouchEnd] = useState(null);
 
   // Get current projects - use CMS data if loaded, otherwise fall back to hardcoded
   const currentProjects = cmsProjects.length > 0 ? cmsProjects : projects;
@@ -505,10 +509,6 @@ const App = () => {
   const goToNextImage = () => {
     setCurrentImageIndex((prev) => (prev === galleryImages.length - 1 ? 0 : prev + 1));
   };
-
-  // Touch/Swipe handling for gallery
-  const [touchStart, setTouchStart] = useState(null);
-  const [touchEnd, setTouchEnd] = useState(null);
 
   const minSwipeDistance = 50;
 
