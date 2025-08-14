@@ -15,11 +15,11 @@
       "slug": "lovell-leadership-conferences",
       "tileBackground": {
         "type": "image",
-        "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755166087/portfolio/tiles/portfolio/tiles/tile_1.png?v=1755189927512",
+        "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755166087/portfolio/tiles/portfolio/tiles/tile_1.png?v=1755190144346",
         "storageType": "cloudinary"
       },
       "pageBackground": {
-        "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755115318/portfolio/backgrounds/portfolio/backgrounds/bg_1.png?v=1755189927512",
+        "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755115318/portfolio/backgrounds/portfolio/backgrounds/bg_1.png?v=1755190144346",
         "dimensions": {
           "width": 1920,
           "height": 1080
@@ -102,7 +102,7 @@
       ],
       "hasVideo": false,
       "createdAt": "2024-01-15T10:00:00Z",
-      "updatedAt": "2025-08-14T16:45:33.854Z",
+      "updatedAt": "2025-08-14T16:49:10.916Z",
       "status": "published"
     },
     {
@@ -120,11 +120,11 @@
       "slug": "rarely-heard-voices-videos",
       "tileBackground": {
         "type": "image",
-        "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755170123/portfolio/tiles/portfolio/tiles/tile_2.png?v=1755189927512",
+        "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755170123/portfolio/tiles/portfolio/tiles/tile_2.png?v=1755190144346",
         "storageType": "cloudinary"
       },
       "pageBackground": {
-        "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755170120/portfolio/backgrounds/portfolio/backgrounds/bg_2.png?v=1755189927512",
+        "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755170120/portfolio/backgrounds/portfolio/backgrounds/bg_2.png?v=1755190144346",
         "dimensions": {
           "width": 1920,
           "height": 1080
@@ -438,7 +438,7 @@
       "Video",
       "Design & Digital"
     ],
-    "lastUpdated": "2025-08-14T16:45:36.660Z",
+    "lastUpdated": "2025-08-14T16:49:13.052Z",
     "version": "1.0.0",
     "page": 1
   }
