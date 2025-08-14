@@ -80,11 +80,25 @@
             }
           ],
           "order": 1
+        },
+        {
+          "id": "1755194215098",
+          "type": "pdf",
+          "title": "pdf media",
+          "files": [
+            {
+              "url": "/projects/1/media/Digital-Portfolio-2024_v3.5.pdf",
+              "name": "Digital-Portfolio-2024_v3.5.pdf",
+              "type": "application/pdf",
+              "storageType": "portfolio"
+            }
+          ],
+          "order": 2
         }
       ],
       "hasVideo": true,
       "createdAt": "2024-01-15T10:00:00Z",
-      "updatedAt": "2025-08-14T17:54:52.476Z",
+      "updatedAt": "2025-08-14T17:57:42.198Z",
       "status": "published"
     },
     {
@@ -420,7 +434,7 @@
       "Video",
       "Design & Digital"
     ],
-    "lastUpdated": "2025-08-14T17:55:04.892Z",
+    "lastUpdated": "2025-08-14T17:57:48.163Z",
     "version": "1.0.0",
     "page": 1
   }
