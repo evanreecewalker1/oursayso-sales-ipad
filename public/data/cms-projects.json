@@ -314,15 +314,32 @@
           "id": "1755188717165",
           "type": "video",
           "title": "",
-          "files": [],
+          "files": [
+            {
+              "publicId": "portfolio_1755188753143",
+              "url": "/videos/general-1755188749186-video-test.mp4",
+              "localPath": "/videos/general-1755188749186-video-test.mp4",
+              "width": null,
+              "height": null,
+              "format": "mp4",
+              "bytes": 15039666,
+              "duration": null,
+              "resourceType": "video",
+              "storageType": "portfolio",
+              "uploadedAt": "2025-08-14T16:25:53.143Z",
+              "preview": "/videos/general-1755188749186-video-test.mp4",
+              "file": {},
+              "needsServerUpload": false
+            }
+          ],
           "images": [],
           "order": 1
         }
       ],
       "metadata": {
         "createdAt": "2024-01-15T10:00:00Z",
-        "updatedAt": "2025-08-14T16:25:40.678Z",
-        "version": 25,
+        "updatedAt": "2025-08-14T16:27:37.406Z",
+        "version": 26,
         "status": "draft",
         "lastPublished": "2025-08-14T16:21:52.712Z"
       },
@@ -840,6 +857,6 @@
       "date": "2024-03-10"
     }
   ],
-  "lastUpdated": "2025-08-14T16:25:42.695Z",
+  "lastUpdated": "2025-08-14T16:27:39.422Z",
   "version": "1.0"
 }
