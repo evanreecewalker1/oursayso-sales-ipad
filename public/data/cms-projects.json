@@ -384,105 +384,99 @@
       "id": "2",
       "title": "Rarely Heard Voices Videos",
       "category": "Video",
-      "description": "Powerful documentary series amplifying underrepresented voices in corporate leadership. Award-winning video production with compelling storytelling.",
+      "description": "Lorum Ipsum Dolor",
       "tags": [
-        "documentary",
-        "video-production",
-        "diversity",
-        "leadership"
+        "VIDEO PRODUCTION",
+        "VIDEO SHOOT",
+        "INTERVIEWS"
       ],
-      "hasVideo": false,
+      "hasVideo": true,
       "backgrounds": {
         "tile": {
           "type": "image",
           "file": {
-            "name": "lovell-tile.png",
-            "size": 228219,
+            "name": "project-tile.png",
+            "size": 784345,
             "type": "image/png",
             "dimensions": {
               "width": 800,
               "height": 800
             },
-            "uploadedAt": "2025-08-14T11:54:01.265Z",
+            "uploadedAt": "2025-08-15T13:10:07.428Z",
             "cloudinary": true,
             "cloudinaryId": "portfolio/tiles/portfolio/tiles/tile_2",
-            "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755170123/portfolio/tiles/portfolio/tiles/tile_2.png"
+            "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755263407/portfolio/tiles/portfolio/tiles/tile_2.png"
           }
         },
         "page": {
-          "name": "lovell-background.png",
-          "size": 1747615,
+          "name": "project-background.png",
+          "size": 3052780,
           "type": "image/png",
           "dimensions": {
             "width": 1920,
             "height": 1080
           },
-          "uploadedAt": "2025-08-14T11:53:56.746Z",
+          "uploadedAt": "2025-08-15T13:12:18.042Z",
           "cloudinary": true,
           "cloudinaryId": "portfolio/backgrounds/portfolio/backgrounds/bg_2",
-          "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755170120/portfolio/backgrounds/portfolio/backgrounds/bg_2.png"
+          "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755263537/portfolio/backgrounds/portfolio/backgrounds/bg_2.png"
         }
       },
       "metadata": {
         "createdAt": "2024-01-20T10:00:00Z",
-        "updatedAt": "2025-08-14T14:24:16.070Z",
-        "version": 3,
-        "status": "published",
+        "updatedAt": "2025-08-15T13:19:14.085Z",
+        "version": 4,
+        "status": "draft",
         "lastPublished": "2025-08-15T12:51:16.225Z"
       },
       "mediaItems": [
         {
-          "id": "1755172408580",
-          "type": "gallery",
+          "id": "1755263545190",
+          "type": "video",
           "title": "",
-          "files": [
-            {
-              "publicId": "portfolio_1755172427075",
-              "url": "/images/general/1755172427074-digital-portfolio-2024-v3.5.pdf",
-              "localPath": "/images/general/1755172427074-digital-portfolio-2024-v3.5.pdf",
-              "width": null,
-              "height": null,
-              "format": "pdf",
-              "bytes": 7036023,
-              "duration": null,
-              "resourceType": "image",
-              "storageType": "portfolio",
-              "uploadedAt": "2025-08-14T11:53:47.075Z",
-              "preview": "/images/general/1755172427074-digital-portfolio-2024-v3.5.pdf",
-              "file": {},
-              "needsServerUpload": false
-            }
-          ],
+          "files": [],
           "images": [],
           "order": 0
         }
       ],
       "tileBackgroundType": "image",
       "tileBackgroundFile": {
-        "name": "lovell-tile.png",
-        "size": 228219,
+        "file": {},
+        "preview": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755263407/portfolio/tiles/portfolio/tiles/tile_2.png",
+        "name": "project-tile.png",
+        "size": 784345,
         "type": "image/png",
+        "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755263407/portfolio/tiles/portfolio/tiles/tile_2.png",
+        "cloudinaryId": "portfolio/tiles/portfolio/tiles/tile_2",
+        "uploadedAt": "2025-08-15T13:10:07.428Z",
         "dimensions": {
           "width": 800,
           "height": 800
         },
-        "uploadedAt": "2025-08-14T11:54:01.265Z",
-        "cloudinary": true,
-        "cloudinaryId": "portfolio/tiles/portfolio/tiles/tile_2",
-        "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755170123/portfolio/tiles/portfolio/tiles/tile_2.png"
+        "uploading": false,
+        "storageType": "cloudinary",
+        "localPath": null,
+        "needsServerUpload": false,
+        "cloudinary": true
       },
       "pageBackgroundFile": {
-        "name": "lovell-background.png",
-        "size": 1747615,
+        "file": {},
+        "preview": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755263537/portfolio/backgrounds/portfolio/backgrounds/bg_2.png",
+        "name": "project-background.png",
+        "size": 3052780,
         "type": "image/png",
+        "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755263537/portfolio/backgrounds/portfolio/backgrounds/bg_2.png",
+        "cloudinaryId": "portfolio/backgrounds/portfolio/backgrounds/bg_2",
+        "uploadedAt": "2025-08-15T13:12:18.042Z",
         "dimensions": {
           "width": 1920,
           "height": 1080
         },
-        "uploadedAt": "2025-08-14T11:53:56.746Z",
-        "cloudinary": true,
-        "cloudinaryId": "portfolio/backgrounds/portfolio/backgrounds/bg_2",
-        "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755170120/portfolio/backgrounds/portfolio/backgrounds/bg_2.png"
+        "uploading": false,
+        "storageType": "cloudinary",
+        "localPath": null,
+        "needsServerUpload": false,
+        "cloudinary": true
       }
     },
     {
@@ -919,6 +913,6 @@
       "date": "2024-03-10"
     }
   ],
-  "lastUpdated": "2025-08-15T12:53:55.577Z",
+  "lastUpdated": "2025-08-15T13:19:16.102Z",
   "version": "1.0"
 }
