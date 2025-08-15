@@ -530,23 +530,23 @@
         },
         "page": {
           "name": "project-background.png",
-          "size": 3052780,
+          "size": 3303135,
           "type": "image/png",
           "dimensions": {
             "width": 1920,
             "height": 1080
           },
-          "uploadedAt": "2025-08-15T13:25:43.796Z",
+          "uploadedAt": "2025-08-15T13:30:15.198Z",
           "cloudinary": true,
           "cloudinaryId": "portfolio/backgrounds/portfolio/backgrounds/bg_3",
-          "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755264343/portfolio/backgrounds/portfolio/backgrounds/bg_3.png"
+          "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755264614/portfolio/backgrounds/portfolio/backgrounds/bg_3.png"
         }
       },
       "metadata": {
         "createdAt": "2024-02-01T10:00:00Z",
-        "updatedAt": "2025-08-15T13:26:31.730Z",
-        "version": 2,
-        "status": "published",
+        "updatedAt": "2025-08-15T13:30:25.351Z",
+        "version": 3,
+        "status": "draft",
         "lastPublished": "2025-08-15T13:27:52.343Z"
       },
       "mediaItems": [
@@ -819,33 +819,27 @@
       ],
       "tileBackgroundType": "image",
       "tileBackgroundFile": {
-        "file": {},
-        "preview": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755264289/portfolio/tiles/portfolio/tiles/tile_3.png",
         "name": "project-tile.png",
         "size": 196550,
         "type": "image/png",
-        "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755264289/portfolio/tiles/portfolio/tiles/tile_3.png",
-        "cloudinaryId": "portfolio/tiles/portfolio/tiles/tile_3",
-        "uploadedAt": "2025-08-15T13:24:49.699Z",
         "dimensions": {
           "width": 800,
           "height": 800
         },
-        "uploading": false,
-        "storageType": "cloudinary",
-        "localPath": null,
-        "needsServerUpload": false,
-        "cloudinary": true
+        "uploadedAt": "2025-08-15T13:24:49.699Z",
+        "cloudinary": true,
+        "cloudinaryId": "portfolio/tiles/portfolio/tiles/tile_3",
+        "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755264289/portfolio/tiles/portfolio/tiles/tile_3.png"
       },
       "pageBackgroundFile": {
         "file": {},
-        "preview": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755264343/portfolio/backgrounds/portfolio/backgrounds/bg_3.png",
+        "preview": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755264614/portfolio/backgrounds/portfolio/backgrounds/bg_3.png",
         "name": "project-background.png",
-        "size": 3052780,
+        "size": 3303135,
         "type": "image/png",
-        "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755264343/portfolio/backgrounds/portfolio/backgrounds/bg_3.png",
+        "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755264614/portfolio/backgrounds/portfolio/backgrounds/bg_3.png",
         "cloudinaryId": "portfolio/backgrounds/portfolio/backgrounds/bg_3",
-        "uploadedAt": "2025-08-15T13:25:43.796Z",
+        "uploadedAt": "2025-08-15T13:30:15.198Z",
         "dimensions": {
           "width": 1920,
           "height": 1080
@@ -1250,6 +1244,6 @@
       "date": "2024-03-10"
     }
   ],
-  "lastUpdated": "2025-08-15T13:27:54.347Z",
+  "lastUpdated": "2025-08-15T13:30:27.365Z",
   "version": "1.0"
 }
