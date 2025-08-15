@@ -1121,7 +1121,7 @@
         "ANIMATION",
         "GRAPHIC DESIGN"
       ],
-      "hasVideo": false,
+      "hasVideo": true,
       "backgrounds": {
         "tile": {
           "type": "image",
@@ -1153,52 +1153,75 @@
           "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755265645/portfolio/backgrounds/portfolio/backgrounds/bg_5.png"
         }
       },
-      "mediaItems": [],
+      "mediaItems": [
+        {
+          "id": "1755267659121",
+          "type": "video",
+          "title": "video media",
+          "files": [
+            {
+              "publicId": "local_1755267708170",
+              "url": "/videos/general/1755267708170-ri-preview.mp4",
+              "localPath": "/videos/general/1755267708170-ri-preview.mp4",
+              "width": null,
+              "height": null,
+              "format": "mp4",
+              "bytes": 56910015,
+              "duration": null,
+              "resourceType": "video",
+              "storageType": "local",
+              "uploadedAt": "2025-08-15T14:21:48.170Z",
+              "preview": "blob:https://oursayso-portfolio-cms.netlify.app/bf47ea8d-c42b-4696-93e3-67fd9cd5bf36",
+              "file": {},
+              "needsServerUpload": false,
+              "name": "RI-preview.mp4",
+              "type": "video/mp4",
+              "fileName": "RI-preview.mp4",
+              "customVideoPreview": {
+                "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755267730/portfolio/video-previews/cesgznshsjptg3s1jkmn.png",
+                "publicId": "portfolio/video-previews/cesgznshsjptg3s1jkmn",
+                "name": "video-preview.png",
+                "uploadedAt": "2025-08-15T14:22:10.785Z"
+              }
+            }
+          ],
+          "images": [],
+          "order": 0
+        }
+      ],
       "metadata": {
         "createdAt": "2024-02-15T10:00:00Z",
-        "updatedAt": "2025-08-15T13:49:21.274Z",
-        "version": 2,
-        "status": "published",
+        "updatedAt": "2025-08-15T14:22:15.177Z",
+        "version": 3,
+        "status": "draft",
         "lastPublished": "2025-08-15T13:49:31.211Z"
       },
       "tileBackgroundType": "image",
       "tileBackgroundFile": {
-        "file": {},
-        "preview": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755265639/portfolio/tiles/portfolio/tiles/tile_5.png",
         "name": "project-tile.png",
         "size": 29156,
         "type": "image/png",
-        "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755265639/portfolio/tiles/portfolio/tiles/tile_5.png",
-        "cloudinaryId": "portfolio/tiles/portfolio/tiles/tile_5",
-        "uploadedAt": "2025-08-15T13:47:19.420Z",
         "dimensions": {
           "width": 800,
           "height": 800
         },
-        "uploading": false,
-        "storageType": "cloudinary",
-        "localPath": null,
-        "needsServerUpload": false,
-        "cloudinary": true
+        "uploadedAt": "2025-08-15T13:47:19.420Z",
+        "cloudinary": true,
+        "cloudinaryId": "portfolio/tiles/portfolio/tiles/tile_5",
+        "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755265639/portfolio/tiles/portfolio/tiles/tile_5.png"
       },
       "pageBackgroundFile": {
-        "file": {},
-        "preview": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755265645/portfolio/backgrounds/portfolio/backgrounds/bg_5.png",
         "name": "project-background.png",
         "size": 1522660,
         "type": "image/png",
-        "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755265645/portfolio/backgrounds/portfolio/backgrounds/bg_5.png",
-        "cloudinaryId": "portfolio/backgrounds/portfolio/backgrounds/bg_5",
-        "uploadedAt": "2025-08-15T13:47:25.993Z",
         "dimensions": {
           "width": 1920,
           "height": 1080
         },
-        "uploading": false,
-        "storageType": "cloudinary",
-        "localPath": null,
-        "needsServerUpload": false,
-        "cloudinary": true
+        "uploadedAt": "2025-08-15T13:47:25.993Z",
+        "cloudinary": true,
+        "cloudinaryId": "portfolio/backgrounds/portfolio/backgrounds/bg_5",
+        "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755265645/portfolio/backgrounds/portfolio/backgrounds/bg_5.png"
       }
     },
     {
@@ -1814,6 +1837,6 @@
       "date": "2024-03-10"
     }
   ],
-  "lastUpdated": "2025-08-15T14:18:30.769Z",
+  "lastUpdated": "2025-08-15T14:22:17.181Z",
   "version": "1.0"
 }
