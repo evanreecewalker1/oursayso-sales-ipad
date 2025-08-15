@@ -37,7 +37,7 @@
             "width": 1920,
             "height": 1080
           },
-          "uploadedAt": "2025-08-14T10:45:14.164Z",
+          "uploadedAt": "2025-08-15T13:19:30.728Z",
           "cloudinary": true,
           "cloudinaryId": "portfolio/backgrounds/portfolio/backgrounds/bg_1",
           "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755115318/portfolio/backgrounds/portfolio/backgrounds/bg_1.png"
@@ -347,8 +347,8 @@
       ],
       "metadata": {
         "createdAt": "2024-01-15T10:00:00Z",
-        "updatedAt": "2025-08-15T12:53:53.559Z",
-        "version": 50,
+        "updatedAt": "2025-08-15T13:19:33.412Z",
+        "version": 51,
         "status": "draft",
         "lastPublished": "2025-08-15T12:51:16.225Z"
       },
@@ -367,17 +367,23 @@
         "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755166087/portfolio/tiles/portfolio/tiles/tile_1.png"
       },
       "pageBackgroundFile": {
+        "file": {},
+        "preview": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755115318/portfolio/backgrounds/portfolio/backgrounds/bg_1.png",
         "name": "lovell-background.png",
         "size": 1747615,
         "type": "image/png",
+        "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755115318/portfolio/backgrounds/portfolio/backgrounds/bg_1.png",
+        "cloudinaryId": "portfolio/backgrounds/portfolio/backgrounds/bg_1",
+        "uploadedAt": "2025-08-15T13:19:30.728Z",
         "dimensions": {
           "width": 1920,
           "height": 1080
         },
-        "uploadedAt": "2025-08-14T10:45:14.164Z",
-        "cloudinary": true,
-        "cloudinaryId": "portfolio/backgrounds/portfolio/backgrounds/bg_1",
-        "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755115318/portfolio/backgrounds/portfolio/backgrounds/bg_1.png"
+        "uploading": false,
+        "storageType": "cloudinary",
+        "localPath": null,
+        "needsServerUpload": false,
+        "cloudinary": true
       }
     },
     {
@@ -913,6 +919,6 @@
       "date": "2024-03-10"
     }
   ],
-  "lastUpdated": "2025-08-15T13:19:16.102Z",
+  "lastUpdated": "2025-08-15T13:19:35.418Z",
   "version": "1.0"
 }
