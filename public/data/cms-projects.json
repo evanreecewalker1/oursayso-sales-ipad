@@ -11,7 +11,7 @@
         "Graphic Design",
         "Presentations"
       ],
-      "hasVideo": true,
+      "hasVideo": false,
       "backgrounds": {
         "tile": {
           "type": "image",
@@ -309,48 +309,14 @@
             }
           ],
           "order": 0
-        },
-        {
-          "id": "1755194075412",
-          "type": "video",
-          "title": "video media",
-          "files": [
-            {
-              "publicId": "portfolio_1755194088502",
-              "url": "/videos/general-1755194084142-video-test.mp4",
-              "localPath": "/videos/general-1755194084142-video-test.mp4",
-              "width": null,
-              "height": null,
-              "format": "mp4",
-              "bytes": 15039666,
-              "duration": null,
-              "resourceType": "video",
-              "storageType": "portfolio",
-              "uploadedAt": "2025-08-14T17:54:48.502Z",
-              "preview": "/videos/general-1755194084142-video-test.mp4",
-              "file": {},
-              "needsServerUpload": false,
-              "name": "video_test.mp4",
-              "type": "video/mp4",
-              "fileName": "video_test.mp4",
-              "customVideoPreview": {
-                "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755262429/portfolio/video-previews/kf4xqmbwueboeun9jrmb.png",
-                "publicId": "portfolio/video-previews/kf4xqmbwueboeun9jrmb",
-                "name": "Screenshot 2025-08-15 at 14.53.14.png",
-                "uploadedAt": "2025-08-15T12:53:50.316Z"
-              }
-            }
-          ],
-          "images": [],
-          "order": 1
         }
       ],
       "metadata": {
         "createdAt": "2024-01-15T10:00:00Z",
-        "updatedAt": "2025-08-15T13:19:33.412Z",
-        "version": 51,
+        "updatedAt": "2025-08-15T14:56:37.366Z",
+        "version": 52,
         "status": "published",
-        "lastPublished": "2025-08-15T13:49:31.211Z"
+        "lastPublished": "2025-08-15T14:58:26.235Z"
       },
       "tileBackgroundType": "image",
       "tileBackgroundFile": {
@@ -367,23 +333,17 @@
         "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755166087/portfolio/tiles/portfolio/tiles/tile_1.png"
       },
       "pageBackgroundFile": {
-        "file": {},
-        "preview": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755115318/portfolio/backgrounds/portfolio/backgrounds/bg_1.png",
         "name": "lovell-background.png",
         "size": 1747615,
         "type": "image/png",
-        "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755115318/portfolio/backgrounds/portfolio/backgrounds/bg_1.png",
-        "cloudinaryId": "portfolio/backgrounds/portfolio/backgrounds/bg_1",
-        "uploadedAt": "2025-08-15T13:19:30.728Z",
         "dimensions": {
           "width": 1920,
           "height": 1080
         },
-        "uploading": false,
-        "storageType": "cloudinary",
-        "localPath": null,
-        "needsServerUpload": false,
-        "cloudinary": true
+        "uploadedAt": "2025-08-15T13:19:30.728Z",
+        "cloudinary": true,
+        "cloudinaryId": "portfolio/backgrounds/portfolio/backgrounds/bg_1",
+        "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755115318/portfolio/backgrounds/portfolio/backgrounds/bg_1.png"
       }
     },
     {
@@ -430,21 +390,21 @@
       },
       "metadata": {
         "createdAt": "2024-01-20T10:00:00Z",
-        "updatedAt": "2025-08-15T13:32:14.012Z",
-        "version": 7,
+        "updatedAt": "2025-08-15T14:13:56.345Z",
+        "version": 9,
         "status": "published",
-        "lastPublished": "2025-08-15T13:49:31.211Z"
+        "lastPublished": "2025-08-15T14:58:26.235Z"
       },
       "mediaItems": [
         {
-          "id": "1755263545190",
+          "id": "1755267180783",
           "type": "video",
           "title": "video media",
           "files": [
             {
-              "publicId": "local_1755264699188",
-              "url": "/videos/general/1755264699188-rarely-preview.mp4",
-              "localPath": "/videos/general/1755264699188-rarely-preview.mp4",
+              "publicId": "local_1755267202498",
+              "url": "/videos/general/1755267202498-rarely-preview.mp4",
+              "localPath": "/videos/general/1755267202498-rarely-preview.mp4",
               "width": null,
               "height": null,
               "format": "mp4",
@@ -452,15 +412,18 @@
               "duration": null,
               "resourceType": "video",
               "storageType": "local",
-              "uploadedAt": "2025-08-15T13:31:39.188Z",
-              "preview": "blob:https://oursayso-portfolio-cms.netlify.app/1b0b2dc2-e894-4b98-880c-1bf5511ba3bb",
+              "uploadedAt": "2025-08-15T14:13:22.498Z",
+              "preview": "blob:https://oursayso-portfolio-cms.netlify.app/650e33cf-aa6f-4ae2-bb72-2a572bad3c35",
               "file": {},
               "needsServerUpload": false,
+              "name": "Rarely-preview.mp4",
+              "type": "video/mp4",
+              "fileName": "Rarely-preview.mp4",
               "customVideoPreview": {
-                "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755264730/portfolio/video-previews/gu3onpkenhzejyjrksya.png",
-                "publicId": "portfolio/video-previews/gu3onpkenhzejyjrksya",
+                "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755267233/portfolio/video-previews/d31urscbphaadns3lb7u.png",
+                "publicId": "portfolio/video-previews/d31urscbphaadns3lb7u",
                 "name": "video-preview.png",
-                "uploadedAt": "2025-08-15T13:32:11.296Z"
+                "uploadedAt": "2025-08-15T14:13:53.970Z"
               }
             }
           ],
@@ -541,10 +504,10 @@
       },
       "metadata": {
         "createdAt": "2024-02-01T10:00:00Z",
-        "updatedAt": "2025-08-15T13:30:25.351Z",
-        "version": 3,
+        "updatedAt": "2025-08-15T14:36:27.375Z",
+        "version": 4,
         "status": "published",
-        "lastPublished": "2025-08-15T13:49:31.211Z"
+        "lastPublished": "2025-08-15T14:58:26.235Z"
       },
       "mediaItems": [
         {
@@ -812,6 +775,144 @@
             }
           ],
           "order": 0
+        },
+        {
+          "id": "1755268505468",
+          "type": "gallery",
+          "title": "🖼️ Project Gallery (4 images)",
+          "files": [
+            {
+              "publicId": "dlk7nl1gy4z99dogoto7",
+              "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755268570/dlk7nl1gy4z99dogoto7.jpg",
+              "width": 1920,
+              "height": 1080,
+              "format": "jpg",
+              "bytes": 1650499,
+              "resourceType": "image",
+              "eager": [],
+              "storageType": "cloudinary",
+              "localPath": null,
+              "id": "gallery-img-1755268571119-0.7840311875005752",
+              "name": "Slides_v1.1.jpg",
+              "size": 1650499,
+              "uploadedAt": "2025-08-15T14:36:11.119Z"
+            },
+            {
+              "publicId": "nufzdfqzdowk5zmh4i06",
+              "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755268576/nufzdfqzdowk5zmh4i06.jpg",
+              "width": 1920,
+              "height": 1080,
+              "format": "jpg",
+              "bytes": 740266,
+              "resourceType": "image",
+              "eager": [],
+              "storageType": "cloudinary",
+              "localPath": null,
+              "id": "gallery-img-1755268576879-0.38319992710345707",
+              "name": "Slides_v1.0.jpg",
+              "size": 740266,
+              "uploadedAt": "2025-08-15T14:36:16.879Z"
+            },
+            {
+              "publicId": "ghpooxv2azh6715m55wm",
+              "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755268577/ghpooxv2azh6715m55wm.jpg",
+              "width": 1920,
+              "height": 1080,
+              "format": "jpg",
+              "bytes": 1019740,
+              "resourceType": "image",
+              "eager": [],
+              "storageType": "cloudinary",
+              "localPath": null,
+              "id": "gallery-img-1755268577801-0.1588013777659908",
+              "name": "Slides_v1.02.jpg",
+              "size": 1019740,
+              "uploadedAt": "2025-08-15T14:36:17.801Z"
+            },
+            {
+              "publicId": "xdnvks7yb6tlg7m1zrj6",
+              "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755268578/xdnvks7yb6tlg7m1zrj6.jpg",
+              "width": 1920,
+              "height": 1080,
+              "format": "jpg",
+              "bytes": 903251,
+              "resourceType": "image",
+              "eager": [],
+              "storageType": "cloudinary",
+              "localPath": null,
+              "id": "gallery-img-1755268579131-0.5032644022350908",
+              "name": "Slides_v1.03.jpg",
+              "size": 903251,
+              "uploadedAt": "2025-08-15T14:36:19.131Z"
+            }
+          ],
+          "images": [
+            {
+              "publicId": "dlk7nl1gy4z99dogoto7",
+              "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755268570/dlk7nl1gy4z99dogoto7.jpg",
+              "width": 1920,
+              "height": 1080,
+              "format": "jpg",
+              "bytes": 1650499,
+              "resourceType": "image",
+              "eager": [],
+              "storageType": "cloudinary",
+              "localPath": null,
+              "id": "gallery-img-1755268571119-0.7840311875005752",
+              "name": "Slides_v1.1.jpg",
+              "size": 1650499,
+              "uploadedAt": "2025-08-15T14:36:11.119Z"
+            },
+            {
+              "publicId": "nufzdfqzdowk5zmh4i06",
+              "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755268576/nufzdfqzdowk5zmh4i06.jpg",
+              "width": 1920,
+              "height": 1080,
+              "format": "jpg",
+              "bytes": 740266,
+              "resourceType": "image",
+              "eager": [],
+              "storageType": "cloudinary",
+              "localPath": null,
+              "id": "gallery-img-1755268576879-0.38319992710345707",
+              "name": "Slides_v1.0.jpg",
+              "size": 740266,
+              "uploadedAt": "2025-08-15T14:36:16.879Z"
+            },
+            {
+              "publicId": "ghpooxv2azh6715m55wm",
+              "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755268577/ghpooxv2azh6715m55wm.jpg",
+              "width": 1920,
+              "height": 1080,
+              "format": "jpg",
+              "bytes": 1019740,
+              "resourceType": "image",
+              "eager": [],
+              "storageType": "cloudinary",
+              "localPath": null,
+              "id": "gallery-img-1755268577801-0.1588013777659908",
+              "name": "Slides_v1.02.jpg",
+              "size": 1019740,
+              "uploadedAt": "2025-08-15T14:36:17.801Z"
+            },
+            {
+              "publicId": "xdnvks7yb6tlg7m1zrj6",
+              "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755268578/xdnvks7yb6tlg7m1zrj6.jpg",
+              "width": 1920,
+              "height": 1080,
+              "format": "jpg",
+              "bytes": 903251,
+              "resourceType": "image",
+              "eager": [],
+              "storageType": "cloudinary",
+              "localPath": null,
+              "id": "gallery-img-1755268579131-0.5032644022350908",
+              "name": "Slides_v1.03.jpg",
+              "size": 903251,
+              "uploadedAt": "2025-08-15T14:36:19.131Z"
+            }
+          ],
+          "order": 1
         }
       ],
       "tileBackgroundType": "image",
@@ -829,23 +930,17 @@
         "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755264289/portfolio/tiles/portfolio/tiles/tile_3.png"
       },
       "pageBackgroundFile": {
-        "file": {},
-        "preview": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755264614/portfolio/backgrounds/portfolio/backgrounds/bg_3.png",
         "name": "project-background.png",
         "size": 3303135,
         "type": "image/png",
-        "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755264614/portfolio/backgrounds/portfolio/backgrounds/bg_3.png",
-        "cloudinaryId": "portfolio/backgrounds/portfolio/backgrounds/bg_3",
-        "uploadedAt": "2025-08-15T13:30:15.198Z",
         "dimensions": {
           "width": 1920,
           "height": 1080
         },
-        "uploading": false,
-        "storageType": "cloudinary",
-        "localPath": null,
-        "needsServerUpload": false,
-        "cloudinary": true
+        "uploadedAt": "2025-08-15T13:30:15.198Z",
+        "cloudinary": true,
+        "cloudinaryId": "portfolio/backgrounds/portfolio/backgrounds/bg_3",
+        "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755264614/portfolio/backgrounds/portfolio/backgrounds/bg_3.png"
       }
     },
     {
@@ -895,7 +990,7 @@
         "updatedAt": "2025-08-15T13:44:47.549Z",
         "version": 2,
         "status": "published",
-        "lastPublished": "2025-08-15T13:49:31.211Z"
+        "lastPublished": "2025-08-15T14:58:26.235Z"
       },
       "mediaItems": [
         {
@@ -1118,7 +1213,7 @@
         "ANIMATION",
         "GRAPHIC DESIGN"
       ],
-      "hasVideo": false,
+      "hasVideo": true,
       "backgrounds": {
         "tile": {
           "type": "image",
@@ -1150,24 +1245,404 @@
           "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755265645/portfolio/backgrounds/portfolio/backgrounds/bg_5.png"
         }
       },
-      "mediaItems": [],
+      "mediaItems": [
+        {
+          "id": "1755269808531",
+          "type": "video",
+          "title": "video media",
+          "files": [
+            {
+              "publicId": "local_1755269825217",
+              "url": "/videos/general/1755269825217-ri-preview.mp4",
+              "localPath": "/videos/general/1755269825217-ri-preview.mp4",
+              "width": null,
+              "height": null,
+              "format": "mp4",
+              "bytes": 56910015,
+              "duration": null,
+              "resourceType": "video",
+              "storageType": "local",
+              "uploadedAt": "2025-08-15T14:57:05.217Z",
+              "preview": "blob:https://dashboard.oursayso.com/7edec8e1-1270-4c74-be85-72f0ac2c004e",
+              "file": {},
+              "needsServerUpload": false,
+              "name": "RI-preview.mp4",
+              "type": "video/mp4",
+              "fileName": "RI-preview.mp4",
+              "customVideoPreview": {
+                "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755269831/portfolio/video-previews/jmkdgmnej6aalfjbp6xy.png",
+                "publicId": "portfolio/video-previews/jmkdgmnej6aalfjbp6xy",
+                "name": "video-preview.png",
+                "uploadedAt": "2025-08-15T14:57:11.935Z"
+              }
+            }
+          ],
+          "images": [],
+          "order": 0
+        }
+      ],
       "metadata": {
         "createdAt": "2024-02-15T10:00:00Z",
-        "updatedAt": "2025-08-15T13:49:21.274Z",
-        "version": 2,
+        "updatedAt": "2025-08-15T14:57:15.374Z",
+        "version": 5,
         "status": "published",
-        "lastPublished": "2025-08-15T13:49:31.211Z"
+        "lastPublished": "2025-08-15T14:58:26.235Z"
       },
       "tileBackgroundType": "image",
       "tileBackgroundFile": {
-        "file": {},
-        "preview": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755265639/portfolio/tiles/portfolio/tiles/tile_5.png",
         "name": "project-tile.png",
         "size": 29156,
         "type": "image/png",
-        "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755265639/portfolio/tiles/portfolio/tiles/tile_5.png",
-        "cloudinaryId": "portfolio/tiles/portfolio/tiles/tile_5",
+        "dimensions": {
+          "width": 800,
+          "height": 800
+        },
         "uploadedAt": "2025-08-15T13:47:19.420Z",
+        "cloudinary": true,
+        "cloudinaryId": "portfolio/tiles/portfolio/tiles/tile_5",
+        "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755265639/portfolio/tiles/portfolio/tiles/tile_5.png"
+      },
+      "pageBackgroundFile": {
+        "name": "project-background.png",
+        "size": 1522660,
+        "type": "image/png",
+        "dimensions": {
+          "width": 1920,
+          "height": 1080
+        },
+        "uploadedAt": "2025-08-15T13:47:25.993Z",
+        "cloudinary": true,
+        "cloudinaryId": "portfolio/backgrounds/portfolio/backgrounds/bg_5",
+        "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755265645/portfolio/backgrounds/portfolio/backgrounds/bg_5.png"
+      }
+    },
+    {
+      "id": "6",
+      "title": "Accor Owner Services Catalogue",
+      "category": "Design & Digital",
+      "description": "An interactive brochure offers a smart solution for businesses like French multinational hotel owners, Accor, who sought a management services guide in fourteen different languages.",
+      "tags": [
+        "INTERACTIVE PDF",
+        "DIGITAL PUBLISHING",
+        "WEB DEVELOPMENT"
+      ],
+      "hasVideo": false,
+      "backgrounds": {
+        "tile": {
+          "type": "image",
+          "file": {
+            "name": "project-tile.png",
+            "size": 798740,
+            "type": "image/png",
+            "dimensions": {
+              "width": 800,
+              "height": 800
+            },
+            "uploadedAt": "2025-08-15T14:16:01.852Z",
+            "cloudinary": true,
+            "cloudinaryId": "portfolio/tiles/portfolio/tiles/tile_6",
+            "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755267360/portfolio/tiles/portfolio/tiles/tile_6.png"
+          }
+        },
+        "page": {
+          "name": "project-background.png",
+          "size": 2313817,
+          "type": "image/png",
+          "dimensions": {
+            "width": 1920,
+            "height": 1080
+          },
+          "uploadedAt": "2025-08-15T14:16:39.001Z",
+          "cloudinary": true,
+          "cloudinaryId": "portfolio/backgrounds/portfolio/backgrounds/bg_6",
+          "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755267398/portfolio/backgrounds/portfolio/backgrounds/bg_6.png"
+        }
+      },
+      "metadata": {
+        "createdAt": "2024-02-20T10:00:00Z",
+        "updatedAt": "2025-08-15T14:18:28.765Z",
+        "version": 2,
+        "status": "published",
+        "lastPublished": "2025-08-15T14:58:26.235Z"
+      },
+      "mediaItems": [
+        {
+          "id": "1755267438095",
+          "type": "gallery",
+          "title": "🖼️ Project Gallery (8 images)",
+          "files": [
+            {
+              "publicId": "soijimda3tbloi7r6m2u",
+              "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755267453/soijimda3tbloi7r6m2u.jpg",
+              "width": 4000,
+              "height": 2250,
+              "format": "jpg",
+              "bytes": 661483,
+              "resourceType": "image",
+              "eager": [],
+              "storageType": "cloudinary",
+              "localPath": null,
+              "id": "gallery-img-1755267453647-0.6366680877483673",
+              "name": "OSC_Managed-Interactive-v1.4_Page_001.jpg",
+              "size": 661483,
+              "uploadedAt": "2025-08-15T14:17:33.647Z"
+            },
+            {
+              "publicId": "c2tvt7bvkvaonpn2jsbx",
+              "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755267471/c2tvt7bvkvaonpn2jsbx.jpg",
+              "width": 4000,
+              "height": 2250,
+              "format": "jpg",
+              "bytes": 558620,
+              "resourceType": "image",
+              "eager": [],
+              "storageType": "cloudinary",
+              "localPath": null,
+              "id": "gallery-img-1755267471920-0.32477478062055354",
+              "name": "OSC_Managed-Interactive-v1.4_Page_002.jpg",
+              "size": 558620,
+              "uploadedAt": "2025-08-15T14:17:51.920Z"
+            },
+            {
+              "publicId": "mlj5nf2a3iwwswkmtwou",
+              "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755267470/mlj5nf2a3iwwswkmtwou.jpg",
+              "width": 4000,
+              "height": 2250,
+              "format": "jpg",
+              "bytes": 429978,
+              "resourceType": "image",
+              "eager": [],
+              "storageType": "cloudinary",
+              "localPath": null,
+              "id": "gallery-img-1755267471288-0.5530921823252514",
+              "name": "OSC_Managed-Interactive-v1.4_Page_003.jpg",
+              "size": 429978,
+              "uploadedAt": "2025-08-15T14:17:51.288Z"
+            },
+            {
+              "publicId": "gpcq4sbwbxabw5zgchhm",
+              "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755267469/gpcq4sbwbxabw5zgchhm.jpg",
+              "width": 4000,
+              "height": 2250,
+              "format": "jpg",
+              "bytes": 541893,
+              "resourceType": "image",
+              "eager": [],
+              "storageType": "cloudinary",
+              "localPath": null,
+              "id": "gallery-img-1755267470497-0.5472618412077708",
+              "name": "OSC_Managed-Interactive-v1.4_Page_004.jpg",
+              "size": 541893,
+              "uploadedAt": "2025-08-15T14:17:50.497Z"
+            },
+            {
+              "publicId": "bbwoue6bhzmb8omcjej3",
+              "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755267468/bbwoue6bhzmb8omcjej3.jpg",
+              "width": 4000,
+              "height": 2250,
+              "format": "jpg",
+              "bytes": 360576,
+              "resourceType": "image",
+              "eager": [],
+              "storageType": "cloudinary",
+              "localPath": null,
+              "id": "gallery-img-1755267469322-0.5036525883749845",
+              "name": "OSC_Managed-Interactive-v1.4_Page_005.jpg",
+              "size": 360576,
+              "uploadedAt": "2025-08-15T14:17:49.322Z"
+            },
+            {
+              "publicId": "yurzowecayddkavums4e",
+              "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755267467/yurzowecayddkavums4e.jpg",
+              "width": 4000,
+              "height": 2250,
+              "format": "jpg",
+              "bytes": 453340,
+              "resourceType": "image",
+              "eager": [],
+              "storageType": "cloudinary",
+              "localPath": null,
+              "id": "gallery-img-1755267468350-0.015098446815146938",
+              "name": "OSC_Managed-Interactive-v1.4_Page_006.jpg",
+              "size": 453340,
+              "uploadedAt": "2025-08-15T14:17:48.350Z"
+            },
+            {
+              "publicId": "wimqod9v2n26avaqsedb",
+              "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755267485/wimqod9v2n26avaqsedb.jpg",
+              "width": 4000,
+              "height": 2250,
+              "format": "jpg",
+              "bytes": 370076,
+              "resourceType": "image",
+              "eager": [],
+              "storageType": "cloudinary",
+              "localPath": null,
+              "id": "gallery-img-1755267486201-0.8199776482531643",
+              "name": "OSC_Managed-Interactive-v1.4_Page_122.jpg",
+              "size": 370076,
+              "uploadedAt": "2025-08-15T14:18:06.201Z"
+            },
+            {
+              "publicId": "a1gakflqem3wp51qzm7b",
+              "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755267486/a1gakflqem3wp51qzm7b.jpg",
+              "width": 4000,
+              "height": 2250,
+              "format": "jpg",
+              "bytes": 152631,
+              "resourceType": "image",
+              "eager": [],
+              "storageType": "cloudinary",
+              "localPath": null,
+              "id": "gallery-img-1755267487123-0.32791135518300707",
+              "name": "OSC_Managed-Interactive-v1.4_Page_124.jpg",
+              "size": 152631,
+              "uploadedAt": "2025-08-15T14:18:07.123Z"
+            }
+          ],
+          "images": [
+            {
+              "publicId": "soijimda3tbloi7r6m2u",
+              "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755267453/soijimda3tbloi7r6m2u.jpg",
+              "width": 4000,
+              "height": 2250,
+              "format": "jpg",
+              "bytes": 661483,
+              "resourceType": "image",
+              "eager": [],
+              "storageType": "cloudinary",
+              "localPath": null,
+              "id": "gallery-img-1755267453647-0.6366680877483673",
+              "name": "OSC_Managed-Interactive-v1.4_Page_001.jpg",
+              "size": 661483,
+              "uploadedAt": "2025-08-15T14:17:33.647Z"
+            },
+            {
+              "publicId": "c2tvt7bvkvaonpn2jsbx",
+              "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755267471/c2tvt7bvkvaonpn2jsbx.jpg",
+              "width": 4000,
+              "height": 2250,
+              "format": "jpg",
+              "bytes": 558620,
+              "resourceType": "image",
+              "eager": [],
+              "storageType": "cloudinary",
+              "localPath": null,
+              "id": "gallery-img-1755267471920-0.32477478062055354",
+              "name": "OSC_Managed-Interactive-v1.4_Page_002.jpg",
+              "size": 558620,
+              "uploadedAt": "2025-08-15T14:17:51.920Z"
+            },
+            {
+              "publicId": "mlj5nf2a3iwwswkmtwou",
+              "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755267470/mlj5nf2a3iwwswkmtwou.jpg",
+              "width": 4000,
+              "height": 2250,
+              "format": "jpg",
+              "bytes": 429978,
+              "resourceType": "image",
+              "eager": [],
+              "storageType": "cloudinary",
+              "localPath": null,
+              "id": "gallery-img-1755267471288-0.5530921823252514",
+              "name": "OSC_Managed-Interactive-v1.4_Page_003.jpg",
+              "size": 429978,
+              "uploadedAt": "2025-08-15T14:17:51.288Z"
+            },
+            {
+              "publicId": "gpcq4sbwbxabw5zgchhm",
+              "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755267469/gpcq4sbwbxabw5zgchhm.jpg",
+              "width": 4000,
+              "height": 2250,
+              "format": "jpg",
+              "bytes": 541893,
+              "resourceType": "image",
+              "eager": [],
+              "storageType": "cloudinary",
+              "localPath": null,
+              "id": "gallery-img-1755267470497-0.5472618412077708",
+              "name": "OSC_Managed-Interactive-v1.4_Page_004.jpg",
+              "size": 541893,
+              "uploadedAt": "2025-08-15T14:17:50.497Z"
+            },
+            {
+              "publicId": "bbwoue6bhzmb8omcjej3",
+              "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755267468/bbwoue6bhzmb8omcjej3.jpg",
+              "width": 4000,
+              "height": 2250,
+              "format": "jpg",
+              "bytes": 360576,
+              "resourceType": "image",
+              "eager": [],
+              "storageType": "cloudinary",
+              "localPath": null,
+              "id": "gallery-img-1755267469322-0.5036525883749845",
+              "name": "OSC_Managed-Interactive-v1.4_Page_005.jpg",
+              "size": 360576,
+              "uploadedAt": "2025-08-15T14:17:49.322Z"
+            },
+            {
+              "publicId": "yurzowecayddkavums4e",
+              "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755267467/yurzowecayddkavums4e.jpg",
+              "width": 4000,
+              "height": 2250,
+              "format": "jpg",
+              "bytes": 453340,
+              "resourceType": "image",
+              "eager": [],
+              "storageType": "cloudinary",
+              "localPath": null,
+              "id": "gallery-img-1755267468350-0.015098446815146938",
+              "name": "OSC_Managed-Interactive-v1.4_Page_006.jpg",
+              "size": 453340,
+              "uploadedAt": "2025-08-15T14:17:48.350Z"
+            },
+            {
+              "publicId": "wimqod9v2n26avaqsedb",
+              "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755267485/wimqod9v2n26avaqsedb.jpg",
+              "width": 4000,
+              "height": 2250,
+              "format": "jpg",
+              "bytes": 370076,
+              "resourceType": "image",
+              "eager": [],
+              "storageType": "cloudinary",
+              "localPath": null,
+              "id": "gallery-img-1755267486201-0.8199776482531643",
+              "name": "OSC_Managed-Interactive-v1.4_Page_122.jpg",
+              "size": 370076,
+              "uploadedAt": "2025-08-15T14:18:06.201Z"
+            },
+            {
+              "publicId": "a1gakflqem3wp51qzm7b",
+              "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755267486/a1gakflqem3wp51qzm7b.jpg",
+              "width": 4000,
+              "height": 2250,
+              "format": "jpg",
+              "bytes": 152631,
+              "resourceType": "image",
+              "eager": [],
+              "storageType": "cloudinary",
+              "localPath": null,
+              "id": "gallery-img-1755267487123-0.32791135518300707",
+              "name": "OSC_Managed-Interactive-v1.4_Page_124.jpg",
+              "size": 152631,
+              "uploadedAt": "2025-08-15T14:18:07.123Z"
+            }
+          ],
+          "order": 0
+        }
+      ],
+      "tileBackgroundType": "image",
+      "tileBackgroundFile": {
+        "file": {},
+        "preview": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755267360/portfolio/tiles/portfolio/tiles/tile_6.png",
+        "name": "project-tile.png",
+        "size": 798740,
+        "type": "image/png",
+        "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755267360/portfolio/tiles/portfolio/tiles/tile_6.png",
+        "cloudinaryId": "portfolio/tiles/portfolio/tiles/tile_6",
+        "uploadedAt": "2025-08-15T14:16:01.852Z",
         "dimensions": {
           "width": 800,
           "height": 800
@@ -1180,13 +1655,13 @@
       },
       "pageBackgroundFile": {
         "file": {},
-        "preview": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755265645/portfolio/backgrounds/portfolio/backgrounds/bg_5.png",
+        "preview": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755267398/portfolio/backgrounds/portfolio/backgrounds/bg_6.png",
         "name": "project-background.png",
-        "size": 1522660,
+        "size": 2313817,
         "type": "image/png",
-        "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755265645/portfolio/backgrounds/portfolio/backgrounds/bg_5.png",
-        "cloudinaryId": "portfolio/backgrounds/portfolio/backgrounds/bg_5",
-        "uploadedAt": "2025-08-15T13:47:25.993Z",
+        "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755267398/portfolio/backgrounds/portfolio/backgrounds/bg_6.png",
+        "cloudinaryId": "portfolio/backgrounds/portfolio/backgrounds/bg_6",
+        "uploadedAt": "2025-08-15T14:16:39.001Z",
         "dimensions": {
           "width": 1920,
           "height": 1080
@@ -1196,47 +1671,6 @@
         "localPath": null,
         "needsServerUpload": false,
         "cloudinary": true
-      }
-    },
-    {
-      "id": "6",
-      "title": "Accor Owner Services Catalogue",
-      "category": "Design & Digital",
-      "description": "Comprehensive digital catalogue for Accor hotel owner services. Clean, professional design with intuitive navigation and service showcases.",
-      "tags": [
-        "catalogue-design",
-        "digital-publishing",
-        "hospitality",
-        "service-design"
-      ],
-      "hasVideo": false,
-      "backgrounds": {
-        "tile": {
-          "type": "image",
-          "file": {
-            "name": "project6.png",
-            "type": "image/png",
-            "url": "/images/project6.png",
-            "uploadedAt": "2024-02-20T10:00:00Z"
-          }
-        },
-        "page": {
-          "name": "project6-bg.jpg",
-          "type": "image/jpeg",
-          "url": "/images/backgrounds/project6-bg.jpg",
-          "dimensions": {
-            "width": 1920,
-            "height": 1080
-          },
-          "uploadedAt": "2024-02-20T10:00:00Z"
-        }
-      },
-      "metadata": {
-        "createdAt": "2024-02-20T10:00:00Z",
-        "updatedAt": "2024-02-20T10:00:00Z",
-        "version": 1,
-        "status": "published",
-        "lastPublished": "2025-08-15T13:49:31.211Z"
       }
     },
     {
@@ -1277,48 +1711,97 @@
         "updatedAt": "2024-03-01T10:00:00Z",
         "version": 1,
         "status": "published",
-        "lastPublished": "2025-08-15T13:49:31.211Z"
+        "lastPublished": "2025-08-15T14:58:26.235Z"
       }
     },
     {
       "id": "8",
       "title": "Wealmoor Website Design",
       "category": "Design & Digital",
-      "description": "Modern, responsive website design for Wealmoor investment platform. Clean interface with sophisticated user experience and financial data visualization.",
+      "description": "Transforming Wealmoor’s online presence with a sleek and user-friendly website redesign was essential for enhancing their brand and user experience.",
       "tags": [
-        "website-design",
-        "fintech",
-        "responsive-design",
-        "user-experience"
+        "WEB DEVELOPMENT",
+        "UX DESIGN",
+        "UI DESIGN"
       ],
       "hasVideo": false,
       "backgrounds": {
         "tile": {
           "type": "image",
           "file": {
-            "name": "project8.png",
+            "name": "project-tile.png",
+            "size": 947581,
             "type": "image/png",
-            "url": "/images/project8.png",
-            "uploadedAt": "2024-03-10T10:00:00Z"
+            "dimensions": {
+              "width": 800,
+              "height": 800
+            },
+            "uploadedAt": "2025-08-15T14:34:06.220Z",
+            "cloudinary": true,
+            "cloudinaryId": "portfolio/tiles/portfolio/tiles/tile_8",
+            "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755268445/portfolio/tiles/portfolio/tiles/tile_8.png"
           }
         },
         "page": {
-          "name": "project8-bg.jpg",
-          "type": "image/jpeg",
-          "url": "/images/backgrounds/project8-bg.jpg",
+          "name": "project-background.png",
+          "size": 3900569,
+          "type": "image/png",
           "dimensions": {
             "width": 1920,
             "height": 1080
           },
-          "uploadedAt": "2024-03-10T10:00:00Z"
+          "uploadedAt": "2025-08-15T14:34:12.715Z",
+          "cloudinary": true,
+          "cloudinaryId": "portfolio/backgrounds/portfolio/backgrounds/bg_8",
+          "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755268452/portfolio/backgrounds/portfolio/backgrounds/bg_8.png"
         }
       },
       "metadata": {
         "createdAt": "2024-03-10T10:00:00Z",
-        "updatedAt": "2024-03-10T10:00:00Z",
-        "version": 1,
+        "updatedAt": "2025-08-15T14:34:59.793Z",
+        "version": 2,
         "status": "published",
-        "lastPublished": "2025-08-15T13:49:31.211Z"
+        "lastPublished": "2025-08-15T14:58:26.235Z"
+      },
+      "mediaItems": [],
+      "tileBackgroundType": "image",
+      "tileBackgroundFile": {
+        "file": {},
+        "preview": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755268445/portfolio/tiles/portfolio/tiles/tile_8.png",
+        "name": "project-tile.png",
+        "size": 947581,
+        "type": "image/png",
+        "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755268445/portfolio/tiles/portfolio/tiles/tile_8.png",
+        "cloudinaryId": "portfolio/tiles/portfolio/tiles/tile_8",
+        "uploadedAt": "2025-08-15T14:34:06.220Z",
+        "dimensions": {
+          "width": 800,
+          "height": 800
+        },
+        "uploading": false,
+        "storageType": "cloudinary",
+        "localPath": null,
+        "needsServerUpload": false,
+        "cloudinary": true
+      },
+      "pageBackgroundFile": {
+        "file": {},
+        "preview": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755268452/portfolio/backgrounds/portfolio/backgrounds/bg_8.png",
+        "name": "project-background.png",
+        "size": 3900569,
+        "type": "image/png",
+        "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755268452/portfolio/backgrounds/portfolio/backgrounds/bg_8.png",
+        "cloudinaryId": "portfolio/backgrounds/portfolio/backgrounds/bg_8",
+        "uploadedAt": "2025-08-15T14:34:12.715Z",
+        "dimensions": {
+          "width": 1920,
+          "height": 1080
+        },
+        "uploading": false,
+        "storageType": "cloudinary",
+        "localPath": null,
+        "needsServerUpload": false,
+        "cloudinary": true
       }
     },
     {
@@ -1359,7 +1842,7 @@
         "updatedAt": "2024-03-15T10:00:00Z",
         "version": 1,
         "status": "published",
-        "lastPublished": "2025-08-15T13:49:31.211Z"
+        "lastPublished": "2025-08-15T14:58:26.235Z"
       }
     },
     {
@@ -1428,7 +1911,7 @@
         "updatedAt": "2025-08-15T01:08:06.990Z",
         "version": 2,
         "status": "published",
-        "lastPublished": "2025-08-15T13:49:31.211Z"
+        "lastPublished": "2025-08-15T14:58:26.235Z"
       },
       "tileBackgroundType": "image",
       "tileBackgroundFile": {
@@ -1495,6 +1978,6 @@
       "date": "2024-03-10"
     }
   ],
-  "lastUpdated": "2025-08-15T13:49:33.214Z",
+  "lastUpdated": "2025-08-15T14:58:28.240Z",
   "version": "1.0"
 }
