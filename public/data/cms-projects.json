@@ -396,7 +396,7 @@
         "VIDEO SHOOT",
         "INTERVIEWS"
       ],
-      "hasVideo": true,
+      "hasVideo": false,
       "backgrounds": {
         "tile": {
           "type": "image",
@@ -430,44 +430,12 @@
       },
       "metadata": {
         "createdAt": "2024-01-20T10:00:00Z",
-        "updatedAt": "2025-08-15T13:32:14.012Z",
-        "version": 7,
-        "status": "published",
+        "updatedAt": "2025-08-15T14:12:50.399Z",
+        "version": 8,
+        "status": "draft",
         "lastPublished": "2025-08-15T13:49:31.211Z"
       },
-      "mediaItems": [
-        {
-          "id": "1755263545190",
-          "type": "video",
-          "title": "video media",
-          "files": [
-            {
-              "publicId": "local_1755264699188",
-              "url": "/videos/general/1755264699188-rarely-preview.mp4",
-              "localPath": "/videos/general/1755264699188-rarely-preview.mp4",
-              "width": null,
-              "height": null,
-              "format": "mp4",
-              "bytes": 100508583,
-              "duration": null,
-              "resourceType": "video",
-              "storageType": "local",
-              "uploadedAt": "2025-08-15T13:31:39.188Z",
-              "preview": "blob:https://oursayso-portfolio-cms.netlify.app/1b0b2dc2-e894-4b98-880c-1bf5511ba3bb",
-              "file": {},
-              "needsServerUpload": false,
-              "customVideoPreview": {
-                "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755264730/portfolio/video-previews/gu3onpkenhzejyjrksya.png",
-                "publicId": "portfolio/video-previews/gu3onpkenhzejyjrksya",
-                "name": "video-preview.png",
-                "uploadedAt": "2025-08-15T13:32:11.296Z"
-              }
-            }
-          ],
-          "images": [],
-          "order": 0
-        }
-      ],
+      "mediaItems": [],
       "tileBackgroundType": "image",
       "tileBackgroundFile": {
         "name": "project-tile.png",
@@ -1495,6 +1463,6 @@
       "date": "2024-03-10"
     }
   ],
-  "lastUpdated": "2025-08-15T14:12:30.514Z",
+  "lastUpdated": "2025-08-15T14:12:52.416Z",
   "version": "1.0"
 }
