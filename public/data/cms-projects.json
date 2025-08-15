@@ -1111,57 +1111,91 @@
     },
     {
       "id": "5",
-      "title": "River Island 'Wrapped' Video",
+      "title": "River Island ‘Wrapped’ Xmas Video",
       "category": "Video",
-      "description": "Dynamic promotional video campaign for River Island's seasonal collection. High-energy visual storytelling with modern aesthetic.",
+      "description": "Swapping out the usual Christmas yearly round-up video, and tapping into the latest trends to design, build and produce a Spotify wrapped montage for River Island’s comms team.",
       "tags": [
-        "promotional-video",
-        "fashion",
-        "retail",
-        "commercial"
+        "ANIMATION",
+        "GRAPHIC DESIGN"
       ],
-      "hasVideo": true,
+      "hasVideo": false,
       "backgrounds": {
         "tile": {
-          "type": "video",
+          "type": "image",
           "file": {
-            "name": "riverisland-video.mp4",
-            "type": "video/mp4",
-            "url": "/public/projects/project-05-riverisland/media/video-01.mp4",
-            "uploadedAt": "2024-02-15T10:00:00Z"
+            "name": "project-tile.png",
+            "size": 29156,
+            "type": "image/png",
+            "dimensions": {
+              "width": 800,
+              "height": 800
+            },
+            "uploadedAt": "2025-08-15T13:47:19.420Z",
+            "cloudinary": true,
+            "cloudinaryId": "portfolio/tiles/portfolio/tiles/tile_5",
+            "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755265639/portfolio/tiles/portfolio/tiles/tile_5.png"
           }
         },
         "page": {
-          "name": "riverisland-bg.png",
+          "name": "project-background.png",
+          "size": 1522660,
           "type": "image/png",
-          "url": "/public/projects/project-05-riverisland/background.png",
           "dimensions": {
             "width": 1920,
             "height": 1080
           },
-          "uploadedAt": "2024-02-15T10:00:00Z"
+          "uploadedAt": "2025-08-15T13:47:25.993Z",
+          "cloudinary": true,
+          "cloudinaryId": "portfolio/backgrounds/portfolio/backgrounds/bg_5",
+          "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755265645/portfolio/backgrounds/portfolio/backgrounds/bg_5.png"
         }
       },
-      "mediaItems": [
-        {
-          "id": "5-1",
-          "type": "video",
-          "title": "Promotional Video",
-          "files": [
-            {
-              "url": "/public/projects/project-05-riverisland/media/video-01.mp4",
-              "name": "video-01.mp4",
-              "type": "video/mp4"
-            }
-          ]
-        }
-      ],
+      "mediaItems": [],
       "metadata": {
         "createdAt": "2024-02-15T10:00:00Z",
-        "updatedAt": "2024-02-15T10:00:00Z",
-        "version": 1,
-        "status": "published",
+        "updatedAt": "2025-08-15T13:49:21.274Z",
+        "version": 2,
+        "status": "draft",
         "lastPublished": "2025-08-15T13:32:26.643Z"
+      },
+      "tileBackgroundType": "image",
+      "tileBackgroundFile": {
+        "file": {},
+        "preview": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755265639/portfolio/tiles/portfolio/tiles/tile_5.png",
+        "name": "project-tile.png",
+        "size": 29156,
+        "type": "image/png",
+        "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755265639/portfolio/tiles/portfolio/tiles/tile_5.png",
+        "cloudinaryId": "portfolio/tiles/portfolio/tiles/tile_5",
+        "uploadedAt": "2025-08-15T13:47:19.420Z",
+        "dimensions": {
+          "width": 800,
+          "height": 800
+        },
+        "uploading": false,
+        "storageType": "cloudinary",
+        "localPath": null,
+        "needsServerUpload": false,
+        "cloudinary": true
+      },
+      "pageBackgroundFile": {
+        "file": {},
+        "preview": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755265645/portfolio/backgrounds/portfolio/backgrounds/bg_5.png",
+        "name": "project-background.png",
+        "size": 1522660,
+        "type": "image/png",
+        "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755265645/portfolio/backgrounds/portfolio/backgrounds/bg_5.png",
+        "cloudinaryId": "portfolio/backgrounds/portfolio/backgrounds/bg_5",
+        "uploadedAt": "2025-08-15T13:47:25.993Z",
+        "dimensions": {
+          "width": 1920,
+          "height": 1080
+        },
+        "uploading": false,
+        "storageType": "cloudinary",
+        "localPath": null,
+        "needsServerUpload": false,
+        "cloudinary": true
       }
     },
     {
@@ -1461,6 +1495,6 @@
       "date": "2024-03-10"
     }
   ],
-  "lastUpdated": "2025-08-15T13:44:49.567Z",
+  "lastUpdated": "2025-08-15T13:49:23.280Z",
   "version": "1.0"
 }
