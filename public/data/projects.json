@@ -227,11 +227,39 @@
             }
           ],
           "order": 0
+        },
+        {
+          "id": "1755268505468",
+          "type": "gallery",
+          "title": "🖼️ Project Gallery (4 images)",
+          "files": [
+            {
+              "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755268570/dlk7nl1gy4z99dogoto7.jpg",
+              "name": "Slides_v1.1.jpg",
+              "customVideoPreview": null
+            },
+            {
+              "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755268576/nufzdfqzdowk5zmh4i06.jpg",
+              "name": "Slides_v1.0.jpg",
+              "customVideoPreview": null
+            },
+            {
+              "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755268577/ghpooxv2azh6715m55wm.jpg",
+              "name": "Slides_v1.02.jpg",
+              "customVideoPreview": null
+            },
+            {
+              "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755268578/xdnvks7yb6tlg7m1zrj6.jpg",
+              "name": "Slides_v1.03.jpg",
+              "customVideoPreview": null
+            }
+          ],
+          "order": 1
         }
       ],
       "hasVideo": false,
       "createdAt": "2024-02-01T10:00:00Z",
-      "updatedAt": "2025-08-15T13:30:25.351Z",
+      "updatedAt": "2025-08-15T14:36:27.375Z",
       "status": "published"
     },
     {
@@ -466,22 +494,21 @@
       "id": "8",
       "title": "Wealmoor Website Design",
       "category": "Design & Digital",
-      "description": "Modern, responsive website design for Wealmoor investment platform. Clean interface with sophisticated user experience and financial data visualization.",
+      "description": "Transforming Wealmoor’s online presence with a sleek and user-friendly website redesign was essential for enhancing their brand and user experience.",
       "tags": [
-        "website-design",
-        "fintech",
-        "responsive-design",
-        "user-experience"
+        "WEB DEVELOPMENT",
+        "UX DESIGN",
+        "UI DESIGN"
       ],
       "order": 7,
       "slug": "wealmoor-website-design",
       "tileBackground": {
         "type": "image",
-        "url": "/images/project8.png",
+        "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755268445/portfolio/tiles/portfolio/tiles/tile_8.png?v=1755267147897",
         "storageType": "cloudinary"
       },
       "pageBackground": {
-        "url": "/images/backgrounds/project8-bg.jpg",
+        "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755268452/portfolio/backgrounds/portfolio/backgrounds/bg_8.png?v=1755267147897",
         "dimensions": {
           "width": 1920,
           "height": 1080
@@ -491,7 +518,7 @@
       "mediaItems": [],
       "hasVideo": false,
       "createdAt": "2024-03-10T10:00:00Z",
-      "updatedAt": "2024-03-10T10:00:00Z",
+      "updatedAt": "2025-08-15T14:34:59.793Z",
       "status": "published"
     },
     {
@@ -581,7 +608,7 @@
       "Video",
       "Design & Digital"
     ],
-    "lastUpdated": "2025-08-15T14:22:31.805Z",
+    "lastUpdated": "2025-08-15T14:40:34.794Z",
     "version": "1.0.0",
     "page": 1
   }
