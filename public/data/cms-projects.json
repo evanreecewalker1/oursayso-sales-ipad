@@ -501,43 +501,360 @@
     },
     {
       "id": "3",
-      "title": "DRYZZE® & Cook Pronto® Branding",
+      "title": "DRYZZE® & Cook Pronto Branding",
       "category": "Design & Digital",
-      "description": "Complete brand identity and digital strategy for innovative kitchen technology brands. Modern design system with cohesive brand experience.",
+      "description": "How do you bring a brand to life? From concept to copywriting, from brand strategy to brand positioning, these short pitch decks are a lens into the multi-faceted world of design.",
       "tags": [
         "branding",
-        "logo-design",
-        "brand-identity",
-        "kitchen-tech"
+        "BRAND STRATEGY",
+        "GRAPHIC DESIGN",
+        "AI"
       ],
       "hasVideo": false,
       "backgrounds": {
         "tile": {
           "type": "image",
           "file": {
-            "name": "project3.png",
+            "name": "project-tile.png",
+            "size": 196550,
             "type": "image/png",
-            "url": "/images/project3.png",
-            "uploadedAt": "2024-02-01T10:00:00Z"
+            "dimensions": {
+              "width": 800,
+              "height": 800
+            },
+            "uploadedAt": "2025-08-15T13:24:49.699Z",
+            "cloudinary": true,
+            "cloudinaryId": "portfolio/tiles/portfolio/tiles/tile_3",
+            "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755264289/portfolio/tiles/portfolio/tiles/tile_3.png"
           }
         },
         "page": {
-          "name": "project3-bg.jpg",
-          "type": "image/jpeg",
-          "url": "/images/backgrounds/project3-bg.jpg",
+          "name": "project-background.png",
+          "size": 3052780,
+          "type": "image/png",
           "dimensions": {
             "width": 1920,
             "height": 1080
           },
-          "uploadedAt": "2024-02-01T10:00:00Z"
+          "uploadedAt": "2025-08-15T13:25:43.796Z",
+          "cloudinary": true,
+          "cloudinaryId": "portfolio/backgrounds/portfolio/backgrounds/bg_3",
+          "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755264343/portfolio/backgrounds/portfolio/backgrounds/bg_3.png"
         }
       },
       "metadata": {
         "createdAt": "2024-02-01T10:00:00Z",
-        "updatedAt": "2024-02-01T10:00:00Z",
-        "version": 1,
-        "status": "published",
+        "updatedAt": "2025-08-15T13:26:31.730Z",
+        "version": 2,
+        "status": "draft",
         "lastPublished": "2025-08-15T12:51:16.225Z"
+      },
+      "mediaItems": [
+        {
+          "id": "1755264355584",
+          "type": "gallery",
+          "title": "🖼️ Project Gallery (8 images)",
+          "files": [
+            {
+              "publicId": "ys6csd4zvstfotpsywhq",
+              "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755264380/ys6csd4zvstfotpsywhq.jpg",
+              "width": 8000,
+              "height": 4500,
+              "format": "jpg",
+              "bytes": 1663652,
+              "resourceType": "image",
+              "eager": [],
+              "storageType": "cloudinary",
+              "localPath": null,
+              "id": "gallery-img-1755264380756-0.48919225950733547",
+              "name": "Deck_Concept_v4.0.jpg",
+              "size": 1663652,
+              "uploadedAt": "2025-08-15T13:26:20.756Z"
+            },
+            {
+              "publicId": "dju3yiy6agluncooo1sl",
+              "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755264381/dju3yiy6agluncooo1sl.jpg",
+              "width": 8000,
+              "height": 4500,
+              "format": "jpg",
+              "bytes": 2096791,
+              "resourceType": "image",
+              "eager": [],
+              "storageType": "cloudinary",
+              "localPath": null,
+              "id": "gallery-img-1755264381822-0.9198542784404349",
+              "name": "Deck_Concept_v4.02.jpg",
+              "size": 2096791,
+              "uploadedAt": "2025-08-15T13:26:21.822Z"
+            },
+            {
+              "publicId": "jl1wnuwc0ajy0kwt66tw",
+              "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755264382/jl1wnuwc0ajy0kwt66tw.jpg",
+              "width": 8000,
+              "height": 4500,
+              "format": "jpg",
+              "bytes": 1699635,
+              "resourceType": "image",
+              "eager": [],
+              "storageType": "cloudinary",
+              "localPath": null,
+              "id": "gallery-img-1755264382845-0.8498939647448107",
+              "name": "Deck_Concept_v4.03.jpg",
+              "size": 1699635,
+              "uploadedAt": "2025-08-15T13:26:22.845Z"
+            },
+            {
+              "publicId": "sqrvx1cy27ayejantyos",
+              "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755264383/sqrvx1cy27ayejantyos.jpg",
+              "width": 8000,
+              "height": 4500,
+              "format": "jpg",
+              "bytes": 1734568,
+              "resourceType": "image",
+              "eager": [],
+              "storageType": "cloudinary",
+              "localPath": null,
+              "id": "gallery-img-1755264383691-0.20644176294524796",
+              "name": "Deck_Concept_v4.04.jpg",
+              "size": 1734568,
+              "uploadedAt": "2025-08-15T13:26:23.691Z"
+            },
+            {
+              "publicId": "gbvwjxj4w3dtbt8bnk6f",
+              "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755264384/gbvwjxj4w3dtbt8bnk6f.jpg",
+              "width": 8000,
+              "height": 4500,
+              "format": "jpg",
+              "bytes": 2048792,
+              "resourceType": "image",
+              "eager": [],
+              "storageType": "cloudinary",
+              "localPath": null,
+              "id": "gallery-img-1755264384527-0.276009758881837",
+              "name": "Deck_Concept_v4.05.jpg",
+              "size": 2048792,
+              "uploadedAt": "2025-08-15T13:26:24.527Z"
+            },
+            {
+              "publicId": "euzzibscdu0hhq98eg2r",
+              "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755264385/euzzibscdu0hhq98eg2r.jpg",
+              "width": 8000,
+              "height": 4500,
+              "format": "jpg",
+              "bytes": 1749763,
+              "resourceType": "image",
+              "eager": [],
+              "storageType": "cloudinary",
+              "localPath": null,
+              "id": "gallery-img-1755264385611-0.5437331168284594",
+              "name": "Deck_Concept_v4.06.jpg",
+              "size": 1749763,
+              "uploadedAt": "2025-08-15T13:26:25.611Z"
+            },
+            {
+              "publicId": "hiqgxbvfsz0x21zuuykl",
+              "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755264386/hiqgxbvfsz0x21zuuykl.jpg",
+              "width": 8000,
+              "height": 4500,
+              "format": "jpg",
+              "bytes": 1503904,
+              "resourceType": "image",
+              "eager": [],
+              "storageType": "cloudinary",
+              "localPath": null,
+              "id": "gallery-img-1755264386531-0.7422874512202403",
+              "name": "Deck_Concept_v4.07.jpg",
+              "size": 1503904,
+              "uploadedAt": "2025-08-15T13:26:26.531Z"
+            },
+            {
+              "publicId": "hwh69ss6tauifi8ndn9p",
+              "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755264387/hwh69ss6tauifi8ndn9p.jpg",
+              "width": 8000,
+              "height": 4500,
+              "format": "jpg",
+              "bytes": 1233583,
+              "resourceType": "image",
+              "eager": [],
+              "storageType": "cloudinary",
+              "localPath": null,
+              "id": "gallery-img-1755264387298-0.6970208321498935",
+              "name": "Deck_Concept_v4.08.jpg",
+              "size": 1233583,
+              "uploadedAt": "2025-08-15T13:26:27.298Z"
+            }
+          ],
+          "images": [
+            {
+              "publicId": "ys6csd4zvstfotpsywhq",
+              "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755264380/ys6csd4zvstfotpsywhq.jpg",
+              "width": 8000,
+              "height": 4500,
+              "format": "jpg",
+              "bytes": 1663652,
+              "resourceType": "image",
+              "eager": [],
+              "storageType": "cloudinary",
+              "localPath": null,
+              "id": "gallery-img-1755264380756-0.48919225950733547",
+              "name": "Deck_Concept_v4.0.jpg",
+              "size": 1663652,
+              "uploadedAt": "2025-08-15T13:26:20.756Z"
+            },
+            {
+              "publicId": "dju3yiy6agluncooo1sl",
+              "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755264381/dju3yiy6agluncooo1sl.jpg",
+              "width": 8000,
+              "height": 4500,
+              "format": "jpg",
+              "bytes": 2096791,
+              "resourceType": "image",
+              "eager": [],
+              "storageType": "cloudinary",
+              "localPath": null,
+              "id": "gallery-img-1755264381822-0.9198542784404349",
+              "name": "Deck_Concept_v4.02.jpg",
+              "size": 2096791,
+              "uploadedAt": "2025-08-15T13:26:21.822Z"
+            },
+            {
+              "publicId": "jl1wnuwc0ajy0kwt66tw",
+              "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755264382/jl1wnuwc0ajy0kwt66tw.jpg",
+              "width": 8000,
+              "height": 4500,
+              "format": "jpg",
+              "bytes": 1699635,
+              "resourceType": "image",
+              "eager": [],
+              "storageType": "cloudinary",
+              "localPath": null,
+              "id": "gallery-img-1755264382845-0.8498939647448107",
+              "name": "Deck_Concept_v4.03.jpg",
+              "size": 1699635,
+              "uploadedAt": "2025-08-15T13:26:22.845Z"
+            },
+            {
+              "publicId": "sqrvx1cy27ayejantyos",
+              "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755264383/sqrvx1cy27ayejantyos.jpg",
+              "width": 8000,
+              "height": 4500,
+              "format": "jpg",
+              "bytes": 1734568,
+              "resourceType": "image",
+              "eager": [],
+              "storageType": "cloudinary",
+              "localPath": null,
+              "id": "gallery-img-1755264383691-0.20644176294524796",
+              "name": "Deck_Concept_v4.04.jpg",
+              "size": 1734568,
+              "uploadedAt": "2025-08-15T13:26:23.691Z"
+            },
+            {
+              "publicId": "gbvwjxj4w3dtbt8bnk6f",
+              "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755264384/gbvwjxj4w3dtbt8bnk6f.jpg",
+              "width": 8000,
+              "height": 4500,
+              "format": "jpg",
+              "bytes": 2048792,
+              "resourceType": "image",
+              "eager": [],
+              "storageType": "cloudinary",
+              "localPath": null,
+              "id": "gallery-img-1755264384527-0.276009758881837",
+              "name": "Deck_Concept_v4.05.jpg",
+              "size": 2048792,
+              "uploadedAt": "2025-08-15T13:26:24.527Z"
+            },
+            {
+              "publicId": "euzzibscdu0hhq98eg2r",
+              "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755264385/euzzibscdu0hhq98eg2r.jpg",
+              "width": 8000,
+              "height": 4500,
+              "format": "jpg",
+              "bytes": 1749763,
+              "resourceType": "image",
+              "eager": [],
+              "storageType": "cloudinary",
+              "localPath": null,
+              "id": "gallery-img-1755264385611-0.5437331168284594",
+              "name": "Deck_Concept_v4.06.jpg",
+              "size": 1749763,
+              "uploadedAt": "2025-08-15T13:26:25.611Z"
+            },
+            {
+              "publicId": "hiqgxbvfsz0x21zuuykl",
+              "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755264386/hiqgxbvfsz0x21zuuykl.jpg",
+              "width": 8000,
+              "height": 4500,
+              "format": "jpg",
+              "bytes": 1503904,
+              "resourceType": "image",
+              "eager": [],
+              "storageType": "cloudinary",
+              "localPath": null,
+              "id": "gallery-img-1755264386531-0.7422874512202403",
+              "name": "Deck_Concept_v4.07.jpg",
+              "size": 1503904,
+              "uploadedAt": "2025-08-15T13:26:26.531Z"
+            },
+            {
+              "publicId": "hwh69ss6tauifi8ndn9p",
+              "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755264387/hwh69ss6tauifi8ndn9p.jpg",
+              "width": 8000,
+              "height": 4500,
+              "format": "jpg",
+              "bytes": 1233583,
+              "resourceType": "image",
+              "eager": [],
+              "storageType": "cloudinary",
+              "localPath": null,
+              "id": "gallery-img-1755264387298-0.6970208321498935",
+              "name": "Deck_Concept_v4.08.jpg",
+              "size": 1233583,
+              "uploadedAt": "2025-08-15T13:26:27.298Z"
+            }
+          ],
+          "order": 0
+        }
+      ],
+      "tileBackgroundType": "image",
+      "tileBackgroundFile": {
+        "file": {},
+        "preview": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755264289/portfolio/tiles/portfolio/tiles/tile_3.png",
+        "name": "project-tile.png",
+        "size": 196550,
+        "type": "image/png",
+        "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755264289/portfolio/tiles/portfolio/tiles/tile_3.png",
+        "cloudinaryId": "portfolio/tiles/portfolio/tiles/tile_3",
+        "uploadedAt": "2025-08-15T13:24:49.699Z",
+        "dimensions": {
+          "width": 800,
+          "height": 800
+        },
+        "uploading": false,
+        "storageType": "cloudinary",
+        "localPath": null,
+        "needsServerUpload": false,
+        "cloudinary": true
+      },
+      "pageBackgroundFile": {
+        "file": {},
+        "preview": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755264343/portfolio/backgrounds/portfolio/backgrounds/bg_3.png",
+        "name": "project-background.png",
+        "size": 3052780,
+        "type": "image/png",
+        "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755264343/portfolio/backgrounds/portfolio/backgrounds/bg_3.png",
+        "cloudinaryId": "portfolio/backgrounds/portfolio/backgrounds/bg_3",
+        "uploadedAt": "2025-08-15T13:25:43.796Z",
+        "dimensions": {
+          "width": 1920,
+          "height": 1080
+        },
+        "uploading": false,
+        "storageType": "cloudinary",
+        "localPath": null,
+        "needsServerUpload": false,
+        "cloudinary": true
       }
     },
     {
@@ -933,6 +1250,6 @@
       "date": "2024-03-10"
     }
   ],
-  "lastUpdated": "2025-08-15T13:21:17.080Z",
+  "lastUpdated": "2025-08-15T13:26:33.736Z",
   "version": "1.0"
 }
