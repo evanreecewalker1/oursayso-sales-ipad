@@ -2,7 +2,7 @@
   "projects": [
     {
       "id": "1",
-      "title": "Lovell Leadership Conferences",
+      "title": "Lovell Leadership Conference2",
       "category": "Events",
       "description": "Leadership development conferences designed to inspire and educate senior executives. Transformed traditional conference format with interactive workshops and AI-powered networking.",
       "tags": [
@@ -12,14 +12,14 @@
         "Presentations"
       ],
       "order": 0,
-      "slug": "lovell-leadership-conferences",
+      "slug": "lovell-leadership-conference2",
       "tileBackground": {
         "type": "image",
-        "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755166087/portfolio/tiles/portfolio/tiles/tile_1.png?v=1755219996438",
+        "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755166087/portfolio/tiles/portfolio/tiles/tile_1.png?v=1755261399173",
         "storageType": "cloudinary"
       },
       "pageBackground": {
-        "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755115318/portfolio/backgrounds/portfolio/backgrounds/bg_1.png?v=1755219996438",
+        "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755115318/portfolio/backgrounds/portfolio/backgrounds/bg_1.png?v=1755261399173",
         "dimensions": {
           "width": 1920,
           "height": 1080
@@ -84,7 +84,7 @@
       ],
       "hasVideo": true,
       "createdAt": "2024-01-15T10:00:00Z",
-      "updatedAt": "2025-08-15T01:02:46.995Z",
+      "updatedAt": "2025-08-15T12:30:03.023Z",
       "status": "published"
     },
     {
@@ -102,11 +102,11 @@
       "slug": "rarely-heard-voices-videos",
       "tileBackground": {
         "type": "image",
-        "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755170123/portfolio/tiles/portfolio/tiles/tile_2.png?v=1755219996438",
+        "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755170123/portfolio/tiles/portfolio/tiles/tile_2.png?v=1755261399173",
         "storageType": "cloudinary"
       },
       "pageBackground": {
-        "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755170120/portfolio/backgrounds/portfolio/backgrounds/bg_2.png?v=1755219996438",
+        "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755170120/portfolio/backgrounds/portfolio/backgrounds/bg_2.png?v=1755261399173",
         "dimensions": {
           "width": 1920,
           "height": 1080
@@ -380,11 +380,11 @@
       "slug": "arda-impact-video-shoot-website",
       "tileBackground": {
         "type": "image",
-        "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755220081/portfolio/tiles/portfolio/tiles/tile_10.jpg?v=1755219996438",
+        "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755220081/portfolio/tiles/portfolio/tiles/tile_10.jpg?v=1755261399173",
         "storageType": "cloudinary"
       },
       "pageBackground": {
-        "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755220050/portfolio/backgrounds/portfolio/backgrounds/bg_10.png?v=1755219996438",
+        "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755220050/portfolio/backgrounds/portfolio/backgrounds/bg_10.png?v=1755261399173",
         "dimensions": {
           "width": 1920,
           "height": 1080
@@ -420,7 +420,7 @@
       "Video",
       "Design & Digital"
     ],
-    "lastUpdated": "2025-08-15T01:08:22.095Z",
+    "lastUpdated": "2025-08-15T12:36:55.482Z",
     "version": "1.0.0",
     "page": 1
   }

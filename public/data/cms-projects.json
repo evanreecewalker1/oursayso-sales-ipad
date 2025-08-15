@@ -2,7 +2,7 @@
   "projects": [
     {
       "id": "1",
-      "title": "Lovell Leadership Conferences",
+      "title": "Lovell Leadership Conference2",
       "category": "Events",
       "description": "Leadership development conferences designed to inspire and educate senior executives. Transformed traditional conference format with interactive workshops and AI-powered networking.",
       "tags": [
@@ -341,10 +341,10 @@
       ],
       "metadata": {
         "createdAt": "2024-01-15T10:00:00Z",
-        "updatedAt": "2025-08-15T01:02:46.995Z",
-        "version": 47,
+        "updatedAt": "2025-08-15T12:30:03.023Z",
+        "version": 48,
         "status": "published",
-        "lastPublished": "2025-08-15T01:08:30.461Z"
+        "lastPublished": "2025-08-15T12:37:04.023Z"
       },
       "tileBackgroundType": "image",
       "tileBackgroundFile": {
@@ -422,7 +422,7 @@
         "updatedAt": "2025-08-14T14:24:16.070Z",
         "version": 3,
         "status": "published",
-        "lastPublished": "2025-08-15T01:08:30.461Z"
+        "lastPublished": "2025-08-15T12:37:04.023Z"
       },
       "mediaItems": [
         {
@@ -517,7 +517,7 @@
         "updatedAt": "2024-02-01T10:00:00Z",
         "version": 1,
         "status": "published",
-        "lastPublished": "2025-08-15T01:08:30.461Z"
+        "lastPublished": "2025-08-15T12:37:04.023Z"
       }
     },
     {
@@ -558,7 +558,7 @@
         "updatedAt": "2024-02-10T10:00:00Z",
         "version": 1,
         "status": "published",
-        "lastPublished": "2025-08-15T01:08:30.461Z"
+        "lastPublished": "2025-08-15T12:37:04.023Z"
       }
     },
     {
@@ -613,7 +613,7 @@
         "updatedAt": "2024-02-15T10:00:00Z",
         "version": 1,
         "status": "published",
-        "lastPublished": "2025-08-15T01:08:30.461Z"
+        "lastPublished": "2025-08-15T12:37:04.023Z"
       }
     },
     {
@@ -654,7 +654,7 @@
         "updatedAt": "2024-02-20T10:00:00Z",
         "version": 1,
         "status": "published",
-        "lastPublished": "2025-08-15T01:08:30.461Z"
+        "lastPublished": "2025-08-15T12:37:04.023Z"
       }
     },
     {
@@ -695,7 +695,7 @@
         "updatedAt": "2024-03-01T10:00:00Z",
         "version": 1,
         "status": "published",
-        "lastPublished": "2025-08-15T01:08:30.461Z"
+        "lastPublished": "2025-08-15T12:37:04.023Z"
       }
     },
     {
@@ -736,7 +736,7 @@
         "updatedAt": "2024-03-10T10:00:00Z",
         "version": 1,
         "status": "published",
-        "lastPublished": "2025-08-15T01:08:30.461Z"
+        "lastPublished": "2025-08-15T12:37:04.023Z"
       }
     },
     {
@@ -777,7 +777,7 @@
         "updatedAt": "2024-03-15T10:00:00Z",
         "version": 1,
         "status": "published",
-        "lastPublished": "2025-08-15T01:08:30.461Z"
+        "lastPublished": "2025-08-15T12:37:04.023Z"
       }
     },
     {
@@ -846,7 +846,7 @@
         "updatedAt": "2025-08-15T01:08:06.990Z",
         "version": 2,
         "status": "published",
-        "lastPublished": "2025-08-15T01:08:30.461Z"
+        "lastPublished": "2025-08-15T12:37:04.023Z"
       },
       "tileBackgroundType": "image",
       "tileBackgroundFile": {
@@ -913,6 +913,6 @@
       "date": "2024-03-10"
     }
   ],
-  "lastUpdated": "2025-08-15T07:15:32.654Z",
+  "lastUpdated": "2025-08-15T12:48:22.142Z",
   "version": "1.0"
 }
