@@ -673,10 +673,8 @@ body {
 }
 
 .video-back-button {
-  z-index: 30;
-  position: absolute;
-  top: 40px;
-  left: 40px;
+  /* Inherit all styles from .back-button, only override z-index if needed */
+  z-index: 100;
 }
 
 .video-player-fullscreen {
@@ -993,10 +991,7 @@ body {
     max-width: 50%;
   }
 
-  .video-back-button {
-    top: 20px;
-    left: 20px;
-  }
+  /* .video-back-button now inherits positioning from .back-button */
 
   .pdf-container-16x9 {
     width: 95%;
