@@ -544,9 +544,9 @@
       },
       "metadata": {
         "createdAt": "2024-02-01T10:00:00Z",
-        "updatedAt": "2025-08-15T13:30:25.351Z",
-        "version": 3,
-        "status": "published",
+        "updatedAt": "2025-08-15T14:36:27.375Z",
+        "version": 4,
+        "status": "draft",
         "lastPublished": "2025-08-15T14:22:40.564Z"
       },
       "mediaItems": [
@@ -815,6 +815,144 @@
             }
           ],
           "order": 0
+        },
+        {
+          "id": "1755268505468",
+          "type": "gallery",
+          "title": "🖼️ Project Gallery (4 images)",
+          "files": [
+            {
+              "publicId": "dlk7nl1gy4z99dogoto7",
+              "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755268570/dlk7nl1gy4z99dogoto7.jpg",
+              "width": 1920,
+              "height": 1080,
+              "format": "jpg",
+              "bytes": 1650499,
+              "resourceType": "image",
+              "eager": [],
+              "storageType": "cloudinary",
+              "localPath": null,
+              "id": "gallery-img-1755268571119-0.7840311875005752",
+              "name": "Slides_v1.1.jpg",
+              "size": 1650499,
+              "uploadedAt": "2025-08-15T14:36:11.119Z"
+            },
+            {
+              "publicId": "nufzdfqzdowk5zmh4i06",
+              "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755268576/nufzdfqzdowk5zmh4i06.jpg",
+              "width": 1920,
+              "height": 1080,
+              "format": "jpg",
+              "bytes": 740266,
+              "resourceType": "image",
+              "eager": [],
+              "storageType": "cloudinary",
+              "localPath": null,
+              "id": "gallery-img-1755268576879-0.38319992710345707",
+              "name": "Slides_v1.0.jpg",
+              "size": 740266,
+              "uploadedAt": "2025-08-15T14:36:16.879Z"
+            },
+            {
+              "publicId": "ghpooxv2azh6715m55wm",
+              "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755268577/ghpooxv2azh6715m55wm.jpg",
+              "width": 1920,
+              "height": 1080,
+              "format": "jpg",
+              "bytes": 1019740,
+              "resourceType": "image",
+              "eager": [],
+              "storageType": "cloudinary",
+              "localPath": null,
+              "id": "gallery-img-1755268577801-0.1588013777659908",
+              "name": "Slides_v1.02.jpg",
+              "size": 1019740,
+              "uploadedAt": "2025-08-15T14:36:17.801Z"
+            },
+            {
+              "publicId": "xdnvks7yb6tlg7m1zrj6",
+              "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755268578/xdnvks7yb6tlg7m1zrj6.jpg",
+              "width": 1920,
+              "height": 1080,
+              "format": "jpg",
+              "bytes": 903251,
+              "resourceType": "image",
+              "eager": [],
+              "storageType": "cloudinary",
+              "localPath": null,
+              "id": "gallery-img-1755268579131-0.5032644022350908",
+              "name": "Slides_v1.03.jpg",
+              "size": 903251,
+              "uploadedAt": "2025-08-15T14:36:19.131Z"
+            }
+          ],
+          "images": [
+            {
+              "publicId": "dlk7nl1gy4z99dogoto7",
+              "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755268570/dlk7nl1gy4z99dogoto7.jpg",
+              "width": 1920,
+              "height": 1080,
+              "format": "jpg",
+              "bytes": 1650499,
+              "resourceType": "image",
+              "eager": [],
+              "storageType": "cloudinary",
+              "localPath": null,
+              "id": "gallery-img-1755268571119-0.7840311875005752",
+              "name": "Slides_v1.1.jpg",
+              "size": 1650499,
+              "uploadedAt": "2025-08-15T14:36:11.119Z"
+            },
+            {
+              "publicId": "nufzdfqzdowk5zmh4i06",
+              "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755268576/nufzdfqzdowk5zmh4i06.jpg",
+              "width": 1920,
+              "height": 1080,
+              "format": "jpg",
+              "bytes": 740266,
+              "resourceType": "image",
+              "eager": [],
+              "storageType": "cloudinary",
+              "localPath": null,
+              "id": "gallery-img-1755268576879-0.38319992710345707",
+              "name": "Slides_v1.0.jpg",
+              "size": 740266,
+              "uploadedAt": "2025-08-15T14:36:16.879Z"
+            },
+            {
+              "publicId": "ghpooxv2azh6715m55wm",
+              "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755268577/ghpooxv2azh6715m55wm.jpg",
+              "width": 1920,
+              "height": 1080,
+              "format": "jpg",
+              "bytes": 1019740,
+              "resourceType": "image",
+              "eager": [],
+              "storageType": "cloudinary",
+              "localPath": null,
+              "id": "gallery-img-1755268577801-0.1588013777659908",
+              "name": "Slides_v1.02.jpg",
+              "size": 1019740,
+              "uploadedAt": "2025-08-15T14:36:17.801Z"
+            },
+            {
+              "publicId": "xdnvks7yb6tlg7m1zrj6",
+              "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755268578/xdnvks7yb6tlg7m1zrj6.jpg",
+              "width": 1920,
+              "height": 1080,
+              "format": "jpg",
+              "bytes": 903251,
+              "resourceType": "image",
+              "eager": [],
+              "storageType": "cloudinary",
+              "localPath": null,
+              "id": "gallery-img-1755268579131-0.5032644022350908",
+              "name": "Slides_v1.03.jpg",
+              "size": 903251,
+              "uploadedAt": "2025-08-15T14:36:19.131Z"
+            }
+          ],
+          "order": 1
         }
       ],
       "tileBackgroundType": "image",
@@ -832,23 +970,17 @@
         "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755264289/portfolio/tiles/portfolio/tiles/tile_3.png"
       },
       "pageBackgroundFile": {
-        "file": {},
-        "preview": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755264614/portfolio/backgrounds/portfolio/backgrounds/bg_3.png",
         "name": "project-background.png",
         "size": 3303135,
         "type": "image/png",
-        "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755264614/portfolio/backgrounds/portfolio/backgrounds/bg_3.png",
-        "cloudinaryId": "portfolio/backgrounds/portfolio/backgrounds/bg_3",
-        "uploadedAt": "2025-08-15T13:30:15.198Z",
         "dimensions": {
           "width": 1920,
           "height": 1080
         },
-        "uploading": false,
-        "storageType": "cloudinary",
-        "localPath": null,
-        "needsServerUpload": false,
-        "cloudinary": true
+        "uploadedAt": "2025-08-15T13:30:15.198Z",
+        "cloudinary": true,
+        "cloudinaryId": "portfolio/backgrounds/portfolio/backgrounds/bg_3",
+        "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755264614/portfolio/backgrounds/portfolio/backgrounds/bg_3.png"
       }
     },
     {
@@ -1886,6 +2018,6 @@
       "date": "2024-03-10"
     }
   ],
-  "lastUpdated": "2025-08-15T14:35:01.798Z",
+  "lastUpdated": "2025-08-15T14:36:29.381Z",
   "version": "1.0"
 }
