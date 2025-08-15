@@ -11,7 +11,7 @@
         "Graphic Design",
         "Presentations"
       ],
-      "hasVideo": true,
+      "hasVideo": false,
       "backgrounds": {
         "tile": {
           "type": "image",
@@ -309,40 +309,12 @@
             }
           ],
           "order": 0
-        },
-        {
-          "id": "1755277810902",
-          "type": "video",
-          "title": "video media",
-          "files": [
-            {
-              "publicId": "local_1755277838584",
-              "url": "/videos/general/1755277838584-lovell-2023-summary-video-1080p-compressed-.mp4",
-              "localPath": "/videos/general/1755277838584-lovell-2023-summary-video-1080p-compressed-.mp4",
-              "width": null,
-              "height": null,
-              "format": "mp4",
-              "bytes": 77960857,
-              "duration": null,
-              "resourceType": "video",
-              "storageType": "local",
-              "uploadedAt": "2025-08-15T17:10:38.584Z",
-              "preview": "blob:https://oursayso-portfolio-cms.netlify.app/670bcf36-4636-4ddc-86f0-25e5c4ffe6b4",
-              "file": {},
-              "needsServerUpload": false,
-              "name": "lovell_2023_summary_video (1080p) (compressed).mp4",
-              "type": "video/mp4",
-              "fileName": "lovell_2023_summary_video (1080p) (compressed).mp4"
-            }
-          ],
-          "images": [],
-          "order": 1
         }
       ],
       "metadata": {
         "createdAt": "2024-01-15T10:00:00Z",
-        "updatedAt": "2025-08-15T17:10:45.765Z",
-        "version": 53,
+        "updatedAt": "2025-08-15T17:13:41.540Z",
+        "version": 54,
         "status": "draft",
         "lastPublished": "2025-08-15T16:48:54.833Z"
       },
@@ -2000,6 +1972,6 @@
       "date": "2024-03-10"
     }
   ],
-  "lastUpdated": "2025-08-15T17:13:37.612Z",
+  "lastUpdated": "2025-08-15T17:13:43.547Z",
   "version": "1.0"
 }
