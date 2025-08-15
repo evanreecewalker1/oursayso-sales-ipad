@@ -1213,7 +1213,7 @@
         "ANIMATION",
         "GRAPHIC DESIGN"
       ],
-      "hasVideo": false,
+      "hasVideo": true,
       "backgrounds": {
         "tile": {
           "type": "image",
@@ -1245,11 +1245,20 @@
           "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755265645/portfolio/backgrounds/portfolio/backgrounds/bg_5.png"
         }
       },
-      "mediaItems": [],
+      "mediaItems": [
+        {
+          "id": "1755274240120",
+          "type": "video",
+          "title": "",
+          "files": [],
+          "images": [],
+          "order": 0
+        }
+      ],
       "metadata": {
         "createdAt": "2024-02-15T10:00:00Z",
-        "updatedAt": "2025-08-15T15:33:55.436Z",
-        "version": 6,
+        "updatedAt": "2025-08-15T16:11:57.170Z",
+        "version": 7,
         "status": "draft",
         "lastPublished": "2025-08-15T14:58:26.235Z"
       },
@@ -1943,6 +1952,6 @@
       "date": "2024-03-10"
     }
   ],
-  "lastUpdated": "2025-08-15T16:10:36.248Z",
+  "lastUpdated": "2025-08-15T16:11:59.181Z",
   "version": "1.0"
 }
