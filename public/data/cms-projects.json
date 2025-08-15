@@ -396,7 +396,7 @@
         "VIDEO SHOOT",
         "INTERVIEWS"
       ],
-      "hasVideo": false,
+      "hasVideo": true,
       "backgrounds": {
         "tile": {
           "type": "image",
@@ -430,12 +430,47 @@
       },
       "metadata": {
         "createdAt": "2024-01-20T10:00:00Z",
-        "updatedAt": "2025-08-15T14:12:50.399Z",
-        "version": 8,
+        "updatedAt": "2025-08-15T14:13:56.345Z",
+        "version": 9,
         "status": "draft",
         "lastPublished": "2025-08-15T13:49:31.211Z"
       },
-      "mediaItems": [],
+      "mediaItems": [
+        {
+          "id": "1755267180783",
+          "type": "video",
+          "title": "video media",
+          "files": [
+            {
+              "publicId": "local_1755267202498",
+              "url": "/videos/general/1755267202498-rarely-preview.mp4",
+              "localPath": "/videos/general/1755267202498-rarely-preview.mp4",
+              "width": null,
+              "height": null,
+              "format": "mp4",
+              "bytes": 100508583,
+              "duration": null,
+              "resourceType": "video",
+              "storageType": "local",
+              "uploadedAt": "2025-08-15T14:13:22.498Z",
+              "preview": "blob:https://oursayso-portfolio-cms.netlify.app/650e33cf-aa6f-4ae2-bb72-2a572bad3c35",
+              "file": {},
+              "needsServerUpload": false,
+              "name": "Rarely-preview.mp4",
+              "type": "video/mp4",
+              "fileName": "Rarely-preview.mp4",
+              "customVideoPreview": {
+                "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755267233/portfolio/video-previews/d31urscbphaadns3lb7u.png",
+                "publicId": "portfolio/video-previews/d31urscbphaadns3lb7u",
+                "name": "video-preview.png",
+                "uploadedAt": "2025-08-15T14:13:53.970Z"
+              }
+            }
+          ],
+          "images": [],
+          "order": 0
+        }
+      ],
       "tileBackgroundType": "image",
       "tileBackgroundFile": {
         "name": "project-tile.png",
@@ -1463,6 +1498,6 @@
       "date": "2024-03-10"
     }
   ],
-  "lastUpdated": "2025-08-15T14:12:52.416Z",
+  "lastUpdated": "2025-08-15T14:13:58.363Z",
   "version": "1.0"
 }
