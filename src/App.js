@@ -383,32 +383,54 @@ const App = () => {
     return () => clearInterval(interval);
   }, []);
 
-  // iOS Install Prompt
+  // iOS Install Prompt - Enhanced detection and logic
   useEffect(() => {
     const checkIOSDevice = () => {
-      return /iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream;
+      // Enhanced iOS detection including newer devices and iOS versions
+      const iOS = /iPad|iPhone|iPod/.test(navigator.userAgent) 
+        || (navigator.platform === 'MacIntel' && navigator.maxTouchPoints > 1); // iPad Pro detection
+      return iOS && !window.MSStream;
     };
 
-    const isStandalone = window.matchMedia('(display-mode: standalone)').matches;
+    const checkIOSSafari = () => {
+      // Only show for Safari browsers (not Chrome, Firefox, etc. on iOS)
+      const isIOSSafari = checkIOSDevice() && 
+        /Safari/.test(navigator.userAgent) && 
+        !/CriOS|FxiOS|EdgiOS/.test(navigator.userAgent);
+      return isIOSSafari;
+    };
+
+    const isStandalone = window.matchMedia('(display-mode: standalone)').matches 
+      || window.navigator.standalone; // iOS Safari standalone mode
     const dismissedState = localStorage.getItem('iosPromptDismissed');
     const dismissedTime = localStorage.getItem('iosPromptDismissedTime');
 
-    // Don't show if permanently dismissed or already installed as PWA
-    if (checkIOSDevice() && !isStandalone && dismissedState !== 'permanent') {
+    console.log('📱 iOS Install Prompt Check:', {
+      isIOSDevice: checkIOSDevice(),
+      isIOSSafari: checkIOSSafari(),
+      isStandalone: isStandalone,
+      dismissedState: dismissedState
+    });
+
+    // Only show for iOS Safari users who haven't installed the app
+    if (checkIOSSafari() && !isStandalone && dismissedState !== 'permanent') {
       // If temporarily dismissed, check if 24 hours have passed
       if (dismissedState === 'temporary' && dismissedTime) {
         const timeElapsed = Date.now() - parseInt(dismissedTime);
         const twentyFourHours = 24 * 60 * 60 * 1000;
         
         if (timeElapsed < twentyFourHours) {
+          console.log('📱 iOS prompt temporarily dismissed, showing again in', Math.ceil((twentyFourHours - timeElapsed) / (60 * 60 * 1000)), 'hours');
           return; // Don't show yet
         }
       }
       
-      // Show prompt after a short delay
+      // Show prompt after user has had time to explore the app
+      const showDelay = dismissedState ? 1000 : 3000; // Shorter delay if previously dismissed
       setTimeout(() => {
+        console.log('📱 Showing iOS install prompt');
         setShowIOSPrompt(true);
-      }, 2000);
+      }, showDelay);
     }
   }, []);
 
@@ -1352,17 +1374,22 @@ const App = () => {
       {showIOSPrompt && (
         <div className="ios-prompt-overlay">
           <div className="ios-prompt">
-            <div className="ios-prompt-header">📱 Add to Home Screen</div>
-            <div className="ios-prompt-message">Hey Knotty, add this to your home screen as an app!</div>
+            <div className="ios-prompt-header">📱 Install Portfolio App</div>
+            <div className="ios-prompt-message">Get the best experience by adding this portfolio to your home screen!</div>
             <div className="ios-prompt-instructions">
-              Tap <span className="share-icon">⬆️</span> then "Add to Home Screen"
+              Tap the <span className="share-icon">⬆️ Share</span> button below, then select <strong>"Add to Home Screen"</strong>
+            </div>
+            <div className="ios-prompt-benefits">
+              <div className="benefit-item">✨ Instant access from home screen</div>
+              <div className="benefit-item">🚀 Faster loading & offline access</div>
+              <div className="benefit-item">📱 Full-screen app experience</div>
             </div>
             <div className="ios-prompt-buttons">
               <button className="ios-prompt-dismiss" onClick={() => dismissIOSPrompt(false)}>
                 Maybe Later
               </button>
               <button className="ios-prompt-dismiss ios-prompt-never" onClick={() => dismissIOSPrompt(true)}>
-                Don't Show Again
+                Not Now
               </button>
             </div>
           </div>
