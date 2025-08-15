@@ -11,7 +11,7 @@
         "Graphic Design",
         "Presentations"
       ],
-      "hasVideo": false,
+      "hasVideo": true,
       "backgrounds": {
         "tile": {
           "type": "image",
@@ -309,13 +309,46 @@
             }
           ],
           "order": 0
+        },
+        {
+          "id": "1755286527946",
+          "type": "video",
+          "title": "video media",
+          "files": [
+            {
+              "publicId": "portfolio/videos/RI-preview",
+              "url": "https://res.cloudinary.com/dnuni9dgl/video/upload/v1755285314/portfolio/videos/RI-preview.mp4",
+              "width": 3840,
+              "height": 2160,
+              "format": "mp4",
+              "bytes": 56910015,
+              "resourceType": "video",
+              "eager": [],
+              "storageType": "cloudinary",
+              "localPath": null,
+              "preview": "https://res.cloudinary.com/dnuni9dgl/video/upload/v1755285314/portfolio/videos/RI-preview.mp4",
+              "needsServerUpload": false,
+              "uploadedAt": "2025-08-15T19:35:44.432Z",
+              "name": "RI-preview.mp4",
+              "type": "video/mp4",
+              "fileName": "RI-preview.mp4",
+              "customVideoPreview": {
+                "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755286551/portfolio/video-previews/evi8psmtd48j3o1id4gk.png",
+                "publicId": "portfolio/video-previews/evi8psmtd48j3o1id4gk",
+                "name": "video-preview.png",
+                "uploadedAt": "2025-08-15T19:35:51.751Z"
+              }
+            }
+          ],
+          "images": [],
+          "order": 1
         }
       ],
       "metadata": {
         "createdAt": "2024-01-15T10:00:00Z",
-        "updatedAt": "2025-08-15T17:13:41.540Z",
-        "version": 54,
-        "status": "published",
+        "updatedAt": "2025-08-15T19:35:54.852Z",
+        "version": 55,
+        "status": "draft",
         "lastPublished": "2025-08-15T17:14:31.531Z"
       },
       "tileBackgroundType": "image",
@@ -1908,6 +1941,6 @@
       "date": "2024-03-10"
     }
   ],
-  "lastUpdated": "2025-08-15T19:35:24.553Z",
+  "lastUpdated": "2025-08-15T19:35:56.869Z",
   "version": "1.0"
 }
