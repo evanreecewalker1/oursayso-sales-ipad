@@ -223,56 +223,23 @@
     },
     {
       "id": "4",
-      "title": "Warner Bros & Discovery Training",
+      "title": "Warner Bros.Discovery Training",
       "category": "Design & Digital",
-      "description": "Interactive training materials and digital resources for Warner Bros Discovery. Engaging multimedia content for global team development.",
+      "description": "With complete creative license from Warner Bros. Discovery and access to any assets, follow the design of 6 decks that were ultimately used to train 1600 people across the globe.",
       "tags": [
-        "training-materials",
-        "interactive-design",
-        "multimedia",
-        "corporate-training"
+        "POWERPOINT",
+        "GRAPHIC DESIGN",
+        "IMAGE EDITING"
       ],
       "order": 3,
       "slug": "warner-bros-discovery-training",
       "tileBackground": {
         "type": "image",
-        "url": "/images/project4.png",
+        "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755265318/portfolio/tiles/portfolio/tiles/tile_4.png?v=1755262405723",
         "storageType": "cloudinary"
       },
       "pageBackground": {
-        "url": "/images/backgrounds/project4-bg.jpg",
-        "dimensions": {
-          "width": 1920,
-          "height": 1080
-        },
-        "storageType": "cloudinary"
-      },
-      "mediaItems": [],
-      "hasVideo": false,
-      "createdAt": "2024-02-10T10:00:00Z",
-      "updatedAt": "2024-02-10T10:00:00Z",
-      "status": "published"
-    },
-    {
-      "id": "5",
-      "title": "River Island 'Wrapped' Video",
-      "category": "Video",
-      "description": "Dynamic promotional video campaign for River Island's seasonal collection. High-energy visual storytelling with modern aesthetic.",
-      "tags": [
-        "promotional-video",
-        "fashion",
-        "retail",
-        "commercial"
-      ],
-      "order": 4,
-      "slug": "river-island-wrapped-video",
-      "tileBackground": {
-        "type": "video",
-        "url": "/public/projects/project-05-riverisland/media/video-01.mp4",
-        "storageType": "cloudinary"
-      },
-      "pageBackground": {
-        "url": "/public/projects/project-05-riverisland/background.png",
+        "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755265272/portfolio/backgrounds/portfolio/backgrounds/bg_4.png?v=1755262405723",
         "dimensions": {
           "width": 1920,
           "height": 1080
@@ -281,23 +248,72 @@
       },
       "mediaItems": [
         {
-          "id": "5-1",
-          "type": "video",
-          "title": "Promotional Video",
+          "id": "1755265471560",
+          "type": "gallery",
+          "title": "🖼️ Project Gallery (5 images)",
           "files": [
             {
-              "url": "/projects/5/media/video-01.mp4",
-              "name": "video-01.mp4",
-              "type": "video/mp4",
+              "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755265477/ufwpfqhcci43swc0k1bn.png",
+              "name": "Warner_Bros_Discover_Workbook_More_About_Us_v1.351.png",
+              "customVideoPreview": null
+            },
+            {
+              "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755265482/r4tbfofh7dronqg2by3w.jpg",
+              "name": "Warner_Bros_Discover_Workbook_Building_My_Network_v1.110.jpg",
+              "customVideoPreview": null
+            },
+            {
+              "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755265482/w74gk9teelwhbsvcy8zc.jpg",
+              "name": "Warner_Bros_Discover_Workbook_More_About_Us_v1.35.jpg",
+              "customVideoPreview": null
+            },
+            {
+              "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755265483/gpk1t7rx8npyz7drddbd.jpg",
+              "name": "Warner_Bros_Discover_Workbook_More_About_Us_v1.36.jpg",
+              "customVideoPreview": null
+            },
+            {
+              "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755265484/inmmxqvlepbkn9dldskh.jpg",
+              "name": "Warner_Bros_Discover_Workbook_More_About_Us_v1.37.jpg",
               "customVideoPreview": null
             }
           ],
           "order": 0
         }
       ],
-      "hasVideo": true,
+      "hasVideo": false,
+      "createdAt": "2024-02-10T10:00:00Z",
+      "updatedAt": "2025-08-15T13:44:47.549Z",
+      "status": "published"
+    },
+    {
+      "id": "5",
+      "title": "River Island ‘Wrapped’ Xmas Video",
+      "category": "Video",
+      "description": "Swapping out the usual Christmas yearly round-up video, and tapping into the latest trends to design, build and produce a Spotify wrapped montage for River Island’s comms team.",
+      "tags": [
+        "ANIMATION",
+        "GRAPHIC DESIGN"
+      ],
+      "order": 4,
+      "slug": "river-island-wrapped-xmas-video",
+      "tileBackground": {
+        "type": "image",
+        "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755265639/portfolio/tiles/portfolio/tiles/tile_5.png?v=1755262405723",
+        "storageType": "cloudinary"
+      },
+      "pageBackground": {
+        "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755265645/portfolio/backgrounds/portfolio/backgrounds/bg_5.png?v=1755262405723",
+        "dimensions": {
+          "width": 1920,
+          "height": 1080
+        },
+        "storageType": "cloudinary"
+      },
+      "mediaItems": [],
+      "hasVideo": false,
       "createdAt": "2024-02-15T10:00:00Z",
-      "updatedAt": "2024-02-15T10:00:00Z",
+      "updatedAt": "2025-08-15T13:49:21.274Z",
       "status": "published"
     },
     {
@@ -483,7 +499,7 @@
       "Video",
       "Design & Digital"
     ],
-    "lastUpdated": "2025-08-15T13:32:18.549Z",
+    "lastUpdated": "2025-08-15T13:49:23.010Z",
     "version": "1.0.0",
     "page": 1
   }
