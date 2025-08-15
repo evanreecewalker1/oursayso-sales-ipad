@@ -1249,16 +1249,36 @@
         {
           "id": "1755274240120",
           "type": "video",
-          "title": "",
-          "files": [],
+          "title": "video media",
+          "files": [
+            {
+              "publicId": "local_1755276515043",
+              "url": "/videos/general/1755276515043-ri-preview.mp4",
+              "localPath": "/videos/general/1755276515043-ri-preview.mp4",
+              "width": null,
+              "height": null,
+              "format": "mp4",
+              "bytes": 56910015,
+              "duration": null,
+              "resourceType": "video",
+              "storageType": "local",
+              "uploadedAt": "2025-08-15T16:48:35.043Z",
+              "preview": "blob:https://oursayso-portfolio-cms.netlify.app/0ff96c26-f069-413c-bad6-04b16f7a3e1f",
+              "file": {},
+              "needsServerUpload": false,
+              "name": "RI-preview.mp4",
+              "type": "video/mp4",
+              "fileName": "RI-preview.mp4"
+            }
+          ],
           "images": [],
           "order": 0
         }
       ],
       "metadata": {
         "createdAt": "2024-02-15T10:00:00Z",
-        "updatedAt": "2025-08-15T16:11:57.170Z",
-        "version": 7,
+        "updatedAt": "2025-08-15T16:48:42.992Z",
+        "version": 8,
         "status": "draft",
         "lastPublished": "2025-08-15T14:58:26.235Z"
       },
@@ -1952,6 +1972,6 @@
       "date": "2024-03-10"
     }
   ],
-  "lastUpdated": "2025-08-15T16:48:09.417Z",
+  "lastUpdated": "2025-08-15T16:48:45.011Z",
   "version": "1.0"
 }
