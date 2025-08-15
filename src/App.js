@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { ArrowRight, ArrowLeft } from 'lucide-react';
+import { getFullVersionString } from './utils/version';
 import './App.css';
 
 // This will be populated from the CMS JSON files
@@ -1200,11 +1201,37 @@ const App = () => {
         
         {/* Sidebar with back arrow */}
         <div className="sidebar">
+          {/* Offline Indicator - Subtle pulsing dot */}
+          {isOffline && (
+            <div className="sidebar-offline-indicator">
+              <div className="offline-dot"></div>
+            </div>
+          )}
+          
           <ArrowLeft 
             className="sidebar-arrow" 
             size={32}
             onClick={() => setCurrentPage('dashboard')}
           />
+          
+          {/* OurSayso Logo */}
+          <a 
+            href="https://www.oursayso.com/" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="oursayso-logo-link"
+          >
+            <img 
+              src="/images/oursayso-logo.svg" 
+              alt="OurSayso" 
+              className="oursayso-logo"
+            />
+          </a>
+        </div>
+        
+        {/* Version Display - Bottom Right */}
+        <div className="version-display">
+          {getFullVersionString()}
         </div>
       </div>
     );
@@ -1213,14 +1240,6 @@ const App = () => {
   // Main Dashboard (your current working layout)
   return (
     <div className="app">
-      {/* Offline Indicator */}
-      {isOffline && (
-        <div className="offline-indicator">
-          <div className="offline-content">
-            📱 Offline Mode - Cached content available
-          </div>
-        </div>
-      )}
       
       <div className="grid-container">
         {/* Row 1 - 4 tiles */}
@@ -1349,6 +1368,13 @@ const App = () => {
       
       {/* Sidebar */}
       <div className="sidebar">
+        {/* Offline Indicator - Subtle pulsing dot */}
+        {isOffline && (
+          <div className="sidebar-offline-indicator">
+            <div className="offline-dot"></div>
+          </div>
+        )}
+        
         <ArrowRight 
           className="sidebar-arrow" 
           size={32}
