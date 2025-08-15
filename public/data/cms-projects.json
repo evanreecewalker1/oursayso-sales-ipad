@@ -348,8 +348,8 @@
         "createdAt": "2024-01-15T10:00:00Z",
         "updatedAt": "2025-08-15T19:35:54.852Z",
         "version": 55,
-        "status": "draft",
-        "lastPublished": "2025-08-15T17:14:31.531Z"
+        "status": "published",
+        "lastPublished": "2025-08-15T19:36:07.159Z"
       },
       "tileBackgroundType": "image",
       "tileBackgroundFile": {
@@ -426,7 +426,7 @@
         "updatedAt": "2025-08-15T17:14:18.928Z",
         "version": 10,
         "status": "published",
-        "lastPublished": "2025-08-15T17:14:31.531Z"
+        "lastPublished": "2025-08-15T19:36:07.159Z"
       },
       "mediaItems": [],
       "tileBackgroundType": "image",
@@ -505,7 +505,7 @@
         "updatedAt": "2025-08-15T14:36:27.375Z",
         "version": 4,
         "status": "published",
-        "lastPublished": "2025-08-15T17:14:31.531Z"
+        "lastPublished": "2025-08-15T19:36:07.159Z"
       },
       "mediaItems": [
         {
@@ -988,7 +988,7 @@
         "updatedAt": "2025-08-15T13:44:47.549Z",
         "version": 2,
         "status": "published",
-        "lastPublished": "2025-08-15T17:14:31.531Z"
+        "lastPublished": "2025-08-15T19:36:07.159Z"
       },
       "mediaItems": [
         {
@@ -1249,7 +1249,7 @@
         "updatedAt": "2025-08-15T17:14:01.059Z",
         "version": 9,
         "status": "published",
-        "lastPublished": "2025-08-15T17:14:31.531Z"
+        "lastPublished": "2025-08-15T19:36:07.159Z"
       },
       "tileBackgroundType": "image",
       "tileBackgroundFile": {
@@ -1326,7 +1326,7 @@
         "updatedAt": "2025-08-15T14:18:28.765Z",
         "version": 2,
         "status": "published",
-        "lastPublished": "2025-08-15T17:14:31.531Z"
+        "lastPublished": "2025-08-15T19:36:07.159Z"
       },
       "mediaItems": [
         {
@@ -1674,7 +1674,7 @@
         "updatedAt": "2024-03-01T10:00:00Z",
         "version": 1,
         "status": "published",
-        "lastPublished": "2025-08-15T17:14:31.531Z"
+        "lastPublished": "2025-08-15T19:36:07.159Z"
       }
     },
     {
@@ -1724,7 +1724,7 @@
         "updatedAt": "2025-08-15T14:34:59.793Z",
         "version": 2,
         "status": "published",
-        "lastPublished": "2025-08-15T17:14:31.531Z"
+        "lastPublished": "2025-08-15T19:36:07.159Z"
       },
       "mediaItems": [],
       "tileBackgroundType": "image",
@@ -1805,7 +1805,7 @@
         "updatedAt": "2024-03-15T10:00:00Z",
         "version": 1,
         "status": "published",
-        "lastPublished": "2025-08-15T17:14:31.531Z"
+        "lastPublished": "2025-08-15T19:36:07.159Z"
       }
     },
     {
@@ -1874,7 +1874,7 @@
         "updatedAt": "2025-08-15T01:08:06.990Z",
         "version": 2,
         "status": "published",
-        "lastPublished": "2025-08-15T17:14:31.531Z"
+        "lastPublished": "2025-08-15T19:36:07.159Z"
       },
       "tileBackgroundType": "image",
       "tileBackgroundFile": {
@@ -1941,6 +1941,6 @@
       "date": "2024-03-10"
     }
   ],
-  "lastUpdated": "2025-08-15T19:35:56.869Z",
+  "lastUpdated": "2025-08-15T19:36:09.868Z",
   "version": "1.0"
 }
