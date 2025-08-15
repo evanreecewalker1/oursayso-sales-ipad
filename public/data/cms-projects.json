@@ -796,21 +796,31 @@
         "tile": {
           "type": "image",
           "file": {
-            "name": "project10.png",
-            "type": "image/png",
-            "url": "/images/project10.png",
-            "uploadedAt": "2024-03-20T10:00:00Z"
+            "name": "53031420666_d05f730c8e_o.jpg",
+            "size": 4444587,
+            "type": "image/jpeg",
+            "dimensions": {
+              "width": 4032,
+              "height": 3024
+            },
+            "uploadedAt": "2025-08-15T01:08:02.203Z",
+            "cloudinary": true,
+            "cloudinaryId": "portfolio/tiles/portfolio/tiles/tile_10",
+            "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755220081/portfolio/tiles/portfolio/tiles/tile_10.jpg"
           }
         },
         "page": {
-          "name": "project10-bg.jpg",
-          "type": "image/jpeg",
-          "url": "/images/backgrounds/project10-bg.jpg",
+          "name": "ARDA Background.png",
+          "size": 1410604,
+          "type": "image/png",
           "dimensions": {
             "width": 1920,
             "height": 1080
           },
-          "uploadedAt": "2024-03-20T10:00:00Z"
+          "uploadedAt": "2025-08-15T01:07:30.901Z",
+          "cloudinary": true,
+          "cloudinaryId": "portfolio/backgrounds/portfolio/backgrounds/bg_10",
+          "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755220050/portfolio/backgrounds/portfolio/backgrounds/bg_10.png"
         }
       },
       "mediaItems": [
@@ -818,21 +828,64 @@
           "id": "10-1",
           "type": "video",
           "title": "Impact Video",
-          "files": []
+          "files": [],
+          "images": [],
+          "order": 0
         },
         {
           "id": "10-2",
           "type": "gallery",
           "title": "Website Screenshots",
-          "files": []
+          "files": [],
+          "images": [],
+          "order": 1
         }
       ],
       "metadata": {
         "createdAt": "2024-03-20T10:00:00Z",
-        "updatedAt": "2024-03-20T10:00:00Z",
-        "version": 1,
-        "status": "published",
+        "updatedAt": "2025-08-15T01:08:06.990Z",
+        "version": 2,
+        "status": "draft",
         "lastPublished": "2025-08-15T01:02:58.018Z"
+      },
+      "tileBackgroundType": "image",
+      "tileBackgroundFile": {
+        "file": {},
+        "preview": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755220081/portfolio/tiles/portfolio/tiles/tile_10.jpg",
+        "name": "53031420666_d05f730c8e_o.jpg",
+        "size": 4444587,
+        "type": "image/jpeg",
+        "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755220081/portfolio/tiles/portfolio/tiles/tile_10.jpg",
+        "cloudinaryId": "portfolio/tiles/portfolio/tiles/tile_10",
+        "uploadedAt": "2025-08-15T01:08:02.203Z",
+        "dimensions": {
+          "width": 4032,
+          "height": 3024
+        },
+        "uploading": false,
+        "storageType": "cloudinary",
+        "localPath": null,
+        "needsServerUpload": false,
+        "cloudinary": true
+      },
+      "pageBackgroundFile": {
+        "file": {},
+        "preview": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755220050/portfolio/backgrounds/portfolio/backgrounds/bg_10.png",
+        "name": "ARDA Background.png",
+        "size": 1410604,
+        "type": "image/png",
+        "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755220050/portfolio/backgrounds/portfolio/backgrounds/bg_10.png",
+        "cloudinaryId": "portfolio/backgrounds/portfolio/backgrounds/bg_10",
+        "uploadedAt": "2025-08-15T01:07:30.901Z",
+        "dimensions": {
+          "width": 1920,
+          "height": 1080
+        },
+        "uploading": false,
+        "storageType": "cloudinary",
+        "localPath": null,
+        "needsServerUpload": false,
+        "cloudinary": true
       }
     }
   ],
@@ -860,6 +913,6 @@
       "date": "2024-03-10"
     }
   ],
-  "lastUpdated": "2025-08-15T01:06:39.021Z",
+  "lastUpdated": "2025-08-15T01:08:08.996Z",
   "version": "1.0"
 }
