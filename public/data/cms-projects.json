@@ -1213,7 +1213,7 @@
         "ANIMATION",
         "GRAPHIC DESIGN"
       ],
-      "hasVideo": true,
+      "hasVideo": false,
       "backgrounds": {
         "tile": {
           "type": "image",
@@ -1245,41 +1245,12 @@
           "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755265645/portfolio/backgrounds/portfolio/backgrounds/bg_5.png"
         }
       },
-      "mediaItems": [
-        {
-          "id": "1755274240120",
-          "type": "video",
-          "title": "video media",
-          "files": [
-            {
-              "publicId": "local_1755276515043",
-              "url": "/videos/general/1755276515043-ri-preview.mp4",
-              "localPath": "/videos/general/1755276515043-ri-preview.mp4",
-              "width": null,
-              "height": null,
-              "format": "mp4",
-              "bytes": 56910015,
-              "duration": null,
-              "resourceType": "video",
-              "storageType": "local",
-              "uploadedAt": "2025-08-15T16:48:35.043Z",
-              "preview": "blob:https://oursayso-portfolio-cms.netlify.app/0ff96c26-f069-413c-bad6-04b16f7a3e1f",
-              "file": {},
-              "needsServerUpload": false,
-              "name": "RI-preview.mp4",
-              "type": "video/mp4",
-              "fileName": "RI-preview.mp4"
-            }
-          ],
-          "images": [],
-          "order": 0
-        }
-      ],
+      "mediaItems": [],
       "metadata": {
         "createdAt": "2024-02-15T10:00:00Z",
-        "updatedAt": "2025-08-15T16:48:42.992Z",
-        "version": 8,
-        "status": "published",
+        "updatedAt": "2025-08-15T17:14:01.059Z",
+        "version": 9,
+        "status": "draft",
         "lastPublished": "2025-08-15T16:48:54.833Z"
       },
       "tileBackgroundType": "image",
@@ -1972,6 +1943,6 @@
       "date": "2024-03-10"
     }
   ],
-  "lastUpdated": "2025-08-15T17:13:52.492Z",
+  "lastUpdated": "2025-08-15T17:14:03.072Z",
   "version": "1.0"
 }
