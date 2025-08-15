@@ -337,40 +337,12 @@
           ],
           "images": [],
           "order": 1
-        },
-        {
-          "id": "1755198606499",
-          "type": "pdf",
-          "title": "pdf media",
-          "files": [
-            {
-              "publicId": "local_1755198619771",
-              "url": "/images/general/1755198619771-digital-portfolio-2024-v3.5.pdf",
-              "localPath": "/images/general/1755198619771-digital-portfolio-2024-v3.5.pdf",
-              "width": null,
-              "height": null,
-              "format": "pdf",
-              "bytes": 7036023,
-              "duration": null,
-              "resourceType": "image",
-              "storageType": "local",
-              "uploadedAt": "2025-08-14T19:10:19.771Z",
-              "preview": "blob:https://oursayso-portfolio-cms.netlify.app/46b078bf-7b4f-406e-892f-0a797c2e0b61",
-              "file": {},
-              "needsServerUpload": false,
-              "name": "Digital-Portfolio-2024_v3.5.pdf",
-              "type": "application/pdf",
-              "fileName": "Digital-Portfolio-2024_v3.5.pdf"
-            }
-          ],
-          "images": [],
-          "order": 2
         }
       ],
       "metadata": {
         "createdAt": "2024-01-15T10:00:00Z",
-        "updatedAt": "2025-08-14T20:16:34.933Z",
-        "version": 46,
+        "updatedAt": "2025-08-15T01:02:46.995Z",
+        "version": 47,
         "status": "draft",
         "lastPublished": "2025-08-14T19:10:37.581Z"
       },
@@ -888,6 +860,6 @@
       "date": "2024-03-10"
     }
   ],
-  "lastUpdated": "2025-08-15T01:02:38.887Z",
+  "lastUpdated": "2025-08-15T01:02:48.999Z",
   "version": "1.0"
 }
