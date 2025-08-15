@@ -15,11 +15,11 @@
       "slug": "lovell-leadership-conference",
       "tileBackground": {
         "type": "image",
-        "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755166087/portfolio/tiles/portfolio/tiles/tile_1.png?v=1755267147897",
+        "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755166087/portfolio/tiles/portfolio/tiles/tile_1.png?v=1755269771337",
         "storageType": "cloudinary"
       },
       "pageBackground": {
-        "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755115318/portfolio/backgrounds/portfolio/backgrounds/bg_1.png?v=1755267147897",
+        "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755115318/portfolio/backgrounds/portfolio/backgrounds/bg_1.png?v=1755269771337",
         "dimensions": {
           "width": 1920,
           "height": 1080
@@ -74,31 +74,11 @@
             }
           ],
           "order": 0
-        },
-        {
-          "id": "1755194075412",
-          "type": "video",
-          "title": "video media",
-          "files": [
-            {
-              "url": "/videos/general-1755194084142-video-test.mp4",
-              "name": "video_test.mp4",
-              "type": "video/mp4",
-              "storageType": "portfolio",
-              "customVideoPreview": {
-                "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755262429/portfolio/video-previews/kf4xqmbwueboeun9jrmb.png",
-                "publicId": "portfolio/video-previews/kf4xqmbwueboeun9jrmb",
-                "name": "Screenshot 2025-08-15 at 14.53.14.png",
-                "uploadedAt": "2025-08-15T12:53:50.316Z"
-              }
-            }
-          ],
-          "order": 1
         }
       ],
-      "hasVideo": true,
+      "hasVideo": false,
       "createdAt": "2024-01-15T10:00:00Z",
-      "updatedAt": "2025-08-15T13:19:33.412Z",
+      "updatedAt": "2025-08-15T14:56:37.366Z",
       "status": "published"
     },
     {
@@ -115,11 +95,11 @@
       "slug": "rarely-heard-voices-videos",
       "tileBackground": {
         "type": "image",
-        "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755263407/portfolio/tiles/portfolio/tiles/tile_2.png?v=1755267147897",
+        "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755263407/portfolio/tiles/portfolio/tiles/tile_2.png?v=1755269771337",
         "storageType": "cloudinary"
       },
       "pageBackground": {
-        "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755263537/portfolio/backgrounds/portfolio/backgrounds/bg_2.png?v=1755267147897",
+        "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755263537/portfolio/backgrounds/portfolio/backgrounds/bg_2.png?v=1755269771337",
         "dimensions": {
           "width": 1920,
           "height": 1080
@@ -168,11 +148,11 @@
       "slug": "dryzze-cook-pronto-branding",
       "tileBackground": {
         "type": "image",
-        "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755264289/portfolio/tiles/portfolio/tiles/tile_3.png?v=1755267147897",
+        "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755264289/portfolio/tiles/portfolio/tiles/tile_3.png?v=1755269771337",
         "storageType": "cloudinary"
       },
       "pageBackground": {
-        "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755264614/portfolio/backgrounds/portfolio/backgrounds/bg_3.png?v=1755267147897",
+        "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755264614/portfolio/backgrounds/portfolio/backgrounds/bg_3.png?v=1755269771337",
         "dimensions": {
           "width": 1920,
           "height": 1080
@@ -276,11 +256,11 @@
       "slug": "warner-bros-discovery-training",
       "tileBackground": {
         "type": "image",
-        "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755265318/portfolio/tiles/portfolio/tiles/tile_4.png?v=1755267147897",
+        "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755265318/portfolio/tiles/portfolio/tiles/tile_4.png?v=1755269771337",
         "storageType": "cloudinary"
       },
       "pageBackground": {
-        "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755265272/portfolio/backgrounds/portfolio/backgrounds/bg_4.png?v=1755267147897",
+        "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755265272/portfolio/backgrounds/portfolio/backgrounds/bg_4.png?v=1755269771337",
         "dimensions": {
           "width": 1920,
           "height": 1080
@@ -340,11 +320,11 @@
       "slug": "river-island-wrapped-xmas-video",
       "tileBackground": {
         "type": "image",
-        "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755265639/portfolio/tiles/portfolio/tiles/tile_5.png?v=1755267147897",
+        "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755265639/portfolio/tiles/portfolio/tiles/tile_5.png?v=1755269771337",
         "storageType": "cloudinary"
       },
       "pageBackground": {
-        "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755265645/portfolio/backgrounds/portfolio/backgrounds/bg_5.png?v=1755267147897",
+        "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755265645/portfolio/backgrounds/portfolio/backgrounds/bg_5.png?v=1755269771337",
         "dimensions": {
           "width": 1920,
           "height": 1080
@@ -353,20 +333,20 @@
       },
       "mediaItems": [
         {
-          "id": "1755267659121",
+          "id": "1755269808531",
           "type": "video",
           "title": "video media",
           "files": [
             {
-              "url": "/videos/general/1755267708170-ri-preview.mp4",
+              "url": "/videos/general/1755269825217-ri-preview.mp4",
               "name": "RI-preview.mp4",
               "type": "video/mp4",
               "storageType": "local",
               "customVideoPreview": {
-                "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755267730/portfolio/video-previews/cesgznshsjptg3s1jkmn.png",
-                "publicId": "portfolio/video-previews/cesgznshsjptg3s1jkmn",
+                "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755269831/portfolio/video-previews/jmkdgmnej6aalfjbp6xy.png",
+                "publicId": "portfolio/video-previews/jmkdgmnej6aalfjbp6xy",
                 "name": "video-preview.png",
-                "uploadedAt": "2025-08-15T14:22:10.785Z"
+                "uploadedAt": "2025-08-15T14:57:11.935Z"
               }
             }
           ],
@@ -375,7 +355,7 @@
       ],
       "hasVideo": true,
       "createdAt": "2024-02-15T10:00:00Z",
-      "updatedAt": "2025-08-15T14:22:15.177Z",
+      "updatedAt": "2025-08-15T14:57:15.374Z",
       "status": "published"
     },
     {
@@ -392,11 +372,11 @@
       "slug": "accor-owner-services-catalogue",
       "tileBackground": {
         "type": "image",
-        "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755267360/portfolio/tiles/portfolio/tiles/tile_6.png?v=1755267147897",
+        "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755267360/portfolio/tiles/portfolio/tiles/tile_6.png?v=1755269771337",
         "storageType": "cloudinary"
       },
       "pageBackground": {
-        "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755267398/portfolio/backgrounds/portfolio/backgrounds/bg_6.png?v=1755267147897",
+        "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755267398/portfolio/backgrounds/portfolio/backgrounds/bg_6.png?v=1755269771337",
         "dimensions": {
           "width": 1920,
           "height": 1080
@@ -504,11 +484,11 @@
       "slug": "wealmoor-website-design",
       "tileBackground": {
         "type": "image",
-        "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755268445/portfolio/tiles/portfolio/tiles/tile_8.png?v=1755267147897",
+        "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755268445/portfolio/tiles/portfolio/tiles/tile_8.png?v=1755269771337",
         "storageType": "cloudinary"
       },
       "pageBackground": {
-        "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755268452/portfolio/backgrounds/portfolio/backgrounds/bg_8.png?v=1755267147897",
+        "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755268452/portfolio/backgrounds/portfolio/backgrounds/bg_8.png?v=1755269771337",
         "dimensions": {
           "width": 1920,
           "height": 1080
@@ -568,11 +548,11 @@
       "slug": "arda-impact-video-shoot-website",
       "tileBackground": {
         "type": "image",
-        "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755220081/portfolio/tiles/portfolio/tiles/tile_10.jpg?v=1755267147897",
+        "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755220081/portfolio/tiles/portfolio/tiles/tile_10.jpg?v=1755269771337",
         "storageType": "cloudinary"
       },
       "pageBackground": {
-        "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755220050/portfolio/backgrounds/portfolio/backgrounds/bg_10.png?v=1755267147897",
+        "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755220050/portfolio/backgrounds/portfolio/backgrounds/bg_10.png?v=1755269771337",
         "dimensions": {
           "width": 1920,
           "height": 1080
@@ -608,7 +588,7 @@
       "Video",
       "Design & Digital"
     ],
-    "lastUpdated": "2025-08-15T14:40:34.794Z",
+    "lastUpdated": "2025-08-15T14:58:17.172Z",
     "version": "1.0.0",
     "page": 1
   }
