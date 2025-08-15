@@ -2,9 +2,9 @@
   "projects": [
     {
       "id": "1",
-      "title": "Lovell Leadership Conference2",
+      "title": "Lovell Leadership Conference",
       "category": "Events",
-      "description": "Leadership development conferences designed to inspire and educate senior executives. Transformed traditional conference format with interactive workshops and AI-powered networking.",
+      "description": "Building on the success of their previous leadership event, senior managers broke with tradition to deliver their conference free from PowerPoint slides and in the comfort of a cinema.",
       "tags": [
         "Event Production",
         "Video Production",
@@ -334,10 +334,10 @@
               "type": "video/mp4",
               "fileName": "video_test.mp4",
               "customVideoPreview": {
-                "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755262259/portfolio/video-previews/sgesevzonbtxkz1mjgfr.png",
-                "publicId": "portfolio/video-previews/sgesevzonbtxkz1mjgfr",
-                "name": "ARDA_Video_Screenshot.png",
-                "uploadedAt": "2025-08-15T12:50:59.991Z"
+                "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755262429/portfolio/video-previews/kf4xqmbwueboeun9jrmb.png",
+                "publicId": "portfolio/video-previews/kf4xqmbwueboeun9jrmb",
+                "name": "Screenshot 2025-08-15 at 14.53.14.png",
+                "uploadedAt": "2025-08-15T12:53:50.316Z"
               }
             }
           ],
@@ -347,9 +347,9 @@
       ],
       "metadata": {
         "createdAt": "2024-01-15T10:00:00Z",
-        "updatedAt": "2025-08-15T12:51:03.612Z",
-        "version": 49,
-        "status": "published",
+        "updatedAt": "2025-08-15T12:53:53.559Z",
+        "version": 50,
+        "status": "draft",
         "lastPublished": "2025-08-15T12:51:16.225Z"
       },
       "tileBackgroundType": "image",
@@ -919,6 +919,6 @@
       "date": "2024-03-10"
     }
   ],
-  "lastUpdated": "2025-08-15T12:53:28.337Z",
+  "lastUpdated": "2025-08-15T12:53:55.577Z",
   "version": "1.0"
 }
