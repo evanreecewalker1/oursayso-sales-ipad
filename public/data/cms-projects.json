@@ -2,9 +2,9 @@
   "projects": [
     {
       "id": "1",
-      "title": "Lovell Leadership Conference2",
+      "title": "Lovell Leadership Conference",
       "category": "Events",
-      "description": "Leadership development conferences designed to inspire and educate senior executives. Transformed traditional conference format with interactive workshops and AI-powered networking.",
+      "description": "Building on the success of their previous leadership event, senior managers broke with tradition to deliver their conference free from PowerPoint slides and in the comfort of a cinema.",
       "tags": [
         "Event Production",
         "Video Production",
@@ -37,7 +37,7 @@
             "width": 1920,
             "height": 1080
           },
-          "uploadedAt": "2025-08-14T10:45:14.164Z",
+          "uploadedAt": "2025-08-15T13:19:30.728Z",
           "cloudinary": true,
           "cloudinaryId": "portfolio/backgrounds/portfolio/backgrounds/bg_1",
           "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755115318/portfolio/backgrounds/portfolio/backgrounds/bg_1.png"
@@ -332,7 +332,13 @@
               "needsServerUpload": false,
               "name": "video_test.mp4",
               "type": "video/mp4",
-              "fileName": "video_test.mp4"
+              "fileName": "video_test.mp4",
+              "customVideoPreview": {
+                "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755262429/portfolio/video-previews/kf4xqmbwueboeun9jrmb.png",
+                "publicId": "portfolio/video-previews/kf4xqmbwueboeun9jrmb",
+                "name": "Screenshot 2025-08-15 at 14.53.14.png",
+                "uploadedAt": "2025-08-15T12:53:50.316Z"
+              }
             }
           ],
           "images": [],
@@ -341,10 +347,10 @@
       ],
       "metadata": {
         "createdAt": "2024-01-15T10:00:00Z",
-        "updatedAt": "2025-08-15T12:30:03.023Z",
-        "version": 48,
+        "updatedAt": "2025-08-15T13:19:33.412Z",
+        "version": 51,
         "status": "published",
-        "lastPublished": "2025-08-15T12:37:04.023Z"
+        "lastPublished": "2025-08-15T13:49:31.211Z"
       },
       "tileBackgroundType": "image",
       "tileBackgroundFile": {
@@ -361,90 +367,101 @@
         "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755166087/portfolio/tiles/portfolio/tiles/tile_1.png"
       },
       "pageBackgroundFile": {
+        "file": {},
+        "preview": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755115318/portfolio/backgrounds/portfolio/backgrounds/bg_1.png",
         "name": "lovell-background.png",
         "size": 1747615,
         "type": "image/png",
+        "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755115318/portfolio/backgrounds/portfolio/backgrounds/bg_1.png",
+        "cloudinaryId": "portfolio/backgrounds/portfolio/backgrounds/bg_1",
+        "uploadedAt": "2025-08-15T13:19:30.728Z",
         "dimensions": {
           "width": 1920,
           "height": 1080
         },
-        "uploadedAt": "2025-08-14T10:45:14.164Z",
-        "cloudinary": true,
-        "cloudinaryId": "portfolio/backgrounds/portfolio/backgrounds/bg_1",
-        "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755115318/portfolio/backgrounds/portfolio/backgrounds/bg_1.png"
+        "uploading": false,
+        "storageType": "cloudinary",
+        "localPath": null,
+        "needsServerUpload": false,
+        "cloudinary": true
       }
     },
     {
       "id": "2",
       "title": "Rarely Heard Voices Videos",
       "category": "Video",
-      "description": "Powerful documentary series amplifying underrepresented voices in corporate leadership. Award-winning video production with compelling storytelling.",
+      "description": "Lorum Ipsum Dolor",
       "tags": [
-        "documentary",
-        "video-production",
-        "diversity",
-        "leadership"
+        "VIDEO PRODUCTION",
+        "VIDEO SHOOT",
+        "INTERVIEWS"
       ],
-      "hasVideo": false,
+      "hasVideo": true,
       "backgrounds": {
         "tile": {
           "type": "image",
           "file": {
-            "name": "lovell-tile.png",
-            "size": 228219,
+            "name": "project-tile.png",
+            "size": 784345,
             "type": "image/png",
             "dimensions": {
               "width": 800,
               "height": 800
             },
-            "uploadedAt": "2025-08-14T11:54:01.265Z",
+            "uploadedAt": "2025-08-15T13:10:07.428Z",
             "cloudinary": true,
             "cloudinaryId": "portfolio/tiles/portfolio/tiles/tile_2",
-            "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755170123/portfolio/tiles/portfolio/tiles/tile_2.png"
+            "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755263407/portfolio/tiles/portfolio/tiles/tile_2.png"
           }
         },
         "page": {
-          "name": "lovell-background.png",
-          "size": 1747615,
+          "name": "project-background.png",
+          "size": 3052780,
           "type": "image/png",
           "dimensions": {
             "width": 1920,
             "height": 1080
           },
-          "uploadedAt": "2025-08-14T11:53:56.746Z",
+          "uploadedAt": "2025-08-15T13:12:18.042Z",
           "cloudinary": true,
           "cloudinaryId": "portfolio/backgrounds/portfolio/backgrounds/bg_2",
-          "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755170120/portfolio/backgrounds/portfolio/backgrounds/bg_2.png"
+          "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755263537/portfolio/backgrounds/portfolio/backgrounds/bg_2.png"
         }
       },
       "metadata": {
         "createdAt": "2024-01-20T10:00:00Z",
-        "updatedAt": "2025-08-14T14:24:16.070Z",
-        "version": 3,
+        "updatedAt": "2025-08-15T13:32:14.012Z",
+        "version": 7,
         "status": "published",
-        "lastPublished": "2025-08-15T12:37:04.023Z"
+        "lastPublished": "2025-08-15T13:49:31.211Z"
       },
       "mediaItems": [
         {
-          "id": "1755172408580",
-          "type": "gallery",
-          "title": "",
+          "id": "1755263545190",
+          "type": "video",
+          "title": "video media",
           "files": [
             {
-              "publicId": "portfolio_1755172427075",
-              "url": "/images/general/1755172427074-digital-portfolio-2024-v3.5.pdf",
-              "localPath": "/images/general/1755172427074-digital-portfolio-2024-v3.5.pdf",
+              "publicId": "local_1755264699188",
+              "url": "/videos/general/1755264699188-rarely-preview.mp4",
+              "localPath": "/videos/general/1755264699188-rarely-preview.mp4",
               "width": null,
               "height": null,
-              "format": "pdf",
-              "bytes": 7036023,
+              "format": "mp4",
+              "bytes": 100508583,
               "duration": null,
-              "resourceType": "image",
-              "storageType": "portfolio",
-              "uploadedAt": "2025-08-14T11:53:47.075Z",
-              "preview": "/images/general/1755172427074-digital-portfolio-2024-v3.5.pdf",
+              "resourceType": "video",
+              "storageType": "local",
+              "uploadedAt": "2025-08-15T13:31:39.188Z",
+              "preview": "blob:https://oursayso-portfolio-cms.netlify.app/1b0b2dc2-e894-4b98-880c-1bf5511ba3bb",
               "file": {},
-              "needsServerUpload": false
+              "needsServerUpload": false,
+              "customVideoPreview": {
+                "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755264730/portfolio/video-previews/gu3onpkenhzejyjrksya.png",
+                "publicId": "portfolio/video-previews/gu3onpkenhzejyjrksya",
+                "name": "video-preview.png",
+                "uploadedAt": "2025-08-15T13:32:11.296Z"
+              }
             }
           ],
           "images": [],
@@ -453,167 +470,732 @@
       ],
       "tileBackgroundType": "image",
       "tileBackgroundFile": {
-        "name": "lovell-tile.png",
-        "size": 228219,
+        "name": "project-tile.png",
+        "size": 784345,
         "type": "image/png",
         "dimensions": {
           "width": 800,
           "height": 800
         },
-        "uploadedAt": "2025-08-14T11:54:01.265Z",
+        "uploadedAt": "2025-08-15T13:10:07.428Z",
         "cloudinary": true,
         "cloudinaryId": "portfolio/tiles/portfolio/tiles/tile_2",
-        "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755170123/portfolio/tiles/portfolio/tiles/tile_2.png"
+        "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755263407/portfolio/tiles/portfolio/tiles/tile_2.png"
       },
       "pageBackgroundFile": {
-        "name": "lovell-background.png",
-        "size": 1747615,
+        "name": "project-background.png",
+        "size": 3052780,
         "type": "image/png",
         "dimensions": {
           "width": 1920,
           "height": 1080
         },
-        "uploadedAt": "2025-08-14T11:53:56.746Z",
+        "uploadedAt": "2025-08-15T13:12:18.042Z",
         "cloudinary": true,
         "cloudinaryId": "portfolio/backgrounds/portfolio/backgrounds/bg_2",
-        "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755170120/portfolio/backgrounds/portfolio/backgrounds/bg_2.png"
+        "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755263537/portfolio/backgrounds/portfolio/backgrounds/bg_2.png"
       }
     },
     {
       "id": "3",
-      "title": "DRYZZE® & Cook Pronto® Branding",
+      "title": "DRYZZE® & Cook Pronto Branding",
       "category": "Design & Digital",
-      "description": "Complete brand identity and digital strategy for innovative kitchen technology brands. Modern design system with cohesive brand experience.",
+      "description": "How do you bring a brand to life? From concept to copywriting, from brand strategy to brand positioning, these short pitch decks are a lens into the multi-faceted world of design.",
       "tags": [
         "branding",
-        "logo-design",
-        "brand-identity",
-        "kitchen-tech"
+        "BRAND STRATEGY",
+        "GRAPHIC DESIGN",
+        "AI"
       ],
       "hasVideo": false,
       "backgrounds": {
         "tile": {
           "type": "image",
           "file": {
-            "name": "project3.png",
+            "name": "project-tile.png",
+            "size": 196550,
             "type": "image/png",
-            "url": "/images/project3.png",
-            "uploadedAt": "2024-02-01T10:00:00Z"
+            "dimensions": {
+              "width": 800,
+              "height": 800
+            },
+            "uploadedAt": "2025-08-15T13:24:49.699Z",
+            "cloudinary": true,
+            "cloudinaryId": "portfolio/tiles/portfolio/tiles/tile_3",
+            "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755264289/portfolio/tiles/portfolio/tiles/tile_3.png"
           }
         },
         "page": {
-          "name": "project3-bg.jpg",
-          "type": "image/jpeg",
-          "url": "/images/backgrounds/project3-bg.jpg",
+          "name": "project-background.png",
+          "size": 3303135,
+          "type": "image/png",
           "dimensions": {
             "width": 1920,
             "height": 1080
           },
-          "uploadedAt": "2024-02-01T10:00:00Z"
+          "uploadedAt": "2025-08-15T13:30:15.198Z",
+          "cloudinary": true,
+          "cloudinaryId": "portfolio/backgrounds/portfolio/backgrounds/bg_3",
+          "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755264614/portfolio/backgrounds/portfolio/backgrounds/bg_3.png"
         }
       },
       "metadata": {
         "createdAt": "2024-02-01T10:00:00Z",
-        "updatedAt": "2024-02-01T10:00:00Z",
-        "version": 1,
+        "updatedAt": "2025-08-15T13:30:25.351Z",
+        "version": 3,
         "status": "published",
-        "lastPublished": "2025-08-15T12:37:04.023Z"
+        "lastPublished": "2025-08-15T13:49:31.211Z"
+      },
+      "mediaItems": [
+        {
+          "id": "1755264355584",
+          "type": "gallery",
+          "title": "🖼️ Project Gallery (8 images)",
+          "files": [
+            {
+              "publicId": "ys6csd4zvstfotpsywhq",
+              "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755264380/ys6csd4zvstfotpsywhq.jpg",
+              "width": 8000,
+              "height": 4500,
+              "format": "jpg",
+              "bytes": 1663652,
+              "resourceType": "image",
+              "eager": [],
+              "storageType": "cloudinary",
+              "localPath": null,
+              "id": "gallery-img-1755264380756-0.48919225950733547",
+              "name": "Deck_Concept_v4.0.jpg",
+              "size": 1663652,
+              "uploadedAt": "2025-08-15T13:26:20.756Z"
+            },
+            {
+              "publicId": "dju3yiy6agluncooo1sl",
+              "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755264381/dju3yiy6agluncooo1sl.jpg",
+              "width": 8000,
+              "height": 4500,
+              "format": "jpg",
+              "bytes": 2096791,
+              "resourceType": "image",
+              "eager": [],
+              "storageType": "cloudinary",
+              "localPath": null,
+              "id": "gallery-img-1755264381822-0.9198542784404349",
+              "name": "Deck_Concept_v4.02.jpg",
+              "size": 2096791,
+              "uploadedAt": "2025-08-15T13:26:21.822Z"
+            },
+            {
+              "publicId": "jl1wnuwc0ajy0kwt66tw",
+              "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755264382/jl1wnuwc0ajy0kwt66tw.jpg",
+              "width": 8000,
+              "height": 4500,
+              "format": "jpg",
+              "bytes": 1699635,
+              "resourceType": "image",
+              "eager": [],
+              "storageType": "cloudinary",
+              "localPath": null,
+              "id": "gallery-img-1755264382845-0.8498939647448107",
+              "name": "Deck_Concept_v4.03.jpg",
+              "size": 1699635,
+              "uploadedAt": "2025-08-15T13:26:22.845Z"
+            },
+            {
+              "publicId": "sqrvx1cy27ayejantyos",
+              "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755264383/sqrvx1cy27ayejantyos.jpg",
+              "width": 8000,
+              "height": 4500,
+              "format": "jpg",
+              "bytes": 1734568,
+              "resourceType": "image",
+              "eager": [],
+              "storageType": "cloudinary",
+              "localPath": null,
+              "id": "gallery-img-1755264383691-0.20644176294524796",
+              "name": "Deck_Concept_v4.04.jpg",
+              "size": 1734568,
+              "uploadedAt": "2025-08-15T13:26:23.691Z"
+            },
+            {
+              "publicId": "gbvwjxj4w3dtbt8bnk6f",
+              "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755264384/gbvwjxj4w3dtbt8bnk6f.jpg",
+              "width": 8000,
+              "height": 4500,
+              "format": "jpg",
+              "bytes": 2048792,
+              "resourceType": "image",
+              "eager": [],
+              "storageType": "cloudinary",
+              "localPath": null,
+              "id": "gallery-img-1755264384527-0.276009758881837",
+              "name": "Deck_Concept_v4.05.jpg",
+              "size": 2048792,
+              "uploadedAt": "2025-08-15T13:26:24.527Z"
+            },
+            {
+              "publicId": "euzzibscdu0hhq98eg2r",
+              "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755264385/euzzibscdu0hhq98eg2r.jpg",
+              "width": 8000,
+              "height": 4500,
+              "format": "jpg",
+              "bytes": 1749763,
+              "resourceType": "image",
+              "eager": [],
+              "storageType": "cloudinary",
+              "localPath": null,
+              "id": "gallery-img-1755264385611-0.5437331168284594",
+              "name": "Deck_Concept_v4.06.jpg",
+              "size": 1749763,
+              "uploadedAt": "2025-08-15T13:26:25.611Z"
+            },
+            {
+              "publicId": "hiqgxbvfsz0x21zuuykl",
+              "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755264386/hiqgxbvfsz0x21zuuykl.jpg",
+              "width": 8000,
+              "height": 4500,
+              "format": "jpg",
+              "bytes": 1503904,
+              "resourceType": "image",
+              "eager": [],
+              "storageType": "cloudinary",
+              "localPath": null,
+              "id": "gallery-img-1755264386531-0.7422874512202403",
+              "name": "Deck_Concept_v4.07.jpg",
+              "size": 1503904,
+              "uploadedAt": "2025-08-15T13:26:26.531Z"
+            },
+            {
+              "publicId": "hwh69ss6tauifi8ndn9p",
+              "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755264387/hwh69ss6tauifi8ndn9p.jpg",
+              "width": 8000,
+              "height": 4500,
+              "format": "jpg",
+              "bytes": 1233583,
+              "resourceType": "image",
+              "eager": [],
+              "storageType": "cloudinary",
+              "localPath": null,
+              "id": "gallery-img-1755264387298-0.6970208321498935",
+              "name": "Deck_Concept_v4.08.jpg",
+              "size": 1233583,
+              "uploadedAt": "2025-08-15T13:26:27.298Z"
+            }
+          ],
+          "images": [
+            {
+              "publicId": "ys6csd4zvstfotpsywhq",
+              "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755264380/ys6csd4zvstfotpsywhq.jpg",
+              "width": 8000,
+              "height": 4500,
+              "format": "jpg",
+              "bytes": 1663652,
+              "resourceType": "image",
+              "eager": [],
+              "storageType": "cloudinary",
+              "localPath": null,
+              "id": "gallery-img-1755264380756-0.48919225950733547",
+              "name": "Deck_Concept_v4.0.jpg",
+              "size": 1663652,
+              "uploadedAt": "2025-08-15T13:26:20.756Z"
+            },
+            {
+              "publicId": "dju3yiy6agluncooo1sl",
+              "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755264381/dju3yiy6agluncooo1sl.jpg",
+              "width": 8000,
+              "height": 4500,
+              "format": "jpg",
+              "bytes": 2096791,
+              "resourceType": "image",
+              "eager": [],
+              "storageType": "cloudinary",
+              "localPath": null,
+              "id": "gallery-img-1755264381822-0.9198542784404349",
+              "name": "Deck_Concept_v4.02.jpg",
+              "size": 2096791,
+              "uploadedAt": "2025-08-15T13:26:21.822Z"
+            },
+            {
+              "publicId": "jl1wnuwc0ajy0kwt66tw",
+              "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755264382/jl1wnuwc0ajy0kwt66tw.jpg",
+              "width": 8000,
+              "height": 4500,
+              "format": "jpg",
+              "bytes": 1699635,
+              "resourceType": "image",
+              "eager": [],
+              "storageType": "cloudinary",
+              "localPath": null,
+              "id": "gallery-img-1755264382845-0.8498939647448107",
+              "name": "Deck_Concept_v4.03.jpg",
+              "size": 1699635,
+              "uploadedAt": "2025-08-15T13:26:22.845Z"
+            },
+            {
+              "publicId": "sqrvx1cy27ayejantyos",
+              "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755264383/sqrvx1cy27ayejantyos.jpg",
+              "width": 8000,
+              "height": 4500,
+              "format": "jpg",
+              "bytes": 1734568,
+              "resourceType": "image",
+              "eager": [],
+              "storageType": "cloudinary",
+              "localPath": null,
+              "id": "gallery-img-1755264383691-0.20644176294524796",
+              "name": "Deck_Concept_v4.04.jpg",
+              "size": 1734568,
+              "uploadedAt": "2025-08-15T13:26:23.691Z"
+            },
+            {
+              "publicId": "gbvwjxj4w3dtbt8bnk6f",
+              "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755264384/gbvwjxj4w3dtbt8bnk6f.jpg",
+              "width": 8000,
+              "height": 4500,
+              "format": "jpg",
+              "bytes": 2048792,
+              "resourceType": "image",
+              "eager": [],
+              "storageType": "cloudinary",
+              "localPath": null,
+              "id": "gallery-img-1755264384527-0.276009758881837",
+              "name": "Deck_Concept_v4.05.jpg",
+              "size": 2048792,
+              "uploadedAt": "2025-08-15T13:26:24.527Z"
+            },
+            {
+              "publicId": "euzzibscdu0hhq98eg2r",
+              "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755264385/euzzibscdu0hhq98eg2r.jpg",
+              "width": 8000,
+              "height": 4500,
+              "format": "jpg",
+              "bytes": 1749763,
+              "resourceType": "image",
+              "eager": [],
+              "storageType": "cloudinary",
+              "localPath": null,
+              "id": "gallery-img-1755264385611-0.5437331168284594",
+              "name": "Deck_Concept_v4.06.jpg",
+              "size": 1749763,
+              "uploadedAt": "2025-08-15T13:26:25.611Z"
+            },
+            {
+              "publicId": "hiqgxbvfsz0x21zuuykl",
+              "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755264386/hiqgxbvfsz0x21zuuykl.jpg",
+              "width": 8000,
+              "height": 4500,
+              "format": "jpg",
+              "bytes": 1503904,
+              "resourceType": "image",
+              "eager": [],
+              "storageType": "cloudinary",
+              "localPath": null,
+              "id": "gallery-img-1755264386531-0.7422874512202403",
+              "name": "Deck_Concept_v4.07.jpg",
+              "size": 1503904,
+              "uploadedAt": "2025-08-15T13:26:26.531Z"
+            },
+            {
+              "publicId": "hwh69ss6tauifi8ndn9p",
+              "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755264387/hwh69ss6tauifi8ndn9p.jpg",
+              "width": 8000,
+              "height": 4500,
+              "format": "jpg",
+              "bytes": 1233583,
+              "resourceType": "image",
+              "eager": [],
+              "storageType": "cloudinary",
+              "localPath": null,
+              "id": "gallery-img-1755264387298-0.6970208321498935",
+              "name": "Deck_Concept_v4.08.jpg",
+              "size": 1233583,
+              "uploadedAt": "2025-08-15T13:26:27.298Z"
+            }
+          ],
+          "order": 0
+        }
+      ],
+      "tileBackgroundType": "image",
+      "tileBackgroundFile": {
+        "name": "project-tile.png",
+        "size": 196550,
+        "type": "image/png",
+        "dimensions": {
+          "width": 800,
+          "height": 800
+        },
+        "uploadedAt": "2025-08-15T13:24:49.699Z",
+        "cloudinary": true,
+        "cloudinaryId": "portfolio/tiles/portfolio/tiles/tile_3",
+        "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755264289/portfolio/tiles/portfolio/tiles/tile_3.png"
+      },
+      "pageBackgroundFile": {
+        "file": {},
+        "preview": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755264614/portfolio/backgrounds/portfolio/backgrounds/bg_3.png",
+        "name": "project-background.png",
+        "size": 3303135,
+        "type": "image/png",
+        "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755264614/portfolio/backgrounds/portfolio/backgrounds/bg_3.png",
+        "cloudinaryId": "portfolio/backgrounds/portfolio/backgrounds/bg_3",
+        "uploadedAt": "2025-08-15T13:30:15.198Z",
+        "dimensions": {
+          "width": 1920,
+          "height": 1080
+        },
+        "uploading": false,
+        "storageType": "cloudinary",
+        "localPath": null,
+        "needsServerUpload": false,
+        "cloudinary": true
       }
     },
     {
       "id": "4",
-      "title": "Warner Bros & Discovery Training",
+      "title": "Warner Bros.Discovery Training",
       "category": "Design & Digital",
-      "description": "Interactive training materials and digital resources for Warner Bros Discovery. Engaging multimedia content for global team development.",
+      "description": "With complete creative license from Warner Bros. Discovery and access to any assets, follow the design of 6 decks that were ultimately used to train 1600 people across the globe.",
       "tags": [
-        "training-materials",
-        "interactive-design",
-        "multimedia",
-        "corporate-training"
+        "POWERPOINT",
+        "GRAPHIC DESIGN",
+        "IMAGE EDITING"
       ],
       "hasVideo": false,
       "backgrounds": {
         "tile": {
           "type": "image",
           "file": {
-            "name": "project4.png",
+            "name": "project-tile.png",
+            "size": 1256332,
             "type": "image/png",
-            "url": "/images/project4.png",
-            "uploadedAt": "2024-02-10T10:00:00Z"
+            "dimensions": {
+              "width": 800,
+              "height": 800
+            },
+            "uploadedAt": "2025-08-15T13:41:59.013Z",
+            "cloudinary": true,
+            "cloudinaryId": "portfolio/tiles/portfolio/tiles/tile_4",
+            "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755265318/portfolio/tiles/portfolio/tiles/tile_4.png"
           }
         },
         "page": {
-          "name": "project4-bg.jpg",
-          "type": "image/jpeg",
-          "url": "/images/backgrounds/project4-bg.jpg",
+          "name": "project-background.png",
+          "size": 2206053,
+          "type": "image/png",
           "dimensions": {
             "width": 1920,
             "height": 1080
           },
-          "uploadedAt": "2024-02-10T10:00:00Z"
+          "uploadedAt": "2025-08-15T13:41:12.764Z",
+          "cloudinary": true,
+          "cloudinaryId": "portfolio/backgrounds/portfolio/backgrounds/bg_4",
+          "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755265272/portfolio/backgrounds/portfolio/backgrounds/bg_4.png"
         }
       },
       "metadata": {
         "createdAt": "2024-02-10T10:00:00Z",
-        "updatedAt": "2024-02-10T10:00:00Z",
-        "version": 1,
+        "updatedAt": "2025-08-15T13:44:47.549Z",
+        "version": 2,
         "status": "published",
-        "lastPublished": "2025-08-15T12:37:04.023Z"
+        "lastPublished": "2025-08-15T13:49:31.211Z"
+      },
+      "mediaItems": [
+        {
+          "id": "1755265471560",
+          "type": "gallery",
+          "title": "🖼️ Project Gallery (5 images)",
+          "files": [
+            {
+              "publicId": "ufwpfqhcci43swc0k1bn",
+              "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755265477/ufwpfqhcci43swc0k1bn.png",
+              "width": 1920,
+              "height": 1080,
+              "format": "png",
+              "bytes": 322007,
+              "resourceType": "image",
+              "eager": [],
+              "storageType": "cloudinary",
+              "localPath": null,
+              "id": "gallery-img-1755265477422-0.42577151188577533",
+              "name": "Warner_Bros_Discover_Workbook_More_About_Us_v1.351.png",
+              "size": 322007,
+              "uploadedAt": "2025-08-15T13:44:37.422Z"
+            },
+            {
+              "publicId": "r4tbfofh7dronqg2by3w",
+              "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755265482/r4tbfofh7dronqg2by3w.jpg",
+              "width": 1920,
+              "height": 1080,
+              "format": "jpg",
+              "bytes": 1606293,
+              "resourceType": "image",
+              "eager": [],
+              "storageType": "cloudinary",
+              "localPath": null,
+              "id": "gallery-img-1755265482365-0.35788176500001445",
+              "name": "Warner_Bros_Discover_Workbook_Building_My_Network_v1.110.jpg",
+              "size": 1606293,
+              "uploadedAt": "2025-08-15T13:44:42.365Z"
+            },
+            {
+              "publicId": "w74gk9teelwhbsvcy8zc",
+              "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755265482/w74gk9teelwhbsvcy8zc.jpg",
+              "width": 1920,
+              "height": 1080,
+              "format": "jpg",
+              "bytes": 1128136,
+              "resourceType": "image",
+              "eager": [],
+              "storageType": "cloudinary",
+              "localPath": null,
+              "id": "gallery-img-1755265483034-0.27700536769536976",
+              "name": "Warner_Bros_Discover_Workbook_More_About_Us_v1.35.jpg",
+              "size": 1128136,
+              "uploadedAt": "2025-08-15T13:44:43.034Z"
+            },
+            {
+              "publicId": "gpk1t7rx8npyz7drddbd",
+              "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755265483/gpk1t7rx8npyz7drddbd.jpg",
+              "width": 1920,
+              "height": 1080,
+              "format": "jpg",
+              "bytes": 1021963,
+              "resourceType": "image",
+              "eager": [],
+              "storageType": "cloudinary",
+              "localPath": null,
+              "id": "gallery-img-1755265483797-0.6346289808879291",
+              "name": "Warner_Bros_Discover_Workbook_More_About_Us_v1.36.jpg",
+              "size": 1021963,
+              "uploadedAt": "2025-08-15T13:44:43.797Z"
+            },
+            {
+              "publicId": "inmmxqvlepbkn9dldskh",
+              "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755265484/inmmxqvlepbkn9dldskh.jpg",
+              "width": 1920,
+              "height": 1080,
+              "format": "jpg",
+              "bytes": 307106,
+              "resourceType": "image",
+              "eager": [],
+              "storageType": "cloudinary",
+              "localPath": null,
+              "id": "gallery-img-1755265484412-0.5137094739418245",
+              "name": "Warner_Bros_Discover_Workbook_More_About_Us_v1.37.jpg",
+              "size": 307106,
+              "uploadedAt": "2025-08-15T13:44:44.412Z"
+            }
+          ],
+          "images": [
+            {
+              "publicId": "ufwpfqhcci43swc0k1bn",
+              "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755265477/ufwpfqhcci43swc0k1bn.png",
+              "width": 1920,
+              "height": 1080,
+              "format": "png",
+              "bytes": 322007,
+              "resourceType": "image",
+              "eager": [],
+              "storageType": "cloudinary",
+              "localPath": null,
+              "id": "gallery-img-1755265477422-0.42577151188577533",
+              "name": "Warner_Bros_Discover_Workbook_More_About_Us_v1.351.png",
+              "size": 322007,
+              "uploadedAt": "2025-08-15T13:44:37.422Z"
+            },
+            {
+              "publicId": "r4tbfofh7dronqg2by3w",
+              "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755265482/r4tbfofh7dronqg2by3w.jpg",
+              "width": 1920,
+              "height": 1080,
+              "format": "jpg",
+              "bytes": 1606293,
+              "resourceType": "image",
+              "eager": [],
+              "storageType": "cloudinary",
+              "localPath": null,
+              "id": "gallery-img-1755265482365-0.35788176500001445",
+              "name": "Warner_Bros_Discover_Workbook_Building_My_Network_v1.110.jpg",
+              "size": 1606293,
+              "uploadedAt": "2025-08-15T13:44:42.365Z"
+            },
+            {
+              "publicId": "w74gk9teelwhbsvcy8zc",
+              "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755265482/w74gk9teelwhbsvcy8zc.jpg",
+              "width": 1920,
+              "height": 1080,
+              "format": "jpg",
+              "bytes": 1128136,
+              "resourceType": "image",
+              "eager": [],
+              "storageType": "cloudinary",
+              "localPath": null,
+              "id": "gallery-img-1755265483034-0.27700536769536976",
+              "name": "Warner_Bros_Discover_Workbook_More_About_Us_v1.35.jpg",
+              "size": 1128136,
+              "uploadedAt": "2025-08-15T13:44:43.034Z"
+            },
+            {
+              "publicId": "gpk1t7rx8npyz7drddbd",
+              "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755265483/gpk1t7rx8npyz7drddbd.jpg",
+              "width": 1920,
+              "height": 1080,
+              "format": "jpg",
+              "bytes": 1021963,
+              "resourceType": "image",
+              "eager": [],
+              "storageType": "cloudinary",
+              "localPath": null,
+              "id": "gallery-img-1755265483797-0.6346289808879291",
+              "name": "Warner_Bros_Discover_Workbook_More_About_Us_v1.36.jpg",
+              "size": 1021963,
+              "uploadedAt": "2025-08-15T13:44:43.797Z"
+            },
+            {
+              "publicId": "inmmxqvlepbkn9dldskh",
+              "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755265484/inmmxqvlepbkn9dldskh.jpg",
+              "width": 1920,
+              "height": 1080,
+              "format": "jpg",
+              "bytes": 307106,
+              "resourceType": "image",
+              "eager": [],
+              "storageType": "cloudinary",
+              "localPath": null,
+              "id": "gallery-img-1755265484412-0.5137094739418245",
+              "name": "Warner_Bros_Discover_Workbook_More_About_Us_v1.37.jpg",
+              "size": 307106,
+              "uploadedAt": "2025-08-15T13:44:44.412Z"
+            }
+          ],
+          "order": 0
+        }
+      ],
+      "tileBackgroundType": "image",
+      "tileBackgroundFile": {
+        "file": {},
+        "preview": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755265318/portfolio/tiles/portfolio/tiles/tile_4.png",
+        "name": "project-tile.png",
+        "size": 1256332,
+        "type": "image/png",
+        "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755265318/portfolio/tiles/portfolio/tiles/tile_4.png",
+        "cloudinaryId": "portfolio/tiles/portfolio/tiles/tile_4",
+        "uploadedAt": "2025-08-15T13:41:59.013Z",
+        "dimensions": {
+          "width": 800,
+          "height": 800
+        },
+        "uploading": false,
+        "storageType": "cloudinary",
+        "localPath": null,
+        "needsServerUpload": false,
+        "cloudinary": true
+      },
+      "pageBackgroundFile": {
+        "file": {},
+        "preview": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755265272/portfolio/backgrounds/portfolio/backgrounds/bg_4.png",
+        "name": "project-background.png",
+        "size": 2206053,
+        "type": "image/png",
+        "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755265272/portfolio/backgrounds/portfolio/backgrounds/bg_4.png",
+        "cloudinaryId": "portfolio/backgrounds/portfolio/backgrounds/bg_4",
+        "uploadedAt": "2025-08-15T13:41:12.764Z",
+        "dimensions": {
+          "width": 1920,
+          "height": 1080
+        },
+        "uploading": false,
+        "storageType": "cloudinary",
+        "localPath": null,
+        "needsServerUpload": false,
+        "cloudinary": true
       }
     },
     {
       "id": "5",
-      "title": "River Island 'Wrapped' Video",
+      "title": "River Island ‘Wrapped’ Xmas Video",
       "category": "Video",
-      "description": "Dynamic promotional video campaign for River Island's seasonal collection. High-energy visual storytelling with modern aesthetic.",
+      "description": "Swapping out the usual Christmas yearly round-up video, and tapping into the latest trends to design, build and produce a Spotify wrapped montage for River Island’s comms team.",
       "tags": [
-        "promotional-video",
-        "fashion",
-        "retail",
-        "commercial"
+        "ANIMATION",
+        "GRAPHIC DESIGN"
       ],
-      "hasVideo": true,
+      "hasVideo": false,
       "backgrounds": {
         "tile": {
-          "type": "video",
+          "type": "image",
           "file": {
-            "name": "riverisland-video.mp4",
-            "type": "video/mp4",
-            "url": "/public/projects/project-05-riverisland/media/video-01.mp4",
-            "uploadedAt": "2024-02-15T10:00:00Z"
+            "name": "project-tile.png",
+            "size": 29156,
+            "type": "image/png",
+            "dimensions": {
+              "width": 800,
+              "height": 800
+            },
+            "uploadedAt": "2025-08-15T13:47:19.420Z",
+            "cloudinary": true,
+            "cloudinaryId": "portfolio/tiles/portfolio/tiles/tile_5",
+            "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755265639/portfolio/tiles/portfolio/tiles/tile_5.png"
           }
         },
         "page": {
-          "name": "riverisland-bg.png",
+          "name": "project-background.png",
+          "size": 1522660,
           "type": "image/png",
-          "url": "/public/projects/project-05-riverisland/background.png",
           "dimensions": {
             "width": 1920,
             "height": 1080
           },
-          "uploadedAt": "2024-02-15T10:00:00Z"
+          "uploadedAt": "2025-08-15T13:47:25.993Z",
+          "cloudinary": true,
+          "cloudinaryId": "portfolio/backgrounds/portfolio/backgrounds/bg_5",
+          "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755265645/portfolio/backgrounds/portfolio/backgrounds/bg_5.png"
         }
       },
-      "mediaItems": [
-        {
-          "id": "5-1",
-          "type": "video",
-          "title": "Promotional Video",
-          "files": [
-            {
-              "url": "/public/projects/project-05-riverisland/media/video-01.mp4",
-              "name": "video-01.mp4",
-              "type": "video/mp4"
-            }
-          ]
-        }
-      ],
+      "mediaItems": [],
       "metadata": {
         "createdAt": "2024-02-15T10:00:00Z",
-        "updatedAt": "2024-02-15T10:00:00Z",
-        "version": 1,
+        "updatedAt": "2025-08-15T13:49:21.274Z",
+        "version": 2,
         "status": "published",
-        "lastPublished": "2025-08-15T12:37:04.023Z"
+        "lastPublished": "2025-08-15T13:49:31.211Z"
+      },
+      "tileBackgroundType": "image",
+      "tileBackgroundFile": {
+        "file": {},
+        "preview": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755265639/portfolio/tiles/portfolio/tiles/tile_5.png",
+        "name": "project-tile.png",
+        "size": 29156,
+        "type": "image/png",
+        "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755265639/portfolio/tiles/portfolio/tiles/tile_5.png",
+        "cloudinaryId": "portfolio/tiles/portfolio/tiles/tile_5",
+        "uploadedAt": "2025-08-15T13:47:19.420Z",
+        "dimensions": {
+          "width": 800,
+          "height": 800
+        },
+        "uploading": false,
+        "storageType": "cloudinary",
+        "localPath": null,
+        "needsServerUpload": false,
+        "cloudinary": true
+      },
+      "pageBackgroundFile": {
+        "file": {},
+        "preview": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755265645/portfolio/backgrounds/portfolio/backgrounds/bg_5.png",
+        "name": "project-background.png",
+        "size": 1522660,
+        "type": "image/png",
+        "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755265645/portfolio/backgrounds/portfolio/backgrounds/bg_5.png",
+        "cloudinaryId": "portfolio/backgrounds/portfolio/backgrounds/bg_5",
+        "uploadedAt": "2025-08-15T13:47:25.993Z",
+        "dimensions": {
+          "width": 1920,
+          "height": 1080
+        },
+        "uploading": false,
+        "storageType": "cloudinary",
+        "localPath": null,
+        "needsServerUpload": false,
+        "cloudinary": true
       }
     },
     {
@@ -654,7 +1236,7 @@
         "updatedAt": "2024-02-20T10:00:00Z",
         "version": 1,
         "status": "published",
-        "lastPublished": "2025-08-15T12:37:04.023Z"
+        "lastPublished": "2025-08-15T13:49:31.211Z"
       }
     },
     {
@@ -695,7 +1277,7 @@
         "updatedAt": "2024-03-01T10:00:00Z",
         "version": 1,
         "status": "published",
-        "lastPublished": "2025-08-15T12:37:04.023Z"
+        "lastPublished": "2025-08-15T13:49:31.211Z"
       }
     },
     {
@@ -736,7 +1318,7 @@
         "updatedAt": "2024-03-10T10:00:00Z",
         "version": 1,
         "status": "published",
-        "lastPublished": "2025-08-15T12:37:04.023Z"
+        "lastPublished": "2025-08-15T13:49:31.211Z"
       }
     },
     {
@@ -777,7 +1359,7 @@
         "updatedAt": "2024-03-15T10:00:00Z",
         "version": 1,
         "status": "published",
-        "lastPublished": "2025-08-15T12:37:04.023Z"
+        "lastPublished": "2025-08-15T13:49:31.211Z"
       }
     },
     {
@@ -846,7 +1428,7 @@
         "updatedAt": "2025-08-15T01:08:06.990Z",
         "version": 2,
         "status": "published",
-        "lastPublished": "2025-08-15T12:37:04.023Z"
+        "lastPublished": "2025-08-15T13:49:31.211Z"
       },
       "tileBackgroundType": "image",
       "tileBackgroundFile": {
@@ -913,6 +1495,6 @@
       "date": "2024-03-10"
     }
   ],
-  "lastUpdated": "2025-08-15T12:48:22.142Z",
+  "lastUpdated": "2025-08-15T13:49:33.214Z",
   "version": "1.0"
 }
