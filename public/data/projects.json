@@ -15,11 +15,11 @@
       "slug": "lovell-leadership-conference2",
       "tileBackground": {
         "type": "image",
-        "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755166087/portfolio/tiles/portfolio/tiles/tile_1.png?v=1755261399173",
+        "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755166087/portfolio/tiles/portfolio/tiles/tile_1.png?v=1755262246166",
         "storageType": "cloudinary"
       },
       "pageBackground": {
-        "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755115318/portfolio/backgrounds/portfolio/backgrounds/bg_1.png?v=1755261399173",
+        "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755115318/portfolio/backgrounds/portfolio/backgrounds/bg_1.png?v=1755262246166",
         "dimensions": {
           "width": 1920,
           "height": 1080
@@ -34,35 +34,43 @@
           "files": [
             {
               "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755187074/asest0y0chcykixlex4d.jpg",
-              "name": "PR_230622_OURSAYSO_0017.jpeg"
+              "name": "PR_230622_OURSAYSO_0017.jpeg",
+              "customVideoPreview": null
             },
             {
               "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755187076/fm4odajpmbvkflzazvq7.jpg",
-              "name": "PR_230622_OURSAYSO_0019.jpeg"
+              "name": "PR_230622_OURSAYSO_0019.jpeg",
+              "customVideoPreview": null
             },
             {
               "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755187078/hh08pbr3a7aqlpvvnf6j.jpg",
-              "name": "PR_230622_OURSAYSO_0092.jpeg"
+              "name": "PR_230622_OURSAYSO_0092.jpeg",
+              "customVideoPreview": null
             },
             {
               "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755187079/ernwwdwij4zw4fi2umse.jpg",
-              "name": "PR_230622_OURSAYSO_0098.jpeg"
+              "name": "PR_230622_OURSAYSO_0098.jpeg",
+              "customVideoPreview": null
             },
             {
               "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755187080/pbkzi2gbw5rcsbnj6wog.jpg",
-              "name": "PR_230622_OURSAYSO_0191.jpeg"
+              "name": "PR_230622_OURSAYSO_0191.jpeg",
+              "customVideoPreview": null
             },
             {
               "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755187081/jxoph6i5or3hxvctgbik.jpg",
-              "name": "PR_230622_OURSAYSO_0212.jpeg"
+              "name": "PR_230622_OURSAYSO_0212.jpeg",
+              "customVideoPreview": null
             },
             {
               "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755187081/hh3pji7sw7jqxwekwc24.jpg",
-              "name": "PR_230622_OURSAYSO_0240.jpeg"
+              "name": "PR_230622_OURSAYSO_0240.jpeg",
+              "customVideoPreview": null
             },
             {
               "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755187082/gnzehhdm5hbis7ewhrml.jpg",
-              "name": "PR_230622_OURSAYSO_0256.jpeg"
+              "name": "PR_230622_OURSAYSO_0256.jpeg",
+              "customVideoPreview": null
             }
           ],
           "order": 0
@@ -76,7 +84,13 @@
               "url": "/videos/general-1755194084142-video-test.mp4",
               "name": "video_test.mp4",
               "type": "video/mp4",
-              "storageType": "portfolio"
+              "storageType": "portfolio",
+              "customVideoPreview": {
+                "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755262259/portfolio/video-previews/sgesevzonbtxkz1mjgfr.png",
+                "publicId": "portfolio/video-previews/sgesevzonbtxkz1mjgfr",
+                "name": "ARDA_Video_Screenshot.png",
+                "uploadedAt": "2025-08-15T12:50:59.991Z"
+              }
             }
           ],
           "order": 1
@@ -84,7 +98,7 @@
       ],
       "hasVideo": true,
       "createdAt": "2024-01-15T10:00:00Z",
-      "updatedAt": "2025-08-15T12:30:03.023Z",
+      "updatedAt": "2025-08-15T12:51:03.612Z",
       "status": "published"
     },
     {
@@ -102,11 +116,11 @@
       "slug": "rarely-heard-voices-videos",
       "tileBackground": {
         "type": "image",
-        "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755170123/portfolio/tiles/portfolio/tiles/tile_2.png?v=1755261399173",
+        "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755170123/portfolio/tiles/portfolio/tiles/tile_2.png?v=1755262246166",
         "storageType": "cloudinary"
       },
       "pageBackground": {
-        "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755170120/portfolio/backgrounds/portfolio/backgrounds/bg_2.png?v=1755261399173",
+        "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755170120/portfolio/backgrounds/portfolio/backgrounds/bg_2.png?v=1755262246166",
         "dimensions": {
           "width": 1920,
           "height": 1080
@@ -226,7 +240,8 @@
             {
               "url": "/projects/5/media/video-01.mp4",
               "name": "video-01.mp4",
-              "type": "video/mp4"
+              "type": "video/mp4",
+              "customVideoPreview": null
             }
           ],
           "order": 0
@@ -380,11 +395,11 @@
       "slug": "arda-impact-video-shoot-website",
       "tileBackground": {
         "type": "image",
-        "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755220081/portfolio/tiles/portfolio/tiles/tile_10.jpg?v=1755261399173",
+        "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755220081/portfolio/tiles/portfolio/tiles/tile_10.jpg?v=1755262246166",
         "storageType": "cloudinary"
       },
       "pageBackground": {
-        "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755220050/portfolio/backgrounds/portfolio/backgrounds/bg_10.png?v=1755261399173",
+        "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755220050/portfolio/backgrounds/portfolio/backgrounds/bg_10.png?v=1755262246166",
         "dimensions": {
           "width": 1920,
           "height": 1080
@@ -420,7 +435,7 @@
       "Video",
       "Design & Digital"
     ],
-    "lastUpdated": "2025-08-15T12:36:55.482Z",
+    "lastUpdated": "2025-08-15T12:51:07.516Z",
     "version": "1.0.0",
     "page": 1
   }
