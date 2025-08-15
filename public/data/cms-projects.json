@@ -430,8 +430,8 @@
       },
       "metadata": {
         "createdAt": "2024-01-20T10:00:00Z",
-        "updatedAt": "2025-08-15T13:31:46.550Z",
-        "version": 6,
+        "updatedAt": "2025-08-15T13:32:14.012Z",
+        "version": 7,
         "status": "draft",
         "lastPublished": "2025-08-15T13:27:52.343Z"
       },
@@ -455,7 +455,13 @@
               "uploadedAt": "2025-08-15T13:31:39.188Z",
               "preview": "blob:https://oursayso-portfolio-cms.netlify.app/1b0b2dc2-e894-4b98-880c-1bf5511ba3bb",
               "file": {},
-              "needsServerUpload": false
+              "needsServerUpload": false,
+              "customVideoPreview": {
+                "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755264730/portfolio/video-previews/gu3onpkenhzejyjrksya.png",
+                "publicId": "portfolio/video-previews/gu3onpkenhzejyjrksya",
+                "name": "video-preview.png",
+                "uploadedAt": "2025-08-15T13:32:11.296Z"
+              }
             }
           ],
           "images": [],
@@ -1235,6 +1241,6 @@
       "date": "2024-03-10"
     }
   ],
-  "lastUpdated": "2025-08-15T13:31:48.573Z",
+  "lastUpdated": "2025-08-15T13:32:16.027Z",
   "version": "1.0"
 }
