@@ -510,14 +510,28 @@ const App = () => {
   };
 
   // Handle media preview clicks
-  const handleMediaClick = (mediaItem, projectTitle) => {
+  const handleMediaClick = async (mediaItem, projectTitle) => {
     console.log('🎬 Media clicked:', mediaItem);
     setSelectedMedia({ ...mediaItem, projectTitle });
     
     if (mediaItem.type === 'video') {
       if (mediaItem.files && mediaItem.files.length > 0 && mediaItem.files[0].url) {
-        console.log('✅ Video has valid source:', mediaItem.files[0].url);
-        setCurrentPage('video');
+        console.log('🔍 Checking video file availability:', mediaItem.files[0].url);
+        
+        // Validate that video file actually exists
+        try {
+          const response = await fetch(mediaItem.files[0].url, { method: 'HEAD' });
+          if (response.ok) {
+            console.log('✅ Video file exists and is accessible:', mediaItem.files[0].url);
+            setCurrentPage('video');
+          } else {
+            console.warn('❌ Video file not accessible (HTTP', response.status, '):', mediaItem.files[0].url);
+            alert('This video is currently unavailable. The file may not have been properly uploaded to the repository.');
+          }
+        } catch (error) {
+          console.error('❌ Error checking video availability:', error);
+          alert('This video is currently unavailable. Please check your connection or try again later.');
+        }
       } else if (mediaItem.src) {
         console.log('✅ Video has fallback source:', mediaItem.src);
         setCurrentPage('video');
@@ -782,7 +796,25 @@ const App = () => {
             autoPlay
             playsInline
             onError={(e) => {
-              console.log('Video failed to load, using placeholder');
+              const videoUrl = selectedMedia.files && selectedMedia.files[0] && selectedMedia.files[0].url
+                ? selectedMedia.files[0].url 
+                : selectedMedia.src;
+              console.error('❌ Video playback failed:', {
+                url: videoUrl,
+                error: e.target.error,
+                networkState: e.target.networkState,
+                readyState: e.target.readyState
+              });
+              // Show user-friendly error message
+              alert(`Video playback failed. The video file may be missing or corrupted.\n\nExpected location: ${videoUrl}\n\nPlease check that the video was properly uploaded to the repository.`);
+              // Go back to project view
+              setCurrentPage('project');
+            }}
+            onLoadStart={() => {
+              const videoUrl = selectedMedia.files && selectedMedia.files[0] && selectedMedia.files[0].url
+                ? selectedMedia.files[0].url 
+                : selectedMedia.src;
+              console.log('🎬 Starting to load video:', videoUrl);
             }}
           >
             <source src={
