@@ -993,14 +993,14 @@ const App = () => {
                 >
                   <div className="media-preview-thumbnail">
                     {/* Render actual media content - use custom preview image if available */}
-                    {mediaItem.type === 'video' && (mediaItem.customPreview || mediaItem.previewImage) ? (
+                    {mediaItem.type === 'video' && mediaItem.files && mediaItem.files[0] && mediaItem.files[0].customVideoPreview ? (
                       <div className="video-preview-container">
                         <img
                           className="media-preview-image"
-                          src={(mediaItem.customPreview || mediaItem.previewImage).url}
-                          alt="Video preview"
-                          onLoad={() => console.log('✅ Custom video preview loaded:', (mediaItem.customPreview || mediaItem.previewImage).url)}
-                          onError={(e) => console.error('❌ Custom video preview error:', (mediaItem.customPreview || mediaItem.previewImage).url, e)}
+                          src={mediaItem.files[0].customVideoPreview.url}
+                          alt="Custom video preview"
+                          onLoad={() => console.log('✅ Custom video preview loaded:', mediaItem.files[0].customVideoPreview.url)}
+                          onError={(e) => console.error('❌ Custom video preview error:', mediaItem.files[0].customVideoPreview.url, e)}
                         />
                         <div className="ios-custom-play-icon">
                           <div className="video-icon"></div>
@@ -1044,14 +1044,14 @@ const App = () => {
                           </svg>
                         </div>
                       </div>
-                    ) : mediaItem.type === 'pdf' && mediaItem.customPreview ? (
+                    ) : mediaItem.type === 'pdf' && mediaItem.files && mediaItem.files[0] && mediaItem.files[0].customVideoPreview ? (
                       <div className="video-preview-container">
                         <img
                           className="media-preview-image"
-                          src={mediaItem.customPreview.url}
-                          alt="PDF preview"
-                          onLoad={() => console.log('✅ Custom PDF preview loaded:', mediaItem.customPreview.url)}
-                          onError={(e) => console.error('❌ Custom PDF preview error:', mediaItem.customPreview.url, e)}
+                          src={mediaItem.files[0].customVideoPreview.url}
+                          alt="Custom PDF preview"
+                          onLoad={() => console.log('✅ Custom PDF preview loaded:', mediaItem.files[0].customVideoPreview.url)}
+                          onError={(e) => console.error('❌ Custom PDF preview error:', mediaItem.files[0].customVideoPreview.url, e)}
                         />
                         <div className="ios-custom-pdf-icon">
                           <div className="pdf-text">PDF</div>
