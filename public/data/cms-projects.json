@@ -2,7 +2,7 @@
   "projects": [
     {
       "id": "1",
-      "title": "Lovell Leadership Conferences",
+      "title": "Lovell Leadership Conference2",
       "category": "Events",
       "description": "Leadership development conferences designed to inspire and educate senior executives. Transformed traditional conference format with interactive workshops and AI-powered networking.",
       "tags": [
@@ -341,9 +341,9 @@
       ],
       "metadata": {
         "createdAt": "2024-01-15T10:00:00Z",
-        "updatedAt": "2025-08-15T01:02:46.995Z",
-        "version": 47,
-        "status": "published",
+        "updatedAt": "2025-08-15T12:30:03.023Z",
+        "version": 48,
+        "status": "draft",
         "lastPublished": "2025-08-15T01:08:30.461Z"
       },
       "tileBackgroundType": "image",
@@ -913,6 +913,6 @@
       "date": "2024-03-10"
     }
   ],
-  "lastUpdated": "2025-08-15T12:29:52.890Z",
+  "lastUpdated": "2025-08-15T12:30:05.038Z",
   "version": "1.0"
 }
