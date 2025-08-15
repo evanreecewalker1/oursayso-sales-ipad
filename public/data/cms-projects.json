@@ -11,7 +11,7 @@
         "Graphic Design",
         "Presentations"
       ],
-      "hasVideo": true,
+      "hasVideo": false,
       "backgrounds": {
         "tile": {
           "type": "image",
@@ -309,47 +309,13 @@
             }
           ],
           "order": 0
-        },
-        {
-          "id": "1755194075412",
-          "type": "video",
-          "title": "video media",
-          "files": [
-            {
-              "publicId": "portfolio_1755194088502",
-              "url": "/videos/general-1755194084142-video-test.mp4",
-              "localPath": "/videos/general-1755194084142-video-test.mp4",
-              "width": null,
-              "height": null,
-              "format": "mp4",
-              "bytes": 15039666,
-              "duration": null,
-              "resourceType": "video",
-              "storageType": "portfolio",
-              "uploadedAt": "2025-08-14T17:54:48.502Z",
-              "preview": "/videos/general-1755194084142-video-test.mp4",
-              "file": {},
-              "needsServerUpload": false,
-              "name": "video_test.mp4",
-              "type": "video/mp4",
-              "fileName": "video_test.mp4",
-              "customVideoPreview": {
-                "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755262429/portfolio/video-previews/kf4xqmbwueboeun9jrmb.png",
-                "publicId": "portfolio/video-previews/kf4xqmbwueboeun9jrmb",
-                "name": "Screenshot 2025-08-15 at 14.53.14.png",
-                "uploadedAt": "2025-08-15T12:53:50.316Z"
-              }
-            }
-          ],
-          "images": [],
-          "order": 1
         }
       ],
       "metadata": {
         "createdAt": "2024-01-15T10:00:00Z",
-        "updatedAt": "2025-08-15T13:19:33.412Z",
-        "version": 51,
-        "status": "published",
+        "updatedAt": "2025-08-15T14:56:37.366Z",
+        "version": 52,
+        "status": "draft",
         "lastPublished": "2025-08-15T14:40:43.459Z"
       },
       "tileBackgroundType": "image",
@@ -367,23 +333,17 @@
         "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755166087/portfolio/tiles/portfolio/tiles/tile_1.png"
       },
       "pageBackgroundFile": {
-        "file": {},
-        "preview": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755115318/portfolio/backgrounds/portfolio/backgrounds/bg_1.png",
         "name": "lovell-background.png",
         "size": 1747615,
         "type": "image/png",
-        "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755115318/portfolio/backgrounds/portfolio/backgrounds/bg_1.png",
-        "cloudinaryId": "portfolio/backgrounds/portfolio/backgrounds/bg_1",
-        "uploadedAt": "2025-08-15T13:19:30.728Z",
         "dimensions": {
           "width": 1920,
           "height": 1080
         },
-        "uploading": false,
-        "storageType": "cloudinary",
-        "localPath": null,
-        "needsServerUpload": false,
-        "cloudinary": true
+        "uploadedAt": "2025-08-15T13:19:30.728Z",
+        "cloudinary": true,
+        "cloudinaryId": "portfolio/backgrounds/portfolio/backgrounds/bg_1",
+        "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755115318/portfolio/backgrounds/portfolio/backgrounds/bg_1.png"
       }
     },
     {
@@ -1983,6 +1943,6 @@
       "date": "2024-03-10"
     }
   ],
-  "lastUpdated": "2025-08-15T14:56:13.962Z",
+  "lastUpdated": "2025-08-15T14:56:39.381Z",
   "version": "1.0"
 }
