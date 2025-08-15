@@ -2,9 +2,9 @@
   "projects": [
     {
       "id": "1",
-      "title": "Lovell Leadership Conference2",
+      "title": "Lovell Leadership Conference",
       "category": "Events",
-      "description": "Leadership development conferences designed to inspire and educate senior executives. Transformed traditional conference format with interactive workshops and AI-powered networking.",
+      "description": "Building on the success of their previous leadership event, senior managers broke with tradition to deliver their conference free from PowerPoint slides and in the comfort of a cinema.",
       "tags": [
         "Event Production",
         "Video Production",
@@ -12,14 +12,14 @@
         "Presentations"
       ],
       "order": 0,
-      "slug": "lovell-leadership-conference2",
+      "slug": "lovell-leadership-conference",
       "tileBackground": {
         "type": "image",
-        "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755166087/portfolio/tiles/portfolio/tiles/tile_1.png?v=1755262246166",
+        "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755166087/portfolio/tiles/portfolio/tiles/tile_1.png?v=1755262405723",
         "storageType": "cloudinary"
       },
       "pageBackground": {
-        "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755115318/portfolio/backgrounds/portfolio/backgrounds/bg_1.png?v=1755262246166",
+        "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755115318/portfolio/backgrounds/portfolio/backgrounds/bg_1.png?v=1755262405723",
         "dimensions": {
           "width": 1920,
           "height": 1080
@@ -86,10 +86,10 @@
               "type": "video/mp4",
               "storageType": "portfolio",
               "customVideoPreview": {
-                "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755262259/portfolio/video-previews/sgesevzonbtxkz1mjgfr.png",
-                "publicId": "portfolio/video-previews/sgesevzonbtxkz1mjgfr",
-                "name": "ARDA_Video_Screenshot.png",
-                "uploadedAt": "2025-08-15T12:50:59.991Z"
+                "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755262429/portfolio/video-previews/kf4xqmbwueboeun9jrmb.png",
+                "publicId": "portfolio/video-previews/kf4xqmbwueboeun9jrmb",
+                "name": "Screenshot 2025-08-15 at 14.53.14.png",
+                "uploadedAt": "2025-08-15T12:53:50.316Z"
               }
             }
           ],
@@ -98,29 +98,28 @@
       ],
       "hasVideo": true,
       "createdAt": "2024-01-15T10:00:00Z",
-      "updatedAt": "2025-08-15T12:51:03.612Z",
+      "updatedAt": "2025-08-15T13:19:33.412Z",
       "status": "published"
     },
     {
       "id": "2",
       "title": "Rarely Heard Voices Videos",
       "category": "Video",
-      "description": "Powerful documentary series amplifying underrepresented voices in corporate leadership. Award-winning video production with compelling storytelling.",
+      "description": "Lorum Ipsum Dolor",
       "tags": [
-        "documentary",
-        "video-production",
-        "diversity",
-        "leadership"
+        "VIDEO PRODUCTION",
+        "VIDEO SHOOT",
+        "INTERVIEWS"
       ],
       "order": 1,
       "slug": "rarely-heard-voices-videos",
       "tileBackground": {
         "type": "image",
-        "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755170123/portfolio/tiles/portfolio/tiles/tile_2.png?v=1755262246166",
+        "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755263407/portfolio/tiles/portfolio/tiles/tile_2.png?v=1755262405723",
         "storageType": "cloudinary"
       },
       "pageBackground": {
-        "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755170120/portfolio/backgrounds/portfolio/backgrounds/bg_2.png?v=1755262246166",
+        "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755263537/portfolio/backgrounds/portfolio/backgrounds/bg_2.png?v=1755262405723",
         "dimensions": {
           "width": 1920,
           "height": 1080
@@ -129,48 +128,110 @@
       },
       "mediaItems": [
         {
-          "id": "1755172408580",
-          "type": "gallery",
-          "title": "",
-          "files": [],
+          "id": "1755263545190",
+          "type": "video",
+          "title": "video media",
+          "files": [
+            {
+              "url": "/videos/general/1755264062917-rarely-preview.mp4",
+              "name": "Rarely-preview.mp4",
+              "type": "video/mp4",
+              "storageType": "local",
+              "customVideoPreview": {
+                "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755264069/portfolio/video-previews/mfdd7wfuoi1stlbfepnk.png",
+                "publicId": "portfolio/video-previews/mfdd7wfuoi1stlbfepnk",
+                "name": "video-preview.png",
+                "uploadedAt": "2025-08-15T13:21:09.197Z"
+              }
+            }
+          ],
           "order": 0
         }
       ],
-      "hasVideo": false,
+      "hasVideo": true,
       "createdAt": "2024-01-20T10:00:00Z",
-      "updatedAt": "2025-08-14T14:24:16.070Z",
+      "updatedAt": "2025-08-15T13:21:15.076Z",
       "status": "published"
     },
     {
       "id": "3",
-      "title": "DRYZZE® & Cook Pronto® Branding",
+      "title": "DRYZZE® & Cook Pronto Branding",
       "category": "Design & Digital",
-      "description": "Complete brand identity and digital strategy for innovative kitchen technology brands. Modern design system with cohesive brand experience.",
+      "description": "How do you bring a brand to life? From concept to copywriting, from brand strategy to brand positioning, these short pitch decks are a lens into the multi-faceted world of design.",
       "tags": [
         "branding",
-        "logo-design",
-        "brand-identity",
-        "kitchen-tech"
+        "BRAND STRATEGY",
+        "GRAPHIC DESIGN",
+        "AI"
       ],
       "order": 2,
       "slug": "dryzze-cook-pronto-branding",
       "tileBackground": {
         "type": "image",
-        "url": "/images/project3.png",
+        "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755264289/portfolio/tiles/portfolio/tiles/tile_3.png?v=1755262405723",
         "storageType": "cloudinary"
       },
       "pageBackground": {
-        "url": "/images/backgrounds/project3-bg.jpg",
+        "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755264343/portfolio/backgrounds/portfolio/backgrounds/bg_3.png?v=1755262405723",
         "dimensions": {
           "width": 1920,
           "height": 1080
         },
         "storageType": "cloudinary"
       },
-      "mediaItems": [],
+      "mediaItems": [
+        {
+          "id": "1755264355584",
+          "type": "gallery",
+          "title": "🖼️ Project Gallery (8 images)",
+          "files": [
+            {
+              "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755264380/ys6csd4zvstfotpsywhq.jpg",
+              "name": "Deck_Concept_v4.0.jpg",
+              "customVideoPreview": null
+            },
+            {
+              "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755264381/dju3yiy6agluncooo1sl.jpg",
+              "name": "Deck_Concept_v4.02.jpg",
+              "customVideoPreview": null
+            },
+            {
+              "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755264382/jl1wnuwc0ajy0kwt66tw.jpg",
+              "name": "Deck_Concept_v4.03.jpg",
+              "customVideoPreview": null
+            },
+            {
+              "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755264383/sqrvx1cy27ayejantyos.jpg",
+              "name": "Deck_Concept_v4.04.jpg",
+              "customVideoPreview": null
+            },
+            {
+              "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755264384/gbvwjxj4w3dtbt8bnk6f.jpg",
+              "name": "Deck_Concept_v4.05.jpg",
+              "customVideoPreview": null
+            },
+            {
+              "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755264385/euzzibscdu0hhq98eg2r.jpg",
+              "name": "Deck_Concept_v4.06.jpg",
+              "customVideoPreview": null
+            },
+            {
+              "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755264386/hiqgxbvfsz0x21zuuykl.jpg",
+              "name": "Deck_Concept_v4.07.jpg",
+              "customVideoPreview": null
+            },
+            {
+              "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755264387/hwh69ss6tauifi8ndn9p.jpg",
+              "name": "Deck_Concept_v4.08.jpg",
+              "customVideoPreview": null
+            }
+          ],
+          "order": 0
+        }
+      ],
       "hasVideo": false,
       "createdAt": "2024-02-01T10:00:00Z",
-      "updatedAt": "2024-02-01T10:00:00Z",
+      "updatedAt": "2025-08-15T13:26:31.730Z",
       "status": "published"
     },
     {
@@ -395,11 +456,11 @@
       "slug": "arda-impact-video-shoot-website",
       "tileBackground": {
         "type": "image",
-        "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755220081/portfolio/tiles/portfolio/tiles/tile_10.jpg?v=1755262246166",
+        "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755220081/portfolio/tiles/portfolio/tiles/tile_10.jpg?v=1755262405723",
         "storageType": "cloudinary"
       },
       "pageBackground": {
-        "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755220050/portfolio/backgrounds/portfolio/backgrounds/bg_10.png?v=1755262246166",
+        "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755220050/portfolio/backgrounds/portfolio/backgrounds/bg_10.png?v=1755262405723",
         "dimensions": {
           "width": 1920,
           "height": 1080
@@ -435,7 +496,7 @@
       "Video",
       "Design & Digital"
     ],
-    "lastUpdated": "2025-08-15T12:51:07.516Z",
+    "lastUpdated": "2025-08-15T13:27:43.351Z",
     "version": "1.0.0",
     "page": 1
   }
