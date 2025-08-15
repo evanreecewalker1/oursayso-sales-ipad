@@ -1213,7 +1213,7 @@
         "ANIMATION",
         "GRAPHIC DESIGN"
       ],
-      "hasVideo": true,
+      "hasVideo": false,
       "backgrounds": {
         "tile": {
           "type": "image",
@@ -1245,47 +1245,12 @@
           "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755265645/portfolio/backgrounds/portfolio/backgrounds/bg_5.png"
         }
       },
-      "mediaItems": [
-        {
-          "id": "1755269808531",
-          "type": "video",
-          "title": "video media",
-          "files": [
-            {
-              "publicId": "local_1755269825217",
-              "url": "/videos/general/1755269825217-ri-preview.mp4",
-              "localPath": "/videos/general/1755269825217-ri-preview.mp4",
-              "width": null,
-              "height": null,
-              "format": "mp4",
-              "bytes": 56910015,
-              "duration": null,
-              "resourceType": "video",
-              "storageType": "local",
-              "uploadedAt": "2025-08-15T14:57:05.217Z",
-              "preview": "blob:https://dashboard.oursayso.com/7edec8e1-1270-4c74-be85-72f0ac2c004e",
-              "file": {},
-              "needsServerUpload": false,
-              "name": "RI-preview.mp4",
-              "type": "video/mp4",
-              "fileName": "RI-preview.mp4",
-              "customVideoPreview": {
-                "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755269831/portfolio/video-previews/jmkdgmnej6aalfjbp6xy.png",
-                "publicId": "portfolio/video-previews/jmkdgmnej6aalfjbp6xy",
-                "name": "video-preview.png",
-                "uploadedAt": "2025-08-15T14:57:11.935Z"
-              }
-            }
-          ],
-          "images": [],
-          "order": 0
-        }
-      ],
+      "mediaItems": [],
       "metadata": {
         "createdAt": "2024-02-15T10:00:00Z",
-        "updatedAt": "2025-08-15T14:57:15.374Z",
-        "version": 5,
-        "status": "published",
+        "updatedAt": "2025-08-15T15:33:55.436Z",
+        "version": 6,
+        "status": "draft",
         "lastPublished": "2025-08-15T14:58:26.235Z"
       },
       "tileBackgroundType": "image",
@@ -1978,6 +1943,6 @@
       "date": "2024-03-10"
     }
   ],
-  "lastUpdated": "2025-08-15T15:33:44.033Z",
+  "lastUpdated": "2025-08-15T15:33:57.452Z",
   "version": "1.0"
 }
