@@ -1626,41 +1626,90 @@
       "id": "8",
       "title": "Wealmoor Website Design",
       "category": "Design & Digital",
-      "description": "Modern, responsive website design for Wealmoor investment platform. Clean interface with sophisticated user experience and financial data visualization.",
+      "description": "Transforming Wealmoor’s online presence with a sleek and user-friendly website redesign was essential for enhancing their brand and user experience.",
       "tags": [
-        "website-design",
-        "fintech",
-        "responsive-design",
-        "user-experience"
+        "WEB DEVELOPMENT",
+        "UX DESIGN",
+        "UI DESIGN"
       ],
       "hasVideo": false,
       "backgrounds": {
         "tile": {
           "type": "image",
           "file": {
-            "name": "project8.png",
+            "name": "project-tile.png",
+            "size": 947581,
             "type": "image/png",
-            "url": "/images/project8.png",
-            "uploadedAt": "2024-03-10T10:00:00Z"
+            "dimensions": {
+              "width": 800,
+              "height": 800
+            },
+            "uploadedAt": "2025-08-15T14:34:06.220Z",
+            "cloudinary": true,
+            "cloudinaryId": "portfolio/tiles/portfolio/tiles/tile_8",
+            "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755268445/portfolio/tiles/portfolio/tiles/tile_8.png"
           }
         },
         "page": {
-          "name": "project8-bg.jpg",
-          "type": "image/jpeg",
-          "url": "/images/backgrounds/project8-bg.jpg",
+          "name": "project-background.png",
+          "size": 3900569,
+          "type": "image/png",
           "dimensions": {
             "width": 1920,
             "height": 1080
           },
-          "uploadedAt": "2024-03-10T10:00:00Z"
+          "uploadedAt": "2025-08-15T14:34:12.715Z",
+          "cloudinary": true,
+          "cloudinaryId": "portfolio/backgrounds/portfolio/backgrounds/bg_8",
+          "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755268452/portfolio/backgrounds/portfolio/backgrounds/bg_8.png"
         }
       },
       "metadata": {
         "createdAt": "2024-03-10T10:00:00Z",
-        "updatedAt": "2024-03-10T10:00:00Z",
-        "version": 1,
-        "status": "published",
+        "updatedAt": "2025-08-15T14:34:59.793Z",
+        "version": 2,
+        "status": "draft",
         "lastPublished": "2025-08-15T14:22:40.564Z"
+      },
+      "mediaItems": [],
+      "tileBackgroundType": "image",
+      "tileBackgroundFile": {
+        "file": {},
+        "preview": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755268445/portfolio/tiles/portfolio/tiles/tile_8.png",
+        "name": "project-tile.png",
+        "size": 947581,
+        "type": "image/png",
+        "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755268445/portfolio/tiles/portfolio/tiles/tile_8.png",
+        "cloudinaryId": "portfolio/tiles/portfolio/tiles/tile_8",
+        "uploadedAt": "2025-08-15T14:34:06.220Z",
+        "dimensions": {
+          "width": 800,
+          "height": 800
+        },
+        "uploading": false,
+        "storageType": "cloudinary",
+        "localPath": null,
+        "needsServerUpload": false,
+        "cloudinary": true
+      },
+      "pageBackgroundFile": {
+        "file": {},
+        "preview": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755268452/portfolio/backgrounds/portfolio/backgrounds/bg_8.png",
+        "name": "project-background.png",
+        "size": 3900569,
+        "type": "image/png",
+        "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755268452/portfolio/backgrounds/portfolio/backgrounds/bg_8.png",
+        "cloudinaryId": "portfolio/backgrounds/portfolio/backgrounds/bg_8",
+        "uploadedAt": "2025-08-15T14:34:12.715Z",
+        "dimensions": {
+          "width": 1920,
+          "height": 1080
+        },
+        "uploading": false,
+        "storageType": "cloudinary",
+        "localPath": null,
+        "needsServerUpload": false,
+        "cloudinary": true
       }
     },
     {
@@ -1837,6 +1886,6 @@
       "date": "2024-03-10"
     }
   ],
-  "lastUpdated": "2025-08-15T14:22:42.568Z",
+  "lastUpdated": "2025-08-15T14:35:01.798Z",
   "version": "1.0"
 }
