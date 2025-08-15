@@ -15,11 +15,11 @@
       "slug": "lovell-leadership-conference",
       "tileBackground": {
         "type": "image",
-        "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755166087/portfolio/tiles/portfolio/tiles/tile_1.png?v=1755276486727",
+        "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755166087/portfolio/tiles/portfolio/tiles/tile_1.png?v=1755278030216",
         "storageType": "cloudinary"
       },
       "pageBackground": {
-        "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755115318/portfolio/backgrounds/portfolio/backgrounds/bg_1.png?v=1755276486727",
+        "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755115318/portfolio/backgrounds/portfolio/backgrounds/bg_1.png?v=1755278030216",
         "dimensions": {
           "width": 1920,
           "height": 1080
@@ -34,35 +34,43 @@
           "files": [
             {
               "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755187074/asest0y0chcykixlex4d.jpg",
-              "name": "PR_230622_OURSAYSO_0017.jpeg"
+              "name": "PR_230622_OURSAYSO_0017.jpeg",
+              "customVideoPreview": null
             },
             {
               "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755187076/fm4odajpmbvkflzazvq7.jpg",
-              "name": "PR_230622_OURSAYSO_0019.jpeg"
+              "name": "PR_230622_OURSAYSO_0019.jpeg",
+              "customVideoPreview": null
             },
             {
               "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755187078/hh08pbr3a7aqlpvvnf6j.jpg",
-              "name": "PR_230622_OURSAYSO_0092.jpeg"
+              "name": "PR_230622_OURSAYSO_0092.jpeg",
+              "customVideoPreview": null
             },
             {
               "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755187079/ernwwdwij4zw4fi2umse.jpg",
-              "name": "PR_230622_OURSAYSO_0098.jpeg"
+              "name": "PR_230622_OURSAYSO_0098.jpeg",
+              "customVideoPreview": null
             },
             {
               "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755187080/pbkzi2gbw5rcsbnj6wog.jpg",
-              "name": "PR_230622_OURSAYSO_0191.jpeg"
+              "name": "PR_230622_OURSAYSO_0191.jpeg",
+              "customVideoPreview": null
             },
             {
               "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755187081/jxoph6i5or3hxvctgbik.jpg",
-              "name": "PR_230622_OURSAYSO_0212.jpeg"
+              "name": "PR_230622_OURSAYSO_0212.jpeg",
+              "customVideoPreview": null
             },
             {
               "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755187081/hh3pji7sw7jqxwekwc24.jpg",
-              "name": "PR_230622_OURSAYSO_0240.jpeg"
+              "name": "PR_230622_OURSAYSO_0240.jpeg",
+              "customVideoPreview": null
             },
             {
               "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755187082/gnzehhdm5hbis7ewhrml.jpg",
-              "name": "PR_230622_OURSAYSO_0256.jpeg"
+              "name": "PR_230622_OURSAYSO_0256.jpeg",
+              "customVideoPreview": null
             }
           ],
           "order": 0
@@ -70,7 +78,7 @@
       ],
       "hasVideo": false,
       "createdAt": "2024-01-15T10:00:00Z",
-      "updatedAt": "2025-08-15T14:56:37.366Z",
+      "updatedAt": "2025-08-15T17:13:41.540Z",
       "status": "published"
     },
     {
@@ -87,36 +95,21 @@
       "slug": "rarely-heard-voices-videos",
       "tileBackground": {
         "type": "image",
-        "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755263407/portfolio/tiles/portfolio/tiles/tile_2.png?v=1755276486727",
+        "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755263407/portfolio/tiles/portfolio/tiles/tile_2.png?v=1755278030216",
         "storageType": "cloudinary"
       },
       "pageBackground": {
-        "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755263537/portfolio/backgrounds/portfolio/backgrounds/bg_2.png?v=1755276486727",
+        "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755263537/portfolio/backgrounds/portfolio/backgrounds/bg_2.png?v=1755278030216",
         "dimensions": {
           "width": 1920,
           "height": 1080
         },
         "storageType": "cloudinary"
       },
-      "mediaItems": [
-        {
-          "id": "1755267180783",
-          "type": "video",
-          "title": "video media",
-          "files": [
-            {
-              "url": "/videos/general/1755267202498-rarely-preview.mp4",
-              "name": "Rarely-preview.mp4",
-              "type": "video/mp4",
-              "storageType": "local"
-            }
-          ],
-          "order": 0
-        }
-      ],
-      "hasVideo": true,
+      "mediaItems": [],
+      "hasVideo": false,
       "createdAt": "2024-01-20T10:00:00Z",
-      "updatedAt": "2025-08-15T14:13:56.345Z",
+      "updatedAt": "2025-08-15T17:14:18.928Z",
       "status": "published"
     },
     {
@@ -134,11 +127,11 @@
       "slug": "dryzze-cook-pronto-branding",
       "tileBackground": {
         "type": "image",
-        "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755264289/portfolio/tiles/portfolio/tiles/tile_3.png?v=1755276486727",
+        "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755264289/portfolio/tiles/portfolio/tiles/tile_3.png?v=1755278030216",
         "storageType": "cloudinary"
       },
       "pageBackground": {
-        "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755264614/portfolio/backgrounds/portfolio/backgrounds/bg_3.png?v=1755276486727",
+        "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755264614/portfolio/backgrounds/portfolio/backgrounds/bg_3.png?v=1755278030216",
         "dimensions": {
           "width": 1920,
           "height": 1080
@@ -153,35 +146,43 @@
           "files": [
             {
               "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755264380/ys6csd4zvstfotpsywhq.jpg",
-              "name": "Deck_Concept_v4.0.jpg"
+              "name": "Deck_Concept_v4.0.jpg",
+              "customVideoPreview": null
             },
             {
               "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755264381/dju3yiy6agluncooo1sl.jpg",
-              "name": "Deck_Concept_v4.02.jpg"
+              "name": "Deck_Concept_v4.02.jpg",
+              "customVideoPreview": null
             },
             {
               "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755264382/jl1wnuwc0ajy0kwt66tw.jpg",
-              "name": "Deck_Concept_v4.03.jpg"
+              "name": "Deck_Concept_v4.03.jpg",
+              "customVideoPreview": null
             },
             {
               "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755264383/sqrvx1cy27ayejantyos.jpg",
-              "name": "Deck_Concept_v4.04.jpg"
+              "name": "Deck_Concept_v4.04.jpg",
+              "customVideoPreview": null
             },
             {
               "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755264384/gbvwjxj4w3dtbt8bnk6f.jpg",
-              "name": "Deck_Concept_v4.05.jpg"
+              "name": "Deck_Concept_v4.05.jpg",
+              "customVideoPreview": null
             },
             {
               "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755264385/euzzibscdu0hhq98eg2r.jpg",
-              "name": "Deck_Concept_v4.06.jpg"
+              "name": "Deck_Concept_v4.06.jpg",
+              "customVideoPreview": null
             },
             {
               "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755264386/hiqgxbvfsz0x21zuuykl.jpg",
-              "name": "Deck_Concept_v4.07.jpg"
+              "name": "Deck_Concept_v4.07.jpg",
+              "customVideoPreview": null
             },
             {
               "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755264387/hwh69ss6tauifi8ndn9p.jpg",
-              "name": "Deck_Concept_v4.08.jpg"
+              "name": "Deck_Concept_v4.08.jpg",
+              "customVideoPreview": null
             }
           ],
           "order": 0
@@ -193,19 +194,23 @@
           "files": [
             {
               "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755268570/dlk7nl1gy4z99dogoto7.jpg",
-              "name": "Slides_v1.1.jpg"
+              "name": "Slides_v1.1.jpg",
+              "customVideoPreview": null
             },
             {
               "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755268576/nufzdfqzdowk5zmh4i06.jpg",
-              "name": "Slides_v1.0.jpg"
+              "name": "Slides_v1.0.jpg",
+              "customVideoPreview": null
             },
             {
               "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755268577/ghpooxv2azh6715m55wm.jpg",
-              "name": "Slides_v1.02.jpg"
+              "name": "Slides_v1.02.jpg",
+              "customVideoPreview": null
             },
             {
               "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755268578/xdnvks7yb6tlg7m1zrj6.jpg",
-              "name": "Slides_v1.03.jpg"
+              "name": "Slides_v1.03.jpg",
+              "customVideoPreview": null
             }
           ],
           "order": 1
@@ -230,11 +235,11 @@
       "slug": "warner-bros-discovery-training",
       "tileBackground": {
         "type": "image",
-        "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755265318/portfolio/tiles/portfolio/tiles/tile_4.png?v=1755276486727",
+        "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755265318/portfolio/tiles/portfolio/tiles/tile_4.png?v=1755278030216",
         "storageType": "cloudinary"
       },
       "pageBackground": {
-        "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755265272/portfolio/backgrounds/portfolio/backgrounds/bg_4.png?v=1755276486727",
+        "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755265272/portfolio/backgrounds/portfolio/backgrounds/bg_4.png?v=1755278030216",
         "dimensions": {
           "width": 1920,
           "height": 1080
@@ -249,23 +254,28 @@
           "files": [
             {
               "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755265477/ufwpfqhcci43swc0k1bn.png",
-              "name": "Warner_Bros_Discover_Workbook_More_About_Us_v1.351.png"
+              "name": "Warner_Bros_Discover_Workbook_More_About_Us_v1.351.png",
+              "customVideoPreview": null
             },
             {
               "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755265482/r4tbfofh7dronqg2by3w.jpg",
-              "name": "Warner_Bros_Discover_Workbook_Building_My_Network_v1.110.jpg"
+              "name": "Warner_Bros_Discover_Workbook_Building_My_Network_v1.110.jpg",
+              "customVideoPreview": null
             },
             {
               "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755265482/w74gk9teelwhbsvcy8zc.jpg",
-              "name": "Warner_Bros_Discover_Workbook_More_About_Us_v1.35.jpg"
+              "name": "Warner_Bros_Discover_Workbook_More_About_Us_v1.35.jpg",
+              "customVideoPreview": null
             },
             {
               "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755265483/gpk1t7rx8npyz7drddbd.jpg",
-              "name": "Warner_Bros_Discover_Workbook_More_About_Us_v1.36.jpg"
+              "name": "Warner_Bros_Discover_Workbook_More_About_Us_v1.36.jpg",
+              "customVideoPreview": null
             },
             {
               "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755265484/inmmxqvlepbkn9dldskh.jpg",
-              "name": "Warner_Bros_Discover_Workbook_More_About_Us_v1.37.jpg"
+              "name": "Warner_Bros_Discover_Workbook_More_About_Us_v1.37.jpg",
+              "customVideoPreview": null
             }
           ],
           "order": 0
@@ -289,36 +299,21 @@
       "slug": "river-island-wrapped-xmas-video",
       "tileBackground": {
         "type": "image",
-        "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755265639/portfolio/tiles/portfolio/tiles/tile_5.png?v=1755276486727",
+        "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755265639/portfolio/tiles/portfolio/tiles/tile_5.png?v=1755278030216",
         "storageType": "cloudinary"
       },
       "pageBackground": {
-        "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755265645/portfolio/backgrounds/portfolio/backgrounds/bg_5.png?v=1755276486727",
+        "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755265645/portfolio/backgrounds/portfolio/backgrounds/bg_5.png?v=1755278030216",
         "dimensions": {
           "width": 1920,
           "height": 1080
         },
         "storageType": "cloudinary"
       },
-      "mediaItems": [
-        {
-          "id": "1755274240120",
-          "type": "video",
-          "title": "video media",
-          "files": [
-            {
-              "url": "/videos/general/1755276515043-ri-preview.mp4",
-              "name": "RI-preview.mp4",
-              "type": "video/mp4",
-              "storageType": "local"
-            }
-          ],
-          "order": 0
-        }
-      ],
-      "hasVideo": true,
+      "mediaItems": [],
+      "hasVideo": false,
       "createdAt": "2024-02-15T10:00:00Z",
-      "updatedAt": "2025-08-15T16:48:42.992Z",
+      "updatedAt": "2025-08-15T17:14:01.059Z",
       "status": "published"
     },
     {
@@ -335,11 +330,11 @@
       "slug": "accor-owner-services-catalogue",
       "tileBackground": {
         "type": "image",
-        "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755267360/portfolio/tiles/portfolio/tiles/tile_6.png?v=1755276486727",
+        "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755267360/portfolio/tiles/portfolio/tiles/tile_6.png?v=1755278030216",
         "storageType": "cloudinary"
       },
       "pageBackground": {
-        "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755267398/portfolio/backgrounds/portfolio/backgrounds/bg_6.png?v=1755276486727",
+        "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755267398/portfolio/backgrounds/portfolio/backgrounds/bg_6.png?v=1755278030216",
         "dimensions": {
           "width": 1920,
           "height": 1080
@@ -354,35 +349,43 @@
           "files": [
             {
               "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755267453/soijimda3tbloi7r6m2u.jpg",
-              "name": "OSC_Managed-Interactive-v1.4_Page_001.jpg"
+              "name": "OSC_Managed-Interactive-v1.4_Page_001.jpg",
+              "customVideoPreview": null
             },
             {
               "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755267471/c2tvt7bvkvaonpn2jsbx.jpg",
-              "name": "OSC_Managed-Interactive-v1.4_Page_002.jpg"
+              "name": "OSC_Managed-Interactive-v1.4_Page_002.jpg",
+              "customVideoPreview": null
             },
             {
               "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755267470/mlj5nf2a3iwwswkmtwou.jpg",
-              "name": "OSC_Managed-Interactive-v1.4_Page_003.jpg"
+              "name": "OSC_Managed-Interactive-v1.4_Page_003.jpg",
+              "customVideoPreview": null
             },
             {
               "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755267469/gpcq4sbwbxabw5zgchhm.jpg",
-              "name": "OSC_Managed-Interactive-v1.4_Page_004.jpg"
+              "name": "OSC_Managed-Interactive-v1.4_Page_004.jpg",
+              "customVideoPreview": null
             },
             {
               "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755267468/bbwoue6bhzmb8omcjej3.jpg",
-              "name": "OSC_Managed-Interactive-v1.4_Page_005.jpg"
+              "name": "OSC_Managed-Interactive-v1.4_Page_005.jpg",
+              "customVideoPreview": null
             },
             {
               "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755267467/yurzowecayddkavums4e.jpg",
-              "name": "OSC_Managed-Interactive-v1.4_Page_006.jpg"
+              "name": "OSC_Managed-Interactive-v1.4_Page_006.jpg",
+              "customVideoPreview": null
             },
             {
               "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755267485/wimqod9v2n26avaqsedb.jpg",
-              "name": "OSC_Managed-Interactive-v1.4_Page_122.jpg"
+              "name": "OSC_Managed-Interactive-v1.4_Page_122.jpg",
+              "customVideoPreview": null
             },
             {
               "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755267486/a1gakflqem3wp51qzm7b.jpg",
-              "name": "OSC_Managed-Interactive-v1.4_Page_124.jpg"
+              "name": "OSC_Managed-Interactive-v1.4_Page_124.jpg",
+              "customVideoPreview": null
             }
           ],
           "order": 0
@@ -439,11 +442,11 @@
       "slug": "wealmoor-website-design",
       "tileBackground": {
         "type": "image",
-        "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755268445/portfolio/tiles/portfolio/tiles/tile_8.png?v=1755276486727",
+        "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755268445/portfolio/tiles/portfolio/tiles/tile_8.png?v=1755278030216",
         "storageType": "cloudinary"
       },
       "pageBackground": {
-        "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755268452/portfolio/backgrounds/portfolio/backgrounds/bg_8.png?v=1755276486727",
+        "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755268452/portfolio/backgrounds/portfolio/backgrounds/bg_8.png?v=1755278030216",
         "dimensions": {
           "width": 1920,
           "height": 1080
@@ -503,11 +506,11 @@
       "slug": "arda-impact-video-shoot-website",
       "tileBackground": {
         "type": "image",
-        "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755220081/portfolio/tiles/portfolio/tiles/tile_10.jpg?v=1755276486727",
+        "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755220081/portfolio/tiles/portfolio/tiles/tile_10.jpg?v=1755278030216",
         "storageType": "cloudinary"
       },
       "pageBackground": {
-        "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755220050/portfolio/backgrounds/portfolio/backgrounds/bg_10.png?v=1755276486727",
+        "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755220050/portfolio/backgrounds/portfolio/backgrounds/bg_10.png?v=1755278030216",
         "dimensions": {
           "width": 1920,
           "height": 1080
@@ -543,7 +546,7 @@
       "Video",
       "Design & Digital"
     ],
-    "lastUpdated": "2025-08-15T16:48:46.022Z",
+    "lastUpdated": "2025-08-15T17:14:21.259Z",
     "version": "1.0.0",
     "page": 1
   }
