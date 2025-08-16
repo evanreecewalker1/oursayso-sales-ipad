@@ -346,9 +346,9 @@
       ],
       "metadata": {
         "createdAt": "2024-01-15T10:00:00Z",
-        "updatedAt": "2025-08-15T19:35:54.852Z",
-        "version": 55,
-        "status": "published",
+        "updatedAt": "2025-08-16T00:44:55.729Z",
+        "version": 56,
+        "status": "draft",
         "lastPublished": "2025-08-15T19:36:07.159Z"
       },
       "tileBackgroundType": "image",
@@ -1941,6 +1941,6 @@
       "date": "2024-03-10"
     }
   ],
-  "lastUpdated": "2025-08-16T00:44:45.464Z",
+  "lastUpdated": "2025-08-16T00:44:57.745Z",
   "version": "1.0"
 }
