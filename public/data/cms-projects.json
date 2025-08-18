@@ -11,7 +11,7 @@
         "Graphic Design",
         "Presentations"
       ],
-      "hasVideo": true,
+      "hasVideo": false,
       "backgrounds": {
         "tile": {
           "type": "image",
@@ -309,45 +309,12 @@
             }
           ],
           "order": 0
-        },
-        {
-          "id": "1755286527946",
-          "type": "video",
-          "title": "video media",
-          "files": [
-            {
-              "publicId": "portfolio/videos/RI-preview",
-              "url": "https://res.cloudinary.com/dnuni9dgl/video/upload/v1755285314/portfolio/videos/RI-preview.mp4",
-              "width": 3840,
-              "height": 2160,
-              "format": "mp4",
-              "bytes": 56910015,
-              "resourceType": "video",
-              "eager": [],
-              "storageType": "cloudinary",
-              "localPath": null,
-              "preview": "https://res.cloudinary.com/dnuni9dgl/video/upload/v1755285314/portfolio/videos/RI-preview.mp4",
-              "needsServerUpload": false,
-              "uploadedAt": "2025-08-15T19:35:44.432Z",
-              "name": "RI-preview.mp4",
-              "type": "video/mp4",
-              "fileName": "RI-preview.mp4",
-              "customVideoPreview": {
-                "url": "https://res.cloudinary.com/dnuni9dgl/image/upload/v1755286551/portfolio/video-previews/evi8psmtd48j3o1id4gk.png",
-                "publicId": "portfolio/video-previews/evi8psmtd48j3o1id4gk",
-                "name": "video-preview.png",
-                "uploadedAt": "2025-08-15T19:35:51.751Z"
-              }
-            }
-          ],
-          "images": [],
-          "order": 1
         }
       ],
       "metadata": {
         "createdAt": "2024-01-15T10:00:00Z",
-        "updatedAt": "2025-08-16T00:44:55.729Z",
-        "version": 56,
+        "updatedAt": "2025-08-18T08:54:35.549Z",
+        "version": 59,
         "status": "draft",
         "lastPublished": "2025-08-15T19:36:07.159Z"
       },
@@ -502,9 +469,9 @@
       },
       "metadata": {
         "createdAt": "2024-02-01T10:00:00Z",
-        "updatedAt": "2025-08-15T14:36:27.375Z",
-        "version": 4,
-        "status": "published",
+        "updatedAt": "2025-08-18T08:56:14.452Z",
+        "version": 5,
+        "status": "draft",
         "lastPublished": "2025-08-15T19:36:07.159Z"
       },
       "mediaItems": [
@@ -1941,6 +1908,6 @@
       "date": "2024-03-10"
     }
   ],
-  "lastUpdated": "2025-08-16T11:31:56.442Z",
+  "lastUpdated": "2025-08-18T10:01:32.068Z",
   "version": "1.0"
 }
