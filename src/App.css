@@ -217,13 +217,12 @@ body {
 .oursayso-logo {
   width: 60px;
   height: auto;
-  transform: rotate(-90deg);
   filter: brightness(0) invert(1); /* Makes the logo white */
   transition: all 0.3s ease;
 }
 
 .oursayso-logo-link:hover .oursayso-logo {
-  transform: rotate(-90deg) scale(1.05);
+  transform: scale(1.05);
   filter: brightness(0) invert(1) drop-shadow(0 0 10px rgba(255, 255, 255, 0.3));
 }
 
