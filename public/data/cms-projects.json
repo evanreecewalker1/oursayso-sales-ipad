@@ -469,9 +469,9 @@
       },
       "metadata": {
         "createdAt": "2024-02-01T10:00:00Z",
-        "updatedAt": "2025-08-15T14:36:27.375Z",
-        "version": 4,
-        "status": "published",
+        "updatedAt": "2025-08-18T08:56:14.452Z",
+        "version": 5,
+        "status": "draft",
         "lastPublished": "2025-08-15T19:36:07.159Z"
       },
       "mediaItems": [
@@ -1908,6 +1908,6 @@
       "date": "2024-03-10"
     }
   ],
-  "lastUpdated": "2025-08-18T08:54:37.553Z",
+  "lastUpdated": "2025-08-18T08:56:16.459Z",
   "version": "1.0"
 }
